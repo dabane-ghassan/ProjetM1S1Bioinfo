@@ -41,3 +41,4 @@ Voici une liste non-exhaustive d’éléments sur lesquels nous portera notre at
 -	Dose et forme (Docstring) judicieuses des commentaires du code
 -	Pertinence du nommage des variables, fonctions, fichiers, classes, etc.
 
+
