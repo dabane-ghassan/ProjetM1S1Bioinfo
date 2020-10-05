@@ -42,3 +42,7 @@ Voici une liste non-exhaustive d’éléments sur lesquels nous portera notre at
 -	Pertinence du nommage des variables, fonctions, fichiers, classes, etc.
 
 
+## Ressources (05/10/2020) :
+[BLAST® Command Line Applications User Manual](https://www.ncbi.nlm.nih.gov/books/NBK279690/) <br>
+[Téléchargement Blast+](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) <br>
+[Documentation de le librarie os](https://docs.python.org/fr/3/library/os.html) <br>
