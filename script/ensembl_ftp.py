@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Oct 19 11:23:56 2020
-@author: KugelBlitZZZ
+@author: Ghassan Aka KugelBlitZZZ
 """
 
 
@@ -21,3 +21,6 @@ except :
     
 
 # conn.nlst() pour avoir la liste des fichiers disponibles
+
+
+
