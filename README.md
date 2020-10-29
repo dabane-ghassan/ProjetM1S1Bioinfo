@@ -50,9 +50,14 @@ Voici une liste non-exhaustive d’éléments sur lesquels nous portera notre at
 -	Dose et forme (Docstring) judicieuses des commentaires du code<br>
 -	Pertinence du nommage des variables, fonctions, fichiers, classes, etc.<br>
 
-
+## Dependencies
+Installing Blast+ locally on the machine (Ubuntu/Debian) : 
+```console
+sudo apt-get install ncbi_tax+
+```
 
 ## Ressources (05/10/2020) :
 [BLAST® Command Line Applications User Manual](https://www.ncbi.nlm.nih.gov/books/NBK279690/) <br>
 [Téléchargement Blast+](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) <br>
 [Documentation de le librarie os](https://docs.python.org/fr/3/library/os.html) <br>
+
