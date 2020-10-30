@@ -1,6 +1,6 @@
 # ProjetM1S1Bioinfo
 
-![Logo](photos/logo.png)
+![Logo](data/photos/logo.png)
 
 ***Master Bioinformatique : Développement de logiciels et Analyse de données - Projet dans le cadre de l'UE : Introduction à l'informatique et à la programmation***
 
