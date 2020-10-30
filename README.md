@@ -51,9 +51,9 @@ Voici une liste non-exhaustive d’éléments sur lesquels nous portera notre at
 -	Pertinence du nommage des variables, fonctions, fichiers, classes, etc.<br>
 
 ## Dependencies
-Installing Blast+ locally on the machine (Ubuntu/Debian) : 
+If you're on Ubuntu/Debian, please run blast_setup.py in order to install ncbi-blast+ : 
 ```console
-sudo apt-get install ncbi-blast+
+python3 blast_setup.py
 ```
 
 ## Ressources (05/10/2020) :
