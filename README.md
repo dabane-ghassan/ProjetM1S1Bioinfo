@@ -53,7 +53,7 @@ Voici une liste non-exhaustive d’éléments sur lesquels nous portera notre at
 ## Dependencies
 Installing Blast+ locally on the machine (Ubuntu/Debian) : 
 ```console
-sudo apt-get install ncbi_tax+
+sudo apt-get install ncbi-blast+
 ```
 
 ## Ressources (05/10/2020) :
