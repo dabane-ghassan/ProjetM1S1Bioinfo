@@ -5,6 +5,8 @@ Created on Mon Oct 19 11:23:56 2020
 """
 
 
+import pandas as pd
+import re
 from ftplib import FTP
 
 conn = FTP("ftp.ensemblgenomes.org") #ftp://ftp.ncbi.nlm.nih.gov/genomes/
@@ -23,4 +25,9 @@ except :
 # conn.nlst() pour avoir la liste des fichiers disponibles
 
 
+genomes = pd.read_table('../data/list_genomes_refseq.txt', header=1)
+genomes
 
+
+path = genomes.loc[(genomes['organism_name'] == 'Homo sapiens'),'ftp_path'].values[0]
+path
