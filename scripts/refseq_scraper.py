@@ -46,8 +46,17 @@ class RefSeqScraper :
         return "added %s to cart" % (species)    
        
     def mine_species(self) :
-
-        pattern = input('Give me a few letters \n')
+        
+        pd.set_option("display.max_rows", None, "display.max_columns", None)
+        searching = True
+        while searching : 
+            pattern = input('Give me a few letters so i can search for you.\n')
+            print(self.data.loc[(self.data['readable'].str.contains(pattern)),
+                          'readable'])
+            if input("Did you find what you're looking for? (yes/no) \n ") == "yes" : 
+                searching = False
+                answer = input("which of them would you like to add? \n")
+                self.add_to_cart(answer)
 
         
     def mine_ftps(self) : 
@@ -55,42 +64,36 @@ class RefSeqScraper :
         return self.data.loc[(self.data['readable'].str.contains('|'.join(self.cart))),
                            'ftp_path'].values
 
-    @staticmethod
-    def download_genome(ftp_path) : 
 
-        with FTP('ftp.ncbi.nlm.nih.gov') as conn : 
-            conn.login()
-            conn.cwd(ftp_path[27:])
-            conn.dir()
-                       
-            try :  
-                genome = '%s_genomic.fna.gz' %(ftp_path.rsplit('/')[-1])
-                local_save = os.path.join(os.getcwd(),'data/genomes/%s'%genome)
-                
-                with open(local_save, 'wb') as fp :
-                    conn.retrbinary('RETR %s' %genome, fp.write)
-            except : 
-                print('Error has occured while downloading this genome file')
+    def download_genome(self) : 
+        
+        for name, ftp_path in zip(self.cart, self.mine_ftps()) : 
+
+            with FTP('ftp.ncbi.nlm.nih.gov') as conn : 
+                conn.login()
+                conn.cwd(ftp_path[27:])
+                           
+                try :  
+                    genome = '%s_genomic.fna.gz' %(ftp_path.rsplit('/')[-1])
+                    local_save = os.path.join(os.getcwd(),'data/genomes/%s%s'%(name,genome))
+                    
+                    with open(local_save, 'wb') as fp :
+                        conn.retrbinary('RETR %s' %genome, fp.write)
+                except : 
+                    print('Error has occured while downloading this genome file')
 
 
 if __name__ == "__main__" : 
     
     script_dir = os.path.abspath(os.path.dirname(sys.argv[0]))
     project_dir = os.path.dirname(script_dir)
-    os.chdir(project_dir) # cd to project directory
+    os.chdir(project_dir) # cd to project directory    
     
-    
-    
-    
-S = RefSeqScraper()
-print(S)
+    S = RefSeqScraper()
+    print(S)
 
-S.data
-
-S.add_to_cart('Mus musculus')
+    S.mine_species()
+    S.download_genome()
 
 
-S.extract_ftps()
-
-S.data[['readable','ftp_path']]
 
