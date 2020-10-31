@@ -7,10 +7,6 @@ based on refseq's assembly summary file :
 ftp://ftp.ncbi.nlm.nih.gov/genomes/ASSEMBLY_REPORTS/assembly_summary_refseq.txt
 
 this file was downloaded and cleaned (with bash cut) by leaving out only 
-Column  8: "organism_name"
-Column  9: "infraspecific_name"
-Column 20: "ftp_path"
-(cutting its size significantly from ~64 Mb -> ~20 Mb)
 
 a new column "readable" will be created with pandas to make it easier
 for the user to choose a certain genome.
@@ -28,6 +24,7 @@ class RefSeqScraper :
         
         __summary = pd.read_table('data/list_genomes_refseq.txt', header=1)
         __summary = __summary.fillna('')
+        __summary = __summary[(__summary['assembly_level'] == "Complete Genome")]
         __summary['readable'] = __summary['organism_name'] + ' ' + \
                                 __summary['infraspecific_name']
         __summary = __summary[['readable','ftp_path']]                               
@@ -47,12 +44,12 @@ class RefSeqScraper :
        
     def mine_species(self) :
         
-        pd.set_option("display.max_rows", None, "display.max_columns", None)
+        
         searching = True
         while searching : 
             pattern = input('Give me a few letters so i can search for you.\n')
             print(self.data.loc[(self.data['readable'].str.contains(pattern)),
-                          'readable'])
+                          'readable'].to_string())
             if input("Did you find what you're looking for? (yes/no) \n ") == "yes" : 
                 searching = False
                 answer = input("which of them would you like to add? \n")
@@ -90,10 +87,6 @@ if __name__ == "__main__" :
     os.chdir(project_dir) # cd to project directory    
     
     S = RefSeqScraper()
-    print(S)
-
     S.mine_species()
     S.download_genome()
-
-
 
