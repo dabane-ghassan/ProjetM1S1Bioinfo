@@ -21,65 +21,68 @@ import sys
 import pandas as pd
 from ftplib import FTP
 
-def list_genomes() : 
-    genomes = pd.read_table('data/list_genomes_refseq.txt', header=1)
-    genomes = genomes.fillna('')
-    genomes['readable'] = genomes['organism_name'] + ' ' + genomes['infraspecific_name']
+class RefSeqScraper : 
     
-    inp = input('Please provide a pattern to find if a genome exists in refseq \n')
-    pattern = '%s' % (inp)
-    pattern
-    return genomes
-
-
-def extract_ftp(genomes, pattern) : 
-    """Extracts ftp path from genomes given a user input pattern.
-    
-    Parameters
-    ----------
-    genomes : TYPE DataFrame
-        refseq based DataFrame with 4 columns.
-    pattern : TYPE str
-        a regex pattern to find in the DataFrame.
-
-    Returns
-    -------
-    TYPE array
-        DESCRIPTION.
-
-    """
-    
-    return genomes.loc[(genomes['readable'].str.contains(pattern)==True),
-                       'ftp_path'].values
-
-
-def download_genome(ftp_path) : 
-    """This function downloads a FTP genome file given a specific ftp address
-    and saves it to /data/genomes directory.
-    
-    Parameters
-    ----------
-    ftp_path : TYPE str
-        DESCRIPTION.
-
-    Returns
-    -------
-    None.
-    
-    """
-    with FTP('ftp.ncbi.nlm.nih.gov') as conn : 
-        conn.login()
-        conn.cwd(ftp_path[27:])
-        conn.dir()
+    def __init__(self) :
+        __summary = pd.read_table('data/list_genomes_refseq.txt', header=1)
+        __summary = __summary.fillna('')
+        __summary['readable'] = __summary['organism_name'] + ' ' + \
+                                __summary['infraspecific_name']
+        self.data = __summary
+        self.cart = []
         
-        try :  
-            genome = '%s_genomic.fna.gz' %(ftp_path.rsplit('/')[-1])
-            local_save = os.path.join(os.getcwd(),'data/genomes/%s'%genome)
-            
-            with open(local_save, 'wb') as fp :
-                conn.retrbinary('RETR %s' %genome, fp.write)
-        except : 
-            print('error, cannot download genome file')
+    def __str__(self):
+        return "Your cart is empty" if len(
+            self.cart) == 0 else "Your cart contains %s" % self.cart    
+
+    def extract_ftps(self, pattern) : 
+        """Extracts ftp path from genomes given a user input pattern.
+        
+        Parameters
+        ----------
+        genomes : TYPE DataFrame
+            refseq based DataFrame with 4 columns.
+        pattern : TYPE str
+            a regex pattern to find in the DataFrame.
+    
+        Returns
+        -------
+        TYPE array
+            DESCRIPTION.
+    
+        """
+        
+        return self.data.loc[(self.data['readable'].str.contains(pattern)==True),
+                           ['readable','ftp_path']]
+
+    @staticmethod
+    def download_genome(ftp_path) : 
+        """This function downloads a FTP genome file given a specific ftp 
+        address and saves it to /data/genomes directory.
+        
+        Parameters
+        ----------
+        ftp_path : TYPE str
+            DESCRIPTION.
+    
+        Returns
+        -------
+        None.
+        
+        """
+        with FTP('ftp.ncbi.nlm.nih.gov') as conn : 
+            conn.login()
+            conn.cwd(ftp_path[27:])
+            conn.dir()
+                       
+            try :  
+                genome = '%s_genomic.fna.gz' %(ftp_path.rsplit('/')[-1])
+                local_save = os.path.join(os.getcwd(),'data/genomes/%s'%genome)
+                
+                with open(local_save, 'wb') as fp :
+                    conn.retrbinary('RETR %s' %genome, fp.write)
+            except : 
+                print('error, cannot download genome file')
 
 
 if __name__ == "__main__" : 
@@ -91,5 +94,14 @@ if __name__ == "__main__" :
     
     
     
+S = RefSeqScraper()
 
+print(S)
+    
+inp = input('Please provide a pattern to find if a genome exists in refseq \n')
+pattern = '%s' % (inp)
+pattern
 
+S.extract_ftps(pattern)['ftp_path'].values
+
+RefSeqScraper.download_genome(S.extract_ftps(pattern)[0])
