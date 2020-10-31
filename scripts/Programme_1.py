@@ -17,6 +17,6 @@ os.system(blastn_g1_g2)
 
 # Lecture du fichier, et récupération de la liste des meilleurs hits
 f = open("../data/results_blast/blastn_g1_g2.blastn", "r")
-f_r = open("../data/results_blast/blast")
+f_r = open("../data/results_blast/best_hits_blastn_g1_g2", "w")
 
 f.close()
