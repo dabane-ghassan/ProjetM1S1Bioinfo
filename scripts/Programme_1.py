@@ -20,3 +20,4 @@ f = open("../data/results_blast/blastn_g1_g2.blastn", "r")
 f_r = open("../data/results_blast/best_hits_blastn_g1_g2", "w")
 
 f.close()
+f_r.close()
