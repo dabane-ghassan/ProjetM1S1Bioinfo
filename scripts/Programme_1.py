@@ -10,4 +10,15 @@
 """
 
 import os
-import sys
+
+# Décompression des génomes à blaster
+decompression_genome_1 = gunzip ../data/genomes/GCF_000007865.1_ASM786v1_genomic.fna.gz
+decompression_genome_2 = gunzip ../data/genomes/GCF_000009445.1_ASM944v1_genomic.fna.gz
+
+# Blast à effectuer
+blastp_g1_g2 = blastp -query ../data/genomes/GCF_000007865.1_ASM786v1_genomic.fna
+
+# Lancement commandes de decompression et de blast
+os.system(decompression_genome_1)
+os.system(decompression_genome_2)
+os.system(blast)
