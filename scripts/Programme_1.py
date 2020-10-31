@@ -11,6 +11,9 @@
 
 import os
 
-# Blast
+# Blastn des 2 génomes (a)
 blastn_g1_g2 = 'blastn -query ../data/genomes/"GCF_000007865.1_ASM786v1_genomic.fna" -subject ../data/genomes/"GCF_000009445.1_ASM944v1_genomic.fna" -outfmt 6 > ../data/results_blast/blastp_g1_g2.blastn'
 os.system(blastn_g1_g2)
+
+# Lecture du fichier, et récupération de la liste des meilleurs hits
+f = open("../data/results_blast/blastp_g1_g2.blastn", "r")
