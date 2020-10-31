@@ -21,55 +21,43 @@ import sys
 import pandas as pd
 from ftplib import FTP
 
+
 class RefSeqScraper : 
     
     def __init__(self) :
+        
         __summary = pd.read_table('data/list_genomes_refseq.txt', header=1)
         __summary = __summary.fillna('')
         __summary['readable'] = __summary['organism_name'] + ' ' + \
                                 __summary['infraspecific_name']
+        __summary = __summary[['readable','ftp_path']]                               
         self.data = __summary
         self.cart = []
         
-    def __str__(self):
+    def __str__(self) :
+        
         return "Your cart is empty" if len(
-            self.cart) == 0 else "Your cart contains %s" % self.cart    
+            self.cart) == 0 else "Your cart contains %s" % self.cart 
 
-    def extract_ftps(self, pattern) : 
-        """Extracts ftp path from genomes given a user input pattern.
+
+    def add_to_cart(self, species) : 
         
-        Parameters
-        ----------
-        genomes : TYPE DataFrame
-            refseq based DataFrame with 4 columns.
-        pattern : TYPE str
-            a regex pattern to find in the DataFrame.
-    
-        Returns
-        -------
-        TYPE array
-            DESCRIPTION.
-    
-        """
+        self.cart.append(species)
+        return "added %s to cart" % (species)    
+       
+    def mine_species(self) :
+
+        pattern = input('Give me a few letters \n')
+
         
-        return self.data.loc[(self.data['readable'].str.contains(pattern)==True),
-                           ['readable','ftp_path']]
+    def mine_ftps(self) : 
+
+        return self.data.loc[(self.data['readable'].str.contains('|'.join(self.cart))),
+                           'ftp_path'].values
 
     @staticmethod
     def download_genome(ftp_path) : 
-        """This function downloads a FTP genome file given a specific ftp 
-        address and saves it to /data/genomes directory.
-        
-        Parameters
-        ----------
-        ftp_path : TYPE str
-            DESCRIPTION.
-    
-        Returns
-        -------
-        None.
-        
-        """
+
         with FTP('ftp.ncbi.nlm.nih.gov') as conn : 
             conn.login()
             conn.cwd(ftp_path[27:])
@@ -95,13 +83,14 @@ if __name__ == "__main__" :
     
     
 S = RefSeqScraper()
-
 print(S)
-    
-inp = input('Please provide a pattern to find if a genome exists in refseq \n')
-pattern = '%s' % (inp)
-pattern
 
-S.extract_ftps(pattern)['ftp_path'].values
+S.data
 
-RefSeqScraper.download_genome(S.extract_ftps(pattern)[0])
+S.add_to_cart('Mus musculus')
+
+
+S.extract_ftps()
+
+S.data[['readable','ftp_path']]
+
