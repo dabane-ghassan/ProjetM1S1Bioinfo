@@ -70,7 +70,7 @@ class RefSeqScraper :
                 with open(local_save, 'wb') as fp :
                     conn.retrbinary('RETR %s' %genome, fp.write)
             except : 
-                print('error, cannot download genome file')
+                print('Error has occured while downloading this genome file')
 
 
 if __name__ == "__main__" : 
