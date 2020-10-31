@@ -17,5 +17,5 @@ project_dir = os.path.dirname(script_dir)
 os.chdir(project_dir) # cd to project directory
 
 # Blast
-blastp_g1_g2 = 'blastp -query /data/genomes/"GCF_000007865.1_ASM786v1_genomic.fna" -subject /data/genomes/"GCF_000009445.1_ASM944v1_genomic.fna" -outfmt 6 > /data/results_blast/blastp_g1_g2.blast'
+blastp_g1_g2 = 'blastp -query /data/genomes/"GCF_000007865.1_ASM786v1_genomic.fna" -subject /data/genomes/"GCF_000009445.1_ASM944v1_genomic.fna" -outfmt 6'
 os.system(blastp_g1_g2)
