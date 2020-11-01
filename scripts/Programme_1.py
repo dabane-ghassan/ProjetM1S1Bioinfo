@@ -32,9 +32,10 @@ e = input("Entrer l'evalue souhaitée pour récupérer les meilleurs hits : ")
 
 # Lecture du fichier, et récupération de la liste des meilleurs hits
 f = open("results_blast/blastn_g1_g2.blastn")
-reader = csv.reader(f, delimiter='\t')
 f_r = open("results_blast/best_hits_blastn_g1_g2", "w")
-
+reader = csv.reader(f, delimiter='\t')
+for line in reader :
+    
 
 
 f.close()
