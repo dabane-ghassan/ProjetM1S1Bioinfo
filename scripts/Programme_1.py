@@ -29,7 +29,7 @@ os.system(stats_g2)
 # Choix evalue pour recuperer les meilleurs hits
 e = input("Entrer l'evalue souhaitée pour récupérer les meilleurs hits : ")
 
-# Lecture du fichier, et récupération de la liste des meilleurs hits
+# Lecture du fichier résultat du blastn g1 -> g2, et récupération de la liste des meilleurs hits
 f = open("results_blast/blastn_g1_g2.blastn")
 f_r = open("results_blast/best_hits_blastn_g1_g2", "w")
 reader = csv.reader(f, delimiter='\t')
@@ -46,3 +46,17 @@ f_r.close()
 # Blastn réciproque des 2 génomes (c)
 blastn_g2_g1 = 'blastn -query genomes/"GCF_000009445.1_ASM944v1_genomic.fna" -subject genomes/"GCF_000007865.1_ASM786v1_genomic.fna" -outfmt 6 > results_blast/blastn_g2_g1.blastn'
 os.system(blastn_g2_g1)
+
+# Lecture du fichier résultat du blastn g2 -> g2, et récupération de la liste des meilleurs hits
+f2 = open("results_blast/blastn_g2_g1.blastn")
+f_r2 = open("results_blast/best_hits_blastn_g2_g1", "w")
+reader2 = csv.reader(f2, delimiter='\t')
+for line in reader2 :
+    evalue = line[11-1]
+    if evalue < e :
+        for element in line :
+            f_r2.write(element + "\t")
+        f_r2.write("\n")
+
+f2.close()
+f_r2.close()
