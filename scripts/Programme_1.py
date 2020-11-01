@@ -61,3 +61,4 @@ for line in reader2 :
 f2.close()
 f_r2.close()
 
+# Récupération des hits biderectionnels
