@@ -34,9 +34,11 @@ f = open("results_blast/blastn_g1_g2.blastn")
 f_r = open("results_blast/best_hits_blastn_g1_g2", "w")
 reader = csv.reader(f, delimiter='\t')
 for line in reader :
-    evalue = line.split("\t")[11-1]
+    evalue = line[11-1]
     if evalue < e :
-        f_r.write(line)
+        for element in line :
+            f_r.write(element + "\t")
+        f_r.write("\n")
 
 f.close()
 f_r.close()
