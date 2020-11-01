@@ -21,3 +21,7 @@ f_r = open("../data/results_blast/best_hits_blastn_g1_g2", "w")
 
 f.close()
 f_r.close()
+
+# Blastn réciproque des 2 génomes (c)
+blastn_g2_g1 = 'blastn -query ../data/genomes/"GCF_000009445.1_ASM944v1_genomic.fna" -subject ../data/genomes/"GCF_000007865.1_ASM786v1_genomic.fna" -outfmt 6 > ../data/results_blast/blastn_g2_g1.blastn'
+os.system(blastn_g2_g1)
