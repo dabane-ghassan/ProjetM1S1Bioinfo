@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Testing Refseq_scraper
+"""
+import os
+import sys
+import refseq_scraper as rs
+
+
+if __name__ == "__main__" : 
+    
+    script_dir = os.path.abspath(os.path.dirname(sys.argv[0]))
+    project_dir = os.path.dirname(script_dir)
+    os.chdir(project_dir) # cd to project directory    
+    
+    S = rs.RefSeqScraper()
+    S.mine_species()
+    S.download_genome()
