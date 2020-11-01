@@ -10,6 +10,8 @@
 """
 
 import os
+import csv
+import operator
 
 os.chdir("../data")
 
