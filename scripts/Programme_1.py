@@ -44,10 +44,10 @@ def blast(query, subject, evalue=1e-20, outfmt=6, typ="p") :
     TYPE str
         blast command to be executed.   
     """
-    espace_q = query.find(' ')
-    nom_query = query[0:espace_q]
-    espace_s = subject.find(' ')
-    nom_subject = subject[0:espace_s]
+    tiret_q = query.find('_')
+    nom_query = query[0:tiret_q]
+    tiret_s = subject.find('_')
+    nom_subject = subject[0:tiret_s]
     return "blast%s -query genomes/%s -subject genomes/%s -outfmt %s > results_blast/blast%s_%s_%s.blast" % (
         typ, query, subject, outfmt, typ, nom_query, nom_subject)
 
@@ -58,7 +58,7 @@ import csv
 os.chdir("../data")
 
 # Blastn des 2 génomes (a)
-blast1 = blast("Yersinia pestis strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa","Aliivibrio salmonicida LFI1238 strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa")
+blast1 = blast("Yersinia_pestis_strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa","Aliivibrio salmonicida LFI1238 strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa")
 os.system(blast1)
 
 # Exposition des stats des fichiers des génomes pour choisir l'evalue la plus adapter
