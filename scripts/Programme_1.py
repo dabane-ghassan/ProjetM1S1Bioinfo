@@ -48,8 +48,8 @@ def blast(query, subject, evalue=1e-20, outfmt=6, typ="p") :
     nom_query = query[0:tiret_q]
     tiret_s = subject.find('_')
     nom_subject = subject[0:tiret_s]
-    return "blast%s -query genomes/%s -subject genomes/%s -outfmt %s > results_blast/blast%s_%s_%s.blast" % (
-        typ, query, subject, outfmt, typ, nom_query, nom_subject)
+    return "blast%s -query genomes/%s -subject genomes/%s -outfmt %s > results_blast/blast_%s_%s.blast" % (
+        typ, query, subject, outfmt, nom_query, nom_subject)
 
 
 import os
