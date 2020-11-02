@@ -11,6 +11,7 @@
 
 import os
 import csv
+from seqkit_stats import stats
 
 def blast(query, subject, outfmt=6, typ="p") :
     """This function generates the blast command to be run given certain 
