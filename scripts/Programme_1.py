@@ -42,8 +42,10 @@ def blast(query, subject, outfmt=6, typ="p") :
 
 def best_hits(name_results_blast, evalue=1e-20) :
     f = open("results_blast/%s")%(name_results_blast)
-    name_p1 = name_results_blast.find("_", )
-    name_p2 = 
+    pos_sep_between_p1_p2 = name_results_blast.find("_", 6)
+    pos_point = name_results_blast.find(".")
+    name_p1 = name_results_blast[6:pos_sep_between_p1_p2]
+    name_p2 = name_results_blast[pos_sep_between_p1_p2+1:pos_point]
     f_r = open("results_blast/best_hits_blast_%s_%s", "w")%(name_p1, name_p2)
     reader = csv.reader(f, delimiter='\t')
     for line in reader :
