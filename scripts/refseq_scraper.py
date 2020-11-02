@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """
+@author: ghassan
 @title: refseq genomes scraper
 
 based on refseq's assembly summary file : 

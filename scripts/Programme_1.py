@@ -7,6 +7,12 @@
     	a. lance une recherche BLAST d'un génome requête contre un autre génome cible (paramètres)
     	b. lit le fichier résultat afin d'en récupérer la liste des meilleurs hits pour chaque protéine
     	c. lance la recherche BLAST réciproque afin d'en déduire la liste des hits bidirectionnels
+    	
+proposition des fonctions
+
+1. fonction blast
+2. fonction best hit
+
 """
 
 import os
