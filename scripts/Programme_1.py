@@ -78,28 +78,25 @@ best_hits("blast_Aliivibrio_Yersinia.blast")
 
 # Récupération des hits biderectionnels (c)
     # Mise en dictionnaire des n°accessions des best hits de chaque blast
-    # premier numéro : numéro du blast ; deuxième numéro : numéro de la colonne contenant le n°accession
-s1_1, s1_2 = set(), set()
+    # Pour chaque dictionnaire, la key est le n°accession de la protéine dans la query, et la value est le n°accession de la protéine dans le subject
+dict_blast1 = dict()
 f_blast1 = open("results_blast/best_hits_blast_Yersinia_Aliivibrio.blast")
 reader = csv.reader(f_blast1, delimiter='\t')
 for line in reader :
-    s1_1.add(line[1-1])
-    s1_2.add(line[2-1])
+    dict_blast1.update({line[1-1]:line[2-1]})
 f_blast1.close()
 
-s2_1, s2_2 = set(), set()
+dict_blast2 = dict()
 f_blast2 = open("results_blast/best_hits_blast_Aliivibrio_Yersinia.blast")
 reader = csv.reader(f_blast2, delimiter='\t')
 for line in reader :
-    s2_1.add(line[1-1])
-    s2_2.add(line[2-1])
+    dict_blast2.update({line[1-1]:line[2-1]})
 f_blast2.close()
 
     # Vérification si hit est bidirectionnel
     # Si oui, ajout des n°accessions dans un fichier
 f_hits_bidir = open("results_blast/best_hits_bidir_Yersinia_Aliivibrio.txt", "w")
-pos = 0
-while pos < len(s1_1) :
-    if s1_1[i] in s2_2 and s1_2[i] in s2_1 :
-        f_hits_bidir.write(s1_1+"\t"+s2_2+"\n")
+for key, value in dict_blast1.items() :
+    if key in dict_blast2 and value 
+
 f_hits_bidir.close()
