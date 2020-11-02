@@ -40,9 +40,20 @@ def blast(query, subject, outfmt=6, typ="p") :
     return "blast%s -query genomes/%s -subject genomes/%s -outfmt %s > results_blast/blast_%s_%s.blast" % (
         typ, query, subject, outfmt, nom_query, nom_subject)
 
-def best_hits() :
-    xx
-    return 
+def best_hits(name_results_blast, evalue=1e-20) :
+    f = open("results_blast/%s")%(name_results_blast)
+    name_p1 =
+    name_p2 = 
+    f_r = open("results_blast/best_hits_blast_%s_%s", "w")%(name_p1, name_p2)
+    reader = csv.reader(f, delimiter='\t')
+    for line in reader :
+        e = line[11-1]
+        if e < evalue :
+            for element in line :
+                f_r.write(element + "\t")
+            f_r.write("\n")
+    f.close()
+    f_r.close()
 
 os.chdir("../data")
 
@@ -58,43 +69,14 @@ os.system(stats_1)
 print("Voici les stats du protéome 2 : ")
 os.system(stats_2)
 
-"""
-# Choix evalue pour recuperer les meilleurs hits
-e = input("Entrer l'evalue souhaitée pour récupérer les meilleurs hits : ")
-
-# Lecture du fichier résultat du blastn g1 -> g2, et récupération de la liste des meilleurs hits
-f = open("results_blast/blastp_Yersinia pestis strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa_Aliivibrio salmonicida LFI1238 strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa.blast"")
-f_r = open("results_blast/best_hits_blastn_1_2", "w")
-reader = csv.reader(f, delimiter='\t')
-for line in reader :
-    evalue = line[11-1]
-    if evalue < e :
-        for element in line :
-            f_r.write(element + "\t")
-        f_r.write("\n")
-
-f.close()
-f_r.close()
-"""
+# best hits du blast1
+best_hits("blast_Yersinia_Aliivibrio.blast")
 
 # Blastn réciproque des 2 génomes (c)
 blast2 = blast("Aliivibrio_salmonicida_LFI1238_strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa", "Yersinia_pestis_strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa")
 os.system(blast2)
 
-"""
-# Lecture du fichier résultat du blastn g2 -> g2, et récupération de la liste des meilleurs hits
-f2 = open("results_blast/blastn_g2_g1.blastn")
-f_r2 = open("results_blast/best_hits_blastn_g2_g1", "w")
-reader2 = csv.reader(f2, delimiter='\t')
-for line in reader2 :
-    evalue = line[11-1]
-    if evalue < e :
-        for element in line :
-            f_r2.write(element + "\t")
-        f_r2.write("\n")
-
-f2.close()
-f_r2.close()
+# best hits du blast2
+best_hits("blast_Aliivibrio_Yersinia.blast")
 
 # Récupération des hits biderectionnels
-"""
