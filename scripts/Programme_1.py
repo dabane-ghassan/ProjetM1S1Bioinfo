@@ -66,16 +66,6 @@ os.chdir("../data")
 blast1 = blast("Yersinia_pestis_strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa","Aliivibrio_salmonicida_LFI1238_strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa")
 os.system(blast1)
 
-""" Option qui sera proposé si l'utilisateur souhaite changer l'evalue
-# Exposition des stats des fichiers des protéomes pour choisir l'evalue la plus adapter
-stats_1 = 'seqkit stats genomes/"Yersinia_pestis_strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa"'
-stats_2 = 'seqkit stats genomes/"Aliivibrio_salmonicida_LFI1238_strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa"'
-print("Voici les stats du proteome 1 : ")
-os.system(stats_1)
-print("Voici les stats du protéome 2 : ")
-os.system(stats_2)
-"""
-
 # best hits du blast1 (b)
 best_hits("blast_Yersinia_Aliivibrio.blast")
 
@@ -89,10 +79,11 @@ best_hits("blast_Aliivibrio_Yersinia.blast")
 # Récupération des hits biderectionnels (c)
     # Mise en dictionnaire des n°accessions des best hits de chaque blast
     # premier numéro : numéro du blast ; deuxième numéro : numéro de la colonne contenant le n°accession
-s1.1, s1.2, s2.1, s2.2 = set(), set(), set(), set()
-
-f_blast1 = open("blast_Yersinia_Aliivibrio.blast")
-f_blast2 = open("blast_Aliivibrio_Yersinia.blast")
-reader = csv.reader(f, delimiter='\t')
+s1_1, s1_2 = set(), set()
+f_blast1 = open("results_blast/best_hits_blast_Yersinia_Aliivibrio.blast")
+reader = csv.reader(f_blast1, delimiter='\t')
 for line in reader :
-    
+
+s2_1, s2_2 = set(), set()
+f_blast2 = open("results_blast/best_hits_blast_Aliivibrio_Yersinia.blast")
+reader = csv.reader(f_blast2, delimiter='\t')
