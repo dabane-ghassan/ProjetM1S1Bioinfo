@@ -61,6 +61,7 @@ class RefSeqScraper :
 
 
     def download_genome(self) : 
+
         
         for name, ftp_path in zip(self.cart, self.mine_ftps()) : 
 
@@ -69,7 +70,7 @@ class RefSeqScraper :
                 conn.cwd(ftp_path[27:])
                            
                 try :  
-                    genome = '%s_genomic.fna.gz' %(ftp_path.rsplit('/')[-1])
+                    genome = '%s_protein.faa.gz' %(ftp_path.rsplit('/')[-1])
                     local_save = os.path.join(os.getcwd(),'data/genomes/%s%s'%(name,genome))
                     
                     with open(local_save, 'wb') as fp :
