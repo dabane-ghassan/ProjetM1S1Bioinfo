@@ -58,7 +58,7 @@ blastn_g1_g2 = 'blastn -query genomes/"GCF_000007865.1_ASM786v1_genomic.fna" -su
 os.system(blastn_g1_g2)
 
 """
-blast1 = blast(proteome1, proteome2)
+blast1 = blast("Yersinia pestis strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa","Aliivibrio salmonicida LFI1238 strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa")
 os.system(blast1)
 """
 
@@ -92,7 +92,7 @@ blastn_g2_g1 = 'blastn -query genomes/"GCF_000009445.1_ASM944v1_genomic.fna" -su
 os.system(blastn_g2_g1)
 
 """
-blast2 = blast(proteome2, proteome1)
+blast2 = blast("Aliivibrio salmonicida LFI1238 strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa", "Yersinia pestis strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa")
 os.system(blast2)
 """
 
