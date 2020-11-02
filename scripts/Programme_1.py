@@ -86,3 +86,6 @@ os.system(blast2)
 best_hits("blast_Aliivibrio_Yersinia.blast")
 
 # Récupération des hits biderectionnels (c)
+    # Mise en dictionnaire des n°accessions des best hits de chaque blast
+    # premier numéro : numéro du blast ; deuxième numéro : numéro de la colonne contenant le n°accession
+s1.1, s1.2, s2.1, s2.2 = set(), set(), set(), set()
