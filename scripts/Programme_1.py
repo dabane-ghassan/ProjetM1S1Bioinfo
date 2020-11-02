@@ -83,7 +83,18 @@ s1_1, s1_2 = set(), set()
 f_blast1 = open("results_blast/best_hits_blast_Yersinia_Aliivibrio.blast")
 reader = csv.reader(f_blast1, delimiter='\t')
 for line in reader :
+    s1_1.add(line[1-1])
+    s1_2.add(line[2-1])
+f_blast1.close()
 
 s2_1, s2_2 = set(), set()
 f_blast2 = open("results_blast/best_hits_blast_Aliivibrio_Yersinia.blast")
 reader = csv.reader(f_blast2, delimiter='\t')
+for line in reader :
+    s2_1.add(line[1-1])
+    s2_2.add(line[2-1])
+f_blast2.close()
+
+    # Vérification si hit est bidirectionnel
+    # Si oui, ajout des n°accessions dans un fichier
+f_hits_bidir = open("results_blast/best_hits_bidir_Yersinia_Aliivibrio.txt", "w")
