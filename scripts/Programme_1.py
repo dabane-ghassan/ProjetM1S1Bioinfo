@@ -7,13 +7,46 @@
     	a. lance une recherche BLAST d'un génome requête contre un autre génome cible (paramètres)
     	b. lit le fichier résultat afin d'en récupérer la liste des meilleurs hits pour chaque protéine
     	c. lance la recherche BLAST réciproque afin d'en déduire la liste des hits bidirectionnels
-    	
+
+peut être utiliser subprocess pour accueillir l'output de blast dans un variable python direct???
 proposition des fonctions
 
-1. fonction blast
+1. fonction blast : 
+    
+test : 
+blast1 = blast("GCF_000007865.1_ASM786v1_genomic.fna","GCF_000009445.1_ASM944v1_genomic.fna", typ="n")
+os.system(blast1)
+    
 2. fonction best hit
 
 """
+
+def blast(query, subject, evalue=1e-20, outfmt=6, typ="p") :
+    """This function generates the blast command to be run given certain 
+        parameters.
+    
+    Parameters
+    ----------
+    query : TYPE str
+        the name of the query genome file.
+    subject : TYPE str
+        the name of the subject genome file.
+    evalue : TYPE int, optional
+        the evalue threshhold for the blast, The default is 1e-20.
+    outfmt : TYPE int, optional
+        blast results output format, The default is 6.
+    typ : TYPE str, optional
+        The type of blast to be executed (blastp, blastn, ....),
+        default is "p".
+
+    Returns
+    -------
+    TYPE str
+        blast command to be executed.   
+    """
+    return "blast%s -query genomes/%s -subject genomes/%s -outfmt %s > results_blast/blastn_g1_g2.blastn" % (
+        typ, query, subject, outfmt)
+
 
 import os
 import csv
