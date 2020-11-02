@@ -9,6 +9,9 @@
     	c. lance la recherche BLAST réciproque afin d'en déduire la liste des hits bidirectionnels
 """
 
+import os
+import csv
+
 def blast(query, subject, outfmt=6, typ="p") :
     """This function generates the blast command to be run given certain 
         parameters.
@@ -37,9 +40,9 @@ def blast(query, subject, outfmt=6, typ="p") :
     return "blast%s -query genomes/%s -subject genomes/%s -outfmt %s > results_blast/blast_%s_%s.blast" % (
         typ, query, subject, outfmt, nom_query, nom_subject)
 
-
-import os
-import csv
+def best_hits() :
+    xx
+    return 
 
 os.chdir("../data")
 
