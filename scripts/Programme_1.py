@@ -44,8 +44,8 @@ def blast(query, subject, evalue=1e-20, outfmt=6, typ="p") :
     TYPE str
         blast command to be executed.   
     """
-    return "blast%s -query genomes/%s -subject genomes/%s -outfmt %s > results_blast/blastn_g1_g2.blastn" % (
-        typ, query, subject, outfmt)
+    return "blast%s -query genomes/%s -subject genomes/%s -outfmt %s > results_blast/blast%s_%s_%s.blast" % (
+        typ, query, subject, outfmt, typ, query, subject)
 
 
 import os
@@ -56,6 +56,11 @@ os.chdir("../data")
 # Blastn des 2 génomes (a)
 blastn_g1_g2 = 'blastn -query genomes/"GCF_000007865.1_ASM786v1_genomic.fna" -subject genomes/"GCF_000009445.1_ASM944v1_genomic.fna" -outfmt 6 > results_blast/blastn_g1_g2.blastn'
 os.system(blastn_g1_g2)
+
+"""
+blast1 = blast(proteome1, proteome2)
+os.system(blast1)
+"""
 
 # Exposition des stats des fichiers des génomes pour choisir l'evalue la plus adapter
 stats_g1 = 'seqkit stats genomes/"GCF_000007865.1_ASM786v1_genomic.fna"'
@@ -85,6 +90,11 @@ f_r.close()
 # Blastn réciproque des 2 génomes (c)
 blastn_g2_g1 = 'blastn -query genomes/"GCF_000009445.1_ASM944v1_genomic.fna" -subject genomes/"GCF_000007865.1_ASM786v1_genomic.fna" -outfmt 6 > results_blast/blastn_g2_g1.blastn'
 os.system(blastn_g2_g1)
+
+"""
+blast2 = blast(proteome2, proteome1)
+os.system(blast2)
+"""
 
 # Lecture du fichier résultat du blastn g2 -> g2, et récupération de la liste des meilleurs hits
 f2 = open("results_blast/blastn_g2_g1.blastn")
