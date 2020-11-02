@@ -61,7 +61,7 @@ def best_hits(name_results_blast, evalue=1e-20) :
     f_r.close()
 
 os.chdir("../data")
-
+"""
 # Blast des 2 protéomes (a)
 blast1 = blast("Yersinia_pestis_strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa","Aliivibrio_salmonicida_LFI1238_strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa")
 os.system(blast1)
@@ -76,6 +76,7 @@ os.system(blast2)
 # best hits du blast2 (b)
 best_hits("blast_Aliivibrio_Yersinia.blast")
 
+"""
 # Récupération des hits biderectionnels (c)
     # Mise en dictionnaire des n°accessions des best hits de chaque blast
     # Pour chaque dictionnaire, la key est le n°accession de la protéine dans la query, et la value est le n°accession de la protéine dans le subject
@@ -85,7 +86,8 @@ reader = csv.reader(f_blast1, delimiter='\t')
 for line in reader :
     dict_blast1.update({line[1-1]:line[2-1]})
 f_blast1.close()
-
+print(dict_blast1)
+"""
 dict_blast2 = dict()
 f_blast2 = open("results_blast/best_hits_blast_Aliivibrio_Yersinia.blast")
 reader = csv.reader(f_blast2, delimiter='\t')
@@ -97,6 +99,8 @@ f_blast2.close()
     # Si oui, ajout des n°accessions dans un fichier
 f_hits_bidir = open("results_blast/best_hits_bidir_Yersinia_Aliivibrio.txt", "w")
 for key, value in dict_blast1.items() :
-    if key in dict_blast2 and value 
+    if key in dict_blast2 and value in dict_blast1 :
+        print(essai)
 
 f_hits_bidir.close()
+"""
