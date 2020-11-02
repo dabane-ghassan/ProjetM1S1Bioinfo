@@ -42,7 +42,7 @@ def blast(query, subject, outfmt=6, typ="p") :
 
 def best_hits(name_results_blast, evalue=1e-20) :
     f = open("results_blast/%s")%(name_results_blast)
-    name_p1 =
+    name_p1 = 
     name_p2 = 
     f_r = open("results_blast/best_hits_blast_%s_%s", "w")%(name_p1, name_p2)
     reader = csv.reader(f, delimiter='\t')
