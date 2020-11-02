@@ -42,7 +42,7 @@ def blast(query, subject, outfmt=6, typ="p") :
 
 def best_hits(name_results_blast, evalue=1e-20) :
     f = open("results_blast/%s")%(name_results_blast)
-    name_p1 = 
+    name_p1 = name_results_blast.find("_", )
     name_p2 = 
     f_r = open("results_blast/best_hits_blast_%s_%s", "w")%(name_p1, name_p2)
     reader = csv.reader(f, delimiter='\t')
@@ -57,7 +57,7 @@ def best_hits(name_results_blast, evalue=1e-20) :
 
 os.chdir("../data")
 
-# Blast des 2 génomes (a)
+# Blast des 2 protéomes (a)
 blast1 = blast("Yersinia_pestis_strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa","Aliivibrio_salmonicida_LFI1238_strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa")
 os.system(blast1)
 
@@ -72,7 +72,7 @@ os.system(stats_2)
 # best hits du blast1 (b)
 best_hits("blast_Yersinia_Aliivibrio.blast")
 
-# Blast réciproque des 2 génomes (c)
+# Blast réciproque des 2 protéomes (c)
 blast2 = blast("Aliivibrio_salmonicida_LFI1238_strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa", "Yersinia_pestis_strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa")
 os.system(blast2)
 
