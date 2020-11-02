@@ -41,15 +41,17 @@ def blast(query, subject, outfmt=6, typ="p") :
         typ, query, subject, outfmt, nom_query, nom_subject)
 
 def best_hits(name_results_blast, evalue=1e-20) :
-    f = open("results_blast/%s") % (name_results_blast)
+    acces_f = "results_blast/"+name_results_blast
+    f = open(acces_f)
     pos_sep_between_p1_p2 = name_results_blast.find("_", 6)
     pos_point = name_results_blast.find(".")
     name_p1 = name_results_blast[6:pos_sep_between_p1_p2]
     name_p2 = name_results_blast[pos_sep_between_p1_p2+1:pos_point]
-    f_r = open("results_blast/best_hits_blast_%s_%s", "w") % (name_p1, name_p2)
+    acces_f_r = "results_blast/best_hits_blast_"+name_p1+"_"+name_p2+".blast"
+    f_r = open(acces_f_r, "w")
     reader = csv.reader(f, delimiter='\t')
     for line in reader :
-        e = line[11-1]
+        e = float(line[11-1])
         if e < evalue :
             for element in line :
                 f_r.write(element + "\t")
