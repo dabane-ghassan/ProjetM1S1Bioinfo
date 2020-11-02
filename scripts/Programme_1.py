@@ -98,3 +98,8 @@ f_blast2.close()
     # Vérification si hit est bidirectionnel
     # Si oui, ajout des n°accessions dans un fichier
 f_hits_bidir = open("results_blast/best_hits_bidir_Yersinia_Aliivibrio.txt", "w")
+pos = 0
+while pos < len(s1_1) :
+    if s1_1[i] in s2_2 and s1_2[i] in s2_1 :
+        f_hits_bidir.write(s1_1+"\t"+s2_2+"\n")
+f_hits_bidir.close()
