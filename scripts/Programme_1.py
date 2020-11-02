@@ -89,3 +89,9 @@ best_hits("blast_Aliivibrio_Yersinia.blast")
     # Mise en dictionnaire des n°accessions des best hits de chaque blast
     # premier numéro : numéro du blast ; deuxième numéro : numéro de la colonne contenant le n°accession
 s1.1, s1.2, s2.1, s2.2 = set(), set(), set(), set()
+
+f_blast1 = open("blast_Yersinia_Aliivibrio.blast")
+f_blast2 = open("blast_Aliivibrio_Yersinia.blast")
+reader = csv.reader(f, delimiter='\t')
+for line in reader :
+    
