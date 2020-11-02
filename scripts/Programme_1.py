@@ -63,6 +63,7 @@ os.chdir("../data")
 blast1 = blast("Yersinia_pestis_strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa","Aliivibrio_salmonicida_LFI1238_strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa")
 os.system(blast1)
 
+""" Option qui sera proposé si l'utilisateur souhaite changer l'evalue
 # Exposition des stats des fichiers des protéomes pour choisir l'evalue la plus adapter
 stats_1 = 'seqkit stats genomes/"Yersinia_pestis_strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa"'
 stats_2 = 'seqkit stats genomes/"Aliivibrio_salmonicida_LFI1238_strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa"'
@@ -70,6 +71,7 @@ print("Voici les stats du proteome 1 : ")
 os.system(stats_1)
 print("Voici les stats du protéome 2 : ")
 os.system(stats_2)
+"""
 
 # best hits du blast1 (b)
 best_hits("blast_Yersinia_Aliivibrio.blast")
