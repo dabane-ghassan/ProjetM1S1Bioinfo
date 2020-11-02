@@ -38,7 +38,7 @@ def blast(query, subject, outfmt=6, typ="p") :
     tiret_s = subject.find('_')
     nom_subject = subject[0:tiret_s]
     return "blast%s -query genomes/%s -subject genomes/%s -outfmt %s > results_blast/blast_%s_%s.blast" % (
-        typ, query, subject, outfmt, nom_query, nom_subject), nom_query, nom_subject
+        typ, query, subject, outfmt, nom_query, nom_subject)
 
 def best_hits(name_results_blast, evalue=1e-20) :
     f = open("results_blast/%s")%(name_results_blast)
@@ -58,7 +58,7 @@ def best_hits(name_results_blast, evalue=1e-20) :
 os.chdir("../data")
 
 # Blast des 2 génomes (a)
-blast1, query1, subject1 = blast("Yersinia_pestis_strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa","Aliivibrio_salmonicida_LFI1238_strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa")
+blast1 = blast("Yersinia_pestis_strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa","Aliivibrio_salmonicida_LFI1238_strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa")
 os.system(blast1)
 
 # Exposition des stats des fichiers des protéomes pour choisir l'evalue la plus adapter
