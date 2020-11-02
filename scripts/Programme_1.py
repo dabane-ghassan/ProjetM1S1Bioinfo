@@ -54,21 +54,16 @@ import csv
 os.chdir("../data")
 
 # Blastn des 2 génomes (a)
-blastn_g1_g2 = 'blastn -query genomes/"GCF_000007865.1_ASM786v1_genomic.fna" -subject genomes/"GCF_000009445.1_ASM944v1_genomic.fna" -outfmt 6 > results_blast/blastn_g1_g2.blastn'
-os.system(blastn_g1_g2)
-
-"""
 blast1 = blast("Yersinia pestis strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa","Aliivibrio salmonicida LFI1238 strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa")
 os.system(blast1)
-"""
 
 # Exposition des stats des fichiers des génomes pour choisir l'evalue la plus adapter
-stats_g1 = 'seqkit stats genomes/"GCF_000007865.1_ASM786v1_genomic.fna"'
-stats_g2 = 'seqkit stats genomes/"GCF_000009445.1_ASM944v1_genomic.fna"'
-print("Voici les stats du génome 1 : ")
-os.system(stats_g1)
-print("Voici les stats du génome 2 : ")
-os.system(stats_g2)
+stats_1 = 'seqkit stats genomes/"Yersinia pestis strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa"'
+stats_2 = 'seqkit stats genomes/"Aliivibrio salmonicida LFI1238 strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa"'
+print("Voici les stats du proteome 1 : ")
+os.system(stats_1)
+print("Voici les stats du protéome 2 : ")
+os.system(stats_2)
 
 # Choix evalue pour recuperer les meilleurs hits
 e = input("Entrer l'evalue souhaitée pour récupérer les meilleurs hits : ")
