@@ -65,12 +65,13 @@ os.system(stats_1)
 print("Voici les stats du protéome 2 : ")
 os.system(stats_2)
 
+"""
 # Choix evalue pour recuperer les meilleurs hits
 e = input("Entrer l'evalue souhaitée pour récupérer les meilleurs hits : ")
 
 # Lecture du fichier résultat du blastn g1 -> g2, et récupération de la liste des meilleurs hits
-f = open("results_blast/blastn_g1_g2.blastn")
-f_r = open("results_blast/best_hits_blastn_g1_g2", "w")
+f = open("results_blast/blastp_Yersinia pestis strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa_Aliivibrio salmonicida LFI1238 strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa.blast"")
+f_r = open("results_blast/best_hits_blastn_1_2", "w")
 reader = csv.reader(f, delimiter='\t')
 for line in reader :
     evalue = line[11-1]
@@ -81,16 +82,13 @@ for line in reader :
 
 f.close()
 f_r.close()
+"""
 
 # Blastn réciproque des 2 génomes (c)
-blastn_g2_g1 = 'blastn -query genomes/"GCF_000009445.1_ASM944v1_genomic.fna" -subject genomes/"GCF_000007865.1_ASM786v1_genomic.fna" -outfmt 6 > results_blast/blastn_g2_g1.blastn'
-os.system(blastn_g2_g1)
-
-"""
 blast2 = blast("Aliivibrio salmonicida LFI1238 strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa", "Yersinia pestis strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa")
 os.system(blast2)
-"""
 
+"""
 # Lecture du fichier résultat du blastn g2 -> g2, et récupération de la liste des meilleurs hits
 f2 = open("results_blast/blastn_g2_g1.blastn")
 f_r2 = open("results_blast/best_hits_blastn_g2_g1", "w")
@@ -106,3 +104,4 @@ f2.close()
 f_r2.close()
 
 # Récupération des hits biderectionnels
+"""
