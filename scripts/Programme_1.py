@@ -21,7 +21,7 @@ os.system(blast1)
 
 """
 
-def blast(query, subject, evalue=1e-20, outfmt=6, typ="p") :
+def blast(query, subject, outfmt=6, typ="p") :
     """This function generates the blast command to be run given certain 
         parameters.
     
@@ -31,8 +31,6 @@ def blast(query, subject, evalue=1e-20, outfmt=6, typ="p") :
         the name of the query genome file.
     subject : TYPE str
         the name of the subject genome file.
-    evalue : TYPE int, optional
-        the evalue threshhold for the blast, The default is 1e-20.
     outfmt : TYPE int, optional
         blast results output format, The default is 6.
     typ : TYPE str, optional
