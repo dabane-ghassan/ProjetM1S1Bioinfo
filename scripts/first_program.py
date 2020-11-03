@@ -1,15 +1,7 @@
 #!/usr/bin/env python3
 #-*-coding: UTF-8-*-
-"""
-    But : 
-    	a. lance une recherche BLAST d'un génome requête contre un autre génome cible (paramètres)
-    	b. lit le fichier résultat afin d'en récupérer la liste des meilleurs hits pour chaque protéine
-    	c. lance la recherche BLAST réciproque afin d'en déduire la liste des hits bidirectionnels
-"""
 
-import csv
-
-def parse_fasta(proteome) : 
+def parse_fasta(proteome):
     """This function parses proteome fasta files.
 
     Parameters
@@ -24,7 +16,7 @@ def parse_fasta(proteome) :
                     keys and the corresponding fasta sequences as values.
 
     """
-    
+
     list_seqs = open(proteome, 'r').read().split('>')[1:]  # split the file
     seqdic = {}
 
@@ -33,6 +25,7 @@ def parse_fasta(proteome) :
             '\n')  # strip each sequence from spaces then split it
         seqdic['>' + seq[0]] = ''.join(seq[1:])
     return seqdic
+
 
 def seqkit_stats(proteome):
     """This function sends back some statistics based on the proteome fasta 
@@ -49,17 +42,18 @@ def seqkit_stats(proteome):
     None.
 
     """
-    seqdic = parse_fasta(proteome) # parsing proteome to get a dictionary
+    seqdic = parse_fasta(proteome)  # parsing proteome to get a dictionary
     length_seq = [len(seq) for seq in seqdic.values()
                   ]  # to facilitate calculating min, max, sum and average
 
     print(
         " name : %s \n num_seq : %s \n sum_len : %s \n min_len : %s \n avg_len : %s \n max_len : %s"
-        % (proteome.rsplit('/')[-1], len(seqdic.keys()), sum(length_seq),
-           min(length_seq), sum(length_seq) / len(seqdic.keys()),
-           max(length_seq)))
+        % (proteome.rsplit('/')[-1], len(
+            seqdic.keys()), sum(length_seq), min(length_seq),
+           sum(length_seq) / len(seqdic.keys()), max(length_seq)))
 
-def blast(query, subject, outfmt=6, typ="p") :
+
+def blast(query, subject, outfmt=6, typ="p"):
     """This function generates the blast command to be run given certain 
         parameters. the output file is saved to data/results_blast
     
@@ -86,30 +80,38 @@ def blast(query, subject, outfmt=6, typ="p") :
     query_name = query_name[0:query_name.find('_')]
     subject_name = subject.rsplit('/')[-1]
     subject_name = subject_name[0:subject_name.find('_')]
-    out = "blast_%s_%s.blastp" % (query_name, subject_name)
-    
-    return "blast%s -query %s -subject %s -outfmt %s > ../data/results_blast/%s" % (
+    out = "../data/results_blast/blast_%s_%s.blastp" % (query_name,
+                                                        subject_name)
+
+    return "blast%s -query %s -subject %s -outfmt %s > %s" % (
         typ, query, subject, outfmt, out), out
 
-def best_hits(name_results_blast, evalue=1e-20) :
+
+def best_hits(blast_out, evalue=1e-20):
+    """This function filters the blast output file into another best hits file
+        based on a given evalue.
     
-    acces_f = "results_blast/"+name_results_blast
-    f = open(acces_f)
-    pos_sep_between_p1_p2 = name_results_blast.find("_", 6)
-    pos_point = name_results_blast.find(".")
-    name_p1 = name_results_blast[6:pos_sep_between_p1_p2]
-    name_p2 = name_results_blast[pos_sep_between_p1_p2+1:pos_point]
-    acces_f_r = "results_blast/best_hits_blast_"+name_p1+"_"+name_p2+".blast"
-    f_r = open(acces_f_r, "w")
-    reader = csv.reader(f, delimiter='\t')
-    for line in reader :
-        e = float(line[11-1])
-        if e < evalue :
-            for element in line :
-                f_r.write(element + "\t")
-            f_r.write("\n")
-    f.close()
-    f_r.close()
+    Parameters
+    ----------
+    blast_out : TYPE str
+        DESCRIPTION. the blast output file .blastp path
+    evalue : TYPE int, optional
+        DESCRIPTION. the evalue to consider while filtering,
+                    The default is 1e-20.
+
+    Returns
+    -------
+    bhits_out : TYPE str
+        DESCRIPTION. the best hits blast file path
+
+    """
+
+    bhits_out = "../data/results_blast/best_hits_%s" % blast_out.rsplit(
+        '/')[-1]
+    with open(blast_out, 'r') as bfile, open(bhits_out, 'w') as bhits:
+        bhits.writelines(
+            [line for line in bfile if float(line.split('\t')[10]) <= evalue])
+    return bhits_out 
 
 
 """
