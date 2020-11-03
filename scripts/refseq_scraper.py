@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-@author: ghassan
-@title: refseq genomes scraper
-
 based on refseq's assembly summary file : 
 ftp://ftp.ncbi.nlm.nih.gov/genomes/ASSEMBLY_REPORTS/assembly_summary_refseq.txt
 

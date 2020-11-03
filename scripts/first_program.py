@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 #-*-coding: UTF-8-*-
 """
-    Auteur : Mégane Boujeant
-    Date : 31 Octobre 2020
     But : 
     	a. lance une recherche BLAST d'un génome requête contre un autre génome cible (paramètres)
     	b. lit le fichier résultat afin d'en récupérer la liste des meilleurs hits pour chaque protéine
@@ -10,6 +8,56 @@
 """
 
 import csv
+
+def parse_fasta(proteome) : 
+    """This function parses proteome fasta files.
+
+    Parameters
+    ----------
+    proteome : TYPE str
+        DESCRIPTION. the file path for a given fasta file
+
+    Returns
+    -------
+    seqdic : TYPE dict
+        DESCRIPTION. a dictionary of the proteome with the fasta headers as 
+                    keys and the corresponding fasta sequences as values.
+
+    """
+    
+    list_seqs = open(proteome, 'r').read().split('>')[1:]  # split the file
+    seqdic = {}
+
+    for seq in list_seqs:
+        seq = seq.strip().split(
+            '\n')  # strip each sequence from spaces then split it
+        seqdic['>' + seq[0]] = ''.join(seq[1:])
+    return seqdic
+
+def seqkit_stats(proteome):
+    """This function sends back some statistics based on the proteome fasta 
+    file, its serves a similar purpose to seqkit stats.
+    
+
+    Parameters
+    ----------
+    proteome : TYPE str
+        DESCRIPTION. proteome file path
+
+    Returns
+    -------
+    None.
+
+    """
+    seqdic = parse_fasta(proteome) # parsing proteome to get a dictionary
+    length_seq = [len(seq) for seq in seqdic.values()
+                  ]  # to facilitate calculating min, max, sum and average
+
+    print(
+        " name : %s \n num_seq : %s \n sum_len : %s \n min_len : %s \n avg_len : %s \n max_len : %s"
+        % (proteome.rsplit('/')[-1], len(seqdic.keys()), sum(length_seq),
+           min(length_seq), sum(length_seq) / len(seqdic.keys()),
+           max(length_seq)))
 
 def blast(query, subject, outfmt=6, typ="p") :
     """This function generates the blast command to be run given certain 
