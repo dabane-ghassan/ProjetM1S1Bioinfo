@@ -92,6 +92,7 @@ def blast(query, subject, outfmt=6, typ="p") :
         typ, query, subject, outfmt, out), out
 
 def best_hits(name_results_blast, evalue=1e-20) :
+    
     acces_f = "results_blast/"+name_results_blast
     f = open(acces_f)
     pos_sep_between_p1_p2 = name_results_blast.find("_", 6)
