@@ -35,7 +35,8 @@ def stats(proteome):
                   ]  # to facilitate calculating min, max, sum and average
 
     print(
-        " num_seq : %s \n sum_len : %s \n min_len : %s \n avg_len : %s \n max_len : %s"
-        % (len(seqdic.keys()), sum(length_seq), min(length_seq),
-           sum(length_seq) / len(seqdic.keys()), max(length_seq)))
+        " name : %s \n num_seq : %s \n sum_len : %s \n min_len : %s \n avg_len : %s \n max_len : %s"
+        % (proteome.rsplit('/')[-1], len(seqdic.keys()), sum(length_seq),
+           min(length_seq), sum(length_seq) / len(seqdic.keys()),
+           max(length_seq)))
 

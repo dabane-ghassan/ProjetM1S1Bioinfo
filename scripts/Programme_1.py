@@ -13,6 +13,14 @@ import os
 import csv
 from seqkit_stats import stats
 
+# os.chdir("") répertoire des scripts
+
+proteome1 = "../data/genomes/Yersinia_pestis_strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa"
+proteome2 = "../data/genomes/Aliivibrio_salmonicida_LFI1238_strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa" 
+
+stats(proteome1)
+stats(proteome2)
+
 def blast(query, subject, outfmt=6, typ="p") :
     """This function generates the blast command to be run given certain 
         parameters.
@@ -38,7 +46,7 @@ def blast(query, subject, outfmt=6, typ="p") :
     nom_query = query[0:tiret_q]
     tiret_s = subject.find('_')
     nom_subject = subject[0:tiret_s]
-    return "blast%s -query genomes/%s -subject genomes/%s -outfmt %s > results_blast/blast_%s_%s.blast" % (
+    return "blast%s -query data/genomes/%s -subject data/genomes/%s -outfmt %s > data/results_blast/blast_%s_%s.blast" % (
         typ, query, subject, outfmt, nom_query, nom_subject)
 
 def best_hits(name_results_blast, evalue=1e-20) :
