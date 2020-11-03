@@ -9,12 +9,11 @@
     	c. lance la recherche BLAST réciproque afin d'en déduire la liste des hits bidirectionnels
 """
 
-import os
 import csv
 
-def blast(query, subject, outfmt=6, typ="p") :
+def blast(query, subject, out, outfmt=6, typ="p") :
     """This function generates the blast command to be run given certain 
-        parameters.
+        parameters. the output file is saved to data/results_blast
     
     Parameters
     ----------
@@ -22,6 +21,8 @@ def blast(query, subject, outfmt=6, typ="p") :
         the name of the query genome file.
     subject : TYPE str
         the name of the subject genome file.
+    out : TYPE str
+        the name of the output file.
     outfmt : TYPE int, optional
         blast results output format, The default is 6.
     typ : TYPE str, optional
@@ -32,13 +33,16 @@ def blast(query, subject, outfmt=6, typ="p") :
     -------
     TYPE str
         blast command to be executed.   
-    """
+    
+    à enlever après vérification de mégane : 
     tiret_q = query.find('_')
     nom_query = query[0:tiret_q]
     tiret_s = subject.find('_')
     nom_subject = subject[0:tiret_s]
-    return "blast%s -query data/genomes/%s -subject data/genomes/%s -outfmt %s > data/results_blast/blast_%s_%s.blast" % (
-        typ, query, subject, outfmt, nom_query, nom_subject)
+    """
+
+    return "blast%s -query %s -subject %s -outfmt %s > ../data/results_blast/%s" % (
+        typ, query, subject, outfmt, out)
 
 def best_hits(name_results_blast, evalue=1e-20) :
     acces_f = "results_blast/"+name_results_blast
@@ -59,8 +63,9 @@ def best_hits(name_results_blast, evalue=1e-20) :
     f.close()
     f_r.close()
 
-os.chdir("../data")
+
 """
+os.chdir("../data")
 # Blast des 2 protéomes (a)
 blast1 = blast("Yersinia_pestis_strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa","Aliivibrio_salmonicida_LFI1238_strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa")
 os.system(blast1)
@@ -75,7 +80,7 @@ os.system(blast2)
 # best hits du blast2 (b)
 best_hits("blast_Aliivibrio_Yersinia.blast")
 
-"""
+
 # Récupération des hits biderectionnels (c)
     # Mise en dictionnaire des n°accessions des best hits de chaque blast
     # Pour chaque dictionnaire, la key est le n°accession de la protéine dans la query, et la value est le n°accession de la protéine dans le subject
@@ -86,7 +91,6 @@ for line in reader :
     dict_blast1.update({line[1-1]:line[2-1]})
 f_blast1.close()
 print(dict_blast1)
-"""
 dict_blast2 = dict()
 f_blast2 = open("results_blast/best_hits_blast_Aliivibrio_Yersinia.blast")
 reader = csv.reader(f_blast2, delimiter='\t')
