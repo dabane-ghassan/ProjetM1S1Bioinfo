@@ -113,6 +113,18 @@ def best_hits(blast_out, evalue=1e-20):
             [line for line in bfile if float(line.split('\t')[10]) <= evalue])
     return bhits_out 
 
+def extract_best_hits(proteome, bhits_out) : 
+    
+    extract_bh_out = "../data/genomes/best_hits.faa"
+
+    with open(bhits_out , 'r') as bhits : 
+        bh_ids = [line.split('\t')[1] for line in bhits]
+    
+    best_hits = {h:seq for h, seq in parse_fasta(proteome).items() if h[1:15] in bh_ids}
+    
+    with open(extract_bh_out, 'w') as bh_proteome : 
+        for header, sequence in best_hits.items() : 
+            bh_proteome.write('%s\n%s\n'%(header,sequence))
 
 """
 os.chdir("../data")

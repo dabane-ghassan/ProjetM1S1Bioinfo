@@ -15,6 +15,7 @@ seqkit_stats(proteome2)
 
 prot1 = parse_fasta(proteome1)
 prot2 = parse_fasta(proteome2)
+
 prot1
 
 cmdblast1, output1 = blast(proteome1,proteome2)
@@ -25,6 +26,10 @@ output1
 
 os.system(cmdblast1)
 
-best_hits(output1)
+bhits = best_hits(output1)
+
+            
+    
+
 
 
