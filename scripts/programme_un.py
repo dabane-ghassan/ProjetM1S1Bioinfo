@@ -11,19 +11,6 @@
 
 import os
 import csv
-from seqkit_stats import stats
-from parse_proteome import parse_fasta
-
-# os.chdir("") répertoire des scripts
-
-proteome1 = "../data/genomes/Yersinia_pestis_strain=FDAARGOS_603GCF_003798205.1_ASM379820v1_protein.faa"
-proteome2 = "../data/genomes/Aliivibrio_salmonicida_LFI1238_strain=LFI1238GCF_000196495.1_ASM19649v1_protein.faa" 
-
-stats(proteome1)
-stats(proteome2)
-
-parse_fasta(proteome1)
-parse_fasta(proteome2)
 
 def blast(query, subject, outfmt=6, typ="p") :
     """This function generates the blast command to be run given certain 
