@@ -12,6 +12,7 @@
 import os
 import csv
 from seqkit_stats import stats
+from parse_proteome import parse_fasta
 
 # os.chdir("") répertoire des scripts
 
@@ -20,6 +21,9 @@ proteome2 = "../data/genomes/Aliivibrio_salmonicida_LFI1238_strain=LFI1238GCF_00
 
 stats(proteome1)
 stats(proteome2)
+
+parse_fasta(proteome1)
+parse_fasta(proteome2)
 
 def blast(query, subject, outfmt=6, typ="p") :
     """This function generates the blast command to be run given certain 

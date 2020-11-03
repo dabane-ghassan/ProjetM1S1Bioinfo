@@ -6,6 +6,7 @@ Created on Mon Nov  2 14:01:31 2020
 @author: ghassan
 """
 
+from parse_proteome import parse_fasta
 
 def stats(proteome):
     """This function sends back some statistics based on the proteome fasta 
@@ -22,15 +23,7 @@ def stats(proteome):
     None.
 
     """
-
-    list_seqs = open(proteome, 'r').read().split('>')[1:]  # split the file
-    seqdic = {}
-
-    for seq in list_seqs:
-        seq = seq.strip().split(
-            '\n')  # strip each sequence from spaces then split it
-        seqdic['>' + seq[0]] = ''.join(seq[1:])
-
+    seqdic = parse_fasta(proteome) # parsing proteome to get a dictionary
     length_seq = [len(seq) for seq in seqdic.values()
                   ]  # to facilitate calculating min, max, sum and average
 
