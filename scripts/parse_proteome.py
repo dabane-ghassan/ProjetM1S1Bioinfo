@@ -7,7 +7,7 @@ Created on Tue Nov  3 12:35:02 2020
 """
 
 def parse_fasta(proteome) : 
-    """This function parses genome or proteome fasta files.
+    """This function parses proteome fasta files.
 
     Parameters
     ----------
