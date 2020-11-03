@@ -11,7 +11,7 @@
 
 import csv
 
-def blast(query, subject, out, outfmt=6, typ="p") :
+def blast(query, subject, outfmt=6, typ="p") :
     """This function generates the blast command to be run given certain 
         parameters. the output file is saved to data/results_blast
     
@@ -31,18 +31,17 @@ def blast(query, subject, out, outfmt=6, typ="p") :
 
     Returns
     -------
-    TYPE str
-        blast command to be executed.   
-    
-    à enlever après vérification de mégane : 
-    tiret_q = query.find('_')
-    nom_query = query[0:tiret_q]
-    tiret_s = subject.find('_')
-    nom_subject = subject[0:tiret_s]
+    TYPE tuple
+        blast command to be executed and the name of the output file  
     """
-
+    query_name = query.rsplit('/')[-1]
+    query_name = query_name[0:query_name.find('_')]
+    subject_name = subject.rsplit('/')[-1]
+    subject_name = subject_name[0:subject_name.find('_')]
+    out = "blast_%s_%s.blastp" % (query_name, subject_name)
+    
     return "blast%s -query %s -subject %s -outfmt %s > ../data/results_blast/%s" % (
-        typ, query, subject, outfmt, out)
+        typ, query, subject, outfmt, out), out
 
 def best_hits(name_results_blast, evalue=1e-20) :
     acces_f = "results_blast/"+name_results_blast
