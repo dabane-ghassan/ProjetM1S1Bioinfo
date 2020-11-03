@@ -115,7 +115,8 @@ def best_hits(blast_out, evalue=1e-20):
 
 def extract_best_hits(proteome, bhits_out) : 
     
-    extract_bh_out = "../data/genomes/best_hits.faa"
+    extract_bh_out = "../data/genomes/best_hits_%s"%(proteome.rsplit(
+        '/')[-1])
 
     with open(bhits_out , 'r') as bhits : 
         bh_ids = [line.split('\t')[1] for line in bhits]
@@ -125,6 +126,25 @@ def extract_best_hits(proteome, bhits_out) :
     with open(extract_bh_out, 'w') as bh_proteome : 
         for header, sequence in best_hits.items() : 
             bh_proteome.write('%s\n%s\n'%(header,sequence))
+    
+    return extract_bh_out
+
+
+def bidir_best_hits(bhits_out1, bhits_out2) :
+    
+    with open(bhits_out1, 'r') as first_blast, open(
+        bhits_out2, 'r') as second_blast, open(
+            '../data/results_blast/rbh.txt', 'w') as rbh_file :
+    
+        hsps1 = [(line.split('\t')[0], line.split('\t')[1])
+                 for line in first_blast]
+        hsps2 = [(line.split('\t')[0], line.split('\t')[1])
+                 for line in second_blast]
+    
+        rbh = list(set([hsp for hsp in hsps1 if hsp[::-1] in hsps2]))
+        
+        rbh_file.writelines(['%s %s\n' % couple for couple in rbh])
+        
 
 """
 os.chdir("../data")
