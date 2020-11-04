@@ -68,7 +68,7 @@ class BlastHitter :
                 bh_proteome.write('%s\n%s\n'%(header,sequence))
     
     @staticmethod       
-    def bidir_best_hits(blastp1, blastp2, out) :
+    def bidir_best_hits(blastp1, blastp2, out, pident=30, evalue=1e-20) :
         
         with open(blastp1, 'r') as first_blast, open(
             blastp2, 'r') as second_blast, open(out, 'w') as rbh_file :
@@ -77,10 +77,10 @@ class BlastHitter :
                      for line in second_blast]
             
             rbh_file.writelines([line for line in first_blast if (
-                line.split('\t')[0], line.split('\t')[1]) in hsps])
-            
-    
-     
+                line.split('\t')[0], line.split('\t')[1]) in hsps and
+                float(line.split('\t')[2]) >= pident and 
+                float(line.split('\t')[10]) <= evalue])
+                
     
     def blast_it(self) : 
         

@@ -7,7 +7,7 @@ Created on Wed Nov  4 13:13:27 2020
 """
 
 import os 
-from first_program import BlastHitter
+from BlastHitter import BlastHitter
 
 if __name__ == "__main__" : 
     os.chdir("/home/ghassan/M1/ProjetM1S1Bioinfo/scripts")
@@ -19,4 +19,5 @@ if __name__ == "__main__" :
     h.extract_it()
     h.reblast_it()
     h.cluster_it()
+    print('Done, Bravo !')
 
