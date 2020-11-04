@@ -82,11 +82,10 @@ class BlastHitter :
                 line.split('\t')[0], line.split('\t')[1]) in bidir_bh])
             
     @staticmethod
-    def best_hits_extractor(blastp_file, proteome, out, evalue=1e-20):
+    def best_hits_extractor(blastp_file, proteome, out):
    
         with open(blastp_file, 'r') as bfile :
-            bh_ids = [line.split('\t')[1] for line in bfile if float(
-                line.split('\t')[10]) <= evalue]
+            bh_ids = [line.split('\t')[1] for line in bfile]
         
         best_hits = {h:seq for h, seq in BlastHitter.parse_fasta(
             proteome).items() if h[1:15] in bh_ids}

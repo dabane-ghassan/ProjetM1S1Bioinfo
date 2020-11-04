@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Nov  4 13:13:27 2020
-
-@author: ghassan
-"""
 
 import os 
 from blast_hitter import BlastHitter
