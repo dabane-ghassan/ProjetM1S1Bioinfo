@@ -43,4 +43,3 @@ bhits2 = best_hits(output2)
 # Récupération des best hits bidirectionnels
 bidir_best_hits(bhits1, bhits2)
         
-
