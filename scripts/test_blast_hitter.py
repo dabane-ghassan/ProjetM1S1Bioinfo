@@ -7,7 +7,7 @@ Created on Wed Nov  4 13:13:27 2020
 """
 
 import os 
-from BlastHitter import BlastHitter
+from blast_hitter import BlastHitter
 
 if __name__ == "__main__" : 
     os.chdir("/home/ghassan/M1/ProjetM1S1Bioinfo/scripts")
@@ -15,9 +15,11 @@ if __name__ == "__main__" :
     proteome2 = "../data/genomes/Aliivibrio_salmonicida_LFI1238_strain=LFI_protein.faa" 
 
     h = BlastHitter(proteome1, proteome2)
-    h.blast_it()
-    h.extract_it()
-    h.reblast_it()
-    h.cluster_it()
+    h.blast_them()
+    h.cluster_them()
     print('Done, Bravo !')
 
+ 
+
+            
+            

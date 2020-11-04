@@ -54,6 +54,34 @@ class BlastHitter :
             typ, query, subject, outfmt, out)
     
     @staticmethod
+    def best_hits_from_blast(blastp_file) : 
+        
+        besthits_dict = {}
+
+        with open(blastp_file, 'r') as bp: 
+            for line in bp : 
+                query = line.split('\t')[0]
+                if query not in besthits_dict.keys() : 
+                    besthits_dict[query] = line.split('\t')[1]
+        return besthits_dict
+    
+    
+    @staticmethod       
+    def bidir_best_hits(blastp1, blastp2, out) :
+        
+        bh_dict1, bh_dict2 = BlastHitter.best_hits_from_blast(
+            blastp1), BlastHitter.best_hits_from_blast(blastp2)
+        
+        bidir_bh = list(set([(s, q) for q, s in bh_dict2.items()]) & set(
+            [(s, q) for s, q in bh_dict1.items()]))
+
+        
+        with open(blastp1, 'r') as bf, open(out, 'w') as rbh_file :
+                 
+            rbh_file.writelines([line for line in bf if (
+                line.split('\t')[0], line.split('\t')[1]) in bidir_bh])
+            
+    @staticmethod
     def best_hits_extractor(blastp_file, proteome, out, evalue=1e-20):
    
         with open(blastp_file, 'r') as bfile :
@@ -66,52 +94,31 @@ class BlastHitter :
         with open(out, 'w') as bh_proteome : 
             for header, sequence in best_hits.items() : 
                 bh_proteome.write('%s\n%s\n'%(header,sequence))
-    
-    @staticmethod       
-    def bidir_best_hits(blastp1, blastp2, out, pident=30, evalue=1e-20) :
-        
-        with open(blastp1, 'r') as first_blast, open(
-            blastp2, 'r') as second_blast, open(out, 'w') as rbh_file :
-        
-            hsps = [(line.split('\t')[1], line.split('\t')[0])
-                     for line in second_blast]
-            
-            rbh_file.writelines([line for line in first_blast if (
-                line.split('\t')[0], line.split('\t')[1]) in hsps and
-                float(line.split('\t')[2]) >= pident and 
-                float(line.split('\t')[10]) <= evalue])
                 
     
-    def blast_it(self) : 
+    def blast_them(self) : 
         
-        out_path = "%s/%s_vs_%s.blastp" % (self.results_dir, self.query_name,
-                                     self.subject_name)
+        out_firstblast = "%s/%s_vs_%s.blastp" % (
+            self.results_dir, self.query_name, self.subject_name)
+        
         first_blastcmd = BlastHitter.universal_blast(
-            self.query_path, self.subject_path, out_path)
-        os.system(first_blastcmd)
-        self.first_blastp = out_path
-        return out_path
-    
-    def extract_it(self) : 
+            self.query_path, self.subject_path, out_firstblast)
         
-        out_path = "%s/best_hits_%s.faa" % (self.genomes_dir,
-                                            self.subject_name)
-        BlastHitter.best_hits_extractor(
-            self.first_blastp, self.subject_path, out_path)
-        self.subject_best_hits = out_path
-        return out_path
-    
-    def reblast_it(self) : 
-        
-        out_path = "%s/%s_vs_%s.blastp" % (self.results_dir, self.subject_name,
-                                           self.query_name)
+        out_secondblast = "%s/%s_vs_%s.blastp" % (
+            self.results_dir, self.subject_name, self.query_name)
+               
         second_blastcmd = BlastHitter.universal_blast(
-            self.subject_best_hits, self.query_path, out_path)
-        os.system(second_blastcmd)
-        self.second_blastp = out_path
-        return out_path
+            self.subject_path, self.query_path, out_secondblast)
+        
+        os.system("%s && %s" % (first_blastcmd, second_blastcmd))
+        
+        self.first_blastp = out_firstblast
+        self.second_blastp = out_secondblast        
+
+        return self.first_blastp, self.second_blastp
     
-    def cluster_it(self) : 
+    
+    def cluster_them(self) : 
          
         out_path = "%s/RBH_%s_%s.blastp" %(self.results_dir, self.query_name,
                                            self.subject_name)
