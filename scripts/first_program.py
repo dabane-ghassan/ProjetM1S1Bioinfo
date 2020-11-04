@@ -132,15 +132,16 @@ def extract_best_hits(proteome, bhits_out) :
 
 def bidir_best_hits(bhits_out1, bhits_out2) :
     
+    
     with open(bhits_out1, 'r') as first_blast, open(
         bhits_out2, 'r') as second_blast, open(
             '../data/results_blast/rbh.txt', 'w') as rbh_file :
     
-        hsps1 = [(line.split('\t')[0], line.split('\t')[1])
-                 for line in first_blast]
-        hsps2 = [(line.split('\t')[0], line.split('\t')[1])
+        hsps = [(line.split('\t')[1], line.split('\t')[0])
                  for line in second_blast]
-    
-        rbh = list(set([hsp for hsp in hsps1 if hsp[::-1] in hsps2]))
         
+<<<<<<< HEAD
         rbh_file.writelines(['%s %s\n' % couple for couple in rbh])
+=======
+        rbh_file.writelines([line for line in first_blast if (
+            line.split('\t')[0], line.split('\t')[1]) in hsps])
