@@ -139,9 +139,8 @@ def bidir_best_hits(bhits_out1, bhits_out2) :
     
         hsps = [(line.split('\t')[1], line.split('\t')[0])
                  for line in second_blast]
-        
-<<<<<<< HEAD
+
         rbh_file.writelines(['%s %s\n' % couple for couple in rbh])
-=======
+
         rbh_file.writelines([line for line in first_blast if (
             line.split('\t')[0], line.split('\t')[1]) in hsps])
