@@ -18,7 +18,11 @@ class window(Tk) :
         menuProteomes_in_disk.add_command(label="view and/or select proteomes", command=self.proteomes_in_disk)
         menuBar.add_cascade(label="Proteomes in disk", menu=menuProteomes_in_disk)
 
-        self.config(menu = menuBar)
+        menuExit = Menu(menuBar, tearoff=0)
+        menuExit.add_command(label="Exit", command=self.quit)
+        menuBar.add_cascade(label="Exit", menu=menuExit)
+
+        self.config(menu = menuBar) 
 
     def proteomes_in_disk(self) :
         p_presents = Listbox(window ,selectmode=MULTIPLE, width=80, bg='white', selectbackground='pink')
@@ -28,6 +32,8 @@ class window(Tk) :
         for p in list_proteomes :
             p_presents.insert(i, p)
             i+=1
+
+
 
 window = window()
 window.mainloop()
