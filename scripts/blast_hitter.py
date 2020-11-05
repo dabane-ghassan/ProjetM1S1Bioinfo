@@ -117,7 +117,7 @@ class BlastHitter :
         return self.first_blastp, self.second_blastp
     
     
-    def cluster_them(self) : 
+    def rbh_them(self) : 
          
         out_path = "%s/RBH_%s_%s.blastp" %(self.results_dir, self.query_name,
                                            self.subject_name)
