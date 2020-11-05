@@ -16,7 +16,7 @@ window = Tk()
 
 # Main interface :
     # Affichage des protéomes présents dans le disque avec systeme de sélection
-p_presents = Listbox(window ,selectmode=MULTIPLE, width=80, bg='white', highlightcolor='grey')
+p_presents = Listbox(window ,selectmode=MULTIPLE, width=80, bg='white', highlightcolor='grey', selectbackground='pink', relief=RAISED)
 proteome_in_disk()
 p_presents.pack()
 
