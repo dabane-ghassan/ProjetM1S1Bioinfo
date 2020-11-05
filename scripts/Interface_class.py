@@ -25,7 +25,7 @@ class window(Tk) :
         self.config(menu = menuBar) 
 
     def proteomes_in_disk(self) :
-        reset()
+        self.reset
         p_presents = Listbox(window ,selectmode=MULTIPLE, width=80, bg='white', selectbackground='pink')
         list_proteomes = os.listdir("../data/genomes/")
         i=0
