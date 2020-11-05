@@ -14,15 +14,14 @@ import os
 
 window = Tk()
 
-# Main interface :
-    # Affichage des protéomes présents dans le disque avec systeme de sélection
-p_presents = Listbox(window ,selectmode=MULTIPLE, width=80, bg='white', highlightcolor='grey', selectbackground='pink', relief=RAISED)
+# Main interface : Affichage des protéomes présents dans le disque avec systeme de sélection
+p_presents = Listbox(window ,selectmode=MULTIPLE, width=80, bg='white', selectbackground='pink')
 proteome_in_disk()
 p_presents.pack()
 
 prot_select = p_presents.curselection()
 
-# En bas de l'interface :
+# En haut de l'interface : Menu
     # Bouton pour aller sélectionner des protéomes à télécharger
 B_Download = Button(text="Download proteome")
 B_Download.pack(side= LEFT, padx=15)
