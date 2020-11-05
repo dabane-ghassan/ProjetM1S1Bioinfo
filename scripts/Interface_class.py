@@ -25,14 +25,18 @@ class window(Tk) :
         self.config(menu = menuBar) 
 
     def proteomes_in_disk(self) :
+        reset()
         p_presents = Listbox(window ,selectmode=MULTIPLE, width=80, bg='white', selectbackground='pink')
-        window.delete(ALL)
         list_proteomes = os.listdir("../data/genomes/")
         i=0
         for p in list_proteomes :
             p_presents.insert(i, p)
             i+=1
         p_presents.pack()
+    
+    def reset(self) :
+        for widget in self.winfo_children() :
+            widget.destroy()
 
 
 
