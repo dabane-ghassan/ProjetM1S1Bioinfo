@@ -82,7 +82,7 @@ class BlastHitter :
                 line.split('\t')[0], line.split('\t')[1]) in bidir_bh])
             
     @staticmethod
-    def best_hits_extractor(blastp_file, proteome, out):
+    def rbh_from_genome(blastp_file, proteome, out):
    
         with open(blastp_file, 'r') as bfile :
             bh_ids = [line.split('\t')[1] for line in bfile]
@@ -117,7 +117,7 @@ class BlastHitter :
         return self.first_blastp, self.second_blastp
     
     
-    def cluster_them(self) : 
+    def rbh_them(self) : 
          
         out_path = "%s/RBH_%s_%s.blastp" %(self.results_dir, self.query_name,
                                            self.subject_name)
