@@ -26,7 +26,7 @@ class window(Tk) :
 
     def proteomes_in_disk(self) :
         p_presents = Listbox(window ,selectmode=MULTIPLE, width=80, bg='white', selectbackground='pink')
-        p_presents.delete(0,END)
+        window.delete(ALL)
         list_proteomes = os.listdir("../data/genomes/")
         i=0
         for p in list_proteomes :
