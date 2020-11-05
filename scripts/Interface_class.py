@@ -39,6 +39,6 @@ class window(Tk) :
             widget.destroy()
 
 
-
-window = window()
-window.mainloop()
+if __name__ == '__main__':
+    app = window()
+    app.mainloop()
