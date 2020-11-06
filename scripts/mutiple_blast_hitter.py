@@ -3,6 +3,7 @@
 
 from blast_hitter import BlastHitter
 from itertools import combinations
+from collections import defaultdict
 
 
 proteomes = ["../data/genomes/Rickettsia_rickettsii_str._Arizona_strain=Arizona_protein.faa",            
@@ -57,24 +58,34 @@ def all_pairs_rbh(files) :
         total.extend(pair_rbh(rbh_file))
     return total
     
-def clustering(rbh_files, out) : 
+def clustering(rbh_files) : 
        
-    clusters = dict()
-    
+    cluster_algo = dict()   
     rbhits= all_pairs_rbh(rbh_files)
     for rbhit in rbhits :
-        if rbhit[0] not in clusters.keys() : 
-            clusters[rbhit[0]] = [rbhit[1]]
-        elif rbhit[1] not in clusters[rbhit[0]]: 
-            clusters[rbhit[0]].append(rbhit[1]) 
+        if rbhit[0] not in cluster_algo.keys() : 
+            cluster_algo[rbhit[0]] = [rbhit[1]]
+        elif rbhit[1] not in cluster_algo[rbhit[0]]: 
+            cluster_algo[rbhit[0]].append(rbhit[1]) 
         else : 
             pass
+        
+    all_clusters = [(k, *v) for k,v in cluster_algo.items()]
+    all_cluster_ids = [cid for cid in range(1, len(all_clusters) + 1)]
+    
+    return {cid : cluster for cid, cluster in zip(
+        all_cluster_ids, all_clusters)}
+        
+    
 
+def clusters_to_txt(cluster_dict, out) : 
+    
     with open(out , 'w') as cluster_file :       
-        for k,v in clusters.items() :             
+        for k,v in cluster_dict.items() :             
             v.append(k)           
             cluster_file.write('\t'.join(map(str,v))+'\n')
+
             
-clustering(rbh, '../data/results_blast/clusters.txt')
+clustering(rbh)
 
 
