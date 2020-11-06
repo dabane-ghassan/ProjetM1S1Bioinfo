@@ -5,7 +5,6 @@ from blast_hitter import BlastHitter
 from clusterizer import Clusterizer
 
 
-
 proteomes = ["../data/genomes/Rickettsia_rickettsii_str._Arizona_strain=Arizona_protein.faa",            
 "../data/genomes/Streptococcus_pneumoniae_R6_strain=R6_protein.faa",
 "../data/genomes/Streptococcus_pyogenes_strain=NCTC8232_protein.faa",
