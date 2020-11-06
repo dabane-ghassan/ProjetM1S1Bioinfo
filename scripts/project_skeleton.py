@@ -23,6 +23,7 @@ bhs = BlastHitter.from_list(proteomes)
 
 print(bhs[0])
 
+BlastHitter.parse_fasta(proteomes[0])
 
 # pas relancer ce code pcq ça va tout recalculer
 """

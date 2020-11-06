@@ -1,14 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Nov  6 11:17:25 2020
-
-@author: ghassan
-"""
-
 from blast_hitter import BlastHitter
 
-class Clusterizer(BlastHitter) : 
+class Clusterizer(BlastHitter): 
     
     @staticmethod
     def pair_rbh(file): 

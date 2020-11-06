@@ -82,17 +82,17 @@ class BlastHitter:
         Returns
         -------
         seqdic : dict             
-            dictionary with fasta headers as keys and the corresponding fasta 
-            sequences as values.
+            dictionary with protein accessions as keys and the corresponding
+            fasta sequences as values.
         """
 
-        list_seqs = open(proteome, 'r').read().split('>')[1:]  # split the file
+        list_seqs = open(proteome, 'r').read().split('>')[1:] # split the file
         seqdic = {}
 
         for seq in list_seqs:
             seq = seq.strip().split(
                 '\n')  # strip each sequence from spaces then split it
-            seqdic['>' + seq[0]] = ''.join(seq[1:])
+            seqdic[seq[0][0:14]] = ''.join(seq[1:])
         return seqdic
 
     @staticmethod
@@ -279,7 +279,7 @@ class BlastHitter:
         """This class method instantiates BlastHitter objects from a list of
         proteomes/genomes.
         
-
+        
         Parameters
         ----------
         prots_list : list
