@@ -11,7 +11,7 @@ if __name__ == "__main__" :
 
     h = BlastHitter(proteome1, proteome2)
     h.blast_them()
-    h.cluster_them()
+    h.rbh_them()
     print('Done, Bravo !')
 
  
