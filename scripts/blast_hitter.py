@@ -92,7 +92,7 @@ class BlastHitter:
         for seq in list_seqs:
             seq = seq.strip().split(
                 '\n')  # strip each sequence from spaces then split it
-            seqdic[seq[0][0:14]] = ''.join(seq[1:])
+            seqdic['>' + seq[0]] = ''.join(seq[1:])
         return seqdic
 
     @staticmethod
@@ -219,6 +219,26 @@ class BlastHitter:
                 line for line in bf
                 if (line.split('\t')[0], line.split('\t')[1]) in bidir_bh
             ])
+    
+    @classmethod
+    def from_list(cls, prots_list):
+        """This class method instantiates BlastHitter objects from a list of
+        proteomes/genomes.
+        
+        
+        Parameters
+        ----------
+        prots_list : list
+            a list of genomes/proteoms file paths.
+
+        Returns
+        -------
+        list
+            a list of BlastHitter objects.
+
+        """
+        return [cls(couple[0], couple[1]) for couple in list(
+            combinations(prots_list, 2))]
 
     def blast_them(self):
         """This method launches two BLASTs, our two genomes against each other.
@@ -274,25 +294,7 @@ class BlastHitter:
         self.rbh = out_path
         return self.rbh
     
-    @classmethod
-    def from_list(cls, prots_list):
-        """This class method instantiates BlastHitter objects from a list of
-        proteomes/genomes.
-        
-        
-        Parameters
-        ----------
-        prots_list : list
-            a list of genomes/proteoms file paths.
 
-        Returns
-        -------
-        list
-            a list of BlastHitter objects.
-
-        """
-        return [cls(couple[0], couple[1]) for couple in list(
-            combinations(prots_list, 2))]
     
     
     

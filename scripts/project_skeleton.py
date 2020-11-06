@@ -26,7 +26,6 @@ BlastHitter.seqkit_stats(proteomes[1])
 BlastHitter.seqkit_stats(proteomes[2])
 BlastHitter.seqkit_stats(proteomes[3])
 BlastHitter.seqkit_stats(proteomes[4])
-print(bhs[0])
 
 BlastHitter.parse_fasta(proteomes[0])
 
@@ -46,8 +45,12 @@ rbh = ["../data/results_blast/RBH_Rickettsia_rickettsii_str._Arizona_strain=Ariz
        ]
 
 
+
 hi = Clusterizer.clustering(rbh)
-hi
+for node in hi[1] :   
+    for k in Clusterizer.parse_fasta(proteomes[2]).keys() : 
+        if node in k : 
+            print(k)
 
 
 
