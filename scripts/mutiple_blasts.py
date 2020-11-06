@@ -56,7 +56,7 @@ rbh = ["../data/results_blast/RBH_Rickettsia_rickettsii_str._Arizona_strain=Ariz
 
 
 hi = Clusterer.clustering(rbh)
-
+len(hi)
 
 
 

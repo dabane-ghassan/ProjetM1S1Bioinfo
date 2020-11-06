@@ -15,21 +15,50 @@ class Clusterer(BlastHitter) :
         self.proteomes = list(combinations(proteomes, 2))
     
     @staticmethod
-    def pair_rbh(file) : 
+    def pair_rbh(file): 
+        """This function parses the reciprocal best hits file and returns a 
+        list of all rbh couples. it extracts the first and the second columns.
+        
+        Parameters
+        ----------
+        file : str
+            The RBH file_path.
+
+        Returns
+        -------
+        list
+            a list of tuples of all RBH couples.
+
+        """
     
         with open(file, 'r') as f : 
             return [(line.split('\t')[0], line.split('\t')[1]) for line in f]
     
     @staticmethod
-    def all_pairs_rbh(files) : 
+    def all_pairs_rbh(files): 
+        """This function take multiple RBH files and returns a long list of
+        all RBH couples that are present in those FILES, it calls the previous
+        class static method.
+        
+        Parameters
+        ----------
+        files : list
+            a list of all RBH file paths to be analyzed.
+
+        Returns
+        -------
+        total : list
+            a list of tuples of all RBH couples in all specified files.
+
+        """
         
         total = list()
         for rbh_file in files : 
             total.extend(Clusterer.pair_rbh(rbh_file))
         return total
     
-    @staticmethod    
-    def clustering(rbh_files) : 
+    @staticmethod 
+    def clustering(rbh_files): 
            
         cluster_algo = dict()   
         rbhits= Clusterer.all_pairs_rbh(rbh_files)
@@ -49,7 +78,7 @@ class Clusterer(BlastHitter) :
             
         
     @staticmethod
-    def clusters_to_txt(cluster_dict, out) : 
+    def clusters_to_txt(cluster_dict, out): 
         
         with open(out , 'w') as cluster_file :       
             for cluster in cluster_dict.values() :                      
@@ -57,7 +86,7 @@ class Clusterer(BlastHitter) :
                 
                 
     @staticmethod
-    def rbh_from_genome(blastp_file, proteome, out) :
+    def rbh_from_genome(blastp_file, proteome, out):
    
         with open(blastp_file, 'r') as bfile :
             bh_ids = [line.split('\t')[1] for line in bfile]
