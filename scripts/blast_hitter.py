@@ -3,8 +3,8 @@
 
 import os
 
-class BlastHitter :
-    
+
+class BlastHitter:
     """This is a class for BLASTing two genomes against each other and
     for deducing reciprocal best hits that are common between the two 
     blastp results files.
@@ -30,9 +30,7 @@ class BlastHitter :
     rbh : str
         the path of the reciprocal best hits file (.blastp tabulated format).
     """
-    
-    def __init__(self, query, subject) : 
-        
+    def __init__(self, query, subject):
         """The Class constructor, only specifying the query and subject
         path on the disk is sufficient for deducing other object attributes.
         
@@ -47,19 +45,19 @@ class BlastHitter :
         -------
         Class object.
         """
-        
+
         self.query_path = query
         self.query_name = query.rsplit(
-            '/')[-1][0: query.rsplit('/')[-1].find('_protein.faa')]
+            '/')[-1][0:query.rsplit('/')[-1].find('_protein.faa')]
 
         self.subject_path = subject
-        self.subject_name = subject.rsplit( 
-            '/')[-1][0: subject.rsplit('/')[-1].find('_protein.faa')]
-        
+        self.subject_name = subject.rsplit(
+            '/')[-1][0:subject.rsplit('/')[-1].find('_protein.faa')]
+
         self.results_dir = "../data/results_blast"
         self.genomes_dir = "../data/genomes"
-    
-    def __str__(self) :
+
+    def __str__(self):
         """A Method for printing the object inside python's print function.
         
         Returns
@@ -68,11 +66,12 @@ class BlastHitter :
             a message representing the two genomes that the object is working 
             on.
         """
-        return "Hello There ! I'm a BlastHitter Object ! My goal is to find the reciprocal best hits between %s and %s" % (
+        return "Hello There ! I'm a BlastHitter Object ! " + \
+            "My goal is to find the reciprocal best hits between %s and %s" % (
             self.query_name, self.subject_name)
-    
+
     @staticmethod
-    def parse_fasta(proteome) :
+    def parse_fasta(proteome):
         """This function parses a genome/proteome a file.
 
         Parameters
@@ -86,18 +85,18 @@ class BlastHitter :
             dictionary with fasta headers as keys and the corresponding fasta 
             sequences as values.
         """
-    
+
         list_seqs = open(proteome, 'r').read().split('>')[1:]  # split the file
         seqdic = {}
-    
+
         for seq in list_seqs:
             seq = seq.strip().split(
                 '\n')  # strip each sequence from spaces then split it
             seqdic['>' + seq[0]] = ''.join(seq[1:])
         return seqdic
-    
+
     @staticmethod
-    def seqkit_stats(proteome) :
+    def seqkit_stats(proteome):
         """This function prints important information about the proteome
         that will be analyzed. It parses the genome first then prints the 
         number of sequences, cumulated length, minimum, average and maximum 
@@ -114,18 +113,18 @@ class BlastHitter :
 
         """
 
-        seqdic = BlastHitter.parse_fasta(proteome) 
+        seqdic = BlastHitter.parse_fasta(proteome)
         length_seq = [len(seq) for seq in seqdic.values()
                       ]  # to facilitate calculating min, max, sum and average
-    
+
         print(
             " name : %s \n num_seq : %s \n sum_len : %s \n min_len : %s \n avg_len : %s \n max_len : %s"
             % (proteome.rsplit('/')[-1], len(
                 seqdic.keys()), sum(length_seq), min(length_seq),
                sum(length_seq) / len(seqdic.keys()), max(length_seq)))
-    
+
     @staticmethod
-    def universal_blast(query, subject, out, outfmt=6, typ="p") :
+    def universal_blast(query, subject, out, outfmt=6, typ="p"):
         """Returns the blast command to be executed in the terminal.    
 
         Parameters
@@ -145,12 +144,12 @@ class BlastHitter :
         -------
         str
         """
-      
+
         return "blast%s -query %s -subject %s -outfmt %s > %s" % (
             typ, query, subject, outfmt, out)
-    
+
     @staticmethod
-    def best_hits_from_blast(blastp_file) : 
+    def best_hits_from_blast(blastp_file):
         """Returns the best hit for every protein based on the blast output
         file. The algorithm is simple, take the first appearance of the 
         protein as the best hit because BLAST sends back the best hits in
@@ -169,19 +168,18 @@ class BlastHitter :
             with our query as a key, and the corresponding best hit as a value.
 
         """
-        
+
         besthits_dict = {}
 
-        with open(blastp_file, 'r') as bp: 
-            for line in bp : 
+        with open(blastp_file, 'r') as bp:
+            for line in bp:
                 query = line.split('\t')[0]
-                if query not in besthits_dict.keys() : 
+                if query not in besthits_dict.keys():
                     besthits_dict[query] = line.split('\t')[1]
         return besthits_dict
-    
-    
-    @staticmethod       
-    def bidir_best_hits(blastp1, blastp2, out) :
+
+    @staticmethod
+    def bidir_best_hits(blastp1, blastp2, out):
         """This function determines the reciprocal best hits between two blast
         files, it calls the class's best_hits_from_blast static method to 
         determine the best hits for every blast file, creates two sets of 
@@ -207,21 +205,22 @@ class BlastHitter :
         calculating the reciprocal best hits.
 
         """
-        
+
         bh_dict1, bh_dict2 = BlastHitter.best_hits_from_blast(
             blastp1), BlastHitter.best_hits_from_blast(blastp2)
-        
-        bidir_bh = list(set([(s, q) for q, s in bh_dict2.items()]) & set(
-            [(q, s) for q, s in bh_dict1.items()]))
 
-        
-        with open(blastp1, 'r') as bf, open(out, 'w') as rbh_file :
-                 
-            rbh_file.writelines([line for line in bf if (
-                line.split('\t')[0], line.split('\t')[1]) in bidir_bh])
-                           
-    
-    def blast_them(self) : 
+        bidir_bh = list(
+            set([(s, q) for q, s in bh_dict2.items()])
+            & set([(q, s) for q, s in bh_dict1.items()]))
+
+        with open(blastp1, 'r') as bf, open(out, 'w') as rbh_file:
+
+            rbh_file.writelines([
+                line for line in bf
+                if (line.split('\t')[0], line.split('\t')[1]) in bidir_bh
+            ])
+
+    def blast_them(self):
         """This method launches two BLASTs, our two genomes against each other.
         it uses the class's static methods defind earlier.
         
@@ -233,28 +232,29 @@ class BlastHitter :
             The second blast output file path.
 
         """
-        
+
         out_firstblast = "%s/%s_vs_%s.blastp" % (
             self.results_dir, self.query_name, self.subject_name)
-        
-        first_blastcmd = BlastHitter.universal_blast(
-            self.query_path, self.subject_path, out_firstblast)
-        
+
+        first_blastcmd = BlastHitter.universal_blast(self.query_path,
+                                                     self.subject_path,
+                                                     out_firstblast)
+
         out_secondblast = "%s/%s_vs_%s.blastp" % (
             self.results_dir, self.subject_name, self.query_name)
-               
-        second_blastcmd = BlastHitter.universal_blast(
-            self.subject_path, self.query_path, out_secondblast)
-        
+
+        second_blastcmd = BlastHitter.universal_blast(self.subject_path,
+                                                      self.query_path,
+                                                      out_secondblast)
+
         os.system("%s && %s" % (first_blastcmd, second_blastcmd))
-        
+
         self.first_blastp = out_firstblast
-        self.second_blastp = out_secondblast        
+        self.second_blastp = out_secondblast
 
         return self.first_blastp, self.second_blastp
-    
-    
-    def rbh_them(self) : 
+
+    def rbh_them(self):
         """ This method calculates the reciprocal best hits between our two 
         genomes after BLASTing them, it creates the RBH file.
         
@@ -264,17 +264,12 @@ class BlastHitter :
             The RBH output file path.
 
         """
-        
-        out_path = "%s/RBH_%s_%s.blastp" %(self.results_dir, self.query_name,
-                                           self.subject_name)
-        
-        BlastHitter.bidir_best_hits(
-            self.first_blastp, self.second_blastp, out_path)
-        
+
+        out_path = "%s/RBH_%s_%s.blastp" % (self.results_dir, self.query_name,
+                                            self.subject_name)
+
+        BlastHitter.bidir_best_hits(self.first_blastp, self.second_blastp,
+                                    out_path)
+
         self.rbh = out_path
         return self.rbh
-        
-    
-    
-
-

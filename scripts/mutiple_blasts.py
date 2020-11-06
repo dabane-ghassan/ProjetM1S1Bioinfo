@@ -17,6 +17,8 @@ prots = list(combinations(proteomes, 2))
 
 prots
 
+
+# stats de protéomes
 BlastHitter.seqkit_stats(proteomes[0])
 BlastHitter.seqkit_stats(proteomes[1])
 BlastHitter.seqkit_stats(proteomes[2])
@@ -25,6 +27,8 @@ BlastHitter.seqkit_stats(proteomes[4])
 
 
 blast_hitters = [BlastHitter(couple[0], couple[1]) for couple in prots]
+
+print(blast_hitters[7])
 
 # pas relancer ce code
 """
@@ -51,7 +55,7 @@ rbh = ["../data/results_blast/RBH_Rickettsia_rickettsii_str._Arizona_strain=Ariz
 
 
 
-clustering(rbh)
+hi = Clusterer.clustering(rbh)
 
 
 
