@@ -15,9 +15,9 @@ class window(Tk) :
     def createMenuBar(self):
         menuBar = Menu(self)
         
-        menuProteomes_in_disk = Menu(menuBar, tearoff=0)
-        menuProteomes_in_disk.add_command(label="view and/or select proteomes", font=("courier", 15),command=self.proteomes_in_disk)
-        menuBar.add_cascade(label="Proteomes in disk", font=("courier", 15), menu=menuProteomes_in_disk)
+        menuBLAST = Menu(menuBar, tearoff=0)
+        menuBLAST.add_command(label="BLAST", font=("courier", 15),command=self.proteomes_in_disk)
+        menuBar.add_cascade(label="BLAST", font=("courier", 15), menu=menuBLAST)
 
         menuDownload = Menu(menuBar, tearoff=0)
         menuDownload.add_command(label="Download proteome", font=("courier", 15))
