@@ -2,7 +2,10 @@
 # -*- coding: utf-8 -*-
 
 from tkinter import *
+import tkinter.messagebox
 import os
+from blast_hitter import BlastHitter
+from clusterizer import Clusterizer
 
 class window(Tk) :
 
@@ -22,6 +25,10 @@ class window(Tk) :
         menuDownload = Menu(menuBar, tearoff=0)
         menuDownload.add_command(label="Download proteome", font=("courier", 15))
         menuBar.add_cascade(label="Download", font=("courier", 15), menu=menuDownload)
+
+        menuHelp = Menu(menuBar, tearoff=0)
+        menuHelp.add_command(label="Help", font=("courier", 15))
+        menuBar.add_cascade(label="Help", font=("courier", 15), menu=menuHelp)
 
         menuExit = Menu(menuBar, tearoff=0)
         menuExit.add_command(label="Exit", font=("courier", 15), command=self.quit)
@@ -45,11 +52,23 @@ class window(Tk) :
             i+=1
         p_presents.pack()
         
-        B_validate = Button(self, text="Validate selection", height=2, width=20, font=("courier", 15))
+        B_validate = Button(self, text="Validate selection", height=2, width=20, font=("courier", 15), command=lambda: self.validate_proteome_selection(p_presents))
         B_validate.pack()
 
-    def validate_proteome_selection(self) :
+    def validate_proteome_selection(self,p_presents) :
         prot_select = p_presents.curselection()
+        if len(prot_select) < 2 :
+            tkinter.messagebox.showinfo(title=None, message="Please, select two or more proteomes")
+        else:
+            tkinter.messagebox.showinfo(title="loading", message="Please, wait to job finish. Do not exit the application.")
+            proteomes=[]
+            for p in prot_select:
+                proteomes.append("../data/genomes/"+p_presents.get(p))
+            for bh in BlastHitter.from_list(proteomes) : 
+                bh.blast_them()
+                bh.rbh_them()
+            more = tkinter.messagebox.askyesno(title="BLAST", message="The BLAST is finish. Do you want to see more ?")
+
 
 if __name__ == '__main__':
     app = window()

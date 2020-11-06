@@ -54,7 +54,7 @@ class BlastHitter:
         self.subject_name = subject.rsplit(
             '/')[-1][0:subject.rsplit('/')[-1].find('_protein.faa')]
 
-        self.results_dir = "../data/results_blast"
+        self.results_dir = "../data/results_blast_demoGUI"
         self.genomes_dir = "../data/genomes"
 
     def __str__(self):
