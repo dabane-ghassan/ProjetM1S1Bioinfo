@@ -12,25 +12,25 @@ proteomes = ["../data/genomes/Rickettsia_rickettsii_str._Arizona_strain=Arizona_
 "../data/genomes/Streptococcus_thermophilus_LMD-9_strain=LMD-9_protein.faa",
 "../data/genomes/Piscirickettsia_salmonis_strain=Psal-158_protein.faa"]
 
+# pas relancer ce code pcq ça va tout recalculer
+"""
+for bh in BlastHitter.from_list(proteomes) : 
+    bh.blast_them()
+    bh.rbh_them()
+"""
+
+
 # stats de protéomes
 BlastHitter.seqkit_stats(proteomes[0])
 BlastHitter.seqkit_stats(proteomes[1])
 BlastHitter.seqkit_stats(proteomes[2])
 BlastHitter.seqkit_stats(proteomes[3])
 BlastHitter.seqkit_stats(proteomes[4])
-
-bhs = BlastHitter.from_list(proteomes)
-
 print(bhs[0])
 
 BlastHitter.parse_fasta(proteomes[0])
 
-# pas relancer ce code pcq ça va tout recalculer
-"""
-for bh in blast_hitters : 
-    bh.blast_them()
-    bh.rbh_them()
-"""
+
 #####################   
     
 rbh = ["../data/results_blast/RBH_Rickettsia_rickettsii_str._Arizona_strain=Arizona_Piscirickettsia_salmonis_strain=Psal-158.blastp",
