@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from blast_hitter import BlastHitter
-from itertools import combinations
-from clusterer import Clusterizer
+from clusterizer import Clusterizer
 
 
 
@@ -13,12 +12,6 @@ proteomes = ["../data/genomes/Rickettsia_rickettsii_str._Arizona_strain=Arizona_
 "../data/genomes/Streptococcus_thermophilus_LMD-9_strain=LMD-9_protein.faa",
 "../data/genomes/Piscirickettsia_salmonis_strain=Psal-158_protein.faa"]
 
-prots = list(combinations(proteomes, 2))
-
-prots
-
-BlastHitter.parse_fasta(proteomes[1])
-
 # stats de protéomes
 BlastHitter.seqkit_stats(proteomes[0])
 BlastHitter.seqkit_stats(proteomes[1])
@@ -26,12 +19,12 @@ BlastHitter.seqkit_stats(proteomes[2])
 BlastHitter.seqkit_stats(proteomes[3])
 BlastHitter.seqkit_stats(proteomes[4])
 
+bhs = BlastHitter.from_list(proteomes)
 
-blast_hitters = [BlastHitter(couple[0], couple[1]) for couple in prots]
+print(bhs[0])
 
-print(blast_hitters[7])
 
-# pas relancer ce code
+# pas relancer ce code pcq ça va tout recalculer
 """
 for bh in blast_hitters : 
     bh.blast_them()
@@ -50,10 +43,6 @@ rbh = ["../data/results_blast/RBH_Rickettsia_rickettsii_str._Arizona_strain=Ariz
        "../data/results_blast/RBH_Streptococcus_pyogenes_strain=NCTC8232_Streptococcus_thermophilus_LMD-9_strain=LMD-9.blastp",
        "../data/results_blast/RBH_Streptococcus_thermophilus_LMD-9_strain=LMD-9_Piscirickettsia_salmonis_strain=Psal-158.blastp",         
        ]
-
-
-
-
 
 
 hi = Clusterizer.clustering(rbh)

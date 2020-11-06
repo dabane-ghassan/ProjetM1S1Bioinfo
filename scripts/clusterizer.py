@@ -7,12 +7,8 @@ Created on Fri Nov  6 11:17:25 2020
 """
 
 from blast_hitter import BlastHitter
-from itertools import combinations
 
 class Clusterizer(BlastHitter) : 
-    
-    def __init__(self, proteomes) : 
-        self.proteomes = list(combinations(proteomes, 2))
     
     @staticmethod
     def pair_rbh(file): 
@@ -54,14 +50,37 @@ class Clusterizer(BlastHitter) :
         
         total = list()
         for rbh_file in files : 
-            total.extend(Clusterer.pair_rbh(rbh_file))
+            total.extend(Clusterizer.pair_rbh(rbh_file))
         return total
     
     @staticmethod 
     def clustering(rbh_files): 
+        """The main clustering algorithm to find reciprocal best hits among
+        multiple RBH blast files. it uses the class's all_pairs_rbh static
+        method as a starting point. After getting the list of all RBH couples
+        in all RBH files, it traverses it taking the first element and 
+        appending it as key in a dictionary if it's not already present. 
+        Otherwise (i.e if the accession number is present), it appends the
+        second element to the value list in order to get all the hits in 
+        common.
+        
+        Parameters
+        ----------
+        rbh_files : list
+            A list of RBH blast file paths.
+
+        Returns
+        -------
+        dict
+            a dictionary of all clusters present among all RBH files,
+            keys are auto incremented integers which correspond to cluster IDs,
+            values are NCBI accession numbers of the proteins present in a
+            given cluster.
+
+        """
            
         cluster_algo = dict()   
-        rbhits= Clusterer.all_pairs_rbh(rbh_files)
+        rbhits= Clusterizer.all_pairs_rbh(rbh_files)
         for rbhit in rbhits :
             if rbhit[0] not in cluster_algo.keys() : 
                 cluster_algo[rbhit[0]] = [rbhit[1]]

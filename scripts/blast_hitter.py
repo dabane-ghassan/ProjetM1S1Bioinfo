@@ -2,7 +2,7 @@
 #-*-coding: UTF-8-*-
 
 import os
-
+from itertools import combinations
 
 class BlastHitter:
     """This is a class for BLASTing two genomes against each other and
@@ -273,3 +273,30 @@ class BlastHitter:
 
         self.rbh = out_path
         return self.rbh
+    
+    @classmethod
+    def from_list(cls, prots_list):
+        """This class method instantiates BlastHitter objects from a list of
+        proteomes/genomes.
+        
+
+        Parameters
+        ----------
+        prots_list : list
+            a list of genomes/proteoms file paths.
+
+        Returns
+        -------
+        list
+            a list of BlastHitter objects.
+
+        """
+        return [cls(couple[0], couple[1]) for couple in list(
+            combinations(prots_list, 2))]
+    
+    
+    
+    
+    
+    
+    
