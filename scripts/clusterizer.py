@@ -9,7 +9,7 @@ Created on Fri Nov  6 11:17:25 2020
 from blast_hitter import BlastHitter
 from itertools import combinations
 
-class Clusterer(BlastHitter) : 
+class Clusterizer(BlastHitter) : 
     
     def __init__(self, proteomes) : 
         self.proteomes = list(combinations(proteomes, 2))

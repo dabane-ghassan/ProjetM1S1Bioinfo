@@ -3,7 +3,7 @@
 
 from blast_hitter import BlastHitter
 from itertools import combinations
-from clusterer import Clusterer
+from clusterer import Clusterizer
 
 
 
@@ -17,6 +17,7 @@ prots = list(combinations(proteomes, 2))
 
 prots
 
+BlastHitter.parse_fasta(proteomes[1])
 
 # stats de protéomes
 BlastHitter.seqkit_stats(proteomes[0])
@@ -55,8 +56,8 @@ rbh = ["../data/results_blast/RBH_Rickettsia_rickettsii_str._Arizona_strain=Ariz
 
 
 
-hi = Clusterer.clustering(rbh)
-len(hi)
+hi = Clusterizer.clustering(rbh)
+hi
 
 
 
