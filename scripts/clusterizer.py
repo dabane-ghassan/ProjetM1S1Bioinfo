@@ -2,7 +2,11 @@
 # -*- coding: utf-8 -*-
 from blast_hitter import BlastHitter
 
-class Clusterizer(BlastHitter): 
+class Clusterizer: 
+    
+    def __init__(self, blasthitters) : 
+        
+        self.rbh_files = [bh.get_rbh_file() for bh in blasthitters]
     
     @staticmethod
     def pair_rbh(file): 
@@ -85,8 +89,9 @@ class Clusterizer(BlastHitter):
             else:
                 
                 clusters_list.append(set([rbh1, rbh2]))
+        results = [tuple(cluster) for cluster in clusters_list]
             
-        return dict(zip(range(1, len(clusters_list) + 1), clusters_list))
+        return dict(zip(range(1, len(clusters_list) + 1), results))
         
     @staticmethod
     def clusters_to_txt(cluster_dict, out): 
@@ -94,7 +99,19 @@ class Clusterizer(BlastHitter):
         with open(out , 'w') as cluster_file :       
             for cluster in cluster_dict.values() :                      
                 cluster_file.write('\t'.join(map(str,cluster))+'\n')
-                
+     
+    @staticmethod 
+    def cluster_species(cluster_dict, proteomes) : 
+    
+        dic = {h[1:15] : prot.split("/")[-1] for prot in proteomes for h in BlastHitter.parse_fasta(prot).keys()}
+        
+        all_species = []
+        for cluster in cluster_dict.values():      
+            species = tuple([list(dic.values())[list(dic.keys()).index(accession)] for accession in cluster])
+            all_species.append(species)
+            
+        return dict(zip(range(1, len(cluster_dict) + 1), all_species))
+
                 
     @staticmethod
     def rbh_from_genome(blastp_file, proteome, out):

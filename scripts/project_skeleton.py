@@ -47,18 +47,8 @@ rbh = ["../data/results_blast/RBH_Rickettsia_rickettsii_str._Arizona_strain=Ariz
 
 clss = Clusterizer.clustering(rbh)
 Clusterizer.clusters_to_txt(clss, '../data/results_blast/clusters.txt')
-len(clss)
-clss
+yo = Clusterizer.cluster_species(clss, proteomes)
 
-dic = {}
-for prot in proteomes : 
-    dic[prot.split("/")[-1]] = [h[1:15] for h in Clusterizer.parse_fasta(prot).keys()]
-
-for cluster in clss.values():     
-    for accession in cluster:  
-        dic.keys()[list(dic.values()).index(accession)]        
-    #print(len([h for h in Clusterizer.parse_fasta(proteomes[3]).keys() if node in h ]))
-
-for cluster in clss:
-    print(cluster)
-
+def max_one_species_cluster() : 
+   
+    return [cid for cid, name in yo.items() if (len(yo[cid]) - len(set(yo[cid]))) == 0] 
