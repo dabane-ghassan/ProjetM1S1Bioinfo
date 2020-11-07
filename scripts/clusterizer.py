@@ -72,8 +72,7 @@ class Clusterizer(BlastHitter):
             given cluster.
 
         """
-           
-        
+                  
         clusters_list = []
 
         for rbh1, rbh2 in Clusterizer.all_pairs_rbh(rbh_files):
@@ -84,15 +83,10 @@ class Clusterizer(BlastHitter):
                     cluster.add(rbh2)
                     break
             else:
-                # If neither vertex is already in a component.
+                
                 clusters_list.append(set([rbh1, rbh2]))
             
-        
-        all_cluster_ids = [cid for cid in range(1, len(clusters_list) + 1)]
-        
-        return {cid : cluster for cid, cluster in zip(
-            all_cluster_ids, clusters_list)}
-            
+        return dict(zip(range(1, len(clusters_list) + 1), clusters_list))
         
     @staticmethod
     def clusters_to_txt(cluster_dict, out): 

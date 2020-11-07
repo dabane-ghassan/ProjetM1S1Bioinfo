@@ -26,7 +26,7 @@ BlastHitter.seqkit_stats(proteomes[2])
 BlastHitter.seqkit_stats(proteomes[3])
 BlastHitter.seqkit_stats(proteomes[4])
 
-BlastHitter.parse_fasta(proteomes[0])
+
 
 
 #####################   
@@ -47,16 +47,18 @@ rbh = ["../data/results_blast/RBH_Rickettsia_rickettsii_str._Arizona_strain=Ariz
 
 clss = Clusterizer.clustering(rbh)
 Clusterizer.clusters_to_txt(clss, '../data/results_blast/clusters.txt')
+len(clss)
+clss
 
-Clusterizer.parse_fasta(proteomes[4]).keys()
-Clusterizer.parse_fasta(proteomes[4]).keys()
-Clusterizer.parse_fasta(proteomes[4]).keys()
-Clusterizer.parse_fasta(proteomes[4]).keys()
+dic = {}
+for prot in proteomes : 
+    dic[prot.split("/")[-1]] = [h[1:15] for h in Clusterizer.parse_fasta(prot).keys()]
 
-for node in clss[66] :   
-    for k in Clusterizer.parse_fasta(proteomes[4]).keys() : 
-        if node in k : 
-            print(k)
+for cluster in clss.values():     
+    for accession in cluster:  
+        dic.keys()[list(dic.values()).index(accession)]        
+    #print(len([h for h in Clusterizer.parse_fasta(proteomes[3]).keys() if node in h ]))
 
-
+for cluster in clss:
+    print(cluster)
 
