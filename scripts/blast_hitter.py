@@ -294,7 +294,7 @@ class BlastHitter:
         self.rbh = out_path
         return out_path
     
-    def get_rbh_file(self):
+    def getRbh(self):
         """The getter of the RBH file path for a certain blasthitter object.
 
         Returns

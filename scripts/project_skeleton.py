@@ -46,9 +46,13 @@ rbh = ["../data/results_blast/RBH_Rickettsia_rickettsii_str._Arizona_strain=Ariz
 
 
 clss = Clusterizer.clustering(rbh)
-Clusterizer.clusters_to_txt(clss, '../data/results_blast/clusters.txt')
-yo = Clusterizer.cluster_species(clss, proteomes)
+#Clusterizer.clusters_to_txt(clss, '../data/results_blast/clusters.txt')
 
-def max_one_species_cluster() : 
-   
-    return [cid for cid, name in yo.items() if (len(yo[cid]) - len(set(yo[cid]))) == 0] 
+spss = Clusterizer.species_cluster(clss, proteomes)
+max_one = Clusterizer.max_one_species_per_cluster(spss, clss)
+#Clusterizer.clusters_to_txt(max_one, '../data/results_blast/max_one_clusters.txt')
+
+
+
+
+    

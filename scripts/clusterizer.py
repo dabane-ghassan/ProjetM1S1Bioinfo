@@ -6,7 +6,7 @@ class Clusterizer:
     
     def __init__(self, blasthitters) : 
         
-        self.rbh_files = [bh.get_rbh_file() for bh in blasthitters]
+        self.rbh_files = [bh.getRbh() for bh in blasthitters]
     
     @staticmethod
     def pair_rbh(file): 
@@ -101,20 +101,32 @@ class Clusterizer:
                 cluster_file.write('\t'.join(map(str,cluster))+'\n')
      
     @staticmethod 
-    def cluster_species(cluster_dict, proteomes) : 
+    def species_cluster(cluster_dict, proteomes) : 
     
         dic = {h[1:15] : prot.split("/")[-1] for prot in proteomes for h in BlastHitter.parse_fasta(prot).keys()}
         
         all_species = []
         for cluster in cluster_dict.values():      
-            species = tuple([list(dic.values())[list(dic.keys()).index(accession)] for accession in cluster])
+            species = tuple([list(dic.values())[list(
+                dic.keys()).index(accession)] for accession in cluster])
             all_species.append(species)
             
         return dict(zip(range(1, len(cluster_dict) + 1), all_species))
+    
+    @staticmethod
+    def max_one_species_per_cluster(cluster_species, cluster_dict) : 
+        
+   
+        filtered_cids =  [cid for cid, name in cluster_species.items() if (len(
+            cluster_species[cid]) - len(set(cluster_species[cid]))) == 0] 
+    
+        return {cid : cluster for cid, cluster in cluster_dict.items() if (
+            cid in filtered_cids)}
+
 
                 
     @staticmethod
-    def rbh_from_genome(blastp_file, proteome, out):
+    def seq_from_proteome(blastp_file, proteome, out):
    
         with open(blastp_file, 'r') as bfile :
             bh_ids = [line.split('\t')[1] for line in bfile]
