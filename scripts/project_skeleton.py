@@ -45,9 +45,16 @@ rbh = ["../data/results_blast/RBH_Rickettsia_rickettsii_str._Arizona_strain=Ariz
 
 
 
-hi = Clusterizer.clustering(rbh)
-for node in hi[1] :   
-    for k in Clusterizer.parse_fasta(proteomes[2]).keys() : 
+clss = Clusterizer.clustering(rbh)
+Clusterizer.clusters_to_txt(clss, '../data/results_blast/clusters.txt')
+
+Clusterizer.parse_fasta(proteomes[4]).keys()
+Clusterizer.parse_fasta(proteomes[4]).keys()
+Clusterizer.parse_fasta(proteomes[4]).keys()
+Clusterizer.parse_fasta(proteomes[4]).keys()
+
+for node in clss[66] :   
+    for k in Clusterizer.parse_fasta(proteomes[4]).keys() : 
         if node in k : 
             print(k)
 

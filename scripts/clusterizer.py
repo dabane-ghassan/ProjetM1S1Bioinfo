@@ -73,21 +73,25 @@ class Clusterizer(BlastHitter):
 
         """
            
-        cluster_algo = dict()   
-        rbhits= Clusterizer.all_pairs_rbh(rbh_files)
-        for rbhit in rbhits :
-            if rbhit[0] not in cluster_algo.keys() : 
-                cluster_algo[rbhit[0]] = [rbhit[1]]
-            elif rbhit[1] not in cluster_algo[rbhit[0]]: 
-                cluster_algo[rbhit[0]].append(rbhit[1]) 
-            else : 
-                pass
+        
+        clusters_list = []
+
+        for rbh1, rbh2 in Clusterizer.all_pairs_rbh(rbh_files):
             
-        all_clusters = [(k, *v) for k,v in cluster_algo.items()]
-        all_cluster_ids = [cid for cid in range(1, len(all_clusters) + 1)]
+            for cluster in clusters_list:
+                if rbh1 in cluster or rbh2 in cluster:
+                    cluster.add(rbh1)
+                    cluster.add(rbh2)
+                    break
+            else:
+                # If neither vertex is already in a component.
+                clusters_list.append(set([rbh1, rbh2]))
+            
+        
+        all_cluster_ids = [cid for cid in range(1, len(clusters_list) + 1)]
         
         return {cid : cluster for cid, cluster in zip(
-            all_cluster_ids, all_clusters)}
+            all_cluster_ids, clusters_list)}
             
         
     @staticmethod
