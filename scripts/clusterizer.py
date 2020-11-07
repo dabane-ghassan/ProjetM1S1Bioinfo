@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+import subprocess
 from blast_hitter import BlastHitter
 
 class Clusterizer: 
@@ -137,5 +138,19 @@ class Clusterizer:
         with open(out, 'w') as cluster_fasta : 
             for header, sequence in fasta_cls.items() : 
                 cluster_fasta.write('%s\n%s\n'%(header,sequence))
-                
+
+
+    @staticmethod 
+    def muscle_them_all(cluster_dict, proteomes):
+        
+        for cid, cluster in cluster_dict.items() : 
+            fasta, afasta = '%s.fa'% cid, '%s.afa'% cid
+            output_dir = '../data/multiple_alignements/cluster%s'
+            Clusterizer.cluster_from_proteome(cluster, proteomes,
+                                              output_dir % fasta)
+            
+            multialign = subprocess.run(['muscle', '-in', output_dir % fasta],
+                                        capture_output=True)
+            with open(output_dir % afasta, 'wb') as afa :    
+                afa.write(multialign.stdout)                
  
