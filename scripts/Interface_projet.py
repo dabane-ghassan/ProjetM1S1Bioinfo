@@ -60,7 +60,7 @@ class window(Tk) :
         if len(prot_select) < 2 :
             tkinter.messagebox.showinfo(title=None, message="Please, select two or more proteomes")
         else:
-            tkinter.messagebox.showinfo(title="loading", message="Please, wait to job finish. Do not exit the application.")
+            tkinter.messagebox.showinfo(title="loading", message="Please, wait for the job to finish. Do not exit the application.")
             proteomes=[]
             for p in prot_select:
                 proteomes.append("../data/genomes/"+p_presents.get(p))
