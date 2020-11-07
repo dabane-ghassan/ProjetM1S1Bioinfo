@@ -126,15 +126,16 @@ class Clusterizer:
 
                 
     @staticmethod
-    def seq_from_proteome(blastp_file, proteome, out):
+    def cluster_from_proteome(cluster, proteomes, out):
    
-        with open(blastp_file, 'r') as bfile :
-            bh_ids = [line.split('\t')[1] for line in bfile]
-        
-        best_hits = {h:seq for h, seq in BlastHitter.parse_fasta(
-            proteome).items() if h[1:15] in bh_ids}
-        
-        with open(out, 'w') as bh_proteome : 
-            for header, sequence in best_hits.items() : 
-                bh_proteome.write('%s\n%s\n'%(header,sequence))
+        all_fasta = dict()
+        for proteome in proteomes : 
+            all_fasta.update(BlastHitter.parse_fasta(proteome))
+         
+        fasta_cls = {h:s for h,s in all_fasta.items() if h[1:15] in cluster}
+                
+        with open(out, 'w') as cluster_fasta : 
+            for header, sequence in fasta_cls.items() : 
+                cluster_fasta.write('%s\n%s\n'%(header,sequence))
+                
  

@@ -52,7 +52,15 @@ spss = Clusterizer.species_cluster(clss, proteomes)
 max_one = Clusterizer.max_one_species_per_cluster(spss, clss)
 #Clusterizer.clusters_to_txt(max_one, '../data/results_blast/max_one_clusters.txt')
 
+len(max_one)
 
+import subprocess
 
-
+for cid, cluster in max_one : 
+    output_file = '../data/multiple_alignements/cls%s.fa' % cid
+    fasta_seqs = Clusterizer.cluster_from_proteome(cluster, proteomes, output_file)
     
+    multialign = subprocess.run(['muscle', '-in', output_file], capture_output=True)
+    multialign.stdout
+    with open('../data/multiple_alignements/cls1.afa', 'wb') as afa :    
+        afa.write(multialign.stdout)
