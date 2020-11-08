@@ -46,10 +46,11 @@ rbh = ["../data/results_blast/RBH_Rickettsia_rickettsii_str._Arizona_strain=Ariz
 
 
 clss = Clusterizer.clustering(rbh)
-#Clusterizer.clusters_to_txt(clss, '../data/results_blast/clusters.txt')
+#Clusterizer.clusters_to_txt(clss, '../data/clusters/all_clusters.txt')
 
 spss = Clusterizer.species_cluster(clss, proteomes)
 max_one = Clusterizer.max_one_species_per_cluster(spss, clss)
-#Clusterizer.clusters_to_txt(max_one, '../data/results_blast/max_one_clusters.txt')
+#Clusterizer.clusters_to_txt(max_one, '../data/clusters/max_one_clusters.txt')
 
-Clusterizer.muscle_them_all(max_one, proteomes)
+all_afa = Clusterizer.muscle(max_one, proteomes)
+all_afa

@@ -115,7 +115,7 @@ class Clusterizer:
         return dict(zip(range(1, len(cluster_dict) + 1), all_species))
     
     @staticmethod
-    def max_one_species_per_cluster(cluster_species, cluster_dict) : 
+    def max_one_species_per_cluster(cluster_species, cluster_dict): 
         
    
         filtered_cids =  [cid for cid, name in cluster_species.items() if (len(
@@ -141,16 +141,25 @@ class Clusterizer:
 
 
     @staticmethod 
-    def muscle_them_all(cluster_dict, proteomes):
+    def muscle(cluster_dict, proteomes):
+        
+        afasta_files = []
+        fa_dir= '../data/clusters/cluster%s'
+        afa_dir = '../data/multiple_alignements/cluster%s'
         
         for cid, cluster in cluster_dict.items() : 
             fasta, afasta = '%s.fa'% cid, '%s.afa'% cid
-            output_dir = '../data/multiple_alignements/cluster%s'
-            Clusterizer.cluster_from_proteome(cluster, proteomes,
-                                              output_dir % fasta)
             
-            multialign = subprocess.run(['muscle', '-in', output_dir % fasta],
+            afasta_file = afa_dir % afasta 
+            Clusterizer.cluster_from_proteome(cluster, proteomes,
+                                              fa_dir % fasta)
+            
+            multialign = subprocess.run(['muscle', '-in', fa_dir % fasta],
                                         capture_output=True)
-            with open(output_dir % afasta, 'wb') as afa :    
-                afa.write(multialign.stdout)                
+            with open(afasta_file, 'wb') as afa :    
+                afa.write(multialign.stdout) 
+                
+            afasta_files.append(afasta_file)
+            
+        return afasta_files
  
