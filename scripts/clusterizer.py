@@ -5,9 +5,10 @@ from blast_hitter import BlastHitter
 
 class Clusterizer: 
     
-    def __init__(self, blasthitters) : 
+    def __init__(self, blasthitters, proteomes) : 
         
         self.rbh_files = [bh.getRbh() for bh in blasthitters]
+        self.proteomes = proteomes
     
     @staticmethod
     def pair_rbh(file): 

@@ -12,22 +12,10 @@ proteomes = ["../data/genomes/Rickettsia_rickettsii_str._Arizona_strain=Arizona_
 "../data/genomes/Piscirickettsia_salmonis_strain=Psal-158_protein.faa"]
 
 # pas relancer ce code pcq ça va tout recalculer
-"""
+
 for bh in BlastHitter.from_list(proteomes) : 
     bh.blast_them()
     bh.rbh_them()
-"""
-
-
-# stats de protéomes
-BlastHitter.seqkit_stats(proteomes[0])
-BlastHitter.seqkit_stats(proteomes[1])
-BlastHitter.seqkit_stats(proteomes[2])
-BlastHitter.seqkit_stats(proteomes[3])
-BlastHitter.seqkit_stats(proteomes[4])
-
-
-
 
 #####################   
     
@@ -54,3 +42,5 @@ max_one = Clusterizer.max_one_species_per_cluster(spss, clss)
 
 all_afa = Clusterizer.muscle(max_one, proteomes)
 all_afa
+
+
