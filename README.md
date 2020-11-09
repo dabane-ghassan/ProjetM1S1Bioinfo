@@ -23,7 +23,7 @@ Le programme regroupera les protéines ayant un hit bidirectionnel commun à tra
 
 *Etape optionnelle/parallèle 2 : Créer une base de données composée de trois tables [GENOMES(id, name), PROTEIN(id, genome_id, cluster_id), BLAST(prot1_id, prot2_id, e-value, coverage] pour stocker les données générées.*<br>
 
-*Etape optionnelle/parallèle 3 : Proposer une interface permettant de visualiser la distribution des e-valeurs à l’intérieur d’un cluster.*<br>
+*Etape optionnelle/parallèle 3 : Proposer un graphique permettant de visualiser par exemple la distribution des e-valeurs à l’intérieur d’un cluster ou génome.*<br>
 
 ### Troisième programme
 Ecrire un programme qui : <br>
@@ -32,19 +32,11 @@ Ecrire un programme qui : <br>
 3.	concatène les différents alignement en un super-alignement<br>
 4.	lance la phylogénie des espèces à partir du super-alignement<br>
 
-*Etape optionnelle/parallèle 1 : proposer une visualisation/analyse des clusters pour ne sélectionner qu’une protéine par organisme (si plusieurs dans le cluster).<br>
-Proposer un moyen de stocker cette information (sur le disque ou la base de données si créée à l’étape précédente).<br>
-Inclure ces clusters additionnels dans la procédure (étapes b à d).*<br>
-*Etape optionnelle/parallèle 2 : En supposant présentes sur le disque local les séquences ADN qui encodent ces protéines, écrire un programme pour générer le super-alignement nucléotidique correspondant.*<br>
+*Etape optionnelle/parallèle 1 : proposer une visualisation/analyse des clusters pour ne sélectionner qu’une protéine par organisme (si plusieurs dans le cluster). Proposer un moyen de stocker cette information (sur le disque ou la base de données si créée à l’étape précédente). Inclure ces clusters additionnels dans la procédure (étapes b à d).*<br>
 
+*Etape optionnelle/parallèle 2 : en supposant présentes sur le disque local les séquences ADN qui encodent ces protéines, écrire un programme pour générer le super-alignement nucléotidique correspondant.*<br>
 
-### Bonnes pratiques en programmation : 
-Voici une liste non-exhaustive d’éléments sur lesquels nous portera notre attention : <br>
-- Prohibition de la langue de Molière<br>
--	Factorisation du code par des fonctions<br>
--	Utilisation de structures de données adaptées<br>
--	Dose et forme (Docstring) judicieuses des commentaires du code<br>
--	Pertinence du nommage des variables, fonctions, fichiers, classes, etc.<br>
+*Etape optionnelle/parallèle 3 : utiliser une librairie Python pour dessiner l’arbre phylogénétique résultat.* <br>
 
 ## Dependencies
 If you're on Ubuntu/Debian, please run blast_setup.py in order to install ncbi-blast+ : 
