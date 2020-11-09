@@ -166,7 +166,7 @@ class Clusterizer:
         return afasta_files
     
     @staticmethod    
-    def cat_subMSAs(afa_files):
+    def cat_MSAs(afa_files):
         
         cat_MSAs = '../data/phylogeny/cat_msas.afa'
         for afa_file in afa_files : 
@@ -178,3 +178,51 @@ class Clusterizer:
             for line in fin:
                 fout.write(line)
         return cat_MSAs
+    
+    @staticmethod
+    def makemergetable(afa_files):
+        """
+        https://mafft.cbrc.jp/alignment/software/merge.html
+
+        Parameters
+        ----------
+        afa_files : TYPE
+            DESCRIPTION.
+
+        Returns
+        -------
+        table : TYPE
+            DESCRIPTION.
+
+        """
+        
+        table = '../data/phylogeny/subMSAtable'
+        
+        num = 1
+        for afa_file in afa_files : 
+            output = ""
+            with open(afa_file, 'r') as afa, open(table, 'a') as tb : 
+                for line in afa :
+                    if line.startswith('>') : 
+                        output += " " + str(num)
+                        num +=1                   
+                tb.write(output+' # %s \n' % afa_file.split('/')[-1])
+        return table
+    
+    @staticmethod 
+    def super_alignement(afa_files):
+        
+        concatenate_afa = Clusterizer.cat_MSAs(afa_files)
+        merge_table = Clusterizer.makemergetable(afa_files)
+        out_super = '../data/phylogeny/oneMSA.afa'
+        
+        superalign = subprocess.run(['mafft', '--merge', merge_table, 
+                                     concatenate_afa], capture_output=True)
+        
+        with open(out_super, 'wb') as sa :    
+            sa.write(superalign.stdout) 
+                
+        return out_super
+        
+        
+        
