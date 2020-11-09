@@ -4,10 +4,6 @@
 
 ***Master Bioinformatique : Développement de logiciels et Analyse de données - Projet dans le cadre de l'UE : Introduction à l'informatique et à la programmation***
 
-
-Le but de ce projet est de concevoir une application Python. Cette application se décompose en plusieurs modules pour permettre soit un développement linéaire/principal, soit des développements parallèles « à la carte » (par exemple si vous bloquez - ou avez fini - le linéaire). Vous serez notés d’une part sur l’aspect fonctionnel de ce code, donc inutile d’attaquer le module suivant si le précédent n’est pas entièrement fonctionnel. L’autre partie de la note sera liée à la propreté de votre code, dont quelques éléments (de bon sens) sont listés à la fin de ce document. <br>
-Le projet peut être réalisé en binôme, mais ce n’est pas une obligation. Dans ce cas, le détail de la répartition des tâches devra être clair et présenté à la soutenance.
-
 ## Description de l’application
 
 ### Premier programme
@@ -59,5 +55,4 @@ python3 blast_setup.py
 ## Ressources (05/10/2020) :
 [BLAST® Command Line Applications User Manual](https://www.ncbi.nlm.nih.gov/books/NBK279690/) <br>
 [Téléchargement Blast+](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) <br>
-[Documentation de le librarie os](https://docs.python.org/fr/3/library/os.html) <br>
 
