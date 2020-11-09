@@ -1,24 +1,25 @@
->WP_016210198.1 hypothetical protein [Piscirickettsia salmonis]
--MITAGALKKFLTGDDLDFRIELKELVLNNARVQGVIAEGVRFHKLALTDESI-------
-----------------------------------DEEPLFISDRFTKG------------
----------------LLGPRSFIGQHLQRIDLSELDPGQQRQLVTALKQFVDDWLIPRYD
-VGAEFKAKLILREQSNIINLVIGGIEARLENSAAQEAGPVAVPQLFQQADAAGVDAVGQE
-RAMVDAAGAPEM------------
->WP_011680958.1 CRISPR-associated endonuclease Cas2 [Streptococcus thermophilus]
------------------MRYEALRLLCFFDLPME---SKDEKRIYRNFRKELI-------
------------------------------------------SNGFEMLQFSVY-------
--------------YRTCPNRSFANKFYKKLKMSNLPAGNVRLLAVTEKQFSEMTLI----
------------------------------IGGKTKQEEIVSDNKLVAI------------
-------------------------
 >WP_012150666.1 DUF2608 domain-containing protein [Rickettsia rickettsii]
-MYSNINKVHDFKEVIEAVKQADNTSLVFFDVDEVIVMDSDESRLTHDYRKELMKNIEKRL
-TRKECELLLSIVLKDRKARFVNPDILTIFALLIEKNVPAMGLTKLPTGKFGVIEDMIEWR
-IRELTALKVNFQEFSPLKDEIIIEDFNAGYGKPTLKDGIIYTAEYDKGSMLEYVLRKTSY
-YPQSIIFIDDMEENLLSLQEICKKLKINYQGFEFTGSAIVPEPVLDAQLEKIRFEILEKE
-YKWLTDEELKKHTLSSSSLSTVSS
+MYSNINKVHDFKEVIEAVKQADNTSLVFFDVDEVIVMDSDESRLTHDYR---KELMKNIE
+K---------RLTRKECELLLSIVLKDRKARFVNPDILTIFAL-----LIEKNVPAMGLT
+KLPTGKFGVIEDMIEWRIREL-TALKVNFQEFSPLKDEIIIEDFNAGYGKPTLKDGIIYT
+AEYDKGSMLEYVLRKTSYYPQSIIFIDDMEENLLSLQEICKKLKINYQGFEFTGSAIVPE
+PVLDAQLEKIRFEILEKEYKWLTDE----ELKKHTLSSSSLSTVSS
 >WP_030127115.1 IS3 family transposase [Streptococcus pyogenes]
-------------------------MSVLIDV----------------YSRKIV-------
--------------------------------------------GWPMG------------
---------------RRMQDKLVTEAFNQAYNREKPKEGVIVHTD----------------
------------------------------QGSQYTGA-----------------------
-------------------------
+MSVLI---------------------------DV--------------------------
+-----------YSR-------------------------------------------KIV
+GWPMGR------------------------RMQ---DKLVTEAFNQA-----------YN
+REKPK----EGVIVHTD------------------------------QGSQYTGA-----
+----------------------------------------------
+>WP_011680958.1 CRISPR-associated endonuclease Cas2 [Streptococcus thermophilus]
+MR------------YEALRL-----LCFF---DLPMESKDEKRIYRNFR---KELISNGF
+E----MLQFSVYYR-TC---------------------------PNRSFANKFYKKLKMS
+NLPAGN-----------VRLLAVTEK----QFSEM-------------------------
+---------TLIIGGKT-------------------------------------------
+---------------KQE-----------EI----VSDNKLVAI--
+>WP_016210198.1 hypothetical protein [Piscirickettsia salmonis]
+MIT-----------AGALKK-------FLTGDDL------------DFRIELKELVLNNA
+RVQGVIAEGVRFHK----LALTDESIDEEPLFIS-DRFTKGLLGP-RSFIGQHLQRIDLS
+ELDPGQ-----------QRQLVTALK----QFV---DDWLIPRYDVG-------------
+AEFKA----KLILREQS--------------NIINLVIGGIEARLENSAAQEAGPVAVPQ
+--LFQQADAAGVDAVGQE-RAMVDAAGAPEM---------------
+

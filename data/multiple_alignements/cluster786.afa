@@ -1,18 +1,19 @@
->WP_000120724.1 lactate oxidase [Streptococcus pneumoniae]
------MSYKTSNA----------------EGHVDFINTYD--------------------
---------------------------------LEPMAQQVIPKAAFGYIASGAEDTFTSF
-Q-----------------------------------------------------------
-------------------------------------------------------------
------------
->WP_002948458.1 MULTISPECIES: hypothetical protein [Firmicutes]
-----MNEIAKEKVFYTTFVVLILSSFMLQTGKADEVQVKS--------------------
------------------------------------------DEAKIDYVNSEASAP----
-------------------------------------------------------------
-------------------------------------------------------------
------------
 >WP_012262420.1 palindromic element RPE2 domain-containing protein [Rickettsia rickettsii]
 MHKFDSLFKSKNIFFIAIVIFVLSSFTLYHNRSDILKLFKSENKDLSQIPDQAVENKENT
 TLEEKEAAPLLSTKSLLNYVSSLKFPEAPTNLVEPKLETVVNSASFGYKEQGAKKPITNR
 RATSDEVGVWVSLDYINYLLNVNLLVYNFMQDKDYSKELRIVKSRLLPQDIRNILNNLEA
 YNNYLFSKSSSTEVIFPTNHKWLAKFIKIEKKPSAMMIKEQDKPLILENLNYLIDCLYSE
 KFMQEFVNKDV
+>WP_000120724.1 lactate oxidase [Streptococcus pneumoniae]
+-----------------------------------MSYKTSNAE----------------
+----------------------------------------------GH------------
+------------VDFIN------------------TYDLEPMAQQVIPK----------A
+AFGYIASGAEDTFTSFQ-------------------------------------------
+-----------
+>WP_002948458.1 MULTISPECIES: hypothetical protein [Firmicutes]
+---MNEIAKEK-VFYTTFVVLILSSFMLQTGKADEVQVKSDEAK----------------
+------------------------------------------------------------
+------------IDYVN-------------------------------------------
+--------------------------------------SEASAP----------------
+-----------
+

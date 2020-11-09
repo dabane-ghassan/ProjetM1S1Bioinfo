@@ -1,32 +1,37 @@
->WP_002985626.1 methionine adenosyltransferase [Streptococcus pyogenes]
-MDLKITNGFYDPSHLSYEVVERKGLGHPDTLADGIAEQIEIDYSLYCLDKFGVIPHHNFD
-KIIIRGGHSVQDFGGSDFIEPIKIIFLGRASKKCFNSSIPLFKIQKKAATKYLNRILPNL
-DVENYVEFETLTSDFTTKTNWFSPEAIEDLPEYLDVPKANDTATMISYWPLTISEELALM
-IEGYFYKLDKNELPTPRFTKMGGDIKVMVVRNDLEYSIRINFPLISKFFNNDIESQLYVD
-KHVEKIKKYIEQKYKNISFSIDYHYYLTTTGSCIDFGEEGAVGRGNKTHGIISSFRPNTM
-EAPAGKNCTYFVGKVWGFLSDTIAKEIYEAFNTPCQIIMQLNIGSKLYRPTHLFIQTEES
-VDQERVLEIVNRHLNNGKQNTNLILSTQHFIPKTNVYDG
->WP_011681263.1 phosphoribosyl-ATP diphosphatase [Streptococcus thermophilus]
----------------MLETLYKEALDRKNNPKEGS-------YTNYLFDK----------
-------------------------------------------------------------
------------------------------------------------------------G
-LDKILKKVGEEATEVVIGAKNADKTEIANETADVLYHL----------AVMLVETGVSPE
--DVEAVLRARQGKQSNVHDRKEVTDY----------------------------------
-------------------------------------------------------------
----------------------------------------
 >WP_012262449.1 nucleotide pyrophosphohydrolase [Rickettsia rickettsii]
-------------------MILEQAIDECREIKEAM-------------------------
+------------------MILEQAIDECR-------------------------------
 ------------------------------------------------------------
+---------------------------------------------------EIKEAMDDA
+E-----P----------------------------------------------------P
+----------------ERVQEEI-------------------------------------
+-GD-------------------------------LLHTAISLCIFSGLYV--------ET
+TLSKTNEKFEKRMRAIKMLTKKHNLLNLQGQSVEFMLKLWKEAKE------ITKNVKP--
+-----
+>WP_002985626.1 methionine adenosyltransferase [Streptococcus pyogenes]
+MDLKITNGFYDPSHLSYEVVERKGLGHPDT---LADGIAEQ-----IEIDYSLYCLDKFG
+VIPHHNFDK---------IIIRGGHSVQDFGGSDFIEPIKIIFLGRASKKCFNSSIPLFK
+IQKKAATKYLNRILPNLDVENYVEFETLTSDFTTKTNWFSPEAIEDLPEYLDVPKANDTA
+TMISYWPLTISEELALMIEGYFYKLDKNELPTPRFTKMGGDIKVMVVRNDLEYSIRINFP
+LISKFFNNDIESQLYVDKHVEKIKKYIEQKYKNISFSIDYHYYLTTTGSCIDFGEEGAVG
+RGNKTHGIISSFRPNTMEAPAGKNCTYFVGKVWGFLSDTIAKEIYEAFNT------PCQI
+IMQLNIGSKLYRPTHLFIQTEESV---DQERVLEIVNRHLNNGKQNTNLILSTQHFIPKT
+NVYDG
+>WP_011681263.1 phosphoribosyl-ATP diphosphatase [Streptococcus thermophilus]
+---------------MLETLYKEALDRKNNPK---------------EGSY---------
+--TNYLFDK---------------------------------------------------
 ------------------------------------------------------------
----------DDAEPPER---------VQEEIGDLLHTA----------ISLCIFSGLYVE
-TTLSKTNEKFEKRMRAIKMLTKKHNLLNLQGQSVEFMLK---------------------
-----------------------------------------------LWKEAKEITKNVKP
----------------------------------------
+-------------------GLDKIL-----------------------------------
+----------------KKVGEEATEVVI-----------------------------GAK
+NADKT-----------------------------EIANETADVLYH-LAVMLV-----ET
+GVSPEDVEAVLRAR----QGKQSN-VHDRKEVTDY-------------------------
+-----
 >WP_016211478.1 nucleoside triphosphate pyrophosphohydrolase [Piscirickettsia salmonis]
------MSTEEKSAKLNIEVIIEQLLDQVHGDSWLSEQSVDQLTAYIIEEAYELVTAVSTK
-NSLFIKDELADVLYQVLLQAHHQAISLGEVIRHLEK------KLKQRHAHVFNNIDGQAG
-QVKTQFRLNHPEQSWLEIKNQEKQQAPMQLLDHVADCLPGLQKALKMQRIAAKVGFDWPD
-VSGVVDKLYEEIDELVNAVKVGDQVLVHDEMADVLFSS----------VNVARVLNIDPE
-VALQQACCKFRQRFNYIENELKKAKL-SLNEASLEKMDE---------------------
-----------------------------------------------LWCEAKLTLKPDGQ
----------------------------------------
+MSTEEKS-----AKLNIEVIIEQLLDQVHGDSWLSEQSVDQLTAYIIEEAYELVTAVS--
+-TKNSLFIKDELADVLYQVLLQAHHQAISLG-----EVIR-------------------H
+LEKKLKQRHAH-VFNNIDGQ--------AGQVKTQFRLNHPEQ-----SWLEIKNQEKQQ
+A-----PMQLLDHVADCLPGLQKALKMQRIA----AKVGFD-----------------WP
+DVSGV----------VDKLYEEIDELVN-----------------------------AVK
+VGDQV-----------------------------LVHDEMADVLFSSVNVARVLNIDPEV
+ALQQACCKFRQRFNYIENELKKAK-LSLNEASLEKMDELWCEAK---------LTLKPDG
+Q----
+

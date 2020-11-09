@@ -7,15 +7,16 @@ RYAPELGEKIGGLILNNDNAIKLEQSNIDKFMKTLQNDKERLLSQEKTKNIKQNIKVSPS
 QINVKLTKKVVNEKHR
 >WP_001256254.1 PspC domain-containing protein [Streptococcus pneumoniae]
 -------------------MRSGRDKKIAGVCAGVAHYLDMDPTI---------------
----------VRVI----WGVLTCCYGA---------------------------------
+---------VRVI-----------------------------------------------
 ------------------------------------------------------------
---------------------------------------------GIVAYIILWIIAPVAT
+----------------------------WGVLTCCYG------AGIVAYIILWIIAPVAT
 DY----------------------------------------------------------
 ----------------
 >WP_080998444.1 PspC domain-containing protein [Streptococcus thermophilus]
 ------MRKYGGKSYKKELRRDSNNKIIAGVCSGIANYLDIDPVI---------------
----------IRLI----WAVAIFLLGI---------------------------------
+---------IRLI-----------------------------------------------
 ------------------------------------------------------------
---------------------------------------------GFPFYIIC--------
+----------------------------WAVAIFLLG------IGFPFYIIC--------
 ------------------------------------------------------------
 ----------------
+

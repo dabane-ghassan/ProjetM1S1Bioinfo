@@ -1,35 +1,36 @@
+>WP_004996011.1 MULTISPECIES: exodeoxyribonuclease VII small subunit [spotted fever group]
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------MTNTKTLE------------------ANI
+----------------------------------------SFEEALKELEEIV-------
+---------------------------------------------------KKIDNGQES
+LETAVNSFERGILLKNHCEKKLKEARLKIEKITKLADSTVVLEEMEV-------------
+>WP_000043230.1 MULTISPECIES: exodeoxyribonuclease VII small subunit [Streptococcus]
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------MSKQKK-----------------------
+-----------------------------------------FEENLAELETIV-------
+---------------------------------------------------QSLENGEIA
+LEDAITAFQKGMVLSKELQATLDKAEKTLVKVMQ-EDGT----ESDFE------------
+>WP_111705687.1 exodeoxyribonuclease VII small subunit [Streptococcus pyogenes]
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------MSKTKT-----------------------
+-----------------------------------------FEENLQDLETIV-------
+---------------------------------------------------NKLENGDVP
+LEEAISEFQKGMLLSKELQKTLQTAEKTLVKVMQ-ADGT----EVDMDD-----------
+>WP_002951008.1 exodeoxyribonuclease VII small subunit [Streptococcus thermophilus]
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------MSTKKT-----------------------
+-----------------------------------------FEENLQDLEAIV-------
+---------------------------------------------------TKLETGDVA
+LEDAIAEFQKGMVLSKDLQKTLEDAEKTLVKVMQ-ADGT----EMEMDA-----------
 >WP_016211570.1 curli production assembly/transport component CsgG family protein [Piscirickettsia salmonis]
 MCKRFKLLLVALMILIVLPILPMTACAKSHMPTVAVLKFNINKEALVLYWRRHKVRDQDN
 RSGLGSDDRVVREHGQLAVVPEEYTAMTNMLTDGLINTLVSSHTFKVLTRDRVNRVINEQ
 RFVESGDVSSDQAVKTGKLLGADYLVTGSIQMLEVKTREEKIPYTHEISKQRYGLLMANI
 QVIDAHSGQIVAAYPVQVSKKQNRVKNHWQQDNKIVTSRDYFLQQLKDKAAKIAANKVLS
 AVFPLSVIKVAGNSVYINRGVGANFKVGDSLAVFKPGQRLTDEHTDQLLGYAQLPVGKVR
-IETIEAKFAKATVLSGNPQKMLGAIVKALVKDKHVVLAGGGLENTPGSSASPLQW
->WP_004996011.1 MULTISPECIES: exodeoxyribonuclease VII small subunit [spotted fever group]
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
------------------------------MTNTKTLEANISFEEALKELEEIV-------
----------------------------------------------------KKIDNGQES
-LETAVNSFERGILLKNHCEKKLKEARLKIEK----ITKLADSTVVLEEMEV----
->WP_000043230.1 MULTISPECIES: exodeoxyribonuclease VII small subunit [Streptococcus]
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
------------------------------MSKQKK------FEENLAELETIV-------
----------------------------------------------------QSLENGEIA
-LEDAITAFQKGMVLSKELQATLDKAEKTLVK----VMQEDGTESDFE--------
->WP_111705687.1 exodeoxyribonuclease VII small subunit [Streptococcus pyogenes]
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
------------------------------MSKTKT------FEENLQDLETIV-------
----------------------------------------------------NKLENGDVP
-LEEAISEFQKGMLLSKELQKTLQTAEKTLVK----VMQADGTEVDMDD-------
->WP_002951008.1 exodeoxyribonuclease VII small subunit [Streptococcus thermophilus]
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
------------------------------MSTKKT------FEENLQDLEAIV-------
----------------------------------------------------TKLETGDVA
-LEDAIAEFQKGMVLSKDLQKTLEDAEKTLVK----VMQADGTEMEMDA-------
+IETIEAKFAKATVLSGNPQKMLGAIVKALVK-----DKHVVLAGGGLENTPGSSASPLQW
+

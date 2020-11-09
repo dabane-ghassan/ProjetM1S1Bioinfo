@@ -1,12 +1,12 @@
 >WP_012151002.1 hypothetical protein [Rickettsia rickettsii]
 ------------------------------------------------------------
 ------------------------------------------------------------
-------MRIFVKTA----------------------------------------------
-------------------------------------ISTAAWR-----------------
+------------------------------------------------------------
+-----------------------MRIFVK-----TAISTAAWR-----------------
 ------------------------------------FYAH--------------PTVALG
 IC----------------------------------------------------------
-----------------------------VGTALAY-------------SPEN--------
-----------------------------TFELLKNTTY----------------------
+----------------------------VGTALAY-------------------------
+--------------SPENT----------FELLKNTTY----------------------
 -------------------------TGIEAAKFAY-------------------------
 ------------------------------------------------------------
 --------------ENTAGIVNRIAGLAHLVYDNLPRQ-----------------RNS--
@@ -30,3 +30,4 @@ DFATITYQVIAPPHSQLYVSIPNISWSDDNNHSLSTTVNGVTRNQVTDNTFDFFDLGYFE
 TEEAITINLNFPGNKAISFDNPSFYALDTQNYKIAMDTINERDTKVTTSKNKVFTDYSSH
 TNASLFFTIPYDKGWTATVNNKKVKIHRAQKGFMKVDVPSGKGKVVLTFIPYGIKIGLII
 SCLAFGIFCCYAYFIGKIKITQKATPPK
+

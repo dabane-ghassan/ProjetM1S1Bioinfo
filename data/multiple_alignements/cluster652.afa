@@ -1,35 +1,41 @@
 >WP_014362496.1 alpha/beta hydrolase [Rickettsia rickettsii]
------------MDARFCENDKGEV-----RNDIERSQDDIKTFLIILSIF----------
------------NSLEIFFLARDKSFIENLRSYG-EVYLIDWLE----IEEPKYLLDDYV-
------HKIIEVIDNLKIKDINLIGHCIGGNLAIATNVLMPKFIKTLTLLTCSWDFSH---
----------------FFYIRM----------LNRYLKLDSGIDNLPI--IPKIHIQIL--
---FFLLFPDYF----------NAKLKKFFSITSDKEQELALRIENWLMSGNSI-------
---------------------SKEVYNQIIQNILDENMF-INLKWKIE-----------
+-MDARFCEND---------------KGEVRNDIERSQDDI--------------------
+-KTFLIILSIFNSLEIFFLARDKSFIENL-RSYGEVYLIDWLEIEE-------PKYLLDD
+YVHKIIE-VIDNLKIKDINLIGHCIGGNLAIATNVLMPKFIKTLTLLTCSWDFSHFFYIR
+MLNR------------YLKLDSG--IDNLPIIPKIHIQILFFLLFPDYFNAKLKKFFSIT
+SDKEQELALRIENWLMSGNSISKEVYNQIIQNILDENMFINLKWKIE-------------
+------------------------------------------------------------
+---
+>WP_000286415.1 DUF1033 family protein [Streptococcus pneumoniae]
+------------MYR----------VIEMYGDFEP-------------WWFLEGWEED--
+---------------IVASRKFDQYYDAL-----KYYKTCWFRLEQ--------------
+-----------------------------------ESPLYKSRSDLMTIFWDP-------
+------------------------------------------------------------
+---------EDQRWC--------DECDEYLQQYHSLALLQDEQVIPD-------------
+-------EKLRSGYEKQTSQERNRS-CRMKLK----------------------------
+---
+>WP_111705425.1 DUF1033 family protein [Streptococcus pyogenes]
+------------MYQ----------VIKMYGDWEP-------------WWFIDGWQDD--
+---------------IIDEQQFSDWQEAL-----DYFNQEWQRMKA--------------
+-----------------------------------IFPSYHSQKNLLATFWEK-------
+------------------------------------------------------------
+---------EDKRWC--------EDCDEDLQQFHSLLLLKNKDIVPS-------------
+-------NNYIHEFEQRNDSPQVAYLCKLNL-----------------------------
+---
+>WP_011226630.1 DUF1033 family protein [Streptococcus thermophilus]
+------------MYQ----------VVEIKGDMEP-------------WWFLEGWQED--
+---------------IISTKEFENFYDAL-----KYYKKLWFAMEE--------------
+-----------------------------------ILPSYISRSSVMTAFWDQ-------
+------------------------------------------------------------
+---------EDKYWC--------EECNEYLQVYRSIALLYDWQEIPE-------------
+-------EKHRPGYEKQNDLPNHAH-CRIKR-----------------------------
+---
 >WP_016209276.1 alpha/beta fold hydrolase [Piscirickettsia salmonis]
 MLDLTQLEQEVFDYQTRLQELAALTKEESRSDIMPEQALVGELIAENSLWQLQSYSNNKT
-GRPLLVVYALLNSPRILDLSKDCSFLAGLIRAGFDVYLLSWKNDQHVAGVRSY--HEYII
-NQGLSQAVDTVLLHCKQSQLELLGVCQGGVFSLCLSLLQPDKLKRLILMGAPVNFHTADN
-TLMQRAKQSIALKGQLNYVRTKAGKLINSRSINHWLACQQPTRLLMLKYANFIHLESQQR
-HEFHQLEQWLWDSGWLSADALNEFIDDFYVNNLLFSGRLLIEEQPLYLANLAVPTLNLYA
-NHDSLVPASASQALGQVVQHERLDYQEYGFNTGHIGLY-ISNKVQKQVIERIVMTIEK
->WP_111705425.1 DUF1033 family protein [Streptococcus pyogenes]
-------------MYQ-----VIKM-----YGDWEP-------------WW----------
-------------------------FIDG------------WQDD--IIDEQQF--SDW--
-------------------------------------------------------QEA---
----------------LDYFNQ------------EWQRMKA---IFPS-YHSQKNLLAT--
---FWEKEDKRW------CEDCDEDLQQFHSLLLLKNKDIVPSNN----------------
---------------------YIHEFEQ--RNDSPQVAYLCKLNL--------------
->WP_000286415.1 DUF1033 family protein [Streptococcus pneumoniae]
-------------MYR-----VIEM-----YGDFEP-------------WW----------
-------------------------FLEG------------WEED--IVASRKF--DQY--
-------------------------------------------------------YDA---
----------------LKYYKT------------CWFRLEQ---ESPL-YKSRSDLMTI--
---FWDPEDQRW------CDECDEYLQQYHSLALLQDEQVIPDEK----------------
---------------------LRSGYEK--QTSQERNRS-CRMKLK-------------
->WP_011226630.1 DUF1033 family protein [Streptococcus thermophilus]
-------------MYQ-----VVEI-----KGDMEP-------------WW----------
-------------------------FLEG------------WQED--IISTKEF--ENF--
-------------------------------------------------------YDA---
----------------LKYYKK------------LWFAMEE---ILPS-YISRSSVMTA--
---FWDQEDKYW------CEECNEYLQVYRSIALLYDWQEIPEEK----------------
---------------------HRPGYEK--QNDLPNHAH-CRIKR--------------
+GRPLLVVYALLNSPRILDLSKDCSFLAGLIRAGFDVYLLSWKNDQHVAGVRSYHEYIINQ
+GLSQAVDTVLLHCKQSQLELLGVCQGGVFSLCLSLLQPDKLKRLILMGAPVNF-HTADNT
+LMQRAKQSIALKGQLNYVRTKAGKLINSRSINHWLACQQPTRLLMLKYAN-----FIHLE
+SQQRHEFH-QLEQWLWDSGWLSADALNEFIDDFYVNNLLFSGRLLIEEQPLYLANLAVPT
+LNLYANHDSLVPASASQALGQVVQH-ERLDYQEYGFNTGHIGLYISNKVQKQVIERIVMT
+IEK
+

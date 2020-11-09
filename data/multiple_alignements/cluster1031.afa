@@ -1,16 +1,16 @@
 >WP_000377663.1 hypothetical protein [Streptococcus pneumoniae]
-------------------------------------------------------------
------------------------MDSLKDVKANASDSKPAQDKKDAKQGTEDSKDSDKMT
+----------MDSLKDV-----KANASD--------------------------SKPAQD
+KKDAK------------QGTEDSKDSDK------------------------------MT
 ETNSVPAGVIVVSLLALLGV--------IAFWLIRRKKESE--IQQLSTELIKVLGQLDA
-EKADKKVLAKA-QNLLQETLDFVKEENGSAETETKL--------VEELKAILDKLK----
-------------------------------------------------------------
--------------------------
+EKADKKVLAKA-QNLLQETLDFVKEENGSAE--------------TET------------
+----------------------------KLVEE------------------------LKA
+ILDKLK-------------------
 >WP_002947702.1 hypothetical protein [Streptococcus thermophilus]
 ------------------------------------------------------------
 ----------------------------------------------------------MK
 DYGDHIYGLQR-AISGMCGE--KTASPSIKFYWENGVLEYEFYVDFEASPMI-----MKD
-YSSDRAFFEQAFENLLHDFEDFLEN-----------------------QEIIEG------
-------------------------------------------------------------
+YSSDRAFFEQAFENLLHDFEDFLENQ----------------------------------
+----------------------------EIIEG---------------------------
 -------------------------
 >WP_054300574.1 hypothetical protein [Piscirickettsia salmonis]
 MVESFGSSKRTLSVEDIYNRGCRAKGSELTIALHKFIYDKQFEKFIHLLSSSRHSLDTQS
@@ -19,3 +19,4 @@ TYADQSQGSRKQSLKGFIGELQREAINPVEIFLTKSIRELEKYVNNQSKPSF-----MDS
 SHAARRQFAQEKADRLREMLDFCRSMNGTAEEINELQTVFIMPIVTEFQSPLERAKEQFG
 RRSLRGLGAVLKQFEKNRQALCLPTSVAELLERGHEEDLQQVHSLQSGYSSFQTAEAVRP
 VMEEDTQRQPAAFVPFEVRAPEPGA
+

@@ -1,12 +1,12 @@
 >WP_000371287.1 MULTISPECIES: DUF896 family protein [Streptococcus]
-----------------------------------------------------------MD
-PKKIAR------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
-----------------------------------------------------INELAKKK
-KTEGLTPEEKVEQAKLREEYI------------------EGYRRAVRHHIEG-IKIVDEE
-G---------------------------------------------------NDVTPE--
------KLRQVQREKGL--------------HGRSLDDPNS--------------------
+------------------------------------------------------------
+------------------MDPKKI------------------------------------
+--------------------------------------------------ARINELAKKK
+KTEGLTPEEKVEQAKLREEYI------------------EGYRRAVRHHI-EGIKIVDE-
+----------------EGNDVT-----PE------KL-----------------------
+-RQVQREKGL---HGRSLDDPNS-------------------------------------
 -------------------
 >WP_016210445.1 flagellar hook-length control protein FliK [Piscirickettsia salmonis]
 MITINQSSALDLISVTPADTGFNSAAPSSSSTLVGEAAVIETGDFSALVSAALTAEGVED
@@ -18,3 +18,4 @@ KTEILPKPQGVSLAKLPDSYITNQWVNSQFNIASTVLQQERIQPSVAQHFDQPLPLVDEA
 ELAPALGQRLQIMLNRQLNNATIALDPPELGPLMIKLHVDASQKTHLTFTTHSDVVREMI
 EQQLPRLKDMFDSQGLALGDANVAGQGAFSQGQHFNEEKEHNKNNMSKAQESVDILADEH
 KVEPAEGQYIRDLGVDLFA
+

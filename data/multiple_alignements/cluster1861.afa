@@ -1,10 +1,10 @@
 >WP_011680622.1 hypothetical protein [Streptococcus thermophilus]
 ------------------------------------------------------------
------------------MIY---------SSEVTFTDELIS-------------------
-----------EISGNSSTSAGSIDILQAAGKTVTQAARKIAESIADL-------------
----------------------------------DTIGKQ-------TLAAARVVLFLLV-
--------LYLAEIT---------------------------------------------F
-I
+----------MIY----------------SSEVTFTDELIS-------------------
+----------EISGNSSTSAGSIDILQAAGKTVTQAARKIAESI----------------
+------------------------------ADLDTIGKQ-------TLAAARVVLFLL--
+--------------------------VLYLAEITFI------------------------
+-
 >WP_016209971.1 hypothetical protein [Piscirickettsia salmonis]
 MSNNHTDKNYNFDDDQDINEDKEDLVLDSEPAVKRNNADAVWQGTSLWDKIRPMLHYYII
 AIIAFAVAGYMMYNAYRTLYPKQSVQQAEATHLSFSKPVESGNKPAKGLSPLIQSQENQV
@@ -12,3 +12,4 @@ KSKSGLGKKEEIKPNASYSSQTSEVAGINGKKITDQIKKLAEKIDNLNRQVQKIVESQSQ
 SYSYSEEAKKLAEKVSESQNDIESHIKSLTSNIDLIDKKLSKLENISLKNNKNINLMLAN
 QYSHREKLRLRAIVSGRAWLVNDDGVTLTVTKNTDIPGYGHVIKVDDKQTQVTMSSGYIF
 N
+

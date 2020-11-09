@@ -1,12 +1,3 @@
->WP_155046991.1 hypothetical protein [Piscirickettsia salmonis]
------------------------MHTQDTNPA----------------------RSSLTI
-TIPSNHQT----IHHASGRLTVT----VRPKPGIQYYHYYIDGRLIKRSTQPSVTLYHLD
-------------------------------------------------------------
---------RGQHQLKV-------------------------------------IATNKLH
-TLTSNTLIF---YLHR--------------------------------------------
-------------ASILNN------------------------------------------
------NLPNHH-------------------------------------------------
---------------------------------------------------
 >WP_000169251.1 6-phospho-beta-galactosidase [Streptococcus pneumoniae]
 MTKTLPKDFIFGGATAAYQAEGATHTDGKGPVAWDKYLEDNYWYTAEPASDFYNRYPVDL
 KLAEEYGVNGIRISIAWSRIFPTGYGQVNAK-GVEFYHNLF-AECHKRHVEPFVTLHHFD
@@ -25,3 +16,13 @@ DIIHNKFILDATYLGKYSDKTMEGVNHILEVNGGELDLREEDFVALDAAKDLNDFLGINY
 YMSDWMQAFDGETEIIHNGKGEKGSSKYQIKGVGRRKAPVDVPKTDWDWIIFPQGLYDQI
 MRVKADYPNYKKIYITENGLGYKDEFVDNTVYDDGRIDYVKKHLEVISDAISDGANVKGY
 FMWSLMDVFSWSNGYEKRYGLFYVDFETQERYPKKSAYWYKKVAETQVIE
+>WP_155046991.1 hypothetical protein [Piscirickettsia salmonis]
+-----------------------MHTQDTNPA----------------------RSSLTI
+TIPS----NHQTIHHASGRLTVT----VRPKPGIQYYHYYIDGRLIKRSTQPSVTLYHLD
+------------------------------------------------------------
+--------RGQHQLKV-------------------------------------IATNKLH
+TLTSNTLIF---YLHRAS------------------------------------------
+--------------ILNN------------------------------------------
+-----NLPNHH-------------------------------------------------
+--------------------------------------------------
+

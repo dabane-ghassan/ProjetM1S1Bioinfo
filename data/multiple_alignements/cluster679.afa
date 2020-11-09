@@ -1,12 +1,13 @@
 >WP_080581178.1 methylphosphotriester-DNA--protein-cysteine methyltransferase family protein [Rickettsia rickettsii]
--------------------MLGEASG----------------------------------
--------------------------------------------------LVCTLVNAIEF
-NPAKRW--------------------------------------------------KDSD
+-------------------MLGEASGLV-----------------------------CTL
+-----------------------------------------VNAIEFNPAKRW-------
+--------------------------------------------------------KDSD
 CDELSVAASTARCQFKKRFGMTFVEYARARRMGIAMKQMRMGESVMNTQIDMGYESSSGL
-RDAVSKIMGGPK-----I
+RDAVSKIMGGPKI-------
 >WP_016211741.1 AraC family transcriptional regulator [Piscirickettsia salmonis]
 MPNYSTNRLHFEPDDKPYPILGIATDIFNHQDPIHQHVKGQLLYGISGSMQAIAQNSMTL
 LIPNKALWLPAKIPHKITTQGLLKYRSLYFDLEHFPNAPKHISLITVNPLLREMINELCF
 IEEKNLTSAVTLRLAQSCMDQIISAVPLSYNLPLSSHKLIAKAISHIKSNSHVILNSDAI
 ADHVGTSSRHLNRLFKKELGLTCHQWQQQLKIIQALELLTSTQSVTITADRLGFSSSSAF
-NVMFKRLIGKVPSDYIGI
+NVMFKRLIG--KVPSDYIGI
+

@@ -1,21 +1,22 @@
 >WP_012150616.1 MULTISPECIES: hypothetical protein [spotted fever group]
 MLFKILYKTVITLALIYFILIILEYARQGFLNDLSLQKVDLSIQNSIKEPIYLVSYADGL
-EYVYRNQNATTHYAINKGIDFIFNYKKKHINQAFIEKNQEIFNAPAGAGLWLWKPYIILE
-TMKNAPEGAIIVYLDSAFVIKKHISNLTNLLGDNDILLVHDRNRKNGSFVKGETFALMDC
-LTDECRNDDHIWSAVIIVRNTKLSRSFIEKWLKSCEDIRILSGKNYNIHPNYDEYKWHHS
-DQSVLSLIYHKNPQSVKVIEYEETTPSLSWFHRKYSNSSPLKPWYSIYGIDPIINFNTNG
-KVLPATSLINTPTIVRLRKWVIEYIQ
->WP_000369785.1 MULTISPECIES: DUF3173 domain-containing protein [Bacteria]
-MDNNLISN---------------------------------------KELIEM-GY----
---------------------------RPHTANDIIHQARELL------------------
-------------------------------------------------------------
-----------------------VSRGY---------------------------------
-----------------------------TFYNRKRLMVVPKSVVNEILGTEVA-------
---------------------------
+EY-VYRNQNATTHYAINKGIDFIFNYKKKHINQAFIEKNQEIFNAPAGAGLWLWKPYIIL
+ETMKNAPEGAIIVYLDSAFVIKKHISNLTNLLGDNDILLVHDRNRKNGSFVKGETFALMD
+CLTDECRNDDHIWSAVIIVRNTKLSRSFIEKWLKSCEDIRILSGKNYNIHPNYDEYKWHH
+SDQSVLSLIYHKNPQSVKVIEYEETTPSLSWFHRKYSNSSPLKPWYSIYGIDPIINFNTN
+GKVLPATSLINTPTIVRLRKWVIEYIQ
 >WP_002982972.1 MULTISPECIES: DUF3173 family protein [Streptococcus]
--MIQIVTK---------------------------------------DDIMKLTGY----
---------------------------SNSQSKKLIREAKALL------------------
+-------------------------------------------------MIQIVTKDDIM
+KLTGYSNSQS-----------------KKLIREA--------------------------
 ------------------------------------------------------------
-----------------------VSEGF---------------------------------
-----------------------------QWYQNKRINRVPLKTVENILGFELSLQNDIIV
-SVQEDTALEKGV--------------
+-------------------KALLVSEGF--------------------------------
+-----------------------------QWYQNKRINRVPLKTVENILGFELSLQNDI-
+--------IVSVQEDTALEKGV-----
+>WP_000369785.1 MULTISPECIES: DUF3173 domain-containing protein [Bacteria]
+------------------------------------------------MDNNLISNKELI
+EM-GYRPHTA-----------------NDIIHQA--------------------------
+------------------------------------------------------------
+-------------------RELLVSRGY--------------------------------
+-----------------------------TFYNRKRLMVVPKSVVNEILGTEVA------
+---------------------------
+

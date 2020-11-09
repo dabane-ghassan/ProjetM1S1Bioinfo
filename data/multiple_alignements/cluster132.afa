@@ -1,30 +1,3 @@
->WP_001249319.1 MarR family transcriptional regulator [Streptococcus pneumoniae]
--MRQLAKDINAFLN---------------------EVILQAENQHEILI-----------
----------------------------------GHCTSEVALTNTQEHIL--MLLSE---
---------------ESLTNSELA-------------------------------------
-----------------------------RRLNVSQAAVTKAIKSLVKEG-----------
----------------------------------MLETSKDS-------------------
-----------------------KDARVIFYQLTDLARPIAEEHHHHHEHTLL--------
--------TYEQVATQFTPNEQK-----------------------VIQRFLTALVGEIK-
------------
->WP_002986587.1 MarR family transcriptional regulator [Streptococcus pyogenes]
--MGTLEKKLDNLVN---------------------TILLKAENQHELLF-----------
----------------------------------GACQSDVKLTNTQEHIL--MLLSQ---
---------------QRLTNTDLA-------------------------------------
-----------------------------KALNISQAAVTKAIKSLVKQD-----------
----------------------------------MLAGTKDT-------------------
-----------------------VDARVTYFELTELAKPIASEHTHHHDETLN--------
--------VYNRLLQKFSAKELE-----------------------IVDKFVTVFAEELEG
------------
->WP_011680676.1 MarR family transcriptional regulator [Streptococcus thermophilus]
--MIELEERVNQLIN---------------------QILLKAENQYELLI-----------
----------------------------------GQCRSKVKLTNTQEHIL--MLLSE---
---------------GQKTNSELA-------------------------------------
-----------------------------KALNVSQAAVTKAVKTLVKEG-----------
----------------------------------MLEGKKDK-------------------
-----------------------DDGRVTYFVLTQEAQPIAQEHKEHHQETLG--------
--------VYRSVLDQFDHQERQ-----------------------VIGRFLIKLAEKIEE
------------
 >WP_012150373.1 NADH-quinone oxidoreductase subunit NuoF [Rickettsia rickettsii]
 ---MLKEEDKIFTNLHGQQSHDLKSSKKRGDWENTKALLDKGR--DFIVEEVKKSGLRGR
 GGAGFSTGMKWSFMPKNLEKSCYLVVNADESEPGTCKDRDILRFEPHKLIEGCLLASFAI
@@ -33,13 +6,41 @@ TALLESLEGKKGMPRLKPPFPAGFGLYGCPTTINNVESIAVVPTILRRGASWFAGIGKPN
 NTGTKIFCISGHVNKPCNVEEAMGISLKELIEKYAGGVRGGWDNLKAIIPGGSSVPLLPK
 S--LCEVDMDFDSLRTAGSGLGTGGIIVMDQSTDIIYAIARLSKFYMHESCGQCTPCREG
 TGWMWRVMMRLVKGNVTKSEIDELLNVTKAIEGHTICALGDAAAWPIQGLIRHFRSEIEA
-RI---KSYSVV
+RIK-SYSVV--
+>WP_001249319.1 MarR family transcriptional regulator [Streptococcus pneumoniae]
+-----------------------------------MRQLAKDI--NAFLNE---------
+-----------------------VILQAE---------------NQHEILIGH-------
+--------------------------------------------------------CTSE
+VALTNTQE--------------------------------HILMLLSEESLTNSELARRL
+NVS----------------QAAVTKAIKSLV-------KEG-------------------
+---MLETSKDSKD-----------ARVIFYQLTDLARPIAEEHHHHHEHTLL--------
+-------TYEQVATQFTPNE---------------------------QKVIQRFLTALVG
+EIK--------
+>WP_002986587.1 MarR family transcriptional regulator [Streptococcus pyogenes]
+-----------------------------------MGTLEKKL--DNLVNT---------
+-----------------------ILLKAE---------------NQHELLFGA-------
+--------------------------------------------------------CQSD
+VKLTNTQE--------------------------------HILMLLSQQRLTNTDLAKAL
+NIS----------------QAAVTKAIKSLV-------KQD-------------------
+---MLAGTKDTVD-----------ARVTYFELTELAKPIASEHTHHHDETLN--------
+-------VYNRLLQKFSAKE---------------------------LEIVDKFVTVFAE
+ELEG-------
+>WP_011680676.1 MarR family transcriptional regulator [Streptococcus thermophilus]
+-----------------------------------MIELEERV--NQLINQ---------
+-----------------------ILLKAE---------------NQYELLIGQ-------
+--------------------------------------------------------CRSK
+VKLTNTQE--------------------------------HILMLLSEGQKTNSELAKAL
+NVS----------------QAAVTKAVKTLV-------KEG-------------------
+---MLEGKKDKDD-----------GRVTYFVLTQEAQPIAQEHKEHHQETLG--------
+-------VYRSVLDQFDHQE---------------------------RQVIGRFLIKLAE
+KIEE-------
 >WP_016209307.1 NADH-quinone oxidoreductase subunit NuoF [Piscirickettsia salmonis]
 MSISIQQNLVCFRSLGLDQPWTLASYESIGGYSVWRRILKEKTPPEEIIEELKTSALRGR
 GGAGFPTGLKWSFMPRNAPGQKYVVCNSDEGEPGTCHDRDIMRYNPHQLIEGMAIAGYVV
 GATVGYNYVRGEFIEPIRRCDLALEEARAAGLLGNDILGSGIDFDMFTAHGAGAYICGEE
 TALLNSLEGKKGQPRFKPPFPAGYGLYGRPTNINNTETYASVPVILQHGGQWFLELGKPN
-NGGCKIFSVSGHVNKPGNYEVPLGTSFKDLLA-LAGGVRNG-NRLKAVIPGGSSSKIVPG
+NGGCKIFSVSGHVNKPGNYEVPLGTSFKDLL-ALAGGVRNG-NRLKAVIPGGSSSKIVPG
 DIMLNDVTMDYDSIGKAGSMLGSGAVVIIDETQDMAELLARIAHFYYEESCGQCTPCREG
 TGWMSRILKRIVSGQGRPEDLEKVVAVAGKIEGHTICGLGDAAAWPVQSYIQKFRHEFEY
 WIEHKRSMVAA
+

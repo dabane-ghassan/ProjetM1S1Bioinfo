@@ -3,6 +3,7 @@
 
 from blast_hitter import BlastHitter
 from clusterizer import Clusterizer
+import subprocess
 
 
 proteomes = ["../data/genomes/Rickettsia_rickettsii_str._Arizona_strain=Arizona_protein.faa",            
@@ -41,6 +42,28 @@ max_one = Clusterizer.max_one_species_per_cluster(spss, clss)
 #Clusterizer.clusters_to_txt(max_one, '../data/clusters/max_one_clusters.txt')
 
 all_afa = Clusterizer.muscle(max_one, proteomes)
-all_afa
+
+joined_afa = Clusterizer.cat_subMSAs(all_afa)
 
 
+
+"""
+test_afa = all_afa
+out = []
+first = test_afa.pop(0)
+
+profile_align = subprocess.run(['muscle', '-profile', '-in1', first,
+                                '-in2', test_afa.pop(0)], capture_output=True)
+output = '../data/phylogeny/clusters_1_2.afa'
+with open(output, 'wb') as afa :    
+    afa.write(profile_align.stdout) 
+out.append(output)
+
+for i in range(len(test_afa)) : 
+    second_align = subprocess.run(['muscle', '-profile', '-in1', out[-1],
+                                    '-in2', test_afa.pop(0)], capture_output=True)
+    output = '../data/phylogeny/clusters.afa'
+    with open(output, 'wb') as afa :    
+        afa.write(second_align.stdout) 
+    out.append(output)
+"""

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import subprocess
+import fileinput
 from blast_hitter import BlastHitter
 
 class Clusterizer: 
@@ -142,7 +143,7 @@ class Clusterizer:
 
 
     @staticmethod 
-    def muscle(cluster_dict, proteomes):
+    def mafft(cluster_dict, proteomes):
         
         afasta_files = []
         fa_dir= '../data/clusters/cluster%s'
@@ -155,7 +156,7 @@ class Clusterizer:
             Clusterizer.cluster_from_proteome(cluster, proteomes,
                                               fa_dir % fasta)
             
-            multialign = subprocess.run(['muscle', '-in', fa_dir % fasta],
+            multialign = subprocess.run(['mafft', fa_dir % fasta],
                                         capture_output=True)
             with open(afasta_file, 'wb') as afa :    
                 afa.write(multialign.stdout) 
@@ -163,4 +164,17 @@ class Clusterizer:
             afasta_files.append(afasta_file)
             
         return afasta_files
- 
+    
+    @staticmethod    
+    def cat_subMSAs(afa_files):
+        
+        cat_MSAs = '../data/phylogeny/cat_msas.afa'
+        for afa_file in afa_files : 
+            with open(afa_file, 'a') as afa : 
+                afa.write('\n')
+               
+    
+        with open(cat_MSAs, 'w') as fout, fileinput.input(afa_files) as fin:
+            for line in fin:
+                fout.write(line)
+        return cat_MSAs

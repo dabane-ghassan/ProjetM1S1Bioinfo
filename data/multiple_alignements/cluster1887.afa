@@ -1,11 +1,11 @@
 >WP_011681547.1 membrane protein [Streptococcus thermophilus]
-MVTPAEVQMDLSLEGDK-------------------------------------------
----------------------------------SVKSHLLQGILDLFLETLNIYNNHLGD
-LKKISTQLLITLFMAWSLLGVILVELLLFVESVIVFV--WRLLVRLVKLMRIKDNT----
-----------------------------------KVLI----------------------
-------------------------------------------------------------
--DETQKRHAKRERQKAQ-----------------------------------------RR
-EQER------------------------------------------
+-----------------------------------------------MVTPAEVQMDLSL
+EGDK-----------------------------SVKSHLLQGILDLFLETLNIYNNHLGD
+LKKISTQLLITLFMAWSLLGVILVELLLFVESVIVFV--WRLLVRLVKLMRI--------
+------------------------------KDNTKVLIDET-------------------
+------------------QKRHA-------------------------------------
+----KRERQKAQRREQER------------------------------------------
+----------------------------------------------
 >WP_016211177.1 amino acid permease [Piscirickettsia salmonis]
 MTTNKTLGSTLIIIGTTIGAGVLALPLATAGLGFYYAVILMIMLWILMCYTALLTLEVNL
 AFPRGSSFSSMAKATLGTPGKIIATAAMLILFYALTAAYITGGSQLITENLHIHFQHAEK
@@ -14,3 +14,4 @@ FILAAAPIVFTSFGFHGSIPSIVNYVGISPKKLRKVLIIGSMVPLILYIIFELTTLGTIP
 RTGPHSLAALTAQGSSVGQFIHALSLWVHSPVITALVNIFSDIAVTTSFLGVTLGLFDFI
 ADATKRHNNKTGRLQSALMTFIPPLVFALFYPKGFIIALGYAAIALAVLAVLLPVLMVRK
 VRVLPDLSSPYKVKGSVLILTIVFLAGLLIIALQIASAFNLLPVFH
+

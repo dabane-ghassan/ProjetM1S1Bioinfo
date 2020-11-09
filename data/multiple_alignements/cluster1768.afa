@@ -1,7 +1,7 @@
 >WP_011017565.1 hypothetical protein [Streptococcus pyogenes]
 ------------------------------------------------------------
-----------------------------------------------------------MT
-PEQAEKAKIRAKQELETFSIYLDQAIDELGGVLTSREVFLAAGITYLGAGQTDI------
+---------------------------------------------------------MTP
+EQ-AEKAKIRAKQELETFSIYLDQAIDELGGVLTSREVFLAAGITYLGAGQTDI------
 ------------------------------------------------------------
 --HAAVEGLCEQIQ--------------------------
 >WP_016210277.1 mannosyl-glycoendo-beta-N-acetylglucosaminidase [Piscirickettsia salmonis]
@@ -10,3 +10,4 @@ LESDLFKSSYQDFYQDLYDDQLSLNLANNGGIGLTDALVLYLSQQAGSEQVLNVNNTLKK
 EQSAQDGQIAFKQLIATLEPYLDDLSEKLG---VSKKAILSHAIVETGWGSTNMMKGGHL
 SNSNQVNLFGSPQRFGLEVNQGSGGGGGFLTVDEAVSHYNKFLEKYLNVNQHDNKVDYGK
 ESKIADEDFFKFIQSILYPKEPEKLQQFLTVAKSSLLNGV
+

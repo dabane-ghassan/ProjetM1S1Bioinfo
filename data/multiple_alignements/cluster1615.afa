@@ -1,3 +1,27 @@
+>WP_001210991.1 MULTISPECIES: preprotein translocase subunit SecE [Bacteria]
+------------------------------------------------MRFIGDIFRLLK
+DTTW--------------------------------------------------------
+--------------------------------------PTRKE-----------------
+---------------SWRDF----------------------------------------
+------------------------------------------------------------
+----------------------------------------------------RSIMEYTA
+FFVVIIYIFDQLIVSGLIRFINIF
+>WP_002982348.1 preprotein translocase subunit SecE [Streptococcus pyogenes]
+------------------------------------------------MGFISGTFKVLK
+DTTW--------------------------------------------------------
+--------------------------------------PNRKQ-----------------
+---------------RWKDF----------------------------------------
+------------------------------------------------------------
+----------------------------------------------------ISVLEYTA
+FFTVIIYIFDQLLAKSVLALINLF
+>WP_011680694.1 preprotein translocase subunit SecE [Streptococcus thermophilus]
+------------------------------------------------MRQTGSIFKVLK
+DTTW--------------------------------------------------------
+--------------------------------------PERKQ-----------------
+---------------RWHDF----------------------------------------
+------------------------------------------------------------
+----------------------------------------------------SSVLEYTA
+FFTVIIYAFDELLSRTMSALINFF
 >WP_016212011.1 calcium:proton antiporter [Piscirickettsia salmonis]
 MKPFQFIREEYKFLIGLLFVLIFFSPQFSQQLVPHSINFAAIGFIVVFIIMIACAFNVVK
 HADWLAHRFGEPYGTIILTISVISIEVALISAVMLAGGKSPTLARDTMFAVIIISLNGLV
@@ -5,28 +29,5 @@ GLSLLLGGIRHHSQRYNLNGANAFLSVLVPLSIICLVSPNYTKAASYGVLSHGQAGFIVI
 MSLVLYGVFLSIQTVRHKDFFEHPDPTDEQITAAQKDGSLPRKVYFHIAMLFMALIVMVL
 LSKKLAMYIDFTISALHAPKALSGFIVAILVLTPEGMSAIKSAANNQMQRCVNLCLGSAL
 ASISLTIPAVLVISFLTQQTITLGLSSLDVLLLILTLAVSMITFISHRTHILQGVVHLAL
-FFTYIVFIFDLAK
->WP_001210991.1 MULTISPECIES: preprotein translocase subunit SecE [Bacteria]
-----------MRFIGDI--------------------------------------FRLLK
-DTTWPTRK----------------------------------------------------
--------------ESW-----RDFRSIM---------------------------EYTAF
-FVVIIY-------------IFDQ------------------------------------L
-IVSGLIRFINIF------------------------------------------------
-------------------------------------------------------------
--------------
->WP_002982348.1 preprotein translocase subunit SecE [Streptococcus pyogenes]
-----------MGFISGT--------------------------------------FKVLK
-DTTWPNRK----------------------------------------------------
--------------QRW-----KDFISVL---------------------------EYTAF
-FTVIIY-------------IFDQ------------------------------------L
-LAKSVLALINLF------------------------------------------------
-------------------------------------------------------------
--------------
->WP_011680694.1 preprotein translocase subunit SecE [Streptococcus thermophilus]
-----------MRQTGSI--------------------------------------FKVLK
-DTTWPERK----------------------------------------------------
--------------QRW-----HDFSSVL---------------------------EYTAF
-FTVIIY-------------AFDE------------------------------------L
-LSRTMSALINFF------------------------------------------------
-------------------------------------------------------------
--------------
+FFTYIVFIFD--LAK---------
+

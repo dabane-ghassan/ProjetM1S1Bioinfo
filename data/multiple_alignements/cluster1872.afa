@@ -1,10 +1,10 @@
 >WP_011681040.1 hypothetical protein [Streptococcus thermophilus]
-MANE------LNLSASQFIVLAIVLSIAV---TVLWLKKSYFQLDIEPKTDTVTGNTTRN
-VGTRY-------------------------------------------------------
------------------------------GA-----------------------------
+MANELNLSA------SQFIVLAIVLS---IAVTVLWLKKSYFQLDIEPKTDTVTGNTTRN
+VGTRYGA-----YIQ---------------------------------------------
+------SQG---------------------------------------------------
 ------------------------------------------------------------
-----YIQS--------------------------------QGKY----------------
--------------------------YN----------------------
+------------------------------------------------------------
+-------------------------------KYYN--------------
 >WP_016210941.1 pyridine nucleotide-disulfide oxidoreductase [Piscirickettsia salmonis]
 MQQKVMAWAVVGAGPAGIAAIAKLLDFGVLASEILWLDPTFTVGDFGTKWQEVSGNTRVK
 FFTRFLESSSYFYYQENKDRFALSRMDPEAICLLKDLVDPLSQITSNLRQKVKVYSVATT
@@ -12,3 +12,4 @@ VNELALSQGSWQLATSAGLFRAKQAILATGAIPKSLIHEGLEEISLENALHPQKLLKSCQ
 QHDQVAVFGSSHSGILVIKALSELGVKKIVNVYQRPLRFAVPIDDWILFDNTGLKGTAAA
 WARQYIHGDLPNNLVRVHAESDAVASELISCNKVVYAIGFKSRYPKVLGCETVVHNPHNG
 IIAPGLFGLGIGFPERVTDPYGHQEFNVGVLKFMNTLIRMMPLWLHYPA
+

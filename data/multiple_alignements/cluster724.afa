@@ -1,24 +1,25 @@
->WP_054300269.1 hypothetical protein [Piscirickettsia salmonis]
-------------------------------------MLSTPWLAAGV------ELIQSQN
-DLNDYHEKYLSTNKNFIAEQFI---------------SGK----------MYHCDFIIYD
-NKAI-----FKACSEYL-------------------------------------------
--------------------------------FPN-LDFKMSKTLSS------IPVFNK--
--------------------------------------QIQSVILNFS-------------
------------------------------------------------DQCLRSLGYQNGI
-YSA----------------RSTVSDILSVG---------
 >WP_012150699.1 ankyrin repeat domain-containing protein [Rickettsia rickettsii]
-------------------MDVNTKDGKGRIPI----NYATYSKQHEIT-----QILLQPG
-SEIDTVDNYGGTPFCYLLLKHE---------------SGQN---------KTLLDLFLNN
-NVNL----KINACGESI-------------------------------------------
--------------------------------FNHALTSRDKWLLEQ-LISKGADIGRQ--
-----------------------------------------GVLLNNP-------------
-----------------------------------------------FDHSIAELVKIGVD
--------------------KEKIILILMSN---------
+-----------------------------MDVNTK-------------------------
+------DGKGRIPINYATYSKQHEITQ---------------------------------
+--------------------------ILLQP-------GSEI----DTVDNYGGTPFC--
+--YLLLKHESGQ----------NKTLL---DLFLNNNVNLKIN-ACGE------------
+------------SIFNHAL------------------TSR------------------DK
+WLLEQLI-----------SKGADIG---RQGVL-------------LNNPFDHS------
+-------------IAELVKIGVD---KEKIILILMSN---------
 >WP_000238677.1 ATP-grasp domain-containing protein [Streptococcus pneumoniae]
 MVKIAIINQFSPRVCDYKAIKELEDKKYEIEIFTKARFKSYYEDSKFKCYFYDNLLDNQN
 YIFDIIDSHSKKPFTYIVATHEFDIVLAAKIRKLLGISGQNIDSANGFRDKYIMKKYLEK
-AVSLPKYAEINDCVDLIEFTDNKKYPFVVKPRLGAGSIGVTIIQNKSELKDFISSPLSQN
-LMVETFTNGEMYHVDGLFKDNEMLLYSVSKYFNDCLSFKTNTPLGSYMIDDSNPLSRKLY
-DATLKVLTKIPTPNHTIPFHAEFFVDGEKVTFCEIASRVGGGLINDSFKLLTNIDLQKTF
-VKSQIGIDYLNIIKSDKRTAWITIPPKEGELLSVNLYKDSWVEKVNFDETSIGRRYSGGD
-YSASALIAYLISGTDEDDLKNKILHIIEWQDKNTIYKEK
+AVSLPKYAEINDCVDLIEFTDNKKYPFVVKPRLGAGSIGVTIIQNKSELKDFISSPLS--
+QNLMVETFTNGEMYHVDGLFKDNEMLLYSVSKYFNDCLSFKTNTPLGSYMIDDSNPLSRK
+LYDATLKVLTKIPTPNHTIPFHAEFFVDGEKVTFCEIASRVGGGLINDSFKLLTNIDLQK
+TFVKSQIGIDYLNIIKSDKRTAWITIPPKEGELLSVNLYKDSWVEKVN--FDET---SIG
+RRYSGGDYSASALIAYLISGTDEDDLKNKILHIIEWQDKNTIYKEK
+>WP_054300269.1 hypothetical protein [Piscirickettsia salmonis]
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------------MLSTPWLAA---GVELIQSQNDLNDYHEKYLSTN
+KNFIAEQFISGKMYHCDFIIYDNKAIFKACSEYLFPNLDFKMS-----------------
+------KTLSSIPVFNKQI-----------------------------------------
+---QSVI---------------------------------------LN--FSDQCLRSLG
+--YQNGIYSARSTVSDILSVG-------------------------
+

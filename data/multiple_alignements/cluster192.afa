@@ -1,45 +1,46 @@
->WP_052047073.1 outer membrane protein assembly factor BamB [Piscirickettsia salmonis]
-MRKNNWEISVKHWKKVV--VTGFGLLAVVLAGCSSYKDNTIAPAPLKIFKPKVAVLEHWQ
-AQVGEGSGTAAKAVLSFGDEGYWQYQAAENWHLNVT---------QAGQSLYAVDYNGLV
-KSFNLAGQTNWHVNLKQLLTASPVAGPEYVYVVTAEGTVFALNKKTGQIQWQKPLGSLVI
-AAPAAAKGVVVIHTKPGAVIALRAVDGRQLWRYDLLLNPSMTMERSSVPVIAGQQVVIGS
-DNGQVVALDRQTGDLLWQYQVAVPSGASEVAQIVDVDV--TPVVKDGTVYVSSVKNRTIA
-VSLQSGRMLWKHKVGSFSGLAVSQNKVIVTANNGALWALDRQTGKAVWVDSNLLGRGPTA
-PAIVGHYVVVGDY-------------KGFVHWFSLKTG--QLVGRMSVGARAIVGQPVVD
-GSIVYVMDASGRLVAVRGSKVEEL
->WP_011184095.1 DUF4651 domain-containing protein [Streptococcus pyogenes]
--MRDMSKKKIGMI------SGIFGFSL---------------------------------
---------AIGLGVV---IKDYCQDRQ----RRQMT------------------------
-------------------------------------------------RDLRTFFSPL--
-------------------------------------------------------------
---GQIEVL------------YINPCQVK--------------------------------
-QDYISGGVVMS-------------------------------------------------
---------------------------NGKQYQF------------------------TYH
-SRQISFEEDKG-------------
 >WP_012150528.1 outer membrane protein assembly factor BamB [Rickettsia rickettsii]
----MTKKIALLLLPFILISCNGLGPTRV---------------KNIVELTPKLAIQTHEP
-IYLDSNANIYAFNANMLKNKQYSFTRSKTITEPVFIGDMIYALDIRSNISAFSIEKNKII
-WSYNLSRHKK-----DNYIGGGILHHNGKLYVTYGSRLLVVLDAKSGYEIIRKELPDIIR
-IKPIVLNDNTVLVQTISNQTIALNAETLKTVWEHESLAEVLSASYFMTPIVQHDNVIVTY
-NSGQILALNITNGEVKWNFEFTNLNDRTAIPNFDESSILCTPVHDNMNLYIATGLGKLIK
-LNVATGSVIWQVNAEDIQSMSLIGNSLFVTNNARQIAAFNPETGKVKFVADLNDGQDPKK
-LKSAAFLVPFVGVNNNNKRSLNVISVNGVLYSFDVDNNGLNMIPHVVKIIKNIRYYGLRA
-NNNLYFSTDRKIIFGSK-------
->WP_011681678.1 DUF4651 domain-containing protein [Streptococcus thermophilus]
-----MKRRTLALF------AGGVG------------------------------------
---------ALGLLAM---TEKYRQSRVEMK-KAALI------------------------
-------------------------------------------------QDIRQELSHL--
-------------------------------------------------------------
---GPIAVL------------YTNPTDKE--------------------------------
-NPGLTGGIVLE-------------------------------------------------
---------------------------DGRVYSF------------------------VYA
-EDKLTYEEEQA-------------
+-----------MTKKIALL---LLPFILISC-----NGLGPTRVKNIVELTPKLAIQTHE
+PIYLDSNANIYA-----------FNANMLKNKQYSFTRSKTITEPVFIGDMIYALDIRSN
+ISAFSIEKNKIIWSYNLSRHKKDNYIGGGILHHNGKLYVTYGSRLLVVLDAKSGYEIIRK
+ELPDIIRIKPIVLNDNTVLVQTISNQTIALNAETLKTVWE-HESLAEVLSASYFM----T
+PIVQHDNVIVTYNSGQILALNITNGEVKWNFEFTNLNDRTAIPNFDES-----SILCTPV
+HDNMNLYIATGLGKLIKLNVATGSVIWQVNAEDIQSMSLIGNSLFVTNNARQIAAFNPET
+GKVKFVADLNDGQDPKKLKSAAFLVPFVGVNNNNKRSLNVISVNGVLYSFDVDNNGLNMI
+PHVVKIIKNIRYYGLRA-------NNNLYFSTDRK----IIFGSK----
 >WP_001013974.1 MULTISPECIES: DUF4651 domain-containing protein [Streptococcus]
----MNGMKAKKMW------MAGLA------------------------------------
---------LLGIGSLALATKKVADDRKLMKTQEELT------------------------
-------------------------------------------------EIVRDHFSDM--
+-------MNGMKAKKMWMAGLALL-------------GIG--------------------
 ------------------------------------------------------------
---GEIATL------------YVQVYESS--------------------------------
-LESLVGGVIFE-------------------------------------------------
---------------------------DGRHYTF------------------------VYE
-NEDLVYEEEVL-------------
+--SLAL------------------------------------------------------
+---------------------------ATKKVADDRKLMKTQEELTEIVRDHF-------
+-----------SDMGEIATLYVQVYESSLESL----------------------------
+---------------------VGGVIF---------------------------------
+------------------------------------------EDGRHYTFVYE-------
+------------------------NEDLVYEEEVL--------------
+>WP_011184095.1 DUF4651 domain-containing protein [Streptococcus pyogenes]
+-------MRDMSKKK-----IGMIS-----------GIFGFS------------------
+------------------------------------------------------------
+-LAIGL------------------------------------------------------
+-------------------------GVVIKDYCQDRQ----RRQMTRDLRTFF-------
+-----------SPLGQIEVLYINPCQVKQDYI----------------------------
+---------------------SGGVVM---------------------------------
+------------------------------------------SNGKQYQFTYH-------
+------------------------SRQISFEEDKG--------------
+>WP_011681678.1 DUF4651 domain-containing protein [Streptococcus thermophilus]
+----------MKRRT-----LALFA-----------GGVG--------------------
+------------------------------------------------------------
+--ALGL------------------------------------------------------
+-------------------------LAMTEKYRQSRVEMK-KAALIQDIRQEL-------
+-----------SHLGPIAVLYTNPTDKENPGL----------------------------
+---------------------TGGIVL---------------------------------
+------------------------------------------EDGRVYSFVYA-------
+------------------------EDKLTYEEEQA--------------
+>WP_052047073.1 outer membrane protein assembly factor BamB [Piscirickettsia salmonis]
+MRKNNWEISVKHWKKVVVTGFGLLAVVLAGCSSYKDNTIAPAPLK---IFKPKVAVLEHW
+QAQVGEGSGTAAKAVLSFGDEGYWQYQAAENWHLNVTQA---------GQSLYAVDYNGL
+VKSFNL-AGQTNWHVNLKQLLTASPVAG-----PEYVYVVTAEGTVFALNKKTGQIQWQK
+PLGSLVIAAPAAAK-GVVVIHTKPGAVIALRAVDGRQLWR-YDLL---LNPSMTMERSSV
+PVIAGQQVVIGSDNGQVVALDRQTGDLLWQYQ-------VAVPSGASEVAQIVDVDVTPV
+VKDGTVYVSSVKNRTIAVSLQSGRMLWKHKVGSFSGLAVSQNKVIVTANNGALWALDRQT
+GKAVWVDSNLLGRGP---TAPAIVGHYVVVGD----------YKGFVHWFSLKTGQLVGR
+MSV----------GARAIVGQPVVDGSIVYVMDASGRLVAVRGSKVEEL
+

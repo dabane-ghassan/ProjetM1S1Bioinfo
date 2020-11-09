@@ -1,15 +1,16 @@
 >WP_012262579.1 hypothetical protein [Rickettsia rickettsii]
-----MHKLKENSLGFANIRIYAG-------------------------------------
-GKVKG---------------------ASFVTCHLETLATLDPKPN---------------
----SIEH--------EYYSEII--------------------------------------
--GNL----------------------------------
+----------------MHKL-------KENSL---GFANIRI-----------YAG----
+GKVKG----ASFVTCHLETLATL------------------DPKPNSIEH----------
+---------------EYYSEII-----------------------GNL------------
+--------------------------------------
 >WP_004197070.1 bacteriocin immunity protein [Streptococcus thermophilus]
---------------MKGLKWFAG-------------------------------------
-GKERQ---------------------EQAVAIIDEVIETIGDKPD----YADLK------
----QVLH--------SYRTELA---------------------------DSRSATPYILS
+----------------------------------------------MKGLKW-FAG----
+GKERQ-EQAVAIIDEVIETIGDK---------PDYA-------DLKQVLH----------
+---------------SYRTELA---------------------------DSRSATPYILS
 RMSLEISKVVRKDQLTLSPCIEERMAELRKLLAIRYGY
 >WP_016210745.1 DUF2272 domain-containing protein [Piscirickettsia salmonis]
 MSQDVFVSRLLAYLHSEHQFFGGQTYDKDDNVVQEGYQECEPAQSNRIGEYWSFLGHDLN
 GKDRDWPWSAAFISFMLQLSGTEKFFRGSIRHADYMNQAIRDRDNSMVLYNGLKVNEKEV
 KVGDILGYGRAGAGVSYDNALATGRYTSHCDIVISVTDQEIIVIGGNVGDSVTARPYILS
-NGKLDESRRPWITHMSLNHVISEMI------------Y
+NGKLDESRRPWITHMSLNHVISEMIY------------
+

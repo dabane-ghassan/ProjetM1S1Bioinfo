@@ -1,15 +1,15 @@
 >WP_041472517.1 hypothetical protein [Rickettsia rickettsii]
-------------------------------MSTKCY------------------------
+----------------------MSTK--------CY------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
-EHAFVLLPTHPTAAYYLWSN--------------YRIQG---------------------
----------KCDKANDL------------------------------------------I
-QYVPV-------------------------------------------------------
---EYIQYILEMLTNPYEISYKTLDV-----------------------------------
+EHAFVLLPTHPTAAYYLWSNYR--------------IQG---------------------
+---------KCDKAN---DLIQYVPVEYI--QYILEMLTN--------------------
 ------------------------------------------------------------
+------------------PYE---------------------------------------
+---------------------------ISYKTLD--------------------------
 ------------------------------------------------------------
------------------IKQIP
+VIKQIP----------------
 >WP_016210156.1 ferric iron reductase FhuF-like transporter family protein [Piscirickettsia salmonis]
 MPNSNSYITSPTDSNLALHSNHLAARYSIQALLNCYCREVAAPHHWLSLLPLKQEDTAYA
 HLDDRASLVDKKYQLTLTLPDSQIDQKKIVIAIQKPSLTYHFSYISSPIMTSKQQPLGKL
@@ -22,3 +22,4 @@ QHSWIESILIQLARHEKFPYETIAVRWFNRYINLLVPVILDYYLYHGITFEPHLQNVLIQ
 LDHQYYPSHIYLRDLEGTKLNPNKNKNISLNHLDQPSRTAMTYDCNQSWQRIIYCLFINN
 ISSSIHFISKSSVSLEKKLWLNLSLTLTEYQNKLSNQHTLELRQWLYHRSWPYKANLTTR
 FLKQADKKAYYIALENPLLKIT
+

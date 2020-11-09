@@ -1,18 +1,18 @@
 >WP_011681743.1 hypothetical protein [Streptococcus thermophilus]
----------------------MTKGILIK---------APDLFTVDEQLEI---------
+---------------------MTKGILIK---------APDLFTVD--------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
+-----------EQLEIQ-------------------------------------------
+-ERLKSNDIEVAFLRDDQIQASFYSFIEILVNNDF-------------------------
+LNEL----EIA----------------------LCVDILKDII-----------------
 ------------------------------------------------------------
-QERLKSNDIEVAFLRDDQIQASFYSFIEILVNNDF-------------------------
------------------------------------------------------LNELE--
-------------------------------------------------------------
----------------IALCV----------------------------------------
------DILKDIIIKIISKIKKKNV-------------VILDAKQNEKPAKLTI-------
-------------------------------------KSNTDKGTIYLE------------
----VPCDI---PDYGLQESIVRN-IEAKCILDNNSNEGLN---DLYIVEDK---SGNLS-
-------------IMTLTEYINYK----------------------KSIRQDI--------
----------------------------------LLLFNHD-----------------
+--------------------IKI-------------------------------------
+-----------------------ISKIKKKNVV-----ILDAKQNEKPAKLTI-------
+------------------------------------KSNTDKGTIYL-------------
+--EVPCDI---PDYGLQESIVRNI---------------EAKCILD-----NNSNEGL--
+NDLYIVEDKSGNLSIMTLTEYINYK----------------------KSIRQDI------
+-----------------------------------LLLFNHD-----------------
 >WP_155046996.1 hypothetical protein [Piscirickettsia salmonis]
 MAQESAYRSISKPKGFADPMNNAKRIIIKLAYDPESLLAPGLIVLDCHLTVPSFFRKRPD
 HDSTQLQPLQGHAHWTLKYKEHTDRPQDPPNEARLYYRYQQQGQPPEIGLVDYKNGRPLS
@@ -26,5 +26,6 @@ QLTGLQLAAWQGFTGLARCAVKIGARDNLARVHYRHEGGQQETYRITATDFVVAAYLQDD
 GSSKREELYELLLVLCSSHSKREVSHILASNRVLWFDAIKDKRENELEKTLHLISLSSTV
 ASTDLYKQKSEAEFGERAYAIYDGAIKTFRKQRSHAEAHQDQHSIVLACMGEAVAWLTLL
 RVTMDCNICHNPTPGATEALTRQLLRGIGSLRKEYRPGMEFKTDLDILPGRGKSGGGMRF
-DPDHIMEIVVGLILQLQPKSDFKQVMAWMQRQVLVGLKGEEFEKLKNVRRHVQAGFDTMP
-TERPVNTALARRVAQSQSTEDETKVDDATDDPRMLFLQHQQEANDTGIRSVQEYECG
+DPDHIMEIVVG--LILQLQPKSDFKQVMAWMQRQVLVGLKGEEFEKLKNVRRHVQAGFDT
+MPTERPVNTALARRVAQSQSTEDETKVDDATDDPRMLFLQHQQEANDTGIRSVQEYECG
+

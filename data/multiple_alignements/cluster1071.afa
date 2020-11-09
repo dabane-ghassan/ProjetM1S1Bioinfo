@@ -1,18 +1,3 @@
->WP_075275117.1 hypothetical protein [Piscirickettsia salmonis]
----------------------------MQLSYLELNSVEYIQKVLANITLLDQDACAL--
--NKLRVVYSKITQQIESGQLKVH---------GLGGGS---AITFKGE------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-----------------RTKVPEGISK------------IWYEITDMQGNFRWM-------
-DNVSAVLNKVK-------VEANNRSGYRGLTAIGLF------------------------
-------------------FGSYRD----AQTK--------------------------DL
-YSKISQAL----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---------------
 >WP_000579435.1 YhgE/Pip domain-containing protein [Streptococcus pneumoniae]
 -----------------MIGISLIPDLYNIIFLSSMWDPYGQLSDLPVAVVNNDKEASYN
 GNTMAIGKDMVSNLKENKTLDFHFVDEEEGKKGLEDGDYYMVVTLPSDLSEKTTTLSN--
@@ -22,7 +7,7 @@ GNTMAIGKDMVSNLKENKTLDFHFVDEEEGKKGLEDGDYYMVVTLPSDLSEKTTTLSN--
 ------------------------------------------------------------
 --IQSTAAYQSLTSEQQTEISDSVSQNST-DSIQSAQSIVALVQDLQGSLENL-------
 QNQSSNLSTLK-------NQSNQVSPITSTSLIGLSSGLTEIQGDVTSKLVPASQSIASG
-------------------VNAYTT----GVDKVSQGASQLSEKNATLTGSLDKLVSGSNT
+------------------VNAYTTGVDK----VSQGASQLSEKNATLTGSLDKLVSGSNT
 LTQKSSRL----------------------------------------------------
 --------TAGVG-----------------------------------------------
 ------------------------------------------------------------
@@ -33,7 +18,7 @@ MLEELKTLIKNPKLMITMIGVALVPALYNLSFLGSMWDPYGRVNDLPIAVVNHDKPAKRA
 GKSLTIGNDMVDKMSKSKDLEYHFVSAKQAQEGLKEGDYYMVITLPEDLSQRAATLLNSE
 PQKLTIRYQTSKGHGMVAAKMGETAMAKLKESVSQNITKTYTSAVFSSMTDLQSGLKEAS
 TGSQALDSGAKTAQMGSQMLSDNLAGLSSASWQFQQGTNRLTSGLTAYTAGVSQVKDGLG
-QLSTDMPVY----------LNGVSRLSQGASQLNQGLSQLTQSTTLSDDKAKRIQSLEVG
+QLSTDMPV-------YLNG---VSRLSQGASQLNQGLSQLTQSTTLSDDKAKRIQSLEVG
 LPVLNQGIQQLNANLSTMQVP------KLNTDELGNNLAAIAQAAQQLLVKEAAAHKEQL
 AVLQATSAYQSLTAEQQGELTAALTQTDKGEAVAPAQTILRSVQTLSTSLQSL-----SQ
 EDQSKQLEQLKEAVAQIANQSNQALPGASSALTELSTGLAKVNGSLNQQVLPGSNQLTTG
@@ -52,9 +37,25 @@ QLNSNSEAVNSAAGQFASGAEAMNTLVTGANSLSTALSQMATATSLSEEQQTQLSSLSAN
 LTDLNTAIQNLNTAVSNTSFPSGTSTTSVDTSSIATYLSNISSTASSIATASATDKANDL
 AAVQGTAAYQSLTADQQAEIASAISNAGS-TASSYASTIASDVSSMSTALSSLAGTTTTS
 SGESSNLVSLQTSISGIASSANTLLPVASSTISSMQANIANVNSVLVNQLSPGAIQVASG
-VSRAQSTLATGASNLLTGLSTYTG----AVSTIASGAQTLDANSSTLMNGFSTLKSGTNV
+VSRAQSTLATGASNLLTGLSTYTGAVST----IASGAQTLDANSSTLMNGFSTLKSGTNV
 LNTGVQQLAIGGNNLTNGLTNLSTNLFTLSDSLNKANQQLSLVSVNSENAKIVSAPLKVK
 KTDKDKVDTNGVGMAPYMISVSLMVVALSTNVIFAKSLTGRSFTSRFDWSKNKLFINGII
 ATMAAIALYIAIRFMGVEPNHPLATFGMILLAAWTLMALVTALVGWDDRYGAFASMILLL
 LQLGSSAGTYPIELSPKFFKVVQPFLPMSYSVSGLRQTISMTGQISDQVRMLVIFLLIFV
 VVGIVIYRPKTENV
+>WP_075275117.1 hypothetical protein [Piscirickettsia salmonis]
+----------------------------------------MQLSYLELNSV---------
+--------EYIQKVLANITL----------------------------LDQDACAL----
+-NKLRVVYS----------------------KITQQIES---------------------
+----------------GQLKVHGLG------------------GGSAIT-----------
+----------------FKG-----------------------------------------
+------------------------------------------------------------
+---------------ERTKVPEGISK------------IWYEITDMQGNFRWM-------
+DNVSAVLNKVK-------VEANNRSGYRGLTAIGLF------------------------
+------------------FGSYRDAQTKDL--YSKISQAL--------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+

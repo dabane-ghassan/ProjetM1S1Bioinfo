@@ -1,12 +1,6 @@
->WP_011017384.1 hypothetical protein [Streptococcus pyogenes]
-----------------MKLKVLKPFGDHKEN-----------------------------
------------IIRQVGEVFEVSKT----RFDELSASVPA--------------------
-------------------------------------------------------------
-------------------------------------------------------------
---DFYEEVKATKAKKSEEE-
 >WP_012150956.1 hypothetical protein [Rickettsia rickettsii]
-----------------MNQYSLYNFTQETIN-----------------------------
------------EIKQNGREWSLNKP----YYDELLVELPKLVQKF---------------
+--------------------------------------MNQYSLYNFTQETINEIKQNGR
+EWSLNKP----------------------YYDELLVELPKLVQKF---------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 --DLSEIITKVDYRLSR---
@@ -16,9 +10,16 @@ ERLLRGTNLIVVMPNTSNGWYTDTQYGFDYYTALAEELPQVLKRFFPNMTSKREKTFIAG
 LSMGGYGCFKLALTTNRFSHAASFSGALSFQNFSPESQNLGSPAYWRGVFGEIRDWTTSP
 YSLESLAKKSDKKTKLWAWCGEQDFLYEANNLAVKNLKKLGFDVTYSHSAGTHEWYYWEK
 QLEVFLTTLPIDFKLEERLT
+>WP_011017384.1 hypothetical protein [Streptococcus pyogenes]
+--------------------------------------MKLKVLKPFGDHKENIIRQVGE
+VFEVSKT----------------------RFDELSASVPA--------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--DFYEEVKATKAKKSEEE-
 >WP_011681234.1 esterase family protein [Streptococcus thermophilus]
 MAFFQIEYSSVVLGQYRQVDVIYPDRDQISETESDTDIPVLYLLHGMGGNHNSWAFRTNI
 QRLLRKTNLIVIMPNSENGWYTNTKYGVRYYDAIAKELPQVMQRFFPSMTKKRKKTFIAG
 LSMGGYGSFKIALTTNNFACAGSFSGALGLSTEMIRDETIESKEYWQGVFGDLEGKDIEQ
 HKLVNLAKQHDKKTKFFAWCGLEDFLFDTQDQAVADLKALGLDIDYNTDHGRHEWYYWEK
 QLEAYLEWLPIDYIKEERLS
+
