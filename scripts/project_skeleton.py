@@ -42,14 +42,8 @@ max_one_clusters, max_one_species = Clusterizer.max_one_species_per_cluster(spss
 
 all_afa = Clusterizer.muscle(max_one_clusters, proteomes)
 
-
-acc_species = {clus : spec for clus, spec in zip(
-    max_one_clusters[1], max_one_species[1])}
-
-acc_aseq = {h[1:15] : aseq for h, aseq in BlastHitter.parse_fasta(
-    all_afa[0]).items()}
+Clusterizer.super_alignement(max_one_clusters, max_one_species, all_afa, '../data/phylogeny/super_align.afa')
 
 
-{'>'+acc_species[h] : aseq for h, aseq in acc_aseq.items()}
+           
 
-#BlastHitter.parse_fasta(all_afa[0]).values() 

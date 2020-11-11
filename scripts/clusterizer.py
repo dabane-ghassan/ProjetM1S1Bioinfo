@@ -162,6 +162,39 @@ class Clusterizer:
             
         return afasta_files
     
+    @staticmethod
+    def super_alignement(cluster_dict, cluster_species, maligns, out):
+        
+        acc_species = {clus : spec for clus, spec in zip(
+            cluster_dict[1], cluster_species[1])}
+        
+        acc_aseq = {h[1:15] : aseq for h, aseq in BlastHitter.parse_fasta(
+            maligns[0]).items()}
+        
+        
+        concat = {acc_species[acc] : aseq for acc, aseq in acc_aseq.items()}
+        
+        for afa, cid in zip(maligns[1:], list(cluster_dict.keys())[1:]) :
+            
+            acc_species_2 = {clus : spec for clus, spec in zip(
+                cluster_dict[cid], cluster_species[cid])}
+            
+            acc_aseq_2 = {h[1:15] : aseq for h, aseq in BlastHitter.parse_fasta(
+                afa).items()}  
+            
+            for acc, aseq in acc_aseq_2.items() : 
+                if acc_species_2[acc] in concat.keys() : 
+                    concat[acc_species_2[acc]] += aseq
+                    
+            other_species = [spec for spec in concat.keys(
+                        ) if spec not in acc_species_2.values()]
+            for spec in other_species : 
+                concat[spec] += '-' * len(list(acc_aseq_2.values())[0])
+    
+        with open(out, 'w') as super_align : 
+            for header, sequence in concat.items() : 
+                super_align.write('>%s\n%s\n'%(header,sequence))
+    
     """
     @staticmethod    
     def cat_MSAs(afa_files):
