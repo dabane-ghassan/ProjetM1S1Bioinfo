@@ -106,7 +106,7 @@ class Clusterizer:
     @staticmethod 
     def species_cluster(cluster_dict, proteomes) : 
     
-        dic = {h[1:15] : prot.split("/")[-1] for prot in proteomes for h in BlastHitter.parse_fasta(prot).keys()}
+        dic = {h[1:15] : prot.rsplit("/")[-1][0:prot.rsplit('/')[-1].find('_protein.faa')] for prot in proteomes for h in BlastHitter.parse_fasta(prot).keys()}
         
         all_species = []
         for cluster in cluster_dict.values():      
@@ -119,15 +119,12 @@ class Clusterizer:
     @staticmethod
     def max_one_species_per_cluster(cluster_species, cluster_dict): 
         
-   
-        filtered_cids =  [cid for cid, name in cluster_species.items() if (len(
-            cluster_species[cid]) - len(set(cluster_species[cid]))) == 0] 
-    
+        filtered = {cid : cluster for cid, cluster in cluster_species.items() if (len(
+            cluster) - len(set(cluster))) == 0}
+        
         return {cid : cluster for cid, cluster in cluster_dict.items() if (
-            cid in filtered_cids)}
-
-
-                
+            cid in filtered.keys())}, filtered
+             
     @staticmethod
     def cluster_from_proteome(cluster, proteomes, out):
    
