@@ -3,6 +3,7 @@
 
 from blast_hitter import BlastHitter
 from clusterizer import Clusterizer
+from ete3 import Tree, TreeStyle, NodeStyle
 
 
 proteomes = ["../data/genomes/Rickettsia_rickettsii_str._Arizona_strain=Arizona_protein.faa",            
@@ -32,7 +33,6 @@ rbh = ["../data/results_blast/RBH_Rickettsia_rickettsii_str._Arizona_strain=Ariz
        ]
 
 
-
 clss = Clusterizer.clustering(rbh)
 #Clusterizer.clusters_to_txt(clss, '../data/clusters/all_clusters.txt')
 
@@ -42,8 +42,31 @@ max_one_clusters, max_one_species = Clusterizer.max_one_species_per_cluster(spss
 
 all_afa = Clusterizer.muscle(max_one_clusters, proteomes)
 
-Clusterizer.super_alignement(max_one_clusters, max_one_species, all_afa, '../data/phylogeny/super_align.afa')
+super_align = Clusterizer.super_alignement(max_one_clusters, max_one_species, all_afa, '../data/phylogeny/super_align.afa')
 
+
+Clusterizer.tree_generator('../data/phylogeny/super_align.afa')
 
            
 
+t = Tree('../data/phylogeny/RAxML_bestTree.tree.newick')
+# Basic tree style
+ts = TreeStyle()
+ts.show_leaf_name = True
+
+# Draws nodes as small red spheres of diameter equal to 10 pixels
+nstyle = NodeStyle()
+nstyle["shape"] = "sphere"
+nstyle["size"] = 10
+nstyle["fgcolor"] = "darkred"
+
+# Gray dashed branch lines
+nstyle["hz_line_type"] = 1
+nstyle["hz_line_color"] = "#cccccc"
+
+# Applies the same static style to all nodes in the tree. Note that,
+# if "nstyle" is modified, changes will affect to all nodes
+for n in t.traverse():
+   n.set_style(nstyle)
+
+t.show(tree_style=ts)

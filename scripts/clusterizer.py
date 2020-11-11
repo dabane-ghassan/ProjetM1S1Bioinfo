@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+import os
 import subprocess
-import fileinput
 from blast_hitter import BlastHitter
 
 class Clusterizer: 
@@ -194,7 +194,16 @@ class Clusterizer:
         with open(out, 'w') as super_align : 
             for header, sequence in concat.items() : 
                 super_align.write('>%s\n%s\n'%(header,sequence))
+                
+        return concat
     
+    @staticmethod
+    def tree_generator(super_alignement):
+        os.chdir('../data/phylogeny')
+        subprocess.run(['raxmlHPC', '-s', super_alignement.rsplit('/')[-1],
+                        '-n', 'tree.newick', '-m', 'PROTCATBLOSUM62',
+                        '-p', '52341'])
+
     """
     @staticmethod    
     def cat_MSAs(afa_files):
