@@ -1,12 +1,12 @@
 >WP_012151402.1 MULTISPECIES: hypothetical protein [spotted fever group]
--------------------------MKVTFN-SIEK------------------------
+------------------------------------------MKVTF--------NSIEK
 ----------IYNLLTT------EEWIDKQD-PKQRLEQLNKKLAKA----SDPKEKINL
-EKAITTLEENAK------------------------------------------SNPMT-
+EKAITTLEENAKSNPMT-------------------------------------------
 --------------------------------------LKKAGINQDD-----------A
 EIYY------------------------IKR-----------------------------
-----------------------------ALIKSLVI------------------------
+----------------------------ALIKSLVIH-----------------------
 ------------------------------------------------------------
---H--
+-----
 >WP_011226578.1 DNA recombination protein RmuC [Streptococcus thermophilus]
 MIYLITLLTFLSLGFLVVLYLKNVELKEQLNKSLEENADNLSDQISFQLENFAKTNQLET
 TKQLNQLQVALYQQLTDIREVLHQNLSDNRDRSDQRLEQINQSLAKAVRDMQDSNEK-RL
@@ -16,4 +16,3 @@ EDYYRLEDAYESGDKEQIESHRRSLMTSIRRFAKDINKKYLNPPETTNFGILFLPTEGLY
 AEVVRQPAFFDALRREENIVIAGPSTLSALLNSLSVGFRTLNIQKNADDISKILGNVKLE
 FGKFGDMLAKAQKQLNTASKTVDSLLNTRSRAIVRALDTIETYQDSATQSLLDLPRLENE
 DEHEN
-

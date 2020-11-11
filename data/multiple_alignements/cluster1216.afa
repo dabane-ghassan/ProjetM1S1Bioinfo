@@ -1,16 +1,15 @@
->WP_001082472.1 MULTISPECIES: helix-turn-helix transcriptional regulator [Streptococcus]
---------------MNRVKEFRKELGISQLELAKDIGVSRQTINMIENDKY-NPTLE---
------LCLNLARSL----------------------------------------------
-------QTDLNSLFWEEDF-----------------------------------------
-----------------------------------------------
->WP_030127631.1 helix-turn-helix transcriptional regulator [Streptococcus pyogenes]
--------------MNNKIKLLRKEKKITQDELAKQCGVSRQTINMIENNKY-DPTLK---
------LALALGRVL----------------------------------------------
-------QEPIESLFIE--------------------------------------------
-----------------------------------------------
 >WP_016209571.1 helix-turn-helix domain-containing protein [Piscirickettsia salmonis]
 MTKLEFTQSNTHTLAERLNRLMREHGVTTAQLAKSTGIAVGTINRMSNDKTCNPTISSLK
 PVCDFFSITVSQMIGEDELRNFQKVATKWLNVPIIHWKELNCHLNTDNTNTTLISDNSEK
 ETKEKEQIKINSEFSSSSFATRMPDDSMTPFFPKESVLIFDPEQTINDRSYVLVYLHRHN
 SYVFKQLIIDKPYQYLKSAHSELGSYLQLQKNDKIIAPLVQSKINF
-
+>WP_001082472.1 MULTISPECIES: helix-turn-helix transcriptional regulator [Streptococcus]
+--------------MNRVKEFRKELGISQLELAKDIGVSRQTINMIENDK-YNPTLE---
+-----LCLNLARSLQTD--------------LNSLFWEE---------------------
+------------------------------------------------------------
+--------------------------------------------DF
+>WP_030127631.1 helix-turn-helix transcriptional regulator [Streptococcus pyogenes]
+-------------MNNKIKLLRKEKKITQDELAKQCGVSRQTINMIENNK-YDPTLK---
+-----LALALGRVLQEP--------------IESLFIE----------------------
+------------------------------------------------------------
+----------------------------------------------

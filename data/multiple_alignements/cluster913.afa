@@ -1,37 +1,32 @@
->WP_012151424.1 type II toxin-antitoxin system VapC family toxin [Rickettsia rickettsii]
-MKYLLDT--NVVSEIQK-----------------------------------------KK
-SNSQVAA-----LFSIIHSSQLYLSCITI---------------GEIRKGISKLAKK---
-----------DKIASLKLEKWLERI-------------IIDYN-------------EKIL
-N-------------------MDKKICEEWGE-----------------------------
-------------------------------------------------------------
-LMSIDSTNV---------IDAL---------IAAQAKQSNMILV----------------
------------TRNIKHY-------NMFN-------------------------------
-------------
->WP_001098896.1 nucleotidyltransferase family protein [Streptococcus pneumoniae]
-----MNTVKNKQEILEA-----------------------------------------FR
-ENPDMMA-----ILTIIRDLGLKDSWLAA---------------GSVRNFIWNLLS----
------------DKSPFDHETDIDVI-------------FFDPDFSY----------EETL
-L-------------------LKKKLREDFPQYQ----WE---------------------
--------------------------------------------------------LKNQV
-YMHQHSPHTASYT---SSRDAMSKYPERCTAVGLRLNEESDFELYV--------------
-PYGLEDILNFQVRPTPHFLENEDRMELYQTR---------------------LSKKN-WQ
-EKWKNLIFKNT-
->WP_011225654.1 nucleotidyltransferase family protein [Streptococcus thermophilus]
-----------MIDVEKL-----------------------------------------IK
-QNSELMA-----LLKIIHSFQLNDCWLCA---------------GTLRNYIWDYLST---
-----------GNTSSNINFSDIDVI-------------FFDKNISY----------EQTV
-E-------------------IENQIKKKYPEYN----WE---------------------
--------------------------------------------------------IKNQY
-YMNIHSPNTEKYV---SSTDAVSKFPEKCTAIAARLNDNQELEVFI--------------
-PFGTNDLTNFRVSPTPHYFSDKDRQMIYNER---------------------VKKKN-WN
-IFWPNISIEFIK
 >WP_032126463.1 TolC family outer membrane protein [Piscirickettsia salmonis]
-----MSE--NLVQIYQKATVEDPTYQAALATHQATHESVAIAKGPLFPQLSLTGSINRVK
-LNSGVVENGRGYSLTLTQSLVDYAQWQTVDQAEQQAAQADAVLQGAKQTLMLDVATAYFN
-VLEAKDNLVSAQSQVNSLKNNLDKVEQQHKVGVKPMSDVLDARSSYDQARADLIQKENTV
-ATSWEFLRAITGVRYKTLSPLRTKINFEGPQPNDIHYWETVASNNNLDMKTARFDAEISK
-TSIDINHAGHYPTLDLELSYSYNRDPSGVISGVAGNNHNAAINLVLNVPIFSGGLITAQT
-QQAINQYDAAHYSLVKAQRAAVSNARQSFLGMTAQLSSIRAFEAAVKADETSLKTYEASY
-AVGVATMLDI-LRVIQNL--NSDQQLLAKARYDYILDYLRLKSNAGSLTFDDLEKINSWL
-ISKSKIK-----
-
+MSENLVQIYQKATVEDPTYQAALATHQATHESVAIAKGPLFPQLSLTGSINRVKLNSGVV
+ENGRGYSLTLTQSLVDYAQWQTVDQAEQQAAQADAVLQGAKQTLMLDVATAYFNVLEAKD
+NLVSAQSQVNSLKNNLDKVEQQHKVGVKPMSDVLDARSSYDQARADLIQKENTVATSW-E
+FLRAITGVRYKTLSPLRTKINFEGPQPNDIHYWETVASNNNLDMKTARFDAEISKTSIDI
+NHAGHYPTLDLELSYSYNRDPSGVISGVAGNNHNAAINLVLNVPIFSGGLITAQTQQAIN
+QYDAAHYSLVKAQRAAVSNARQSFLGMTAQLSSIRAFEAAVKADETSLKTYEASYAVGVA
+TMLDILRVIQNLNSDQQLLAKARYDYILDYLRLKSNAGSLTFDDLEKINSWLISKSKIK
+>WP_012151424.1 type II toxin-antitoxin system VapC family toxin [Rickettsia rickettsii]
+----------MKYLLDTNVVSEIQKKKSNSQVAAL-------------------------
+-------FSIIHSSQLYLSCITI---------------GEIRKGISKLAK----------
+---KDKIASLKLEKWLERI-------------IID----YNEK---ILNMDKKICEEWGE
+LM--------------------------------SIDSTNVID-----------------
+------------------------------------------------ALIAAQAKQS--
+-------NMILVTR-NIKHYNMFN------------------------------------
+-----------------------------------------------------------
+>WP_001098896.1 nucleotidyltransferase family protein [Streptococcus pneumoniae]
+----------MNTVKN--KQEILEAFRENPDMMAI-------------------------
+-------LTIIRDLGLKDSWLAA---------------GSVRNFIWNLLS----------
+-----DKSPFDHETDIDVI-------------FFDPDFSYEET----LLLKKKLREDFPQ
+YQWELKNQVYMHQHS-----------PHTASYTSSRDAMSKYPERCTAVGLRLNEES---
+-------------------------------------DFELYVPYGLEDILNFQVRPTPH
+FLENEDRMELYQTRLSKKNWQEKWKNLIFKNT----------------------------
+-----------------------------------------------------------
+>WP_011225654.1 nucleotidyltransferase family protein [Streptococcus thermophilus]
+------------------MIDVEKLIKQNSELMAL-------------------------
+-------LKIIHSFQLNDCWLCA---------------GTLRNYIWDYLS----------
+---TGNTSSNINFSDIDVI-------------FFDKNISYEQT----VEIENQIKKKYPE
+YNWEIKNQYYMNIHS-----------PNTEKYVSSTDAVSKFPEKCTAIAARLNDNQ---
+-------------------------------------ELEVFIPFGTNDLTNFRVSPTPH
+YFSDKDRQMIYNERVKKKNWNIFWPNISIEFIK---------------------------
+-----------------------------------------------------------

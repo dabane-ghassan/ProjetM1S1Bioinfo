@@ -1,11 +1,11 @@
 >WP_012150781.1 MULTISPECIES: septum formation initiator family protein [spotted fever group]
 ------------------------------------------------------------
 ----------------------------------------------MIIH----------
----------------------------LNNHSKKII--LNIFLAL----------LLGY-
--------------FVFHCIY--GNKGIIAYLK----------------------------
--------VNRQL--------------------------------------EK-AYDELKG
+---------------------------LNNHSKKII--LNIFLAL----------LLGYF
+VFHC--------------IYG----------------------------------NKGII
+AYL---KVNRQL---------------------------------------EKAYDELKG
 LRA-------------------------------------ERVELEHNVKLLRTESLNKD
-MLEEQAKKVLGVAAPNE-------QV-------------------------FNHQ-----
+MLEEQAKKVLGVAAPNE-----------------------------------QVFNHQ--
 -----------------------------
 >WP_016209523.1 type VI secretion system baseplate subunit TssK [Piscirickettsia salmonis]
 MARLNYGKIKKDNIMDTGKVVWSEGLFLKPHHFQQQDRYFETLLTQYQLSLHKYAWGIKS
@@ -16,4 +16,3 @@ GLLILQSINRYLPLLEHALDHNHIPPIKIFEYLLQLINEVATFTTKPRYYEKITYDHIHL
 YNSFYKLNQALHQVLNYVIEDNIIEIPINYMDNSVFLGSLEKVTPNHRIILAVSGKINKD
 IIRNQLPYLIKIASPDEINDLIRLQLPGIPIDTIIRLPYNIPFYENTSYFEINHFHDKWE
 SLIHSRSIAMHISDFIPDMKLYLWAMKEE
-

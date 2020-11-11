@@ -1,38 +1,11 @@
 >WP_012262181.1 pyrroloquinoline quinone biosynthesis protein PqqC [Rickettsia rickettsii]
-MFKIIKLTKESFAIGLGVL--YAYE-----------------------------------
-------------------------------RQTPKVS-----------------------
----DSKIQGLQK------------------------------------------------
----------------------------------FYGNSDYRTLQFF----------IVHS
-KVDQW--H-----TQE------------------------------------------CA
-NLINNL----------SSKEQT--------LAYQGA------------------------
---------------------------------------KLLWQFLDGIN-----------
----------ATYQ-----------------------
->WP_000386347.1 MULTISPECIES: MarR family transcriptional regulator [Streptococcus]
----------------------MDYQ-----------------------------------
+---------------------M--------------------------------------
 ------------------------------------------------------------
------RINEY--------------------------------------------------
-----------------------LTSIFNNVL--VIEEVNLRGSRFK-DIS----------
--IKEM--H-----TIDVIGKAPDVTPSQV-------------------SKELMVTLGTVT
-TSLNNL---ERKGYIERVRSEQDRRVVHLHLTKKGR---------------LIHRLHKRF
-HKAMVEKIIDGMSEEEIAVMGKGL--------------TNLYQFLEDLK-----------
-------------------------------------
->WP_002988594.1 MarR family transcriptional regulator [Streptococcus pyogenes]
----------------------MEYD-----------------------------------
-------------------------------------------------------------
------KINHY--------------------------------------------------
-----------------------LVDIFNRIL--VIEEMSLKTSQFN-DVS----------
--LKEM--H-----TIEIIGKYDQVTPSDI-------------------ARELMVTLGTVT
-TSLNKL---EAKGYIARTRSRSDRRVVYLSLTKRGR---------------LLDRLHAKF
-HKNMVGHVIADMSDEEMQALVRGL--------------GNLHQFLEDLV-----------
-------------------------------------
->WP_011680779.1 MarR family transcriptional regulator [Streptococcus thermophilus]
----------------------MDYD-----------------------------------
-------------------------------------------------------------
------KINGY--------------------------------------------------
-----------------------LVDIFNNVV--IIEEASLKNSKFN-DIS----------
--LKEM--H-----TIDVIGTHPDTTPSAV-------------------ARELMLTLGTVT
-TSLNKL---EKKGYIIRTRSSVDRRVVHLSLSKKGR---------------LVYRLHRAF
-HKSMVKTITEGFNDEELKVMSKGL--------------ENLHAFLEELK-----------
+-----------------------------FKIIKLTKESFA-------------------
+--------------------IGLGVLY---------------------------------
+-------------AYE--RQTPKVSDSKIQG-----------------------------
+--------------LQKFYGNSDYRTLQFF---------------------IVHSKVDQW
+HTQECANLINNLSSKEQTLAYQGA--------------KLLWQFLDGINATYQ-------
 ------------------------------------
 >WP_016209266.1 hypothetical protein [Piscirickettsia salmonis]
 MKKFIYSTITIIAIASTVYAIADYQAQKMVKKELDQWIQSQTEENNNSQISAIHYGQIDT
@@ -43,4 +16,30 @@ YLKQLGYHKTQPLTLEITGTTSNAQPSKITTTQVHGFAKLPKAATTHFSYSLTTHSEKIA
 KEINKLLDQSPQNTNTKTKQQQQALATHL-LAIEGRNIFLNNLELSYQDHSLLSRIYQEN
 ATHMKTATGLPATTQDVATLYAALIQSAQLNPAFTPYQTALAQFFQDPQELKLAIEPEKP
 LSLFQIFFFATHKQEAKLIHALNAKLTHHVNLKLKI
-
+>WP_002988594.1 MarR family transcriptional regulator [Streptococcus pyogenes]
+---------------------MEYD-----------------------------------
+------------------------------------------------------------
+-----KINHYLVDI---------------FNRILVIEEMSL-------------------
+-------------KTSQFNDVSLKEMH---------------------------------
+-------------TIEIIGKYDQVTPSDIAR-------------------ELMVTLGTVT
+TSLNKL---EAKGYIARTRSRSDRRVVYLSLTKRGR---------------LLDRLHAKF
+HKNMVGHVIADMSDEEMQALVRGL--------------GNLHQFLEDLV-----------
+------------------------------------
+>WP_000386347.1 MULTISPECIES: MarR family transcriptional regulator [Streptococcus]
+---------------------MDYQ-----------------------------------
+------------------------------------------------------------
+-----RINEYLTSI---------------FNNVLVIEEVNL-------------------
+-------------RGSRFKDISIKEMH---------------------------------
+-------------TIDVIGKAPDVTPSQVSK-------------------ELMVTLGTVT
+TSLNNL---ERKGYIERVRSEQDRRVVHLHLTKKGR---------------LIHRLHKRF
+HKAMVEKIIDGMSEEEIAVMGKGL--------------TNLYQFLEDLK-----------
+------------------------------------
+>WP_011680779.1 MarR family transcriptional regulator [Streptococcus thermophilus]
+---------------------MDYD-----------------------------------
+------------------------------------------------------------
+-----KINGYLVDI---------------FNNVVIIEEASL-------------------
+-------------KNSKFNDISLKEMH---------------------------------
+-------------TIDVIGTHPDTTPSAVAR-------------------ELMLTLGTVT
+TSLNKL---EKKGYIIRTRSSVDRRVVHLSLSKKGR---------------LVYRLHRAF
+HKSMVKTITEGFNDEELKVMSKGL--------------ENLHAFLEELK-----------
+------------------------------------

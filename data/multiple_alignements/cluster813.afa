@@ -1,16 +1,16 @@
 >WP_080508246.1 hypothetical protein [Rickettsia rickettsii]
 ------------------------------------------------------------
--------------MK----------------------------IF---------------
---------------------------------------------------------IVNL
-RSTD--------------------------------------------------------
------------------------RYN---------NISQQFDNNN-------LFYERF--
------------------------------------------------SAVDGYNLSITDS
-GGKRFTG---LDVK----------------------NNPTLLSLNNGY------------
+-----------------------------------------MKIFI-------VNLRSTD
 ------------------------------------------------------------
--------TVLCPSENINYYSDSKILNHTLTAGELG-------------------------
------------------------CYCNHR-------------------------------
 ------------------------------------------------------------
-------------------------------EI-----
+-----------------------RYN---------NISQQFDNNN---------------
+-----LFYER--------------------------------------------------
+-FSAVDG-YNLSITDSGGKRF------TGL---DVKNNPTLLSLNNGYTV----------
+------------------------------------------------------------
+---------LCPSENINYYSDSKILNHTLTAGELG-------------------------
+-----------------------CYCNHREI-----------------------------
+------------------------------------------------------------
+-------------------------------------
 >WP_001042137.1 neuraminidase NanB [Streptococcus pneumoniae]
 MNKRGLYSKLGISVVGISLLMGVPALIHANELNYGQLSISPIFQGGSYQLNNKSIDISPL
 LLDKLSGDSQTVVMKFKADKPNSLQALFGLSNSKAGFKNNYFSIFMRDSGEIGVEIRDAQ
@@ -24,4 +24,3 @@ LGEKHNGTYLCPGQGLALKSSNRLIFATYTSGELTYLISDDSGQTWKKSSASIPFENATA
 EAQMVELRDGVIRTFFRTTTGKIAYMTSRDSGETWSEVSYIDGIQQTSYGTQVSAIKYSQ
 LIDGKEAVILSTPNSRSGRKGGQLVVGLVNKEDDSIDWKYHYDIDLPSYGYAYSAITELP
 NHHIGVLFEKYDSWSRNELHLSNVVQYIDLEINDLTK
-

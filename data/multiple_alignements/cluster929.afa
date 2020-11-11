@@ -1,8 +1,8 @@
 >WP_014362505.1 MULTISPECIES: hypothetical protein [spotted fever group]
------------------------------------------MP-----------------
------------------------------------D----INFDIEVTG------KKYNF
-PKLPADDMKGFMLGKFSNSCQSIGHDSERCILD--GMSKANAGF-YIITDDKGNIRAQ--
-----------------------------------------------------SYAWLAGE
+------------------------------------------------------------
+-------------------------------------MPDINFDIEVTG------KKYNF
+PKLPADDMKGFMLGKFSNSCQSIGHD-----------------SERCILDGMS------K
+ANAGF--YIITDDKGNIRAQSYAWLAG--------------------------------E
 GKKNEKATSMY--------------GTRFI----------------------
 >WP_000746338.1 phosphate ABC transporter substrate-binding protein PstS [Streptococcus pneumoniae]
 MKKRKKLALSLIAFWLTACLVGCASWIDRGESITAVGSTALQPLVEVAADEFGTIHVGKT
@@ -22,4 +22,3 @@ VNVQGGGSGTGLSQVQSGAVEIGNSDLFAEEKSGIDASKLVDFQVAVAGIAVITNQKVSV
 DNLTTEQLRKIFTGKITNWKQLGGQDLEITIVNRAASSGTRVTFDAVIMDGKSPIRTQEQ
 DSNGMVKSIVAQTPGAISYLSFAYLDDSVKTLKLNGFEPNAKNVATNDWPIWSYEHMYTK
 GKPNSYTKQFLDYMISDEVQENIVKKMGYIPIHTMKVTKDADGKVTKKSEE-
-

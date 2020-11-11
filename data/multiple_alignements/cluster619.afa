@@ -1,16 +1,15 @@
 >WP_014362278.1 hypothetical protein [Rickettsia rickettsii]
 MHEDTIKPYFNRLFEIVKIWTEKSKRFSPSQEALWLNFIVTAISKHGDNQISQKGFILSF
 PQATSLPVVNINHSVKLILEFLDKDGKLINLSNTASIVTGIPLLVQNGKNVVDNPKQDDL
-AHARTALGVCNDGTIVIVVVEHIYKQHVKDLKLVQVRSILRK------EKEVNVDKLIIP
-EALKI-LEKHLVNYT-------------------VIGL--------TKTELAY-YMLTWI
+AHARTALGVCNDGTIVIVVVEHIYKQHVKDLKLVQVRSILRKEKEVNVDKLIIPEALKIL
+EKHLVNYTVIGLTKTELAYYMLTWI
 >WP_002983026.1 helix-turn-helix transcriptional regulator [Streptococcus pyogenes]
-------------------------------------------------------------
--------------MTKSTLKELRTTKKMTH------------------------------
--------------------------QELSHLTGISVRTIARY------EKDTKKLRRAKY
-EKLKG------------IAQALAVSVDDI-----FLGIDSEFMN----------------
+-------MTKSTLKEL-----RTTKKMTHQELSHLTGISVRTIARY------EKD-----
+----------------------TKKLRRAKYEKLKG------------IAQALAVSVDDI
+-----FLGIDSEFMN---------------------------------------------
+-------------------------
 >WP_016211669.1 transposase [Piscirickettsia salmonis]
----------------------------------------------------------MGY
-PV----------EFRRKVFK-LKEKKELTY------------------------------
--------------------------EEVSELFGVSMRTLFRWNTRIEIKKKAPKPRAINL
-EELKNDVRNHPDSYQWERAQRFGVSQHCIQHWLNFLGISCKKNTKTSKSQRKYTYKLPE-
-
+--MGYPVEFRRKVFKL-----KEKKELTYEEVSELFGVSMRTLFRWNTRIEIKKK-----
+----------------------APKPRAINLEELKNDVRNHPDSYQWERAQRFGVSQHCI
+QHWLNFLGISCKKNTKTSKSQRKYTYKLPE------------------------------
+-------------------------

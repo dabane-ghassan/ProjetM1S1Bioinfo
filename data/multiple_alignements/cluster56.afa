@@ -1,47 +1,3 @@
->WP_010977348.1 MULTISPECIES: Fe-S cluster assembly scaffold IscU [spotted fever group]
--------------MAYSK-------KVIDHYENPRNVGSLDK------------------
----ENKNVGTGLVGAPACGD-------------VMKLQIAVDDDGIITDAKFKTFGCGSA
-IAS---------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------SSLVTEWVKGRSVEDA--------------------------
-------------------------------------------------------------
---------------------------------ETIKNTEIAKELSLPPVKLHC-------
---SLLAEDAIKAAIADYKQK----------------------------------------
-----------------KESKKDS----------------------------
->WP_001218481.1 SUF system NifU family Fe-S cluster assembly protein [Streptococcus pneumoniae]
--------------MALSKLDSLYMAVVADHSKNPHHQGKLE-------------------
-------DAEQISLNNPTCGD-------------VINLSVKFDAEDRLEDIAFLNSGCTIS
-TAS---------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------ASMMTDAVLGKTKQEILE------------------------
---------------------------------------------LATIFSEMVQGQK---
-----------------------------DERQDQLGDAAFLSGVAKFPQRIKC-------
---ATLTWNALKKTIENQEKQ----------------------------------------
----------------------------------------------------
->WP_002986018.1 SUF system NifU family Fe-S cluster assembly protein [Streptococcus pyogenes]
--------------MALSKLNHLYMAVVADHSKRPHHHGQLD-------------------
-------GVEAVQLNNPTCGD-------------VISLTVKFD-EDKIEDIAFAGNGCTIS
-TAS---------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------SSMMTDAVIGKSKEEALA------------------------
---------------------------------------------LADIFSEMVQGQE---
-----------------------------NPAQKELGEAELLAGVAKFPQRIKC-------
---STLAWNALKEAIKRSANAQH-------------------------------LTDQN--
----------------VKEGKNV-----------------------------
->WP_002947646.1 SUF system NifU family Fe-S cluster assembly protein [Streptococcus thermophilus]
--------------MALSRLDSLYMAVVADHSKSPHHHGVLP-------------------
-------NVEQLQLNNPTCGD-------------VINLSVKFD-GDMIEDIAFAGDGCTIS
-TAS---------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------SSMMTDAVIGKTKAEALE------------------------
---------------------------------------------LAEIFSLMIQGNH---
-----------------------------KVDEDKLGEAKLLAGVSKFPQRIKC-------
---ATLSWNALKMAIERSEL-----------------------------------------
----------------------------------------------------
 >WP_016211390.1 peptidase M4 family protein [Piscirickettsia salmonis]
 MRKKNLAIIISAITASTALLSSHALSTVNSYNKPVSSSNIEGFAIEGAGDSSNTMLSSRS
 ATTTDKNTLSQVSSTTMDGDTYIRYQQKYEGIPVIGTQVVVKQPKAVTGFAATSRSASTA
@@ -49,8 +5,51 @@ TATRISLAKDLDVDLVATVSADDAKAFAKQQFEKDYSGTQVADDSIKSTKEIRIVDNKAQ
 LYYRVTFNASNTAGGKPYRMVYIINATGTSKAMVLSFWDSIPNYSDTGPGGNEKTVQYGP
 TGVKFFYGENNLPALNVSEDNSTCTMDNGDVRLVNVEHQADHSWDSDYNTTAYQYSCGHN
 QGDPINGAYSPTDDAYYFGSMIIDMYKNWYGVDALQENGEPMQLIMRVHYGTDYDNAFWD
-GHTMSFGDGSSFYPLVSLDVAGHEVSHGFTEQHSGLDYKYQYGSLNEAFSDMA-GQAVRA
-YLLSTNPDLYKQLYFNQDEVTWGIGETISKGDDESDALRYMNNPSKDGVSADCDDKELAG
-STCTISYDEVVATSKDYPIKDRQSYIVHTGSGVFNKAFYLLSQQVGIKDAFRVMKDANVK
-YWGKYSDFSDAACGVLKAANDDGVGSTSMIKDVFNQVGVSTDSCQIGTLSE
-
+GHTMSFGDGSSFYPLVSLDVAGHEVSHGFTEQHSGLDYKYQYGSLNEAFSDMAGQAVRAY
+LLSTNPDLYKQLYFNQDEVTWGIGETISKGDDESDALRYMNNPSKDGVSADCDDKELAGS
+TCTISYDEVVATSKDYPIKDRQSYIVHTGSGVFNKAFYLLSQQVGIKDAFRVMKDANVKY
+WGKYSDFSDAACGVLKAANDDGVGSTSMIKDVFNQVGVSTDSCQIGTLSE
+>WP_010977348.1 MULTISPECIES: Fe-S cluster assembly scaffold IscU [spotted fever group]
+----------------------MA------------------------------------
+------------------------------------------------------------
+---------------YSKKVIDHYE-----------------------------------
+---------------NPRNVGSLDKENKNVGTGLV-------------------------
+-------------------GAPAC----GDVMKLQIAVDDD-------------------
+---------GIITDAKFKT----------------------------------------F
+GCGSAIASSSLV------------------------------------------------
+------------------TEWVKGRSVEDAETIKNT------------------------
+-------EIAKELSLPPVKLHCSLLA----------------------------------
+ED-----------AIKAAIADYKQKKESKKDS------------------
+>WP_001218481.1 SUF system NifU family Fe-S cluster assembly protein [Streptococcus pneumoniae]
+----------------------MALSKLDS------------------------------
+------------------------------------------------------------
+--------------LYMAVVADHSK-----------------------------------
+---------------NPHHQGKL----EDAEQISL-------------------------
+-------------------NNPTC----GDVINLSVKFDAE-------------------
+---------DRLEDIAFLN----------------------------------------S
+GCTISTASASMM------------------------------------------------
+------------------TDAVLGKTKQEILELATIFSEMVQGQK-----DERQDQLGDA
+-------AFLSGVAKFPQRIKCATLT----------------------------------
+WN-----------ALKKTIENQEKQ-------------------------
+>WP_002986018.1 SUF system NifU family Fe-S cluster assembly protein [Streptococcus pyogenes]
+----------------------MALSKLNH------------------------------
+------------------------------------------------------------
+--------------LYMAVVADHSK-----------------------------------
+---------------RPHHHGQL----DGVEAVQL-------------------------
+-------------------NNPTC----GDVISLTVKFDED-------------------
+----------KIEDIAFAG----------------------------------------N
+GCTISTASSSMM------------------------------------------------
+------------------TDAVIGKSKEEALALADIFSEMVQGQE-----NPAQKELGEA
+-------ELLAGVAKFPQRIKCSTLA----------------------------------
+WN-----------ALKEAIKRSANAQHLTDQNVKEGKNV-----------
+>WP_002947646.1 SUF system NifU family Fe-S cluster assembly protein [Streptococcus thermophilus]
+----------------------MALSRLDS------------------------------
+------------------------------------------------------------
+--------------LYMAVVADHSK-----------------------------------
+---------------SPHHHGVL----PNVEQLQL-------------------------
+-------------------NNPTC----GDVINLSVKFDGD-------------------
+----------MIEDIAFAG----------------------------------------D
+GCTISTASSSMM------------------------------------------------
+------------------TDAVIGKTKAEALELAEIFSLMIQGNH-----KVDEDKLGEA
+-------KLLAGVSKFPQRIKCATLS----------------------------------
+WN-----------ALKMAIERSEL--------------------------

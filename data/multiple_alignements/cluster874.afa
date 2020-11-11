@@ -1,31 +1,30 @@
->WP_014362468.1 nucleotide exchange transporter Tlc2 [Rickettsia rickettsii]
-MDSVDSNCTIWNKARNSKFRDIVWPIRSYELTKFIPMALLMFFILLN------QNLVRSI
-K---DSFVVTLISSEVLSFIKLWGEMPMGILFVIFYSKLCNIMTTEQVFRIITSTFLFFF
-TIFGFILFPYRDFFHPDPELIKHYITVLPHLKWFLIIWGQWSLVLFYIMGELWPVIVFTL
-LYWQLANKITKVEEAPRFYSFFTLFGQTNLLISGTVIIYFAKSEHFLLPLFSHLNDTNEI
-LLKSFITVILISGLICLALHKLIDKSVVEADKNIKFKNQRTDILKLSLVDSAKIILTSRY
-LGFICLLVMSYSMSISLIEGLWMSKVKQLYPATKDFIAYHGKVFFWTGILTLVSAFLGSS
-LIRICGWFWGAIITPIMMFGAGVMFFSFTVFENHLGNIVNTLGYSAPLVVIVFIGGLWHV
-LSKSVKYSLFDATKEMVYIPLDSEMKTKGKAAVDVMGTKIGKSIGAIIQFISFSIFPNAI
-HNDIAGLLMFSFIIVCLLWLYGVKVLSKYYNKMIQR
 >WP_021341163.1 siphovirus Gp157 family protein [Streptococcus pyogenes]
-MAYL------------------------YELE-----GIAAYLESLDLDDETFQNTLDSI
-DFQSD------LENTIEYFVK---------MLKNAQADVEMYKAEKEAF-----------
----------YKK------------------------------------------------
----------QKQAEA--------------------------KVEKY-----------KET
-IRRAM---------------ELSQKKKVDA-----------GMFKVSLRRSKKVEILDE-
-----TKIPLDY---------------------MQEKIEYK--------------------
+---------------------------MAYLYELEGIAAYLESLDLDDETFQNTLDSIDF
+QSDLENTIEYFVKMLKNAQA---------DVEMYKAEKEAF-------------------
+-YKK--------------------------------------------------------
+----------------------------------------------QKQAEAKVEKY---
+---------------KETIRRAMELSQKKKVDAGMFKVSLRRSKKV--------------
 ------------------------------------------------------------
--------------------PMKSEISKALKSGIDISGVE-------LIETESLQVK----
-------------------------------------
+--------------------EILD----ETKIPLDYMQE---------------------
+------KIEYKPMKSEISKALKSGIDISGVELIETESLQV--------------------
+---------------------------K
+>WP_014362468.1 nucleotide exchange transporter Tlc2 [Rickettsia rickettsii]
+MDSVDSNCTIWNKARNSKFRDIVWPIRSYELTKFIPMALLMFFILLNQNLVRSIKDSF-V
+VTLISSEVLSFIKLWGEMPMGILFVIFYSKLCNIMTTEQVFRIITSTFLFFFTIFGFILF
+PYRDFFHPDPELIKHYITVLPHLKWFLIIWGQWSLVLFYIMGELWPVIVFTLLYWQLANK
+ITKVEEAPRFYSFFTLFGQTNLLISGTVIIYFAKSEHFLLPLFSHLNDTNEILLKSFITV
+ILISGLICLALHKLIDKSVVEADKNIKFKNQRTDILKLSLVDSAKIILTSRYLGFICLLV
+MSYSMSISLIEGLWMSKVKQLYPATKDFIAYHGKVFFWTGILTLVSAFLGSSLIRICGWF
+WGAIITPIMMFGAGVMFFSFTVFENHLGNIVNTLGYSAPLVVIVFIGGLWHVLSKSVKYS
+LFDATKEMVYIPLDSEMKTKGKAAVDVMGTKIGKSIGAIIQFISFSIFPNAIHNDIAGLL
+MFSFIIVCLLWLYGVKVLSKYYNKMIQR
 >WP_155053508.1 hypothetical protein [Piscirickettsia salmonis]
---------------------------------------MLGDFASLDV-----QNTYRGS
-D---------------------------------AYVDVCNFFRTESGF-----------
----------YRQ------------------------------------------------
----------QKQNE----------------------------------------------
----------------------------------------------VSLRCDCVFEV----
----------SY---------------------NNPFLSFR--------------------
+-----------------------------MLGDFASLDV--------QNTYRG-SDAY-V
+-----------------------------DVCNFFRTESGF-------------------
+-YRQ--------------------------------------------------------
+----------------------------------------------QKQNEVSLR-----
 ------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------
-
+--------------------------------------------------------CD--
+--------------------CVFE---------VSYNNP---------------------
+-----------------------------------------FLSF---------------
+---------------------------R

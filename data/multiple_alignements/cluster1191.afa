@@ -1,3 +1,17 @@
+>WP_016212012.1 MBL fold metallo-hydrolase [Piscirickettsia salmonis]
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----------MNMNSL-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+---------------------------------------------------------LSV
+ALQMTEGVV---------------------------------------------------
+------------------------------------------------------------
+---VVPNLYAMGIQHIDKLVISHIDSDHSGGLASVLAAYPKTRVVSSSPLLPY-------
+----TKTQACVAGDRWLWDGVTFEFLSPTYPFPYGRNNQSCVLKVSVNEEGSSMLLTGDI
+EKRQEKKLLLQAPLSLKSDILFAPHHGGNSSSTSPFIKAVSPHTVIISAGRYNAYRLPHV
+KVLHRYQSQHIAILNTGQVGAIDFQLSGNKEPLFTFAGAGV-
 >WP_000942407.1 DNA internalization-related competence protein ComEC/Rec2 [Streptococcus pneumoniae]
 -MLQWIKNFSIPLIYLSFLLLWLYYAIFSASYLALLGFVFLLVCLFIQFPWKSAGKVLII
 CGIFGFWFVFQNWQQSQASQNL---ADSVERVRILPDTVKVNGDSLSFRGKADGRIFQVY
@@ -11,7 +25,7 @@ FLLT-KHPLENEITMLDVGQGESIFLRDVTGKTILIDVGGKAESYKKIKKWQEKMTTSNA
 QRSLIPYLKSRGVAKIDQLILTNTDKEHVGDLSEMTKAFHVGEILVSKDSLKQKEFVAEL
 QATQTKVRSMIVGENLPIFGSQLEVLSP-RKMGDGGHDDTLVLYGKFLDK--QFLFTGNL
 EEKGEKDLLKHYP-DLKVNVLKASQHGNKKSSSPAFLEKLKPELTLISVGKSNRMKLPYQ
-ETLTRLEGINSKVYRTDQQGAIRFKGLDSWKIESVR-------
+ETLTRLEGINSKVYRTDQQGAIRFK------GLDSWKIESVR
 >WP_111705679.1 DNA internalization-related competence protein ComEC/Rec2 [Streptococcus pyogenes]
 MTFSWTKLVPLSKIQFAFLILVLFYQIHSPSWLTFL-LSLSLICLLVK--RLSKKEFLGV
 FAILSFCTLFLLYQKQQLVQKLEIQPVQITSVALVPDSIRINGDQLAVLGRHGKHSYQLF
@@ -25,19 +39,4 @@ TLLSVKYPLTNEVTFIDIGQGDSILVREWTGKNLLIDVGGRP-FFSSKEHWRRGHHVANA
 QKTLIPYLKSRGIHTIDQLLVTHADTDHMGDIEVVAKAIRIKEILTSQGSLSHPSFVRRL
 RRLKCHVRVLAAGDQLPIMGSVLQVLYP-WQLGDGKNNDSLVLYGRLLNR--TFLFTGDL
 EKEGENEIIKRYP-QLRVDYLKAGHHGSNTSSSAAFLDHIQPKVAFISAGKNNRYQHPHR
-ETLARLEDRQITYYRTDTQGAIRLTGWTSWHLETVR-------
->WP_016212012.1 MBL fold metallo-hydrolase [Piscirickettsia salmonis]
-------------------------------------------------------------
-----------------------------------------MNMNSL--------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------LSVALQMT---------------
-------------------------------------------------------------
------EGVV---------------------------------------------------
-------------------------------------------------------------
----VVPNLYAMGIQHIDKLVISHIDSDHSGGLASVLAAYPKTRVVSSSPLLPY-------
-----TKTQACVAGDRWLWDGVTFEFLSPTYPFPYGRNNQSCVLKVSVNEEGSSMLLTGDI
-EKRQEKKLLLQAPLSLKSDILFAPHHGGNSSSTSPFIKAVSPHTVIISAGRYNAYRLPHV
-KVLHRYQSQHIAILNTGQVGAIDFQ--LSGNKEPLFTFAGAGV
-
+ETLARLEDRQITYYRTDTQGAIRLT------GWTSWHLETVR

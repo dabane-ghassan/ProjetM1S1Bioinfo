@@ -1,3 +1,15 @@
+>WP_016210332.1 ribonuclease T2 family protein [Piscirickettsia salmonis]
+MLF---------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+---------RKKTILKSIIISATLLNSLSSIPNFAKSSSPESGDFDHYV-----------
+------------------------------------------------------------
+--------------------------------------FAQTWL----------------
+-----PQFCEGKTDNNSCKNKTSTSLELT--------------------IHGLWPNYAES
+GSWP----SSCIDSPGCDDSKSSCGVDYNKLKPIQ-----DSLDLYMP-----------G
+GEDFLWNHEWQKHGTCSGLDQEPYFTAALNLETKLPT-LQDVSSPTSLEK-LQQIFNNKA
+TFYCYKDKETSKVYLKEVHTYWSYSNNDQDKYIPDQQLSIPSDENSNTCVTQDDIILRSF
+SSDWS--
 >WP_111705480.1 oleate hydratase [Streptococcus pyogenes]
 MYYTSGNYEAFATPRKPEKVDQKSAYIVGTGLAGLAAAVFLIRDGHMAGERIHLFEELPL
 AGGSLDGIEKPHLGFVTRGGREMENHFECMWDMYRSIPSLEIPGASYLDEFYWLDKDDPN
@@ -5,11 +17,11 @@ SSNCRLIHKRGNRVDDDGQYTLGKQSKELIHLIMKTEESLGDQTIEEFFSEDFFKSNFWV
 YWATMFAFEKWHSAVEMRRYAMRFIHHIDGLPDFTSLKFNKYNQYDSMVKPIIAYLESHD
 VDIQFDTKVTDIQVEQTAGKKVAKTVHMTVSGEAKAIELTPNDLVFVTNGSITESSTYGS
 HHEVAKPTKALGGSWNLWENLAAQSDDFGHPKVFYQDLPAESWFVSATATIKHPAIEPYI
-ERLTHRDLHDGKVNTGGIITITDSNWMMSFAIHRQPHFKEQKENETTVWIYGLYSNSKGN
-YVHKKIEECTGQEITEEWLYHLGVPVDKIKDLASQDYINTVPVYMPYITSYFMPRVKGDR
-PKVIPDGSVNLAFIGNF-------AESPSRDTVFTTEYSIRT---AMEAVYSFLNVERGI
-PEVFNSAYDIRELLKAFYYLNDK----------------------KAIKDMDLPIPALIE
-KIGHKKIKDTFIEELLKDANLI
+ERLTHRDLHDGKVNTGGIITITDSNWMMSFAIHRQPHFKEQKENETTVWIYGLYSN--SK
+GNYVHKKIEECTGQEITEEWLYHLGVPVDKIKDLASQDYINTVPVYMPYITSYFMPRVKG
+DRPKVIPDGSVNLAFIGNFAESPSRDTVFTTEYSIRTAMEAVYSFLNVERGIPEVFNSA-
+------------YDIRELLKAFYYLND--KKAIKDMDLPIPALIEKIGHKKIKDTFIEEL
+LKDANLI
 >WP_014621486.1 oleate hydratase [Streptococcus thermophilus]
 MYY---------------------------------------------------------
 ------------------------------------------------------------
@@ -17,21 +29,8 @@ MYY---------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
---------------------------------------------------------SNGN
-YIPKKITDCTDREICEEFLYHIGVPKNKFSEIEAEK------------------------
----------NLSFFG-------------------ASEFET--------ALMSF-------
----FNSL-----------------------------------------------------
-----------------------
->WP_016210332.1 ribonuclease T2 family protein [Piscirickettsia salmonis]
-MLF-----------RK--KTILKSIIISATLLNSLS------------------------
------------------------------------SIPNFA-------------KSSSPE
-SG-------------------------------------------------DF---DHYV
-FAQT------W-------------------LPQFCEGK----------------------
----------TD---NNSCKNKTSTSLELTIHG----------------------------
-----------------LWPNYA--------------------------------------
---------------------------------------------------------ESGS
-WP----SSCIDSPGCDDSKSSCGVDYNKLKPIQ-----DSLDLYMPG-------------
----------GEDFLWNHEWQKHGTCSGLDQEPYFTAALNLETKLPTLQDVSSPTSLEK-L
-QQIFNNK-------ATFYCYKDKETSKVYLKEVHTYWSYSNNDQDKYIPDQQLSIPSDEN
-SNTCVTQDDIILRSFSSDWS--
-
+----------------------------------------------------------SN
+GNYIPKKITDCTDREICEEFLYHIGVPKNKFSEIE-------------------------
+--------AEKNLSFFGA---------------------------SEFETALMSFFNSL-
+------------------------------------------------------------
+-------

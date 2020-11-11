@@ -1,21 +1,20 @@
->WP_000331928.1 metal-sulfur cluster assembly factor [Streptococcus pneumoniae]
-------------------------------------------------------------
-----------M----AYTEEQIENIKTRILTALEEVIDPELGIDIVNLGLIYE---IRFD
-GDTGQTEIDMTLTTMGCPLADLLTDQIYDAMIEVPEVTDTEVKLVWYPAWTVEKMSRYAR
-IALGIK
->WP_002985185.1 metal-sulfur cluster assembly factor [Streptococcus pyogenes]
-------------------------------------------------------------
-----------MSDTPKYTQDQVIAIKNRILEALETVIDPELGIDVVNLGLIYE---IRFD
--DNGYTEIDMTLTTMGCPLADLLTDYIHDALQDVPEVTKTEVKLVWYPAWTVDKMSRYAR
-IALGIR
->WP_002891474.1 MULTISPECIES: metal-sulfur cluster assembly factor [Streptococcus]
-------------------------------------------------------------
-----------MSEV-KYTEEEIEKIKDRILEALEMVIDPELGIDIVNLGLIYD---IRFQ
--QDGYTEIDMTLTTMGCPLADLLTDQIYDAMKEVPEVTKTEVKLVWTPAWTIEKMSRYAR
-IALGIR
 >WP_016209772.1 putative Fe-S cluster assembly protein SufT [Piscirickettsia salmonis]
 MNHRYEVVMVSRECEGHLIPAGDNIVLQPGTEAIIAQALGGSYTLNVNGNLIRLDGKDAD
 AIGKEPILPIVDDGRQWTQEEIE---EHTWNQLRLCYDPEIPVNIVDLGLVYECQIIPAE
 KGTFFVQIKMTLTAAGCGMGPVLMADAETKVRQIPKVVEVNVKLVFDPPWSREMMSEAAQ
 LELGVF
-
+>WP_002985185.1 metal-sulfur cluster assembly factor [Streptococcus pyogenes]
+------------------------------------------------------------
+----------MSDTPKYTQDQVIAIKNRILEALETVIDPELGIDVVNLGLIYEIRF---D
+DN-GYTEIDMTLTTMGCPLADLLTDYIHDALQDVPEVTKTEVKLVWYPAWTVDKMSRYAR
+IALGIR
+>WP_000331928.1 metal-sulfur cluster assembly factor [Streptococcus pneumoniae]
+------------------------------------------------------------
+--------------MAYTEEQIENIKTRILTALEEVIDPELGIDIVNLGLIYEIRF---D
+GDTGQTEIDMTLTTMGCPLADLLTDQIYDAMIEVPEVTDTEVKLVWYPAWTVEKMSRYAR
+IALGIK
+>WP_002891474.1 MULTISPECIES: metal-sulfur cluster assembly factor [Streptococcus]
+------------------------------------------------------------
+-----------MSEVKYTEEEIEKIKDRILEALEMVIDPELGIDIVNLGLIYDIRF---Q
+QD-GYTEIDMTLTTMGCPLADLLTDQIYDAMKEVPEVTKTEVKLVWTPAWTIEKMSRYAR
+IALGIR

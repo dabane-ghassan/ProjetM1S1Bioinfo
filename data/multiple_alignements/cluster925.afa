@@ -9,33 +9,32 @@ KYNTKQNYKDINSINEKYYATNQEYDEIKYKYPYIKNTTSLADLYVIEKLLEAPVPLPFD
 LLKRLIITLNPAFKLEEIKWELTNIDNILLVSKRQLIIKLILKYHTNNLSVYESLKMLDD
 HMTNVKNKLSNLQIDYVIYKDKILDIFGKVVIPLSVNIVDNKT
 >WP_001135782.1 8-oxo-dGTP diphosphatase [Streptococcus pneumoniae]
-------------------MPQLAT-----------------------ICYIDNG--KELL
-MLHRNK-------------KPNDVH-------------------------------EGKW
-----IGVGGKLERGETPQECAVREILE---ETGLK--------AKPV-LKGV--------
-------------------------------------------------------------
-----------ITFPEFTPDLDWYTYVFKVTEFE-GDLI---DCNEGMLEWVPYDEVLSKP
+MPQLATI----------CYIDNGKELLMLHRNKKPNDVHEGK-----------------W
+IGVGGKLERGETPQ-----------------ECAVRE-----------------------
+----------------------------------------ILEETGLKAKPVL-------
+----------------------------------------------------------KG
+VIT---------FPEFTPDLDWYTYVFKVTEFE-GDLI---DCNEGMLEWVPYDEVLSKP
 TWEG----DHTFVEWLLEDKPF-----------------------FSA------------
-------------------------------KFVYD-G----------DKLLDTQV-----
--------------------------------------------------DFYE-------
--------------------------------------------
+------------------------------KFVY--------------------------
+------------------------------------------------------------
+---D-GDKLLDTQVDF--YE-----------------------
 >WP_002984880.1 8-oxo-dGTP diphosphatase [Streptococcus pyogenes]
-------------------MTQLAT-----------------------ICYIDNG--DSLL
-LLHRNK-------------KENDVH-------------------------------KGKW
-----ISVGGKLEAGETPDECARREILE---ETHLT--------VTEMAFKGI--------
-------------------------------------------------------------
-----------ITFPEFTPGHDWYTYVFKVTGFE-GDLISDEESREGTLEWVPYDQVLEKP
+MTQLATI----------CYIDNGDSLLLLHRNKKENDVHKGK-----------------W
+ISVGGKLEAGETPD-----------------ECARRE-----------------------
+----------------------------------------ILEETHLTVTEMAF------
+----------------------------------------------------------KG
+IIT---------FPEFTPGHDWYTYVFKVTGFE-GDLISDEESREGTLEWVPYDQVLEKP
 TWEG----DYDIFKWILEDRPF-----------------------FSA------------
-------------------------------KFTYDQN----------NQLMDKSV-----
--------------------------------------------------TFY--------
--------------------------------------------
->WP_011681193.1 8-oxo-dGTP diphosphatase [Streptococcus thermophilus]
-------------------MTKLAT-----------------------ICYIDNG--KELL
-LLHRNK-------------KPNDVH-------------------------------EGKW
-----ISVGGKLESGETPDECARREIFE---ETHLT--------VKKMDFKGM--------
+------------------------------KFTY--------------------------
 ------------------------------------------------------------
-----------ITFPEFTPGHDWYTYVFKVTDFE-GKLISDEESREGTLEWVPYDQVLTKQ
+---DQNNQLMDKSVTF--Y------------------------
+>WP_011681193.1 8-oxo-dGTP diphosphatase [Streptococcus thermophilus]
+MTKLATI----------CYIDNGKELLLLHRNKKPNDVHEGK-----------------W
+ISVGGKLESGETPD-----------------ECARRE-----------------------
+----------------------------------------IFEETHLTVKKMDF------
+----------------------------------------------------------KG
+MIT---------FPEFTPGHDWYTYVFKVTDFE-GKLISDEESREGTLEWVPYDQVLTKQ
 TWEG----DYEIFKWILEDKPF-----------------------FSA------------
-------------------------------KFSYDCN----------QNLIDKTV-----
--------------------------------------------------TFYDK------
--------------------------------------------
-
+------------------------------KFSY--------------------------
+------------------------------------------------------------
+---DCNQNLIDKTVTF--YDK----------------------

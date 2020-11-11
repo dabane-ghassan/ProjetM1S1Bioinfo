@@ -1,12 +1,12 @@
 >WP_011681373.1 hypothetical protein [Streptococcus thermophilus]
 MTTKI----------------QKENRSLEETINASKKLLSSKDKPLDENLTVELKNEVST
-AE----------------------------------------------------------
+AEK---------------------------------------------------------
+-----------------------------------------KKQVIPKIKKN--------
+--------------KRHQ------------------------------------------
 ------------------------------------------------------------
----------------------------------------------KKKQVIP--------
 ------------------------------------------------------------
 ------------------------------------------------------------
-------------------------------------------------------KIKKNK
---------------------------------RHQ--------
+-------------------------------------------
 >WP_016210281.1 flagellar hook-associated protein 3 [Piscirickettsia salmonis]
 MVTRVSTSSIFNTTVENMAKRQEELAKVQDQIASNKKILTAADDPIDALRTLALKNNIAQ
 KKQFSENMDFSRSRLELEEATLTSLAGLFREVKVRAIEAGNGGYATSDVREVGRSIASLL
@@ -16,4 +16,3 @@ PLTGSAPPGSPTDVDVSPTSNDAQTFSVYSATTGQIVIGEDGQPMTGLAVKRPTSSTDPA
 EPTVININGLIIEVTMDPNIIDAASGLPRGPQVGDRFIIEPEQQQNVMNVIDDFAKFLLS
 YVGGEPEGNITLNENIQRMIASIDEAGGTLLSVTTEVGLRQSNIHLQQEVSSHIQLSQNK
 ALGDLSDLDFAKAVGELSILQTTLQATQLAFSRVQNLTLFSFL
-

@@ -1,21 +1,16 @@
->WP_155105221.1 tetratricopeptide repeat protein [Rickettsia rickettsii]
------MYLTQK------------YSF------------------------FYLL------
---GKYNLVLDSYNKA---IELD--------------------------PTNSKAQYNKQH
-LLK-------------------------------------------------------RM
-YY------------------
 >WP_001856133.1 ASCH domain-containing protein [Streptococcus pneumoniae]
 MIPQEMWNKYKQINPLIGDEIDAWAFGVEPDLLADLVFKGEKTATASAYDLYVLEDEPLP
-QVGTFDVILDSQNQAVCIVEITK------------------------VSVELFNQVSAQH
-AFKEGEGDKSLAYWRQVHEDFFTD---------CLGEVGLTFT-----PESKVVLEEFRK
-VYPL----------------
+QVGTFDVILDSQNQAVCIVEITKVSV---------ELFNQVSAQHAFKEGEGDKSLAYWR
+QVHEDFFTDCLGEVGLTFTPESKVVLEEFRKVYPL
 >WP_011681104.1 MULTISPECIES: hypothetical protein [Firmicutes]
 MKPQEMWNTYKQINPSIGDEIDAWAFGVEADLLAD------------------LEDKDLT
-KCLTVFVI----------------------------------------ALRAILRVAVKH
-S-----------------------------------------------------------
---------------------
+K---------------CLT-VFVIAL---------RAILRVAVKHS--------------
+-----------------------------------
 >WP_016211886.1 nucleotidyltransferase substrate-binding, HI0074 family protein [Piscirickettsia salmonis]
--------MTQNQNRPR-------W---VES-----------------------LEN----
-----YSKALDSLNKV---VELSQQKTLSEFERDSLIKRFEFTYEEAVKTLTRYLEYEGHH
-DLK---GSRT-AFRRGVKINLLTDGQDWMDMIECRNAGAHNYSDIKAEKNSEKVL---KT
-FYPMLVDFKKKLSDLMEDKG
-
+MTQNQNRPRWVESLENYSKALDSLNKVVELSQQKTLSEFERDSLIKRFEFTYEEAVKTLT
+RYLEYEGHHDLKGSRTAFRRGVKINLLTDGQDWMDMIECRNAGAHNYSDIKAEKNSEKVL
+KTFYPMLVDFKKKLSDLMEDKG-------------
+>WP_155105221.1 tetratricopeptide repeat protein [Rickettsia rickettsii]
+MYLTQKYS-FFYLLGKYNLVLDSYNKAIELDPTNSKAQYNKQHLLKRMYY----------
+------------------------------------------------------------
+-----------------------------------

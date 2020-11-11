@@ -1,37 +1,36 @@
->WP_000447993.1 thiol-disulfide oxidoreductase-associated membrane protein CcdA2 [Streptococcus pneumoniae]
-------------------METI--------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
------------------------------VFLISVFLAGVLSFFSPCIFPLLPVYAGILL
-DDQESAKSFSLFGRKVLWSGLIRTLCFIAGISLIFFILGFGAGYFGH----ILYANWFRY
-VMGAIIIILGLHQMEIFHLK-KLEVQKSFTFKKS-DSNR-YWSAFLLGITFSFGWTPCIG
-PVLSSVLALAASGGNGAWQGAIYTLIYTLGMALPFLVLALASG-LVMPYFSKIKRHMMLL
-KKI----------------------GGFLIVL---MGIL------------------LLL
-G--------------------------------------QVNVLA---------------
----------------------------------------------------GIFE-----
--------------------------------
->WP_002994841.1 thiol-disulfide oxidoreductase-associated membrane protein CcdA2 [Streptococcus pyogenes]
------------------MTLSL--------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
------------------------------VLMVSVFGAGLLSFFSPCIFPVLPVYLGILL
-DADDS-KTITIFGKKLYWYGIVKTLAFIFGLSTIFVILGYGAGFLGN----ILYAVWFRY
-LLGALVIILGIHQMGLITIK-SLQFQKSLTFHNNKNRNG-LFNAFILGLTFSFGWTPCVG
-PVLSSVLALVASGGNGAWQGGVLMIIYTLGLGIPFLLISFASG-IVLKQFNKLKPHMLLL
-KKV----------------------GGVLIIV---MGIL------------------LMT
-G--------------------------------------TLNNLA---------------
----------------------------------------------------QLFG-----
--------------------------------
 >WP_080664876.1 protein-disulfide reductase DsbD [Piscirickettsia salmonis]
 MKYYTTSFINVKSCQCALMLALLALFVITMGSTDVVYANGRYSDPNNLFLFLAKTDKNTK
 DFEVSVHQQQSNPEILHVHWDIAPGLQLYKDKIQFSIQPKTHQIQLGRIDMPQGNYNNDT
 VIGNYQVYKNALDIQIPVKNSKNLPYSLTIDYQGCQPGRYCYPPQTQTFYFNQAQSTASK
 PSQEQEKTSLFTTANLTTIQHLFSEQNIPLILFSFFIFGLLLSLTPCVLPMLPILMGIVL
-GQKNN-TAKQAF---------LLSLAYVLGIAISYAIAGIIAAKLGQSLQVFLQNPWVIS
+GQKNNTAK----------QAFLLSLAYVLGIAISYAIAGIIAAKLGQSLQVFLQNPWVIS
 VFSLIFIVLALSLFGAYNLQLPIKIQNSLHNINQKFRGGSYLSAAMMGMISSLVASPCLT
 APLAGALVYLSSTGN-QFIGGSALFSLGIGFGIPMLILGASGGKLILKAGNWMKHIKTLL
 GLILIAMAIWMQSRVLSDTIMPLIWGAFLVITPIALGILEPAKTLWQRIYKALGITILIV
 GTGLILKTLISPNINNNQTNSKQQTLNKNNNSHYFNTVYTMNQLQTALDKAKIKKQPVMV
 DYYASWCTTCKELDATTFKNNNVLVALKNFSIIRVDITKNDLHAKQIQQAFHVFGPPTIQ
 FFNTHGKLIPHAEVVGYIAADNLVNKIHLVK
-
+>WP_000447993.1 thiol-disulfide oxidoreductase-associated membrane protein CcdA2 [Streptococcus pneumoniae]
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------------METI------------------------------
+-----------------------------VFLISVFLAGVLSFFSPCIFPLLPVYAGILL
+DDQESAKSFSLFGRKVLWSGLIRTLCFIAGISLIFFILGFGAGYFGH----ILYANWFRY
+VMGAIIIILGLHQMEIFHLK-KLEVQKSFTF--KKSDSNRYWSAFLLGITFSFGWTPCIG
+PVLSSVLALAASGGNGAWQGAIYTLIYTLGMALPFLVLALASG-LVMPYFSKIKRHMMLL
+KKI----------------------GGFLI---VLMGIL------------------LLL
+G-----------------------------------------------------------
+---------------------------------------------QVNVLAGIFE-----
+-------------------------------
+>WP_002994841.1 thiol-disulfide oxidoreductase-associated membrane protein CcdA2 [Streptococcus pyogenes]
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------MTLSL------------------------------
+-----------------------------VLMVSVFGAGLLSFFSPCIFPVLPVYLGILL
+-DADDSKTITIFGKKLYWYGIVKTLAFIFGLSTIFVILGYGAGFLGN----ILYAVWFRY
+LLGALVIILGIHQMGLITIK-SLQFQKSLTFHNNKNRNGLF-NAFILGLTFSFGWTPCVG
+PVLSSVLALVASGGNGAWQGGVLMIIYTLGLGIPFLLISFASG-IVLKQFNKLKPHMLLL
+KKV----------------------GGVLI---IVMGIL------------------LMT
+G-----------------------------------------------------------
+---------------------------------------------TLNNLAQLFG-----
+-------------------------------

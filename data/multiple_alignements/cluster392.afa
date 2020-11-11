@@ -1,19 +1,18 @@
+>WP_016209486.1 succinate dehydrogenase assembly factor 2 [Piscirickettsia salmonis]
+------------------------MLLDSDSKRL--------------------------
+-------------------RWACR---------------------------RGMLELDLV
+LQPYVEKAYDGSSDRHKEL----------------------FCKLL--AEADQDLFIWFT
+QRETPKDSELADIV------------------------------KVVLEYTQL-------
+-----------------------
 >WP_012151075.1 MULTISPECIES: succinate dehydrogenase assembly factor 2 [Rickettsia]
-----------------------MNKL--------------------------------NK
-NSLQK--------------KLVYRSKN------------------------RGCREMDYI
+-----------------------MNKLNKNSLQK--------------------------
+-------------------KLVYRSKN------------------------RGCREMDYI
 LGSFAEK-YLSLMD-EKKL--------------------GSYSLIL--DQNDNDLYNWIN
-NKSSAPSYLDAEI------------------------IDKLHK-----------------
-----------IAKI------------
+NKSSAPSYLDAEII------------------------------DKLHKIAKI-------
+-----------------------
 >WP_030127591.1 phage repressor protein [Streptococcus pyogenes]
 MARGRGKLTPQDEEYKKIISAKINSLLLENNLKQGHLADALEIPRSSFNEYVKGNSLPNP
 GNVQKIADYFGLMKSDIDPRFAPRKKNHELKIPTSPLVKKITTTVVELNVPRKQKVLDFA
 TEQLKEQ-KNKITSIEKKLYEYKVYEKLSAGTGYGYFGDGNYDTVFYDEELDYDFASWVF
 GDSMEPTYLNGEVVLIKQTGFDYEGGIYAVEWDGQTYIKKVYREKDGLRLVSLNKKYNDK
-FAPFSEGPRIIGEIVGNFMPKEY---
->WP_016209486.1 succinate dehydrogenase assembly factor 2 [Piscirickettsia salmonis]
--------------------------MLLDSDSKRL-------------------------
--------------------RWACR---------------------------RGMLELDLV
-LQPYVEKAYDGSSDRHKEL----------------------FCKLL--AEADQDLFIW-F
-TQRETPK--DSEL-------------------------------AD--------------
-----------IVKVV-----LEYTQL
-
+FAPFSEGPRIIGEIVGNFMPKEY

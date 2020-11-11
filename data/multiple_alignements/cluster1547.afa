@@ -1,29 +1,28 @@
->WP_000863509.1 MULTISPECIES: DUF1831 domain-containing protein [Streptococcus]
-MAFEKIIQLKNCRYDYTLSPSVKKFTLKDNTFFETKVGNYELTRLLEKVPNSGEGFQLKI
-IIN-KELTGAK---INITD------------------------------------KFG--
------------------------------------LRLVDI-------------------
-------------------------------------------------------------
--------FKSEDHHIHQEKFYFLM-------------------------DSLVERGVFTK
-SER------------------------------------------------------
->WP_002989831.1 DUF1831 domain-containing protein [Streptococcus pyogenes]
-MAFEKEIKLKDCKYLYTISPNIKKYTLRDTTFSQTKVGHYQLIRLLEKIPNSGDGFPLKI
-TIN-KELTGFK---LAITD------------------------------------QSG--
------------------------------------LRLVNI-------------------
-------------------------------------------------------------
--------FKTKDNQILQDKFYFLM-------------------------DSLVEREIFSK
-TVV------------------------------------------------------
->WP_002948028.1 DUF1831 domain-containing protein [Streptococcus thermophilus]
-MAFEKSIHLADCKYRYTISSNVKKFTLRDTTFVQNKIGHYELHRLLEKVPNSGEGFPLKI
-TIN-KDLTGFK---LSITD------------------------------------KSG--
------------------------------------LRNINI-------------------
-------------------------------------------------------------
--------FKNEDHHILQEKFYFLM-------------------------QSLVDRQVFEQ
-EEV------------------------------------------------------
 >WP_033923686.1 transposase [Piscirickettsia salmonis]
 -----MLNLADIYTDYLIAQNKHATATGLADLMPDELSHDQITRLLNKAPQTSKGLWLKI
 KTDVREYEGLDDGVLALDDMIAEKPYSDENDIIAWHYDHSKGRTVKGINILTAMVRYGDV
 RLPIAYEVIEKTIRYSDLQTKKERRKSSFTKNDLFLKLLNVAIRNDLKFTYVLADRWFSS
 QSNMSYIHNAGKKFIMGIKSNRCVALTEKNKENGKHQQLKQISLEDGIPQTVYLKGMAFK
-VQVMKKTFKNENG---KERVLYLVTNDLSIDGQPILDTYKKRWSIEEFHKSVKQNSSFEK
-SPTRIVTSQLNHIYYSILGFCRLERLKLKKSLNHFAIKYKLILRANQIALQELRSMA
-
+VQVMKKTFKNENGKERVLYLVTNDLSIDGQPILDTYKKRWSIEEFHKSVKQNSSFEKSPT
+RIVTSQLNHIYYSILGFCRLERLKLKKSLNHFAIKYKLILRANQIALQELRSMA
+>WP_000863509.1 MULTISPECIES: DUF1831 domain-containing protein [Streptococcus]
+MAFEKIIQLKNCRYDYTLSPSVKKFTLKDNTFFETKVGNYELTRLLEKVPNSGEGFQLKI
+IIN-KELTGAK---INITD------------------------------------KFG--
+-----------------------------------LRLVDIFKSED---HHIHQEKFY--
+-------------FLM--------------------------------------------
+----------------------------------------------DSLVERGVFTKSER
+------------------------------------------------------
+>WP_002989831.1 DUF1831 domain-containing protein [Streptococcus pyogenes]
+MAFEKEIKLKDCKYLYTISPNIKKYTLRDTTFSQTKVGHYQLIRLLEKIPNSGDGFPLKI
+TIN-KELTGFK---LAITD------------------------------------QSG--
+-----------------------------------LRLVNIFKTKD---NQILQDKFY--
+-------------FLM--------------------------------------------
+----------------------------------------------DSLVEREIFSKTVV
+------------------------------------------------------
+>WP_002948028.1 DUF1831 domain-containing protein [Streptococcus thermophilus]
+MAFEKSIHLADCKYRYTISSNVKKFTLRDTTFVQNKIGHYELHRLLEKVPNSGEGFPLKI
+TIN-KDLTGFK---LSITD------------------------------------KSG--
+-----------------------------------LRNINIFKNED---HHILQEKFY--
+-------------FLM--------------------------------------------
+----------------------------------------------QSLVDRQVFEQEEV
+------------------------------------------------------

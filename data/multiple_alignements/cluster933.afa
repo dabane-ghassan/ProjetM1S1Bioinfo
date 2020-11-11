@@ -1,8 +1,8 @@
 >WP_155105203.1 hypothetical protein [Rickettsia rickettsii]
----MLVNP----------------------------------------------------
----------------------SMNW-----------------------------------
 ------------------------------------------------------------
------FNLSIVVEDENQ---YQSKLTSADEHVSPNDRKSHNGYIQQSS------------
+------------------------------------------------------------
+-------------MLVNPSM-----------------------NW---------------
+-----FNLSIV---VEDENQYQSKLTSADEHVSPNDRKSHNGYIQQSS------------
 ------------------------------------------------------------
 ------------------------------------F--
 >WP_000649161.1 MULTISPECIES: alcohol dehydrogenase AdhP [Streptococcus]
@@ -26,4 +26,3 @@ YALVTADYAVKVPDGLNPAQASSITCAGVTTYKAIKEAKVEPGQWVAIYGAGGLGNLAIQ
 YAKKVFNARVVAVDINQDKLYLAKESGADLVVNGKEVEDVAGYIQEKT-GGTHSAVVTAV
 SKVAFNQAVDRVRAGGTVVAVGLPSEYMELSIVKTVLDGIRVVGSLVGTRKDLEEAFDFG
 AQGLVVPVVETVPVDTTVKVFDQMEKGEIQGRKVVDFTK
-

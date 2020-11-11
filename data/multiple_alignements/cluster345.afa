@@ -1,41 +1,35 @@
->WP_012150935.1 MULTISPECIES: hydroxymethylbilane synthase [spotted fever group]
--MTNSIRIGTRKSPLALIHTNLVIQQIKQFFP-DINCEIVPIITSGDLIQNKPLY--DIG
-GKALFLKEIEQALLDKKIDLAVHSLKDVPGRIPEPLVIAAVLEREDPRDVFVCLKYKSIE
-ELPQNAVIGSSAVRRKAFIQKIRPDLKVTVFRGNVDSRIKKLMTGEVDATILAYTGLKRL
--------EVFNPEYCHLIEYSQMLPCIGQGVIAVEIRKDDNAMLEICNQINHLPTFELIK
-PERAFLEYLDANCRTPIAAYSQYLDANPRHLSKLAYREVFEGNTEALATAAYKSNRTDAS
-TGLTYKLPLEVEFG-----KMSNIQTNFMLGNLDGSKITFHTETTNIKTSTEAGIKAAKM
-MLEAICK
->WP_000362440.1 MULTISPECIES: chorismate mutase [Streptococcus]
------------------MDLDIIRQEID-----QIDDQIVKLLEERMHLVEGVVAYKKAS
-GKPILDTKREEVIFEK--------------------------------------------
-----------------------------------VRSRVED-------------------
--------KRYQETI----------------------------------------------
-----------------VATFS----------------DILKRSRD------YQDQNIK--
-------------------------------------------------------------
--------
 >WP_011889032.1 chorismate mutase [Streptococcus pyogenes]
------------------MRLEEIRQEIN-----SIDHHLVALLEKRMALVEQVTAYKLAN
-HLPVLDQARENQILDR--------------------------------------------
-----------------------------------VSYLVKD-------------------
--------QAFEPAI----------------------------------------------
-----------------HETFK----------------TIMSLSRQ------YQTQHLTGG
-D------------------------TND--------------------------------
--------
+-----------------MRLEEIRQEIN-----SIDHHLV--------------------
+---------ALLEKRMAL------------------------------------------
+-----VEQVTAYKLANHLPVLDQARENQILDRVSYLV-----------------------
+KDQAFEPAI---------------------------------------------------
+-------HETFK----------------TIMSLSRQ------YQTQHLTGGDTND-----
+-----------------------------------------------------
+>WP_000362440.1 MULTISPECIES: chorismate mutase [Streptococcus]
+-----------------MDLDIIRQEID-----QIDDQIV--------------------
+---------KLLEERMHL------------------------------------------
+-----VEGVVAYKKASGKPILDTKREEVIFEKVRSRV-----------------------
+EDKRYQETI---------------------------------------------------
+-------VATFS----------------DILKRSRD------YQDQNIK-----------
+-----------------------------------------------------
 >WP_011681230.1 chorismate mutase [Streptococcus thermophilus]
------------------MDLNEIRQQID-----SVDNEIVALLEERMKLVTRVSAYKQRT
-GKAIYDPEREQALLDK--------------------------------------------
-----------------------------------VGASVLN-------------------
--------PEYKEAI----------------------------------------------
-----------------VASFA----------------DIMNHSRT------YQASKLEEK
-------------------------------------------------------------
--------
+-----------------MDLNEIRQQID-----SVDNEIV--------------------
+---------ALLEERMKL------------------------------------------
+-----VTRVSAYKQRTGKAIYDPEREQALLDKVGASV-----------------------
+LNPEYKEAI---------------------------------------------------
+-------VASFA----------------DIMNHSRT------YQASKLEEK---------
+-----------------------------------------------------
+>WP_012150935.1 MULTISPECIES: hydroxymethylbilane synthase [spotted fever group]
+-MTNSIRIGTRKSPLALIHTNLVIQQIKQFFP-DINCEIVPIITSGDLIQNKPLYDIGGK
+ALFLKEIEQALLDKKIDLAVHSLKDVPGRIPEPLVIAAVLEREDPRDVFVCLKYKSIEEL
+PQNAVIGSSAVRRKAFIQKIRPDLKVTVFRGNVDSRIKKLMTGEVDATILAYTGLKRLEV
+FNPEYCHLIEYSQMLPCIGQGVIAVEIRKDDNAMLEICNQINHLPTFELIKPERAFLEYL
+DANCRTPIAAYSQYLDANPRHLSKLAYREVFEGNTEALATAAYKSNRTDASTGLTYKLPL
+EVEFGKMSNIQTNFMLGNLDGSKITFHTETTNIKTSTEAGIKAAKMMLEAICK
 >WP_016209604.1 hydroxymethylbilane synthase [Piscirickettsia salmonis]
-MKKQLIKIATRQSPLALWQAHYVRKQLEYCHPEDIRVELVPIITQGDKILDTPLA--KIG
-GKGLFVKEIETALLDGRADLAVHSLKDVPMVLPEGLVLQTVCERDDPRDALVSNHYASLA
-DLPDHAVIGTCSLRRQCQLKASLPNLQVKPLRGNVGTRLSKLDAGQFDAIILAAAGLQRL
-QLSERIREYLKPEL--------ILPAVGQGAVAIECRADDAILHARLVPLHHEVTARCVL
-AERAMNHALNGGCQVPIAGFA-----------------VLDDQGE-----IYLQGRVGSP
-EG---DVLLNVEKSGADPEQLGQVVANELLA-LGAGKILAQVYT----------------
--------
-
+MKKQLIKIATRQSPLALWQAHYVRKQLEYCHPEDIRVELVPIITQGDKILDTPLAKIGGK
+GLFVKEIETALLDGRADLAVHSLKDVPMVLPEGLVLQTVCERDDPRDALVSNHYASLADL
+PDHAVIGTCSLRRQCQLKASLPNLQVKPLRGNVGTRLSKLDAGQFDAIILAAAGLQRLQ-
+LSERIREYLKPELILPAVGQGAVAIECRADDAILHARLVPLHHEVTARCVLAERAMNHAL
+NGGCQVPIAGFA-----------------VLDDQGE-----IYLQGRVGSPEGDV-----
+-----------------LLNVEKSGADPEQLGQVVANELLALGAGKILAQVYT

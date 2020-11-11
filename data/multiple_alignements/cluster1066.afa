@@ -1,42 +1,3 @@
->WP_000517373.1 YtxH domain-containing protein [Streptococcus pneumoniae]
------------------------MGK--------------LSSILLGTVSGAALALFLTS
-DKGKQVCSQAQDFLDDLR-------------------------------EDPEYAKEQVC
-EKLTEV--KEQATDFVLKT-------------------KEQVESGEITVDSILAQAKS--
----------------------------YAFQATEASKNQLNNL-----------------
---KEQWQE----------------------------------------KAEALDDS----
-------------------------------------------------------------
-------------------------------------------------------------
-------------EEIVIHITEE--------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
----------------
->WP_011017530.1 YtxH domain-containing protein [Streptococcus pyogenes]
------------------------MNK-------------SFKNLVIGAVSGVAAAYFLST
-EKGKALKNRAEKAYQAYK-------------------------------ESPDDYHQFAK
-EKGSEY--SHLARDTFYDV-------------------KDKLASGDLTKEDMLDLLKD--
----------------------------KTTAFVQKTKETFAEV-----------------
---EAKEKQ-----------------------------------------DDVIIDLN---
-------------------------------------------------------------
-------------------------------------------------------------
------------EDDIIIDYTEQDE------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
------------------------------------------------------------P
-VSDTLDKH-------
->WP_002946001.1 YtxH domain-containing protein [Streptococcus thermophilus]
------------------------MSK-------------FLNTLIIGAASGAAAAYFFTT
-EKGKAVKARIDEEIASFK-------------------------------EDPKAYQNQVV
-EKVSDY--KELAVDTFQDY-------------------KTKFENGDITATDLTKAVQE--
----------------------------KTAQVADFAKESFELI-----------------
---KEKTAQV-----------TPE-------------------QANVKAETKAIV------
-------------------------------------------------------------
-------------------------------------------------------------
-------------DDIFIDIKDISE------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
------------------------------------------------------------E
-VAESN----------
 >WP_036776682.1 chemotaxis protein CheA [Piscirickettsia salmonis]
 MALDPDDEILQDFLIEAGEILESLSEQLVELESRPDDADLLNAIFRGFHTVKGGAGFLAL
 DNLVEVCHIAENVFDILRQGERQVDADLMDVMLQALDTVNAMFEQIRSFEDPDAAEPELL
@@ -49,5 +10,43 @@ KGTITLSAEQAGDHILIYIEDDGNGMNADVLREKAIEKGLMDRESAERLTEKECYNLIFM
 PGFSTKAEISDISGRGVGMDVVKTKITQLNGRLEIDSTLGTGSRVTIKVPLTLAILPTLM
 VIVQDQRFAFPLTAVSEIFHLDLTKLNIVDGQETVIIRNKALPLFFLNHWLIKDSPKERP
 DSGHVVIISAGSQRMGFVVDQLVGQEEVVIKPLGGLLQSTTPGMAGATITGEGQIALILE
-IADLI-RHYAKRVIA
-
+IADLIRHYAKRVIA
+>WP_000517373.1 YtxH domain-containing protein [Streptococcus pneumoniae]
+------------------------------------MGK-LSSILLGTVSGAALALFLTS
+DKGKQVCSQAQDFLDDLR-------------------------------EDPEYAKEQVC
+EKLTEV--KEQATDFVLKT-------------------KEQVESGEITVDSILAQAKS--
+---------------------------YAFQATEASKNQLNNL-----------------
+--------------------------K--------EQWQEKAE-----------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------ALDDSEEIVIHITEE--------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>WP_011017530.1 YtxH domain-containing protein [Streptococcus pyogenes]
+------------------------------------MNKSFKNLVIGAVSGVAAAYFLST
+EKGKALKNRAEKAYQAYK-------------------------------ESPDDYHQFAK
+EKGSEY--SHLARDTFYDV-------------------KDKLASGDLTKEDMLDLLKD--
+---------------------------KTTAFVQKTKETFAEV-----------------
+--------------------------EAKE-----KQDDVIID-----------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------LNE--DDIIIDYTEQDEPVSDTLDKH---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>WP_002946001.1 YtxH domain-containing protein [Streptococcus thermophilus]
+------------------------------------MSKFLNTLIIGAASGAAAAYFFTT
+EKGKAVKARIDEEIASFK-------------------------------EDPKAYQNQVV
+EKVSDY--KELAVDTFQDY-------------------KTKFENGDITATDLTKAVQE--
+---------------------------KTAQVADFAKESFELI-----------------
+--------------------------KEKTAQVTPEQANVKAE-----------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------TKAIVDDIFIDIKDISEEVAESN------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------

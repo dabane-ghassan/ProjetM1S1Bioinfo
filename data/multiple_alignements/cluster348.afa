@@ -1,33 +1,28 @@
 >WP_012150943.1 ribonuclease D [Rickettsia rickettsii]
-MQI------IDNQKILEEFCNRLA-----NKACLS--IDTEFERRYTYYAQ---------
-----LSIIQV-KAEEYCGIIDALSNLDLNIFNKLLADNNITKIFHA-----PREDLEIFY
------NLFKTLPA-----NVFDIQIAANICGFGKQLSYDDLCYKLIGITIDKTHQKSHWL
-KRPITSDMLNYAMLDVEYLYKIYKELNNIIVRNNLTNK------YQTTLS-----ALLDV
-RNYKVEPKDAWKK-----------IKYGSDDKSFNHK------IQMLAAYREEN------
---AQTINIPRKHFILDEDLIKLSKYPPLNHKDFKNLNLKSKYLRKQKYKDEIISLCNNL-
--
->WP_000361076.1 MULTISPECIES: hypothetical protein [Streptococcus]
--------------------------------------MDKQY------------------
-------------------LHEKLDAMRQNFVESTHHERSV--------------------
-------------------GVLD------------Q---------------------AHMS
-KK---------------------------------MLK------IKKKLV----------
-------------------------------------------------------------
-----ALEMERCQRKIEHK----------------DCSKIDQKIKEQK---EIFESCCKKD
--
->WP_011226461.1 hypothetical protein [Streptococcus thermophilus]
------------------------------------MITD---------------------
-------------------IKEKLADMQAKYIDKQSAEDNL--------------------
-------------------KTV-------------------------------------YN
-CK---------------------------------TTK------IKKKLA----------
-------------------------------------------------------------
-----SLEVERCHKLLAKE----------------DVTAIDKKIRKQK---ELFSNCCHKE
-G
+--------------------------------MQIIDNQKILEEFCNRLANKACLSIDTE
+FERRYTYYAQLSIIQVKAEEYCGIIDALSNLDLNIFNKLLADNNITKIFHAPREDLEIFY
+NLFKTLPANVFDIQIAANICGFGKQLSYDDLCYKLIGITIDKTHQKSHWLKRPITSDMLN
+YAMLDVEYLYKIYKELNNIIVRNNLTNKYQTTLSALLDVRNYKVEPKDAWKKIKYGSDDK
+SFNHKIQMLAAYREENAQTINIPRKHFILDEDLIKLSKYPPLNHKDFKNLNLKSKYLRKQ
+KYKDEIISLCNNL
 >WP_016211857.1 endonuclease/exonuclease/phosphatase family protein [Piscirickettsia salmonis]
-MKYNISWWNLENL-LLPQTAKRSSKLKKRHKKTLKYWTDERYQQKLYNLAQVICQFHQHQ
-GPDILAIGEVDSAEAMHDLSQQLANLGL-YYHSHLADSADPRRMHVGVLYRP----ELFS
-ITQQESLF--VPASKKTRDILNIQF---------QTLQGDLLHLLI----------NHWP
-SK-----------------------------RNNPSDRIKAAHCLKTALSHCTEPALI-V
-GDFNTQPSDALFKDLVTDCELTPLFHLPAEPTYFHHSPTGTTPISLDFAFTSKEFSNNPH
-WRASTLTIEKQH---QNTLERPQAFMQSNLKEF-NYDGASDHF--------AISLTLNKT
-S
-
+MKYNISWWNLENLLLPQTAKRSSKLKKRHKKTLKYWTDERYQQKLYNLAQVICQFHQHQG
+PDILAIGEVDS------AEAMHDLSQQLANLGLYYHSHLADSADPRRMHVGVLYRPELFS
+ITQQESLFVPASKKTRDILNIQFQTLQGDLLHLLINHWPSKRNNPSDRIKAAHCLKTALS
+HCTEPALIVGDFNTQPSDALFKDLVTDCELTPLFHLPAEPTYFHHSPTGTTPISL---DF
+AFTSKEFSNNPHWRASTLTIEKQHQNTLERPQAFMQSNLKEFNYDGASDHFAISLTLNKT
+S------------
+>WP_000361076.1 MULTISPECIES: hypothetical protein [Streptococcus]
+-----------------------------------MDKQYLHEKLDAMRQNFVE-STHHE
+RSVGVLDQAHM------SKKMLKIKKKLVALEMERCQRKIEHKDCSKIDQKIKEQKEIFE
+SC---------------------------------------------------CKKD---
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>WP_011226461.1 hypothetical protein [Streptococcus thermophilus]
+----------------------------------MITD--IKEKLADMQAKYID-KQSAE
+DNLKTVYNCKT----------TKIKKKLASLEVERCHKLLAKEDVTAIDKKIRKQKELFS
+NC---------------------------------------------------CHKEG--
+------------------------------------------------------------
+------------------------------------------------------------
+-------------

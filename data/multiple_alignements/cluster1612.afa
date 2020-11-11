@@ -1,22 +1,21 @@
->WP_001209210.1 hypothetical protein [Streptococcus pneumoniae]
-MRE---------------------------------------------------------
-------------------------------------------------------------
----------------------RSATGAQGLS--KSIKKHLNDLTRLTA------------
--------------------------------SLLGDEK----------------------
---------------------LSAITSSSAVKADMHRFVIEL-EPVKSTILQNNDISLDQN
-EIFEILKNFFD-----G-------------------------------------------
->WP_126405158.1 hypothetical protein [Streptococcus pyogenes]
-MK-----------------------------------------TLTLSGKPYPIHEGGKV
-VKTEVRLIGDN-------------GLFIPIELIGD-------------------------
----------------------QTAKGADDLI--------KEGLDAFVR------------
--------------EYVTKYAVAESVQKVEELSLAQKEI------EQNAEQAKVTAEAAEK
-QAKSLELVIAKSQKMANLQAIRLLTSGSKVEPDIYKGMLELIEPVKKGKYQAY-------
-DVFTVVDDKHEDEAGEGNLVFVHVNEPFTYEAQTLEELEEEDK----VTVIKYADLVKQD
 >WP_054300594.1 IS91 family transposase [Piscirickettsia salmonis]
 MQTHQSRHLYLQITAMLLMWKKATEQWIAAQNKLLPKCEYQHITFTMPKALCPFFLANRE
 LLNHLSRLAANVLLKTAKKKKIKIGIFTALHTFGQSLNWNTHVHLSVTRGGLSKCKTTWK
 KVYFTKKKTMPMWRFSIVNLLRTAYKTGKLVIPHQYQNHITDLTSFNRFINPEYNKLWHV
 HFAKAQPSHHQNVDYLGRYLKRPPLSNSRLLHYDGKEVIFRYIDRKTGKQEKHTSTTFEF
 IERLIRHIPTKSFKMIRYYGFLSFRTRGKLLPTIYKLLDQTVEPVKKITYASFLKGFINT
-DPFECILC--------GSKMLLTGGRP----KQRLSVIMKHHKALATMQLIKF-------
-
+DPF-ECILCGSKMLLTGGRPKQRLSVIMKHHKALATMQLIKF-------
+>WP_001209210.1 hypothetical protein [Streptococcus pneumoniae]
+-----------------------------------------MRERSATGA----------
+-------------------------------------------------QGLSKS-----
+-----------------------------------IKKHLNDLTR---------------
+--------------------LTASLLGDEKLS----------------------------
+----------------------AITSSSAVKADMHRFVIEL-EPVK--------------
+----STILQNNDISLDQNEIFEILKNFFDG-------------------
+>WP_126405158.1 hypothetical protein [Streptococcus pyogenes]
+-----------------------------------------MKTLTLSGKPYPIHEGGKV
+VKTEVRLIGDN-------------GLFIPIELIGDQ-----------TAKGADDL-----
+-----------------------------------IKEGLDAFVR---------------
+-------------EYVTKYAVAESVQKVEELSLAQKEI------EQNAEQAKVTAEAAEK
+QAKSLELVIAKSQKMANLQAIRLLTSGSKVEPDIYKGMLELIEPVKKGKYQAYDVFTVVD
+DKHEDEAGEGNLVFVHVNEPFTYEAQTLEELEEEDKVTVIKYADLVKQD

@@ -1,22 +1,21 @@
 >WP_012150616.1 MULTISPECIES: hypothetical protein [spotted fever group]
 MLFKILYKTVITLALIYFILIILEYARQGFLNDLSLQKVDLSIQNSIKEPIYLVSYADGL
-EY-VYRNQNATTHYAINKGIDFIFNYKKKHINQAFIEKNQEIFNAPAGAGLWLWKPYIIL
-ETMKNAPEGAIIVYLDSAFVIKKHISNLTNLLGDNDILLVHDRNRKNGSFVKGETFALMD
-CLTDECRNDDHIWSAVIIVRNTKLSRSFIEKWLKSCEDIRILSGKNYNIHPNYDEYKWHH
-SDQSVLSLIYHKNPQSVKVIEYEETTPSLSWFHRKYSNSSPLKPWYSIYGIDPIINFNTN
-GKVLPATSLINTPTIVRLRKWVIEYIQ
->WP_002982972.1 MULTISPECIES: DUF3173 family protein [Streptococcus]
--------------------------------------------------MIQIVTKDDIM
-KLTGYSNSQS-----------------KKLIREA--------------------------
-------------------------------------------------------------
--------------------KALLVSEGF--------------------------------
------------------------------QWYQNKRINRVPLKTVENILGFELSLQNDI-
---------IVSVQEDTALEKGV-----
+EYVYRNQNATTHYAINKGIDFIFNYKKKHINQAFIEKNQEIFNAPAGAGLWLWKPYIILE
+TMKNAPEGAIIVYLDSAFVIKKHISNLTNLLGDNDILLVHDRNRKNGSFVKGETFALMDC
+LTDECRNDDHIWSAVIIVRNTKLSRSFIEKWLKSCEDIRILSGKNYNIHPNYDEYKWHHS
+DQSVLSLIYHKNPQSVKVIEYEETTPSLSWFHRKYSNSSPLKPWYSIYGIDPIINFNTNG
+KVLPATSLINTPTIVRLRKWVIEYIQ
 >WP_000369785.1 MULTISPECIES: DUF3173 domain-containing protein [Bacteria]
-------------------------------------------------MDNNLISNKELI
-EM-GYRPHTA-----------------NDIIHQA--------------------------
+MDNNLISN---------------------------------------KELIEM-GY----
+--------------------------RPHTANDIIHQARELL------------------
 ------------------------------------------------------------
--------------------RELLVSRGY--------------------------------
------------------------------TFYNRKRLMVVPKSVVNEILGTEVA------
----------------------------
-
+----------------------VSRGY---------------------------------
+----------------------------TFYNRKRLMVVPKSVVNEILGTEVA-------
+--------------------------
+>WP_002982972.1 MULTISPECIES: DUF3173 family protein [Streptococcus]
+-MIQIVTK---------------------------------------DDIMKLTGY----
+--------------------------SNSQSKKLIREAKALL------------------
+------------------------------------------------------------
+----------------------VSEGF---------------------------------
+----------------------------QWYQNKRINRVPLKTVENILGFELSLQNDIIV
+SVQEDTALEKGV--------------

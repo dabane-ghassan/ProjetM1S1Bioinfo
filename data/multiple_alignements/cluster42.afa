@@ -1,29 +1,28 @@
 >WP_004998070.1 MULTISPECIES: hypothetical protein [spotted fever group]
 ------------------------------------------------------------
-----------------------MSKAKT--------------------------------
--------------------------ASKNN---------------------------PTS
-RE--------------------------------QAKEYFHNGQKIKP-VKLIAAQKSFL
-AAEYESSGDLVVG----------SNGQPLPWGL---------------------------
----VKSLS--------------------------------
->WP_010922455.1 hypothetical protein [Streptococcus pyogenes]
+-------------------MSKAKTASKNNPTSREQAKEYFHN---------GQKIKPVK
+LIAA--------------------------------------------------------
+QKSFLAAEYESSGDLVVGSN---GQPLPWGLVKSLS------------------------
 ------------------------------------------------------------
---------------------MEILKGKTTSGFEYE------------IPKKRLK------
---------------NFELVEAI---AEEETD--------------------------PTA
-VVKIVNLLLGDAAKSLKEHVRDAEGIVDVEAIGVEIKEIFE-------------SQKDL-
------------------------KN-----------------------------------
-----------------------------------------
+------------------------------------------
 >WP_014607853.1 NYN domain-containing protein [Streptococcus thermophilus]
 -------------------------MKKRILLVDGYNMIAFWKETRQLFKINQLDEARET
-LLRKLNHYANFEHIDIIC----VFDAQF-------------------VPGNRQR------
--------------YDQYRVSVIFTEEDETADSYIE------RSAAE-----------MNT
-IQNLVEVATSD--------LNEQWGIFSQGALRVSARELEERVNTVKSDLDKMSAHIDLT
-TPKLRPWDETQLG--------KLQN----------------------------------L
-LNEIK-----------------------------------
+LLRKLNHYANFEHIDIICVFDAQFVPGNRQRYDQYRVSVIFTEEDETADSYIERSAAEMN
+TIQNLVEVATSDLNEQWGIFSQGALRVSARELEERV------------------------
+NTVKSDLDKMSAHIDLTTPKLRPWDETQLGKLQNLLNEIK--------------------
+------------------------------------------------------------
+------------------------------------------
+>WP_010922455.1 hypothetical protein [Streptococcus pyogenes]
+------------------------------------------------------------
+--------------------MEILKGKTTSGFEYE------------IP---KKRLKNFE
+LVEAI-----------------------AEEETD--------------------------
+PTAVVKIVNLLLGDAAKSLKEHVRDAEGIVDVEAIGVEIKEIFE----------------
+--------------------------SQKDLKN---------------------------
+------------------------------------------
 >WP_016209640.1 hypothetical protein [Piscirickettsia salmonis]
 MPSFNDILNQYLLHFKKYFLDLDLSLNHRTSILSSQGTTPNFQEIAKLFSDGEIEKEFES
-LQNKLNRYPDTSHLELYIKFNDFFKSKTDHSLESERVIGFFKDRNESIAGKKLLEIVFLE
-SISFAASADLQESFNAELKSAINITAEEDNDSFYELIKEQFKEASTYPLSRFNLSYHPKA
-FEQLDQLGLGDQSNCILELLGHPPQLINIEGISNQVKEIFENAKKSIP-TEIESTQQNLI
-AACYEKYQANVIGLIFNFFIPKEKNQEDLELQLFIYENEFLSSSNFANHGTQFESFCPKI
-LEIIKASNKEHIQESDSQLFFSQQKEKTTFDSSASARYNQ
-
+LQNKLNRYPDTSHLELYIKFNDFFKSKTDHSLESERVIGFFKDRNESIA---GKKLLEIV
+FLESISFAASADLQESFNAELKSAINITAEEDNDSFYELIKEQFKEASTYPLSRFNLSYH
+PKAFEQLDQLGLGDQSNCILELLGHPPQLINIEGISNQVKEIFENAKKSIPTEIESTQQN
+LIAACYEKYQANVIGLIFNFFIPKEKNQEDLELQLFIYENEFLSSSNFANHGTQFESFCP
+KILEIIKASNKEHIQESDSQLFFSQQKEKTTFDSSASARYNQ

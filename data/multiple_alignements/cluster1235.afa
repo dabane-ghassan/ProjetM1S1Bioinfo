@@ -1,29 +1,3 @@
->WP_001145225.1 MULTISPECIES: DUF3270 domain-containing protein [Streptococcus]
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------MPVRK-------
-------------------------------------------------------------
-------------------------------------------------------------
------------LQSYEVD------------------------------------------
-----YQ------------------------------------------------------
------------------------------------------------------EELNQQL
-PHYQAYTPEAQSDANLKEILFFINIAVFCICIAIFSFIFLALKLSTALAFAAA----IGF
-SLLVLKVQRSIIKR--------------------KRRR--------
->WP_002990571.1 DUF3270 domain-containing protein [Streptococcus pyogenes]
-----------------------------------------------------MP------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------APLKK-------
-------------------------------------------------------------
-------------------------------------------------------------
------------HNSVEQDD-----------------------------------------
----SYQ------------------------------------------------------
------------------------------------------------------ES-QSKF
-RDFQEFNGQS---AKLKELVFFARIASFSLITVLFAFVLLVMNLAPMFAFLFASIISLGI
-TSLLAKVIKSLLM---------------------------------
 >WP_016209801.1 VWA domain-containing protein [Piscirickettsia salmonis]
 MYDTRILVDASDNLEKNDPSKLRIEALRMLVSILPKGSYAGVWEFGDLVNINMPYGKVSQ
 HWLQEADHKVKALELQTRFSNLDQALRKVTEGWAHNESNKERNIIILTGNKLKVSAKEGK
@@ -35,6 +9,31 @@ PEQAEYVMDVTAMTEAGHDPSIMEIRLFADGITFEREFVQKVQVFNSPITWMHKVISDNQ
 QPMYAITITARHDLVESDDLKLRVFVKSTSSSPSTQLQHKEITLEKQGNGSWMFWLPALP
 VGQSYQIRAQLSGVTIAQRPFGILESVYAVEGTVVPSAAGSSSSSVSAMSSSPMEDTRAE
 ENESAEELGGAAEEQTVEEESPSEDELLGDDSDENHKKSAEEADDEISESDFIEEINEHT
-EGTVKKSGESNTDSSLITILFFIVLAS---------------------AFVAAAVF-IPL
-IIIMRKRQRKMLQSMAEAEGTIDNTKDNNTGDDNKNKNSDEEKGEA
-
+EGTVKKSGESNTDSSLITILF-FIVLASAFVAAAVF-------IPLIIIMRKRQRKMLQS
+MAEAEGTIDNTKDNNTGDDNKNKNSDEEKGEA
+>WP_001145225.1 MULTISPECIES: DUF3270 domain-containing protein [Streptococcus]
+-----------------MPVRKL-------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-QSYEVDYQEELNQ-------------QLPHYQA--------------------------
+------------YT----------------------------------------------
+------------------------------------------------------------
+-------------PEAQSDANLKEILFFINIAVF--------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------CICIAIFSFIFLALKLSTALAF----AAAIGFSLLVLKVQRSIIKR
+KRRR----------------------------
+>WP_002990571.1 DUF3270 domain-containing protein [Streptococcus pyogenes]
+-----------------MPAPLK-------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-KHNSVEQDDSYQE-------------SQSKFRD--------------------------
+------------FQ----------------------------------------------
+------------------------------------------------------------
+-------------EFNGQSAKLKELVFFARIASF--------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------SLITVLFAFVLLVMNLAPMFAFLFASIISLGITSLLAKVIKSLLM-
+--------------------------------

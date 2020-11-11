@@ -1,12 +1,12 @@
 >WP_000155429.1 GNAT family N-acetyltransferase [Streptococcus pneumoniae]
 --MTIRFEE-------------------KVSTENAQFVCQ--------------------
----------------------WSN-SLGKSFQEQ----------------------W---
-------------------------------------------------MGPRIPF-----
-----------------------LLTLQALEG--------------------VFS------
+--------------------------------------------------------WSNS
+LGKSFQ---------------------------------------EQWMGP---------
 ------------------------------------------------------------
------IFDEQEFVGFIQKI----RLEDSNL-------HI---------------------
-------------------------------------------------------------
-----GR------FFINPQKQEQGLGSQALRKFVSLAFENEDIDSISLNVFEANQRAQNLY
+--------------------------------------------------RIPFLLT---
+---------------LQALEG--------------------VFSIFDEQEFVG-------
+----------------------------------FIQKIRLEDS--------NLHIG--R
+F------------FINPQKQEQGLGSQALRKFVSLAFENEDIDSISLNVFEANQRAQNLY
 QKEGFEIVQMVEAPVRKYSILKLE
 >WP_016210500.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase [Piscirickettsia salmonis]
 MKVVIRTDSSFLIGSGHVMRCLVLADLLNIAGHTVSFICRDLPGNFNKYIVERGYAIAIL
@@ -18,4 +18,3 @@ ENQKKIVKEMRLYGYIQSIEGLSELGDKNLNFNELECHILSISELFNDNKNTELSSRLVN
 EKDMKDIYEWRIHPSVVSVSASKQAFSFSEHRAWFLEKLQSDDSYFLMFECLGFKVGVIR
 FDIKGRKFAVVNIFLNPLCINQGYGKKILKYGLSEFFKNTTITEVRADILEENIKSKRIF
 IRCGFNKYKA------SYCLHK--
-

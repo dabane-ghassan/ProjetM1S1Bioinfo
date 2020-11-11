@@ -143,7 +143,7 @@ class Clusterizer:
 
 
     @staticmethod 
-    def mafft(cluster_dict, proteomes):
+    def muscle(cluster_dict, proteomes):
         
         afasta_files = []
         fa_dir= '../data/clusters/cluster%s'
@@ -156,7 +156,7 @@ class Clusterizer:
             Clusterizer.cluster_from_proteome(cluster, proteomes,
                                               fa_dir % fasta)
             
-            multialign = subprocess.run(['mafft', fa_dir % fasta],
+            multialign = subprocess.run(['muscle', '-in', fa_dir % fasta],
                                         capture_output=True)
             with open(afasta_file, 'wb') as afa :    
                 afa.write(multialign.stdout) 
@@ -164,7 +164,7 @@ class Clusterizer:
             afasta_files.append(afasta_file)
             
         return afasta_files
-    
+    '''
     @staticmethod    
     def cat_MSAs(afa_files):
         
@@ -196,10 +196,9 @@ class Clusterizer:
 
         """
         
-        table = '../data/phylogeny/subMSAtable'
-        
+        table = '../data/phylogeny/subMSAtable'          
         num = 1
-        for afa_file in afa_files : 
+        for afa_file in afa_files: 
             output = ""
             with open(afa_file, 'r') as afa, open(table, 'a') as tb : 
                 for line in afa :
@@ -208,7 +207,7 @@ class Clusterizer:
                         num +=1                   
                 tb.write(output+' # %s \n' % afa_file.split('/')[-1])
         return table
-    
+    '''
     @staticmethod 
     def super_alignement(afa_files):
         
