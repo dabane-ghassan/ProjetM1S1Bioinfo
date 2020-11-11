@@ -161,7 +161,8 @@ class Clusterizer:
             afasta_files.append(afasta_file)
             
         return afasta_files
-    '''
+    
+    """
     @staticmethod    
     def cat_MSAs(afa_files):
         
@@ -178,20 +179,6 @@ class Clusterizer:
     
     @staticmethod
     def makemergetable(afa_files):
-        """
-        https://mafft.cbrc.jp/alignment/software/merge.html
-
-        Parameters
-        ----------
-        afa_files : TYPE
-            DESCRIPTION.
-
-        Returns
-        -------
-        table : TYPE
-            DESCRIPTION.
-
-        """
         
         table = '../data/phylogeny/subMSAtable'          
         num = 1
@@ -204,7 +191,7 @@ class Clusterizer:
                         num +=1                   
                 tb.write(output+' # %s \n' % afa_file.split('/')[-1])
         return table
-    '''
+    
     @staticmethod 
     def super_alignement(afa_files):
         
@@ -220,5 +207,5 @@ class Clusterizer:
                 
         return out_super
         
-        
+     """  
         
