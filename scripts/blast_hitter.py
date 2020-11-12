@@ -31,7 +31,7 @@ class BlastHitter:
         the path of the reciprocal best hits file (.blastp tabulated format).
     """
     def __init__(self, query, subject):
-        """The Class constructor, only specifying the query and subject
+        """The class constructor, only specifying the query and subject
         path on the disk is sufficient for deducing other object attributes.
         
         Parameters

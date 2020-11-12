@@ -40,7 +40,7 @@ spss = Clusterizer.species_cluster(clss, proteomes)
 max_one_clusters, max_one_species = Clusterizer.max_one_species_per_cluster(spss, clss)
 #Clusterizer.clusters_to_txt(max_one, '../data/clusters/max_one_clusters.txt')
 
-all_afa = Clusterizer.muscle(max_one_clusters, proteomes)
+all_afa = Clusterizer.muscle(max_one_clusters, proteomes)   
 
 super_align = Clusterizer.super_alignement(max_one_clusters, max_one_species, all_afa, '../data/phylogeny/super_align.afa')
 
