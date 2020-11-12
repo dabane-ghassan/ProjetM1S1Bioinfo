@@ -47,9 +47,7 @@ super_align = Clusterizer.super_alignement(max_one_clusters, max_one_species, al
 
 Clusterizer.tree_generator('../data/phylogeny/super_align.afa')
 
-           
-
-t = Tree('../data/phylogeny/RAxML_bestTree.tree.newick')
+t = Tree('../data/phylogeny/RAxML_bipartitions.species')
 # Basic tree style
 ts = TreeStyle()
 ts.show_leaf_name = True
