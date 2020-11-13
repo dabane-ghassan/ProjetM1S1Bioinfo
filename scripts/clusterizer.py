@@ -246,7 +246,6 @@ class Clusterizer:
             for header, sequence in concat.items():
                 super_align.write('>%s\n%s\n' % (header, sequence))
 
-        return concat
 
     @staticmethod
     def tree_generator(super_alignement):
@@ -256,3 +255,36 @@ class Clusterizer:
             super_alignement.rsplit('/')[-1], '-n', 'tree.newick', '-m',
             'PROTCATBLOSUM62', '-p', '52341'
         ])
+        
+        
+    def cluster_them(self) : 
+        
+        all_clusters = '../data/clusters/all_clusters.txt'
+        all_clusters_max_one = '../data/clusters/one_species_per_cluster.txt'
+        
+        clus_dict = Clusterizer.clustering(self.rbh_files)
+        Clusterizer.clusters_to_txt(
+            clus_dict, all_clusters)
+
+        species_dict = Clusterizer.species_cluster(clus_dict, self.proteomes)
+        max_one_clusters, max_one_species = Clusterizer.max_one_species_per_cluster(species_dict, clus_dict)
+        Clusterizer.clusters_to_txt(max_one_clusters, all_clusters_max_one)
+
+        self.working_cluster = max_one_clusters
+        self.corr_species_cluster = max_one_species
+        
+        
+    def one_align_to_rule_them_all(self) : 
+        
+        all_species_names = '_'.join(
+            [prot.rsplit('/')[-1][0:prot.rsplit('/')[-1].find(
+                '_protein.faa')] for prot in self.proteomes])
+
+        out = '../data/phylogeny/super_align_%s.afa' % all_species_names
+        
+        all_multialigns = Clusterizer.muscle(
+            self.working_cluster, self.proteomes)   
+
+        Clusterizer.super_alignement(self.working_cluster,
+                                     self.corr_species_cluster,
+                                     all_multialigns, out)
