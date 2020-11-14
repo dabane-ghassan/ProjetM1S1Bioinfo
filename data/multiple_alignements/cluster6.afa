@@ -1,8 +1,35 @@
->WP_004995988.1 MULTISPECIES: NADH-quinone oxidoreductase subunit B [Rickettsia]
-MKNNFYQEDELLSNELSNRGFLLTKVDDVIGWARANSLWPMTFGLACCAVEMMQAAASRY
-DMDRFGMLFRPSPRQSDLMIVAGTLTNKMAPALRKVYDQMAEPKWVLSMGSCANGGGYYH
-FSYSVVRGCDRIVPVDVYVPGCPPTAEALIYGLMQLQKKIKRTTGFKYDARQTH
->WP_016209262.1 NADH-quinone oxidoreductase subunit B [Piscirickettsia salmonis]
---------MGVANTILKRDGFVTTSADKLVNWVRTGSMWPVTFGLACCAVEMMQAGASRY
-DLDRFGVIFRPSPRQSDVMIVAGTLCNKMAPALRRVYDQMAGPKWVISMGSCANGGGYYH
-YSYSVVRGCDRIVPVDVYVPGCPPTAEALLYGIIQLQNKIRRTNTI---ARQ--
+>WP_016211570.1 curli production assembly/transport component CsgG family protein [Piscirickettsia salmonis]
+MCKRFKLLLVALMILIVLPILPMTACAKSHMPTVAVLKFNINKEALVLYWRRHKVRDQDN
+RSGLGSDDRVVREHGQLAVVPEEYTAMTNMLTDGLINTLVSSHTFKVLTRDRVNRVINEQ
+RFVESGDVSSDQAVKTGKLLGADYLVTGSIQMLEVKTREEKIPYTHEISKQRYGLLMANI
+QVIDAHSGQIVAAYPVQVSKKQNRVKNHWQQDNKIVTSRDYFLQQLKDKAAKIAANKVLS
+AVFPLSVIKVAGNSVYINRGVGANFKVGDSLAVFKPGQRLTDEHTDQLLGYAQLPVGKVR
+IETIEAKFAKATVLSGNPQKMLGAIVKALVKDKHVVLAGGGLENTPGSSASPLQW
+>WP_004996011.1 MULTISPECIES: exodeoxyribonuclease VII small subunit [spotted fever group]
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----------------------------MTNTKTLEANISFEEALKELEEIV-------
+---------------------------------------------------KKIDNGQES
+LETAVNSFERGILLKNHCEKKLKEARLKIEK----ITKLADSTVVLEEMEV----
+>WP_000043230.1 MULTISPECIES: exodeoxyribonuclease VII small subunit [Streptococcus]
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----------------------------MSKQKK------FEENLAELETIV-------
+---------------------------------------------------QSLENGEIA
+LEDAITAFQKGMVLSKELQATLDKAEKTLVK----VMQEDGTESDFE--------
+>WP_111705687.1 exodeoxyribonuclease VII small subunit [Streptococcus pyogenes]
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----------------------------MSKTKT------FEENLQDLETIV-------
+---------------------------------------------------NKLENGDVP
+LEEAISEFQKGMLLSKELQKTLQTAEKTLVK----VMQADGTEVDMDD-------
+>WP_002951008.1 exodeoxyribonuclease VII small subunit [Streptococcus thermophilus]
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----------------------------MSTKKT------FEENLQDLEAIV-------
+---------------------------------------------------TKLETGDVA
+LEDAIAEFQKGMVLSKDLQKTLEDAEKTLVK----VMQADGTEMEMDA-------

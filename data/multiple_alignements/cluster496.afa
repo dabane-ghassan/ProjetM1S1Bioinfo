@@ -1,20 +1,18 @@
->WP_002985158.1 ferredoxin [Streptococcus pyogenes]
---------------------------------------MKVSIIP---------------
-EKCIACGLCQTYSSLFDYHDNGIVTFSSSSETSQSICPSDKDAILAVKS------CPTKA
-LTLE------------------------------------------
->WP_000705155.1 MULTISPECIES: ferredoxin [Streptococcus]
---------------------------------------MKITLIP---------------
-ERCIACGLCQTYSDLFDYHDNGIVRFYDDPDQLEKEISPSQDVLEAVKN------CPTRA
-LIGNQEA---------------------------------------
->WP_011681189.1 ferredoxin [Streptococcus thermophilus]
---------------------------------------MKVSLIP---------------
-EKCIACGLCQTYSPVFDYDDEGIVRFKD-SDQLSRTIENSPETLTAVKS------CPTKA
-LICEV-----------------------------------------
->WP_012151338.1 NADH-quinone oxidoreductase subunit NuoI [Rickettsia rickettsii]
----MINYLKSFFLYEIVRGMALTLKYFFKPKVTINYPYEKSPISPRFKGEHALRRYEHGE
-ERCIACKLCEAICPAQAI----VIEADEREDGSRRTTRYDIDMTKCIYCGLCQEACPVDA
-IVEGPNFEFASLTHTALIYDKERLLQNGDRWEQALASKLHKDYEYR
->WP_016209275.1 NADH-quinone oxidoreductase subunit NuoI [Piscirickettsia salmonis]
-MKILKQWAKTFLLIELLKGLKLTLKHLFSKSVTVQYPEEKTPISPRFRGLHALRRYPNGE
-ERCIACKLCEAVCPALAI----TIESEQREDGSRRTTRYDIDLFKCIYCGFCEEACPVDS
-IVETKVFDYHFEERGENIMTKAKLLEIGDQYEEQIAAAKAQDAPYR
+>WP_000120724.1 lactate oxidase [Streptococcus pneumoniae]
+-----MSYKTSNA----------------EGHVDFINTYD--------------------
+--------------------------------LEPMAQQVIPKAAFGYIASGAEDTFTSF
+Q-----------------------------------------------------------
+------------------------------------------------------------
+-----------
+>WP_002948458.1 MULTISPECIES: hypothetical protein [Firmicutes]
+----MNEIAKEKVFYTTFVVLILSSFMLQTGKADEVQVKS--------------------
+-----------------------------------------DEAKIDYVNSEASAP----
+------------------------------------------------------------
+------------------------------------------------------------
+-----------
+>WP_012262420.1 palindromic element RPE2 domain-containing protein [Rickettsia rickettsii]
+MHKFDSLFKSKNIFFIAIVIFVLSSFTLYHNRSDILKLFKSENKDLSQIPDQAVENKENT
+TLEEKEAAPLLSTKSLLNYVSSLKFPEAPTNLVEPKLETVVNSASFGYKEQGAKKPITNR
+RATSDEVGVWVSLDYINYLLNVNLLVYNFMQDKDYSKELRIVKSRLLPQDIRNILNNLEA
+YNNYLFSKSSSTEVIFPTNHKWLAKFIKIEKKPSAMMIKEQDKPLILENLNYLIDCLYSE
+KFMQEFVNKDV

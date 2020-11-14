@@ -1,48 +1,20 @@
->WP_012151084.1 hypothetical protein [Rickettsia rickettsii]
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
------------------------------------------------MKIIAKIPAWMLL
-CLFI-------LSPTTETIYTSGLPSLTKYFGI---------------------------
----------------------------------------------------------DSG
-L-----------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---TQITSTLCFIICCIFNY-------------------------
->WP_011017728.1 extracellular solute-binding protein [Streptococcus pyogenes]
---------MLKLKRKWLLSFLLVIIILAIVNIAMYIFSSSKKDSAKELVILTPNSQTILT
-GTIPAFEEKYGVKVRLI---------------------------------QGGTGQLIDQ
-LGRKDKPLNADIFFGGNYTQFESHKDLFESYV---------SPQVSTVISDYQLPSHRAT
-PYTINGSVLIVNNEL------------------ARGLHITSYEDLLQPALKGKIA-----
--FADPNSSSSAFSQLTNILLAKGGYTSSEAWEY---------VKRLLLS----------M
-NSIRATSSSDV-----------------------YESVAEGKMIVGLTYEDPCINLQKSG
-A-----------------------------------------------------------
----------------------------------NVSIVYPDEGTVF--------------
------------------------------------VPSSVAIIKKAKAMKEAKQFINFIL
-SSDVQNAFGQSTSNRPIRRDAQT-------------------------------------
---SHEMKPLDEIITLKEDYGYVTRHKKKILNTYNRLHEALERGK
->WP_000370258.1 1,4-alpha-glucan branching protein GlgB [Streptococcus pneumoniae]
-MDNREALKTFMTGENFYLQHYLGAHREELNGEHGYTFRVWAPNA--QAVHLVGDFTNWIE
-NQIPMVRNDFGVWEVFTNMAQEGHIYKYHVTRQNGHQLMKIDPFAVRYEARPGTGAIVTE
-LPEKKWKDGLWLARRKRWGFAERPVNIYEVHAGSWKRNPDGSPYSFAQLKDELIPYLVEM
-NYTHIEFMPLMSHPLGLSWGYQLMGYFALEHAYGRPEEFQDFVEECHTHNIGVIVDWVPG
-HFTINDDALAYYDGTPTFEYQDHNKAHNHGWGALNFDLGKNEVQSFLISCIKHWIDVYHL
-DGIRVDAVSNMLYLDYDDAPWTPNKDGGNLNYEGYYFLQRLNEVIKLEYPDVMMIAEESS
-SATKITGMKEIGGLGFDYKWNMGWMNDILRFYEEDPIYRKYDFNLVTFSFMYVFKENYLL
-PFSHDEVVHGKKSMMHKMWGDRYNQFAGLRNLYTYQICHPGKKLLFMGSEYGQFLEWKSE
-EQLEWSNLEDPMNAKMKYFTSQLNQFYKDHRCLWEIDTSYDGIEIIDADNRDQSVLSFIR
-KGKKGEMLVCIFNMVPVERKDFTIGLPVAGIYEEVWNTELEEWGGVWKEHNQTVQTQEGL
-WKDYEQTLTFTLPAMGASVWKIKRRLKSTKTVTNKNPKGVENEK
->WP_016211250.1 hypothetical protein [Piscirickettsia salmonis]
-------------------------------------------------------------
-------------------------------------------------------------
-----------------------------------------------------------MI
-EYS---FLPILSIAL--------------------------------PNVITIIVAFVPI
-FFKI--------------------------WER---------------------------
----KVKSINNII---------------------------------------SDLISQESN
-T-----------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---DKVNTLAILIKKNGADT-------------------------
+>WP_016210766.1 FKBP-type peptidyl-prolyl cis-trans isomerase [Piscirickettsia salmonis]
+-----------------------------MKIIKEDSAVVFHLSLLLEDGSAADSTRVNG
+KPMCAIMNDGS--LTLALQAHLLG--LSIGDKKK---FTLTPEESFGQPRQENIQRF---
+----DKTRFADDISLEAGSIIAFEQMGQGSLPGQVRGMEGDEVIIDFNHPLCGHNVTFDI
+EIVDIDPESN--------
+>WP_012151030.1 DNA alkylation repair protein [Rickettsia rickettsii]
+--------------------MEDLSRLITSEFNEEKFLALAILIMQYQTAQDKEFLYNFY
+--LNNIKHVNNWNLVDASAHHIIG--AYLWDKEKDYLFTLTKSEIL-WKRRIAIVATWYF
+IKNNTLDTTFEIAKLLLNDKHDLMYKAVGWMLREAGKKDEKQLIDFLDRYTLQMPRIAVR
+YAIERLPQEVYKKYLLKN
+>WP_075218746.1 MULTISPECIES: DNA alkylation repair protein [Streptococcus]
+-----------------------MDWDFADTCWEKEPRKYQYVAANYLKAMQSYLKETDL
+PKLEQLVVTKSWWDTVDILDRVVGSLVYEHPELEEIILIL-FENLF-KPRQLYLQPQ---
+------NSVLSNLRLAS-------------------------------------------
+------------------
+>WP_011681319.1 DNA alkylation repair protein [Streptococcus thermophilus]
+MAFKKTILRKIEREFFKPFIKDPIDWTFMEECWQHPYREFQYIAMGYLDKKKKEFRHEDF
+SKLKELAQTKSWWDSIDQLDRIIGEITFHYPETKDFMRQWSLDEDF-WLRRIAIDHQLIR
+KELTDTDLLAEVICNNFGQTEFFINKAFGWRLRNYSKVNPDWVRDLLITMLVK-------
+------------------

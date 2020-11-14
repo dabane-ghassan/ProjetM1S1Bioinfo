@@ -1,30 +1,20 @@
->WP_021341163.1 siphovirus Gp157 family protein [Streptococcus pyogenes]
----------------------------MAYLYELEGIAAYLESLDLDDETFQNTLDSIDF
-QSDLENTIEYFVKMLKNAQA---------DVEMYKAEKEAF-------------------
--YKK--------------------------------------------------------
-----------------------------------------------QKQAEAKVEKY---
----------------KETIRRAMELSQKKKVDAGMFKVSLRRSKKV--------------
-------------------------------------------------------------
---------------------EILD----ETKIPLDYMQE---------------------
-------KIEYKPMKSEISKALKSGIDISGVELIETESLQV--------------------
----------------------------K
->WP_014362468.1 nucleotide exchange transporter Tlc2 [Rickettsia rickettsii]
-MDSVDSNCTIWNKARNSKFRDIVWPIRSYELTKFIPMALLMFFILLNQNLVRSIKDSF-V
-VTLISSEVLSFIKLWGEMPMGILFVIFYSKLCNIMTTEQVFRIITSTFLFFFTIFGFILF
-PYRDFFHPDPELIKHYITVLPHLKWFLIIWGQWSLVLFYIMGELWPVIVFTLLYWQLANK
-ITKVEEAPRFYSFFTLFGQTNLLISGTVIIYFAKSEHFLLPLFSHLNDTNEILLKSFITV
-ILISGLICLALHKLIDKSVVEADKNIKFKNQRTDILKLSLVDSAKIILTSRYLGFICLLV
-MSYSMSISLIEGLWMSKVKQLYPATKDFIAYHGKVFFWTGILTLVSAFLGSSLIRICGWF
-WGAIITPIMMFGAGVMFFSFTVFENHLGNIVNTLGYSAPLVVIVFIGGLWHVLSKSVKYS
-LFDATKEMVYIPLDSEMKTKGKAAVDVMGTKIGKSIGAIIQFISFSIFPNAIHNDIAGLL
-MFSFIIVCLLWLYGVKVLSKYYNKMIQR
->WP_155053508.1 hypothetical protein [Piscirickettsia salmonis]
------------------------------MLGDFASLDV--------QNTYRG-SDAY-V
------------------------------DVCNFFRTESGF-------------------
--YRQ--------------------------------------------------------
-----------------------------------------------QKQNEVSLR-----
-------------------------------------------------------------
---------------------------------------------------------CD--
---------------------CVFE---------VSYNNP---------------------
------------------------------------------FLSF---------------
----------------------------R
+>WP_012151287.1 hypothetical protein [Rickettsia rickettsii]
+MQTEVYTLDI---GHCKERKYN--------------------------------------
+--------------YEDHL-----------------------------------------
+----EELLKQEISLAMQKNGLRVKL---LYNKDIRTQKLDDLVSRFRSSYNNT-------
+----YTALYTPLLW----------PEGKA----------------------FSMTQNIGE
+PVIMLGEKT-------------GADIFVLLHYVQMIKTNGARTCDFL-MSALGCSVR---
+-----NVDNI--------------------------FMSIGIVE--AKSVRILWTNA---
+----TPQ-----------------------------------------------------
+------------------------------AQPFSSS-------IFSSRDKS---EIGNF
+YSVINMLLSPL-----------------
+>WP_036779326.1 2,3-bisphosphoglycerate-independent phosphoglycerate mutase [Piscirickettsia salmonis]
+MKKTVVLLVLDGWGHSTDTNSNAILNANTPVWDHLTATYPMTLISASGTDVGLPAGQMGN
+SEVGHLNLGAGRVVYQDLLRIGCDIESGAFFDNKTLTEAVDTAVNQDAAVHIMGLLSPGG
+VHSHEDHIEAMIDLAVQRGAEKIYLHAFLDGRDTAPKSAESSLARFEEKFVKSGKGRIAS
+IIGRYYAMDRDQRWERIEAAYQLITEGKAEHQAKSAVDALQAAYARGERDEFVQATCIGK
+AVALNSNDTLIFMNFRADRARQLSQVFSDESFAGFARVVHPRLSAFVNLTEYATSINAQV
+AYPSLTLNNVLGEVLAKAGKKQLRIAETEKYAHVTFFFNGGIEEVFAGEERVLIASPKVA
+TYDLQPQMSAQELTDKLVAAIASQDFDAIICNYANADMVGHTGDYAAAVQAIEALDHCLS
+QVVAAGQQVAADILITADHGNAELMENLQTGQPHTAHTSNLVPLVYIGKDATLTKEGGTL
+SDIAPTLLQLLDLTVPVEMTGQSLVYLK

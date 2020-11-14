@@ -1,15 +1,9 @@
->WP_016209571.1 helix-turn-helix domain-containing protein [Piscirickettsia salmonis]
-MTKLEFTQSNTHTLAERLNRLMREHGVTTAQLAKSTGIAVGTINRMSNDKTCNPTISSLK
-PVCDFFSITVSQMIGEDELRNFQKVATKWLNVPIIHWKELNCHLNTDNTNTTLISDNSEK
-ETKEKEQIKINSEFSSSSFATRMPDDSMTPFFPKESVLIFDPEQTINDRSYVLVYLHRHN
-SYVFKQLIIDKPYQYLKSAHSELGSYLQLQKNDKIIAPLVQSKINF
->WP_001082472.1 MULTISPECIES: helix-turn-helix transcriptional regulator [Streptococcus]
---------------MNRVKEFRKELGISQLELAKDIGVSRQTINMIENDK-YNPTLE---
------LCLNLARSLQTD--------------LNSLFWEE---------------------
-------------------------------------------------------------
---------------------------------------------DF
->WP_030127631.1 helix-turn-helix transcriptional regulator [Streptococcus pyogenes]
--------------MNNKIKLLRKEKKITQDELAKQCGVSRQTINMIENNK-YDPTLK---
------LALALGRVLQEP--------------IESLFIE----------------------
-------------------------------------------------------------
-----------------------------------------------
+>WP_002986545.1 competence protein ComG [Streptococcus pyogenes]
+-----------------MIATGILFSIVILVLSSLQQSQAALTYYRKQQEKLNLALMAVQ
+TRTKEMTLNGCHITILRTDRYISIHDDEGEVMKIE--
+>WP_000601740.1 MULTISPECIES: hypothetical protein [Streptococcus]
+-----------MILLEAVVALAIFASIATLLLGQIQKNRQEEAKILQKEEVLRVAKMALQ
+TGQNQVSINGVEIQVFSSEKGLEVYHGSEQLLAIKEP
+>WP_011226625.1 hypothetical protein [Streptococcus thermophilus]
+MVNIKRRSLRGYILIESLVAMAVLVLVSSLILEQINTNRRLMADNLHQQEVLSVATMAVQ
+TKQDQLTLNGIAVTVKRSQQGITVYESGKEIIHVSKQ

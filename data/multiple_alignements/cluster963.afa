@@ -1,14 +1,28 @@
->WP_000136824.1 SPFH domain-containing protein [Streptococcus pneumoniae]
--MTEKLINSKPNGVFALILIELTIVLGIFIFIMGVGSENIFGIIIGPLLIVIAGLAHAGL
-KVVKPQEALVLTLFG---NYTGTIKEPGFYFVNPFSVA-VNPANHTRLGQSGDVSTKSPF
-LGAKSSNDNDVNLEIGKKHISLKVMTLSNSRQKINDCLGNPVEIGIAVTWRVVDTAKAVF
-NVDNYKEYLSLQCDSALRNIVRIYPYDVSPNVDTTGDGQADEGSLRGSSEIVANRIREEI
-QSRVEDAGLEILEARITYLAYAPEIAAVMLQRQQASAIIDARKMIVDGAVGMVEMALERL
-NEGELVELDEERKAAMVSNLLVVLCGNHDAQPIVNTGSLY
->WP_129556665.1 hypothetical protein [Piscirickettsia salmonis]
-MFNTDLTHAQ----------------------------------------VHAHVHREGE
-RFLRFANLLLLVFKVPNIDHDPSLLKQTLLSVRSFLLQDIFPGYTLSIGVDELLRWFSDF
-LK---------QMQIEHIECSRLLMQLSAWRQELNQLLESCFDQFISLLWDKLQSSVALS
-LYECYSQWLQL-CDDTVQTL----------------------------------------
+>WP_016212198.1 AAA family ATPase [Piscirickettsia salmonis]
+MSNVSQFKISEMAKVAGVSTPLISKYFRDFDDDKVTRVNKRIVGITPEAAEDYLMHAGLD
+YFYRPSIILSANLCGGVGKTSSIYNLGSAMRRITNRNTPIVYIDGDSQGSFTSMVFGEPA
+DDSEPLLLDFLEGKVKIGEILTEVGDNVWFIKSNLNQVWIEKILSNKPKDIKNGMLNFYK
+EIYKHLGKETKIFQDHTPQLSSLFTSSVCALCQLDDSILRSVLIPMRSDKFAIQGANYII
+QEIDDLVDTFSLDNNIDIHCFFSSIDRRVSTTGEALKLAKANENILDRLSSIIVRYCSEV
+PKSIMKSSSVYTTGKINNAAQDYQDLLQYVYSYGMEPRNG
+>WP_011225677.1 MULTISPECIES: DUF2969 domain-containing protein [Lactobacillales]
+----------------------------------MSKKDKKIE-----------------
 ------------------------------------------------------------
---GNIV-LDVVNRRGFPGQEQITAC---------------
+-------IQIKDAKVIVNK-----------------------------------------
+---------------------------------------------ATIEGFELLVGKKVI
+GQIVEIDGKFAVVDKENVSGFHKKMDDAIAAIIEAYNLNH--------------------
+----------------------------------------
+>WP_000037113.1 MULTISPECIES: DUF2969 domain-containing protein [Streptococcus]
+----------------------------------MSKKDKKIE-----------------
+------------------------------------------------------------
+-------IQVADAKVNVGK-----------------------------------------
+---------------------------------------------DSFEGYTLTIGKKVI
+GEIAELDGQFAIIKNGNVDSFYKKLEKAVEILIENYNLAK--------------------
+----------------------------------------
+>WP_002984906.1 MULTISPECIES: DUF2969 domain-containing protein [Streptococcus]
+----------------------------------MSKKDKKIE-----------------
+------------------------------------------------------------
+-------IQLIDHKVMVNE-----------------------------------------
+---------------------------------------------TKIDGYQLQIGKRVV
+GEIAELDEKFAVLKNDGVDCFFKTLEQAVENIIENYNLNH--------------------
+----------------------------------------

@@ -1,12 +1,65 @@
->WP_075807914.1 methyltransferase domain-containing protein [Rickettsia rickettsii]
-MGEDYIFNRLKLKNHRNNSVEAISNSLFIK-HAANDIISRLGMIDKDFSEILEISAKCGY
-LTSLLKNAYRSADITVTDMSPLLLDS-------FEHNHKLLIDDEDLALPKGSFDLIIYS
-LGLHWINDVQRFLSNIRIFLKSDGIFIGNFVGGNSLKNLRKSLIDAEIASDFKHSPHIAP
-FIHFAHVPILFSQARFAEVIVDYENIELKFDNPLALMREIKNIGEANSLNASHNYAISKK
-MFSLLQNYKNGFE-------------DNIHLISFIASPNKN------SIRLKLL--
->WP_016211044.1 malonyl-ACP O-methyltransferase BioC [Piscirickettsia salmonis]
--MIKQQFNKKEVCSAFNQAACGYQAAAILQVEIAKRLDERLDFVHLNPERIVDLGAGTGV
-LTRHMKARFSKAQVVGLDLAEKMLRQARRQDKLFKKNHWIAADIEHLPFMADSLDLITSS
-SCLHWVSDLAKVFSEVWRVLKPGSLFTFTTFGPDTLKELKASF------SQVDDHPHVNA
-FIDMHDVGDLLLKQGFADPVMDMEYIQMTYTDVMALMGDLKTIGANNHARDKRQGLMGR-
---GALERVKHAYEQYRTSEGALPATFEVIYGHAWVPEQKQRLNSGEVLVSLESLKK
+>WP_002991669.1 helix-turn-helix transcriptional regulator [Streptococcus pyogenes]
+------------------------------------------------------------
+------------------------------MNHFGEIFK---------------------
+------------------------------------------------------------
+-----------------------------TFRESKGLRLKDVAKAGISTSQLSRFEKGET
+------------------------------------------------------------
+-----------------------------------DLTISTFM--------LILDESNMP
+I-----------DEFMYAVHDFHR-------------------------------DDLNE
+LL----------------------------------------------------------
+-------------------------------SKSEAFRNNSR------------------
+------------------------------------------------------------
+------------------------------------------------------------
+----------------
+>WP_011681385.1 Rgg/GadR/MutR family transcriptional regulator [Streptococcus thermophilus]
+------------------------------------------------------------
+------------------------------MKKFGEIFK---------------------
+------------------------------------------------------------
+-----------------------------KFRESRGLRLKDVAKAGISTSQLSRFEKGET
+------------------------------------------------------------
+-----------------------------------DLTISKFM--------FILDEINMP
+I-----------DEFMYAVHDFHR-------------------------------DELNE
+LLSKVRHFVSTRDVEGMKKLL------YSQMELEDRREKFHQINIILLKIRLQDLSGETY
+YT-----------------------------KDDLTYLTDYLFSVEYWGYYELLIFSNTL
+DVLNHDVFMVLAREMFRRSDFYKEIPNNRRLISTMLLNGYITCVEREKFMDALYFEKQLN
+QCFFIETEVYERLVFKYAQNLYQYKEDGNVKAIIEMKKC----------VGAMKLAGSHH
+LAKTYEGHLEKILASS
+>WP_016210903.1 DUF1043 family protein [Piscirickettsia salmonis]
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----------------------------MY--------------------FAAI--GLI
+------------------------------------------------------------
+-----------------------------------ALIIGLVI-------GYWWGRRQAP
+QKPNQLALELQNKAETYEIYQ----------------------------------QTVEE
+HLNT-----------------------AADLATALAQTQ---------------------
+-------------------------------QELSEHIAQSLESLSQRGVLPPPYAESAA
+TLKQAKKQ----------------------------------------QQQTTKSTEQPP
+RDYVT-------------------------------------------------------
+----------------
+>WP_012262561.1 heme lyase CcmF/NrfE family subunit [Rickettsia rickettsii]
+MSEIGNFLLLTTMYLSVIGLSFVFYVIPAKAGSHKKSLFYRLDCRFRGNDNYLITCPFYI
+AASCTILAFFTLVYSFIISDFSLQNVFLNSSTLKPLIYKIAGSWSSHEGSMLLWFCLLQI
+VSCCYIFLLEDNRLKLLSIIILSAIQLFFSSFIYFTSNPFNVFSFVPKEGLGLNPMLQDI
+ALSIHPPLLYLGYVSYVVPFTIVCAAMSFSYPLMSFPRKRESINDIRLLKTFSNI--GIL
+FTTIGISLGSWWAYRELGWGGFWFFDPVENISLFPWLSGIMLHHSIIVTTKTRRMQNWTV
+ILSIITFLLVIFSAFLVRSGFITSIHSFAFSPERRIYLLGIFLIMGIGSIGWYT---TTS
+LRGNALALTKQSQETNRDCHSHFRAFAMTNCGNSILLGNIFLLLSLIVLIAATLYPPIYS
+LFDDKSIIISETFFVNNFIIFVIPILGTIGLFTTSSSIKKHIIILILSLIITYLISLKVT
+FSVISILTIIASIFLMLHNIHYLLVKTNYCRNRLKASNASMI--LGHFGFALISFSITMN
+TLLQSEMDFTGRVGTSKTFNEFKVTLQNIKFAQGKNYYRQIAEFWLEDNSRNITILKPEN
+RLYIVEKSLSQESDIYSYLLYDLYAVLSNIDDDIIHAKIYYKPMISFIWLGIILTASGFF
+IALIRKNSS-------
+>WP_000123614.1 permease [Streptococcus pneumoniae]
+--------------------MTAFQQLPSSV---------------------LQTGAIFL
+SIIIEALPF--VLIGSIVS--GLIEVYITPDKVYHFLPR--NRWG---------------
+-------------------------RIFFGTFVGI---------LFPSCECGIVPIINR-
+------------FLEKKVP----------SYTAVPFLVTAPVINPIVLFATYSAF--GNS
+F----------------------------HVALLRALGSILV------------------
+-----------------------------------AVILGIFL-------GFFW---QEP
+IQ----------KENRLACHEH--DFSYLSSAKKVF--QVFV-------------QAIDE
+FFDTGRYLVFGCLFASIIQVYV-----PTRILTSISATPLFAILLL--MLLAFLLSL---
+-----------------------------C-SEADAFIGASL--LSSFGLAPVLAFLVIG
+PML---------------------------------------------DIKNILMMKN--
+--YLKARFISHFITIVTLVVLA-YSLL----------------------IGVIL------
+----------------

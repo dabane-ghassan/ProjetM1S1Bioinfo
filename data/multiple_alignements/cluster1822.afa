@@ -1,14 +1,42 @@
->WP_002989875.1 polysaccharide deacetylase family protein [Streptococcus pyogenes]
-MNNRHKRRQKRKAFTLINLILLFACILGLTLIFYLYQGSNKFGLSDVSQFVPKISLFHHK
-KTAKKETTKLKKTHFDSSKSQKKAHSKLTWTKQETPVKIPILMYHAIHVMSPEETANANL
-IVNPDLFDQQLQKMKDEGYYFLSPEEVYRALSNNELPAKKVVWLTFDDSMIDFYNVAYPI
-LKKYDAKATNNVITGLTEIGSAANLTLKQMKEMKQFGMSFQDHTVNHPDLEQTSPDVQTT
-EMKDSKDYLDKQLNQNTIAIAYPSGRYNDTTLQIAARLNYKLGVTTNEGIASAANGLLSL
-NRIRILPNMSPENLLQTMEP---
->WP_011680828.1 polysaccharide deacetylase family protein [Streptococcus thermophilus]
----------MKLLLLVLNLVL-----LGLLAVFMLNR-----------------------
---PNQSTSNKQQNQTSQSKSTAK------WKTYDDPVQIPILMYHAVHVMDPSEASNANL
-IVAPDNFEAQIKAMVDAGYYFLTPEEAYKAFSENVLPAKKVVWLTFDDGNEDFYTIAYPI
-LKKYKAKATNNVITGFVKKGNVGNLTVKQMKEMMAHGMSFQSHTVNHPDLSVTDKATQKD
-ELTNSIDFLEDKLNTKVNTIAYPSGRYNQTTLGLAKK-TYKLGLTTNEGLASANDGLISL
-NRVRILPTTTAKGLLSKITTDNK
+>WP_011017840.1 DUF4065 domain-containing protein [Streptococcus pyogenes]
+-------------MHALFVANYIIEYSNKKGYKINNLKLQKLLYFVNVRNILENGAPLFE
+ESMEKWK------------------YGPVVPDVYHEYKRFGAFSISTDEMIMEYVEFSVS
+PF---------GELSDLEITEYDSQ-KVENTQLIENTVDALHGFGPFELV-----DITHD
+HTPWKKYEDRIMDGVQGIKYTI--------------------------------------
+---------------------------------EEIKDFFGHNP----------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+---------------------------------------------------------GAK
+IWVQ--------------------------------------------------------
+-----------
+>WP_157821721.1 MULTISPECIES: LPXTG cell wall anchor domain-containing protein [Firmicutes]
+------------------------------------------------------------
+---------------------------------------------------------MST
+GFKVNADGTLTGKVSTVILTL----------------------VGTFFLV----------
+------LAVLLVFKKRA-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----------
+>WP_016210285.1 flagellar hook-basal body complex protein [Piscirickettsia salmonis]
+MSFNIALSGLQASSQDLSVISNNIANASTIGFKKSRAEFGDVYQTSGSGSAVGSGVQNLS
+VSQDFGQGPQKNTGRNLDLRINGEGFFRMSDDGALKYSRAGAFHLDKDGLIVNSLEHNLT
+GFTVDEDGVLTGAVGNLQISTANQQPKATDNIVLEMNLDAEVDIPTLEFQRGFTADNPPD
+TNSYNKLENTVVYDSLGTSHILSKYFVKTNIDNRWDVYVGIDGNDVTPEAAAAPAVTVPI
+PGNPNSGNNQGSDPIPKPNSADWQNYSPFTVVFDNLGKFIANDPNVPPKLLQTPIAYSPS
+TNAYDGSNPPGSESLTVTPAVNNPWKMVSTVTDPSTLKGPNGNNLAIEVRNASGGFTSYN
+VAAMTGSGNPTARRISDAINATGTLNTLVDAYAYTEFELGEYFSGTAVATFDLTAAGTNA
+TATSTITIPAGTNVAGVLAAINAETATTGVYAVSRDIAGDTANVNRKRIVLVSDGYDSTG
+TPLGATAMDLSGHNITLTMTGTSTTPLFQNYDTSSTGLALTQRGAVTVRAETVSADFKFS
+GSDANAMGFETGRIYEAVVDQENSDVISINWTPTTAGPATKPTDPQQIIINMATSTQYGD
+PFAVTDKTQDGFTTGRLSGIEVDKSGIIFARYSNGQSSTLGKVGLVNFPNENGLSPVGNT
+QWVESFSSGQPLIGEPQTANFGSIEALTLEDSNVDLTQELVSMIIAQRNFQANAQTIRTS
+DQVTQTIINIR

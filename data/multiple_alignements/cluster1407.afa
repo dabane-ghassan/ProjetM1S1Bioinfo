@@ -1,40 +1,24 @@
->WP_016209827.1 SH3 domain of the SH3b1 type family protein [Piscirickettsia salmonis]
-MKNKIVSMLILAAANLITHAAPNNMTIPIELTQDAFNYINPSKINDTVISAAKAKKMQTY
-FRKQYFYQWSNKANQQYFYYVPGVESSKNNILQLEENTIKFYQGKVGYDKNYQLHKNDWI
-AAISDNMNLASFPNVPCQNPNSSDTNSCLGIIVKNAQVRSLPSSDAFYHDFTTPGEGYPF
-DYLQLSALWIGTPVMLMQTTQDGQWILIKGQGTMGWVPIASVAKVTPKFITFWQNAKFVT
-PLERRQNLFIKENNIGSLVIQAGSVLAAHNKIMQIPMSPWVIYIPTRGKDGYAKLINIKQ
-NRLNVSPWPISPTYKNFANQINNLSEMPYGWGGKDLNNDCSGLLRRLFTSFGIWLPRSSL
-WQADYAGKKYSLYGQTQAERKDWLINQQGPSQLIPFMSLISFGNSEEKTSHIALYLGTTQ
-YNKEKTAIMFHAPWGVPMTNNNTKESGRALVAQSLISPVGMGDALFAGVSAQGWSLSSLW
-DKVGFNVTILTESPNKQLLQQQNALGAEATNAKDYIISK
->WP_002951562.1 MULTISPECIES: KH domain-containing protein [Streptococcus]
--MDTIENLIIAIINPLITS--PDQLTIKII------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---------------------------------------------DGPEFLEY--------
-------HLDLAPSDIGRVIGKKGRTIKAIRAI--------VYSVPTQGK-----------
+>WP_001042404.1 McrB family protein [Streptococcus pneumoniae]
+MNKRKVSLEDFYKWYSLNKEELLNKATVGEKFNDKLKEEFLQEWPLDRILTMSIDEYVIG
+KGQQNKSLCYALEKGKYKNLFLGISGGSASKFGIYWNKKTNKYKDQANNEISELDQRFSK
+LKSDLYEIIKEGIRFNFENPIFDMKRSTNEFIGRSAMVTKLLCIYTEGDPFFGVNINSQK
+EFWNHFVSQTNQGGPYLQNHKIIELVSKTYPELEPSKLGTMLFEYSKLFMENKEDNSTMD
+SSNNFSHQLTQSLLKSPNLILRGAPGTGKTYLAKEIAKELTDGNEDQIGFVQFHPSYDYT
+DFVEGLRPVSNGDGAIEFRLQDGIFKDFCQKAKETQLIGGQDNFDEAWDSYLEYINVAEE
+KEYITKTSDLSVNSRQNLSVNYDSGVPGWSLPSKYVYELYKDKNYNKQEYYKSGGKTVLE
+TLRKRFGLKDYISPEEVETDKKFVFIIDEINRGEISKIFGELFFSIDPGYRGEKGSVSTQ
+YANLHETDEKFYIPENVYIIGTMNDIDRSVDTFDFAMRRRFRFVEVTAEGQVGMLDKDLN
+IHAEEAKIRLRNLNAAIE-NVQELNSHYHIGPSYFLKLKDVDFDYELLWSDYIKPLLEDY
+LRGSYDEVETLETLKKAFELTNNEQKDQAVADDNEGDENDDADY
+>WP_011888719.1 AAA family ATPase [Streptococcus pyogenes]
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
------KVRLVIDEKEKA----------------------
->WP_000379621.1 MULTISPECIES: KH domain-containing protein [Streptococcus]
--MDTIENLIIAIVKPLISQ--PDALTIKIE------------------------------
 ------------------------------------------------------------
+----------------MNLIIIGAQASGKMTIGQEVAR--------QTGMTLFH-NHDSI
+DFVLRFMPWSQESTALIERIRFAFFETFAKTGQ---------------------------
 ------------------------------------------------------------
---------------------------------------------DTPEFLEY--------
-------HLNLDQSDVGRVIGRKGRTISAIRTI--------VYSVPTEYK-----------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
------KVRIVIDEK-------------------------
->WP_002985072.1 MULTISPECIES: KH domain-containing protein [Streptococcus]
--MDTIENLIIAIVKPLISQ--PDNLTIKIE------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---------------------------------------------DTPDFLEY--------
-------HLDLDAQDIGRVIGKKGRTITAIRSI--------VYSVPTLGK-----------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
------KVRLVIDEK-------------------------
+-------------------DMIFTIVID--------------------------------
+----------FNDPNDVAMLEKIQAVFQSYD-------QEVLFVELKTD-----IEERLK
+RNRTENRLKHKPLKRNIEWSEQDIQS---------------TMAYAVFNPEEPPKTLTHY
+QKINNTHLTAAETAQLIIQKMTHIKEN-----------------

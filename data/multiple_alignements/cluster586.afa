@@ -1,32 +1,12 @@
->WP_002985626.1 methionine adenosyltransferase [Streptococcus pyogenes]
-MDLKITNGFYDPSHLSYEVVERKGLGHPDTLADGIAEQIEIDYSLYCLDKFGVIPHHNFD
-KIIIRGGHSVQDFGGSDFIEPIKIIFLGRASKKCFNSSIPLFKIQKKAATKYLNRILPNL
-DVENYVEFETLTSDFTTKTNWFSPEAIEDLPEYLDVPKANDTATMISYWPLTISEELALM
-IEGYFYKLDKNELPTPRFTKMGGDIKVMVVRNDLEYSIRINFPLISKFFNNDIESQLYVD
-KHVEKIKKYIEQKYKNISFSIDYHYYLTTTGSCIDFGEEGAVGRGNKTHGIISSFRPNTM
-EAPAGKNCTYFVGKVWGFLSDTIAKEIYEAFNTPCQIIMQLNIGSKLYRPTHLFIQTEES
-VDQERVLEIVNRHLNNGKQNTNLILSTQHFIPKTNVYDG
->WP_011681263.1 phosphoribosyl-ATP diphosphatase [Streptococcus thermophilus]
----------------MLETLYKEALDRKNNPKEGS-------YTNYLFDK----------
-------------------------------------------------------------
------------------------------------------------------------G
-LDKILKKVGEEATEVVIGAKNADKTEIANETADVLYHL----------AVMLVETGVSPE
--DVEAVLRARQGKQSNVHDRKEVTDY----------------------------------
-------------------------------------------------------------
----------------------------------------
->WP_012262449.1 nucleotide pyrophosphohydrolase [Rickettsia rickettsii]
-------------------MILEQAIDECREIKEAM-------------------------
-------------------------------------------------------------
-------------------------------------------------------------
----------DDAEPPER---------VQEEIGDLLHTA----------ISLCIFSGLYVE
-TTLSKTNEKFEKRMRAIKMLTKKHNLLNLQGQSVEFMLK---------------------
-----------------------------------------------LWKEAKEITKNVKP
----------------------------------------
->WP_016211478.1 nucleoside triphosphate pyrophosphohydrolase [Piscirickettsia salmonis]
------MSTEEKSAKLNIEVIIEQLLDQVHGDSWLSEQSVDQLTAYIIEEAYELVTAVSTK
-NSLFIKDELADVLYQVLLQAHHQAISLGEVIRHLEK------KLKQRHAHVFNNIDGQAG
-QVKTQFRLNHPEQSWLEIKNQEKQQAPMQLLDHVADCLPGLQKALKMQRIAAKVGFDWPD
-VSGVVDKLYEEIDELVNAVKVGDQVLVHDEMADVLFSS----------VNVARVLNIDPE
-VALQQACCKFRQRFNYIENELKKAKL-SLNEASLEKMDE---------------------
-----------------------------------------------LWCEAKLTLKPDGQ
----------------------------------------
+>WP_004996773.1 MULTISPECIES: preprotein translocase subunit SecG [Rickettsia]
+MIDILLFVHITIAILLIIVILMQ--RSGSDGISSISGGN-NMGVVSAKTVGNFLTKSTII
+LTTLFLINAIVLANLSSKKKSDLVSKINEIEENQAENSLPIAK
+>WP_011680932.1 preprotein translocase subunit SecG [Streptococcus thermophilus]
+MYNLLLTLLLVMSAIIVIAVFMQPQKNPSSNVFDGGGSEALFERSKPRGFEAFMQRFTGI
+MVFLWIVDAIVLSILSSK-------------------------
+>WP_000282517.1 MULTISPECIES: preprotein translocase subunit SecG [Bacteria]
+MYNLLLTILLVLSVVIVIAIFMQPTKNQSSNVFDASSGD-LFERSKARGFEAVMQRLTGI
+LVFFWLAIALALTVLSSR-------------------------
+>WP_002985700.1 preprotein translocase subunit SecG [Streptococcus pyogenes]
+MYNLLLTILLVLSVLLVIAIFMQPQKNPSSNVFDSSGSEALFERTKARGFEAFMQRFTAV
+LVFFWLAIALVLAILSSK-------------------------
