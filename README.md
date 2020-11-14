@@ -35,6 +35,7 @@ clust = Clusterizer(bhitters, proteomes)
 ```python
 clust.cluster_them()
 clust.one_align_to_rule_them_all()
+clust.draw_tree()
 ```
 
 ## Description de l’application
