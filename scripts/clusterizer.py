@@ -4,7 +4,8 @@ import os
 import subprocess
 from ete3 import Tree, TreeStyle, NodeStyle
 from blast_hitter import BlastHitter
- 
+
+
 class Clusterizer:
     """This is a class for clusterizing groups of orthologue proteines (OG),
     extracting their respective sequences from the corresponding given 
@@ -290,8 +291,8 @@ class Clusterizer:
         """
 
         afasta_files = []
-        fa_dir = '../data/clusters/cluster%s' #fasta output 
-        afa_dir = '../data/multiple_alignements/cluster%s' # afasta output
+        fa_dir = '../data/clusters/cluster%s'  #fasta output
+        afa_dir = '../data/multiple_alignements/cluster%s'  # afasta output
 
         for cid, cluster in cluster_dict.items():
             fasta, afasta = '%s.fa' % cid, '%s.afa' % cid
@@ -371,11 +372,12 @@ class Clusterizer:
 
         with open(out, 'w') as super_align:
             for header, sequence in concat.items():
-                super_align.write('>%s\n%s\n' % (header[:header.find('strain')-1], sequence))
-
+                super_align.write(
+                    '>%s\n%s\n' %
+                    (header[:header.find('strain') - 1], sequence))
 
     @staticmethod
-    def tree_generator(super_alignement, bootstrap=10):
+    def tree_generator(super_alignement, bootstrap):
         """Generates a newick tree from a given super-alignement. it uses
         RAxML's maximum likelihood algorithm.
         
@@ -384,8 +386,8 @@ class Clusterizer:
         ----------
         super_alignement : str
             The super-alignement file path.
-        bootstrap : int, optional
-            Number of repetitions for bootstrap. The default is 10.
+        bootstrap : int
+            Number of repetitions for bootstrap.
 
         Returns
         -------
@@ -396,70 +398,92 @@ class Clusterizer:
         output_dir = os.path.dirname(os.getcwd()) + '/data/phylogeny/'
         pid = super_alignement.rsplit('/')[-1]
         tree_name = 'RAxML_bipartitions.species'
-        
+
         subprocess.run([
-            'raxmlHPC', '-w', output_dir,
-            '-f', 'a', '-x', '12353', '-N', str(bootstrap), 
-            '-s', output_dir + pid,
-            '-n', 'species', '-m', 
-            'PROTCATBLOSUM62', '-p', '52341' 
+            'raxmlHPC', '-w', output_dir, '-f', 'a', '-x', '12353', '-N',
+            str(bootstrap), '-s', output_dir + pid, '-n', 'species', '-m',
+            'PROTCATBLOSUM62', '-p', '52341'
         ])
-        
+
         return tree_name
-        
-        
-    def cluster_them(self): 
-        
+
+    def cluster_them(self):
+        """This method is used for generalizing the clustering workflow,
+        First, clusters from rbh files and write them out to a text. Second,
+        generate the species cluste, third, filter the dictionaries to only
+        one protein per orgranism inside a cluster and lastly, write out the
+        filtered clusters to a file and set the two dictionaries as class 
+        properties so they can be used elsewise.
+
+        """
+
         all_clusters = '../data/clusters/all_clusters.txt'
         all_clusters_max_one = '../data/clusters/one_species_per_cluster.txt'
-        
+
         clus_dict = Clusterizer.clustering(self.rbh_files)
-        Clusterizer.clusters_to_txt(
-            clus_dict, all_clusters)
+        Clusterizer.clusters_to_txt(clus_dict, all_clusters)
 
         species_dict = Clusterizer.species_cluster(clus_dict, self.proteomes)
-        max_one_clusters, max_one_species = Clusterizer.max_one_species_per_cluster(species_dict, clus_dict)
+        max_one_clusters, max_one_species = Clusterizer.max_one_species_per_cluster(
+            species_dict, clus_dict)
         Clusterizer.clusters_to_txt(max_one_clusters, all_clusters_max_one)
 
         self.working_cluster = max_one_clusters
         self.corr_species_cluster = max_one_species
-        
-        
-    def one_align_to_rule_them_all(self): 
-        
-        all_species_names = '_'.join(
-            [prot.rsplit('/')[-1][0:prot.rsplit('/')[-1].find(
-                '_protein.faa')] for prot in self.proteomes])
+
+    def one_align_to_rule_them_all(self):
+        """Generating the super alignement file for the analyzed species of 
+        interest, it firsts generates MSAs for all clusters using MUSCLE,
+        and then it concatenates them. all results will be saved to respective
+        directories. It alse sent the super alignement file path as a class
+        property.
+
+        """
+
+        all_species_names = '_'.join([
+            prot.rsplit('/')[-1][0:prot.rsplit('/')[-1].find('_protein.faa')]
+            for prot in self.proteomes
+        ])
 
         out = '../data/phylogeny/super_align_%s.afa' % all_species_names
-        
-        all_multialigns = Clusterizer.muscle(
-            self.working_cluster, self.proteomes)   
+
+        all_multialigns = Clusterizer.muscle(self.working_cluster,
+                                             self.proteomes)
 
         Clusterizer.super_alignement(self.working_cluster,
                                      self.corr_species_cluster,
-                                     all_multialigns, out)       
+                                     all_multialigns, out)
         self.super_alignement = out
-    
-    def draw_tree(self):
+
+    def draw_tree(self, iters=10):
+        """This method generates an interactive phylogenetic tree from a
+        super alignement file. It calculates a newick tree with RAxML and then
+        visualizes it using ETEtoolkit.
         
-        bootstrap_tree = Clusterizer.tree_generator(self.super_alignement)
-        t = Tree('../data/phylogeny/%s'%bootstrap_tree)
+        Parameters
+        ----------
+
+        iters : int, optional
+            Number of repetitions for bootstrap. The default is 10.
         
+        """
+
+        bootstrap_tree = Clusterizer.tree_generator(self.super_alignement,
+                                                    bootstrap=iters)
+        t = Tree('../data/phylogeny/%s' % bootstrap_tree)
+
         ts = TreeStyle()
         ts.show_leaf_name = True
-                
+
         nstyle = NodeStyle()
         nstyle["shape"] = "sphere"
         nstyle["size"] = 10
         nstyle["fgcolor"] = "darkred"
-        
+
         nstyle["hz_line_type"] = 1
         nstyle["hz_line_color"] = "#cccccc"
-        
 
         for n in t.traverse():
-           n.set_style(nstyle)
-        
+            n.set_style(nstyle)
+
         t.show(tree_style=ts)
-        
