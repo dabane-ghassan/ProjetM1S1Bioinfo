@@ -141,6 +141,22 @@ class Clusterizer:
 
     @staticmethod
     def clusters_to_txt(cluster_dict, out):
+        """Writes a cluster dictionary to a text file, each line corresponds
+        to a cluster of orthologue proteins.
+        
+
+        Parameters
+        ----------
+        cluster_dict : dict
+            a dictionary of cluster ids and cluster accessions.
+        out : str
+            the output text file path.
+
+        Returns
+        -------
+        None.
+
+        """
 
         with open(out, 'w') as cluster_file:
             for cluster in cluster_dict.values():
@@ -148,6 +164,29 @@ class Clusterizer:
 
     @staticmethod
     def species_cluster(cluster_dict, proteomes):
+        """This function generates a species cluster from an accession
+        cluster, keys are cluster ids (auto incremented int values) and values
+        are clusters of species names for every protein in the cluster.
+        First it parses all proteome files and every header in each proteome,
+        afterwords, it scans the already generated cluster dictionary to
+        generate a replica of it swapping the accession number by the species
+        of origin.
+        
+
+        Parameters
+        ----------
+        cluster_dict : dict
+            The cluster dictionary (with accessions).
+        proteomes : list
+            A list of proteomes file paths.
+
+        Returns
+        -------
+        dict
+            The corresponding species dictionary to a given cluster accession
+            dictionary.
+
+        """
 
         dic = {
             h[1:15]:
@@ -168,6 +207,26 @@ class Clusterizer:
 
     @staticmethod
     def max_one_species_per_cluster(cluster_species, cluster_dict):
+        """Filters cluster dictionaries to only one protein per species.
+        It scans the cluster species dictionary and sends back the subset of it
+        for which we only have one protein per species, then in filters the
+        cluster accession dictionary with the ids of the filtered one.
+        
+
+        Parameters
+        ----------
+        cluster_species : dict
+
+        cluster_dict : dict
+        
+        Returns
+        -------
+        dict
+            The filtered cluster accession dicionary.
+        filtered : dict
+            the filtered cluster species dictionary.
+
+        """
 
         filtered = {
             cid: cluster
@@ -183,6 +242,24 @@ class Clusterizer:
 
     @staticmethod
     def cluster_from_proteome(cluster, proteomes, out):
+        """Extracts a fasta file for a given cluster, it firsts parses all 
+        proteome files to generate one big dictionary, it then filters it
+        to take only the headers and the sequence that correspond to accession
+        numbers found in a cluster.
+        
+
+        Parameters
+        ----------
+        cluster : tuple
+            A tuple of protein accession numbers found in a cluster.
+            
+        proteomes : list
+            A list of all proteomes file path
+            
+        out : str
+            The output file path.
+
+        """
 
         all_fasta = dict()
         for proteome in proteomes:
@@ -196,10 +273,25 @@ class Clusterizer:
 
     @staticmethod
     def muscle(cluster_dict, proteomes):
+        """Creates fasta files for each cluster, and then aligns each of them
+        using MUSCLE.
+        
+        Parameters
+        ----------
+        cluster_dict : dict
+
+        proteomes : list
+
+        Returns
+        -------
+        afasta_files : list
+            A list of all the generated aligned fasta file paths (.afa).
+
+        """
 
         afasta_files = []
-        fa_dir = '../data/clusters/cluster%s'
-        afa_dir = '../data/multiple_alignements/cluster%s'
+        fa_dir = '../data/clusters/cluster%s' #fasta output 
+        afa_dir = '../data/multiple_alignements/cluster%s' # afasta output
 
         for cid, cluster in cluster_dict.items():
             fasta, afasta = '%s.fa' % cid, '%s.afa' % cid
@@ -219,6 +311,28 @@ class Clusterizer:
 
     @staticmethod
     def super_alignement(cluster_dict, cluster_species, maligns, out):
+        """This function concatenates all the multiple alignement files into
+        one super-alignement fasta file, each header is the name of the species
+        studied and the sequence corresponds to the concatenation of all the
+        clusters. It first creates a seed dictionary of the first cluster i.e;
+        with keys as species' name and values as the aligned sequences. 
+        Afterwards, and for each cluster, it appends the aligned sequence into
+        the species name if the cluster has a protein from a given species, 
+        otherwise it fills it with gaps that has the same length as the multi-
+        ple alignement inside a cluster.        
+
+        Parameters
+        ----------
+        cluster_dict : dict
+
+        cluster_species : dict
+
+        maligns : list
+            A list of all multiple alignement files paths.
+        out : str
+            The super-alignement output file path.
+
+        """
 
         acc_species = {
             clus: spec
@@ -262,6 +376,23 @@ class Clusterizer:
 
     @staticmethod
     def tree_generator(super_alignement, bootstrap=10):
+        """Generates a newick tree from a given super-alignement. it uses
+        RAxML's maximum likelihood algorithm.
+        
+
+        Parameters
+        ----------
+        super_alignement : str
+            The super-alignement file path.
+        bootstrap : int, optional
+            Number of repetitions for bootstrap. The default is 10.
+
+        Returns
+        -------
+        tree_name : str
+            The newick tree to be visualized (the file path).
+
+        """
         output_dir = os.path.dirname(os.getcwd()) + '/data/phylogeny/'
         pid = super_alignement.rsplit('/')[-1]
         tree_name = 'RAxML_bipartitions.species'
