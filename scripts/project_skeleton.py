@@ -20,36 +20,6 @@ for bh in bhitters  :
 
 clust = Clusterizer(bhitters, proteomes)
 
-clust.rbh_files
-
 clust.cluster_them()
 clust.one_align_to_rule_them_all()
- 
-
-"""  
-from ete3 import Tree, TreeStyle, NodeStyle  
-Clusterizer.tree_generator('../data/phylogeny/super_align.afa')
-
-t = Tree('../data/phylogeny/RAxML_bipartitions.species')
-# Basic tree style
-ts = TreeStyle()
-ts.show_leaf_name = True
-
-# Draws nodes as small red spheres of diameter equal to 10 pixels
-nstyle = NodeStyle()
-nstyle["shape"] = "sphere"
-nstyle["size"] = 10
-nstyle["fgcolor"] = "darkred"
-
-# Gray dashed branch lines
-nstyle["hz_line_type"] = 1
-nstyle["hz_line_color"] = "#cccccc"
-
-# Applies the same static style to all nodes in the tree. Note that,
-# if "nstyle" is modified, changes will affect to all nodes
-for n in t.traverse():
-   n.set_style(nstyle)
-
-t.show(tree_style=ts)
-"""
-
+clust.draw_tree()

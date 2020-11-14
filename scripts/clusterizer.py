@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 import os
 import subprocess
+from ete3 import Tree, TreeStyle, NodeStyle
 from blast_hitter import BlastHitter
-
-
+ 
 class Clusterizer:
     """This is a class for clusterizing groups of orthologue proteines (OG),
     extracting their respective sequences from the corresponding given 
@@ -17,8 +17,21 @@ class Clusterizer:
         A list of reciprocal best hits file paths generated after each blast
         hitter object.
     proteomes : list
-        A list of all proteome paths present in a given analysis
-        
+        A list of all proteome paths present in a given analysis.
+    working_cluster : dictionary
+        A collection of clusters (protein accession numbers) present among 
+        the given RBH files, filtering was applied to only get a maximum of
+        one protein per species inside a cluster (no paralogues). 
+        Dictionary values correspond to cluster IDs which are auto-incremented
+        int values.         
+    corr_species_cluster : dictionary 
+        The corresponding species cluster for the given working cluster 
+        dictionary, it's the same data structure as the working cluster except
+        the fact that protein accession numbers are replaced with Species 
+        of origin name.
+    super_alignement : str
+        the file path of the calculated super-alignement in aligned fasta 
+        format (.afa).
     """
     def __init__(self, blasthitters, proteomes):
         """The class constructor, given a list of BlastHitter objects, the 
@@ -248,16 +261,23 @@ class Clusterizer:
 
 
     @staticmethod
-    def tree_generator(super_alignement):
-        os.chdir('../data/phylogeny')
+    def tree_generator(super_alignement, bootstrap=10):
+        output_dir = os.path.dirname(os.getcwd()) + '/data/phylogeny/'
+        pid = super_alignement.rsplit('/')[-1]
+        tree_name = 'RAxML_bipartitions.species'
+        
         subprocess.run([
-            'raxmlHPC', '-s',
-            super_alignement.rsplit('/')[-1], '-n', 'tree.newick', '-m',
-            'PROTCATBLOSUM62', '-p', '52341'
+            'raxmlHPC', '-w', output_dir,
+            '-f', 'a', '-x', '12353', '-N', str(bootstrap), 
+            '-s', output_dir + pid,
+            '-n', 'species', '-m', 
+            'PROTCATBLOSUM62', '-p', '52341' 
         ])
         
+        return tree_name
         
-    def cluster_them(self) : 
+        
+    def cluster_them(self): 
         
         all_clusters = '../data/clusters/all_clusters.txt'
         all_clusters_max_one = '../data/clusters/one_species_per_cluster.txt'
@@ -274,7 +294,7 @@ class Clusterizer:
         self.corr_species_cluster = max_one_species
         
         
-    def one_align_to_rule_them_all(self) : 
+    def one_align_to_rule_them_all(self): 
         
         all_species_names = '_'.join(
             [prot.rsplit('/')[-1][0:prot.rsplit('/')[-1].find(
@@ -287,4 +307,31 @@ class Clusterizer:
 
         Clusterizer.super_alignement(self.working_cluster,
                                      self.corr_species_cluster,
-                                     all_multialigns, out)
+                                     all_multialigns, out)       
+        self.super_alignement = out
+    
+    def draw_tree(self):
+        
+        bootstrap_tree = Clusterizer.tree_generator(self.super_alignement)
+        t = Tree('../data/phylogeny/%s'%bootstrap_tree)
+        # Basic tree style
+        ts = TreeStyle()
+        ts.show_leaf_name = True
+        
+        # Draws nodes as small red spheres of diameter equal to 10 pixels
+        nstyle = NodeStyle()
+        nstyle["shape"] = "sphere"
+        nstyle["size"] = 10
+        nstyle["fgcolor"] = "darkred"
+        
+        # Gray dashed branch lines
+        nstyle["hz_line_type"] = 1
+        nstyle["hz_line_color"] = "#cccccc"
+        
+        # Applies the same static style to all nodes in the tree. Note that,
+        # if "nstyle" is modified, changes will affect to all nodes
+        for n in t.traverse():
+           n.set_style(nstyle)
+        
+        t.show(tree_style=ts)
+        
