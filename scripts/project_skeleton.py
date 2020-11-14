@@ -25,16 +25,4 @@ clust.one_align_to_rule_them_all()
 clust.draw_tree()
 
 
-import numpy as np
-import matplotlib.pyplot as plt
 
-evals = np.array([line.split('\t')[10] for line in open(
-    '../data/results_blast/RBH_Streptococcus_pyogenes_strain=NCTC8232_Streptococcus_thermophilus_LMD-9_strain=LMD-9.blastp', 'r')],
-    dtype=float)
-
-evals
-
-fig, ax = plt.subplots(1, 1, dpi=150)
-ax.hist(evals, bins=100)
-
-type(1e-2)

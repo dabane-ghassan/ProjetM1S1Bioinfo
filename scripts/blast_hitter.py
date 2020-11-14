@@ -2,6 +2,8 @@
 #-*-coding: UTF-8-*-
 
 import os
+import numpy as np
+import matplotlib.pyplot as plt
 from itertools import combinations
 
 class BlastHitter:
@@ -122,6 +124,28 @@ class BlastHitter:
             % (proteome.rsplit('/')[-1], len(
                 seqdic.keys()), sum(length_seq), min(length_seq),
                sum(length_seq) / len(seqdic.keys()), max(length_seq)))
+        
+    @staticmethod
+    def evalue_dist(blastp):
+        """Generates an evalue distribution plot from a given blastp file.
+        
+        Parameters
+        ----------
+        blastp : str
+            The blast file path to be analyzed.
+
+        """
+        
+        evals = np.array([line.split('\t')[10] for line in open(
+            '../data/results_blast/%s' % blastp, 'r')], dtype=float)
+
+
+        fig, ax = plt.subplots(1, 1, dpi=150)
+        ax.hist(evals, bins=100, color="fuchsia")
+        ax.set_xticks(np.arange(0,11))
+        ax.set_xlabel('e-value')
+        ax.set_ylabel('Nomber of hits')
+        fig.suptitle(blastp[:blastp.find('.blastp')].rsplit('/')[-1])
 
     @staticmethod
     def universal_blast(query, subject, out, outfmt=6, typ="p"):
