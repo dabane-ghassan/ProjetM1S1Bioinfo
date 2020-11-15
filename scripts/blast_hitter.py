@@ -119,11 +119,10 @@ class BlastHitter:
         length_seq = [len(seq) for seq in seqdic.values()
                       ]  # to facilitate calculating min, max, sum and average
 
-        print(
-            " name : %s \n num_seq : %s \n sum_len : %s \n min_len : %s \n avg_len : %s \n max_len : %s"
-            % (proteome.rsplit('/')[-1], len(
+        return " name : %s \n num_seq : %s \n sum_len : %s \n min_len : %s \n avg_len : %s \n max_len : %s" % (
+                proteome.rsplit('/')[-1], len(
                 seqdic.keys()), sum(length_seq), min(length_seq),
-               sum(length_seq) / len(seqdic.keys()), max(length_seq)))
+                sum(length_seq) / len(seqdic.keys()), max(length_seq))
         
     @staticmethod
     def evalue_dist(blastp):
