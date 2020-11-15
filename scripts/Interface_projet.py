@@ -123,6 +123,12 @@ class window(Tk) :
         blast_select = blast_presents.curselection()
         histo = blast_presents.get(blast_select)
         BlastHitter.evalue_dist(histo)
+        title = "../data/figures/"+histo[:histo.find('_strain')]+histo[histo.find('_vs_'):histo.find('_strain', histo.find('_vs_'))]+".png"
+        window2 = Tk()
+        window2.title("Histogramme")
+        window2.geometry('1000x1000')
+        img_histo = PhotoImage(file=title)
+        window2.mainloop()
 
     def stats(self) :
         self.reset()
