@@ -1,12 +1,21 @@
 >WP_012262594.1 hypothetical protein [Rickettsia rickettsii]
+-MVNV-------------------------------------------------------
 ------------------------------------------------------------
-------------------------------MVNVNN------------------------
----DRKFGNLEN-----YDNQLTNTA------LNKNKLKEHYENITQALNNIWKYEYEAK
+-NNDRKFGNLEN-----YDNQLTNTA------LNKNKLKEHYENITQALNNIWKYEYEAK
 ATQYCEIFDDARNYDKSTKDY---------------------------------------
 -------------NLGSVHL----------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------
+>WP_008579909.1 MULTISPECIES: conjugative transfer protein [Rickettsia]
+-MDHL-----------------FKQSGVQQLVKYNK---------------RLLLITLLL
+AVTSLLGMI--------KTISTEEKWLLIPAI----------------------------
+-EPDRRMIVSSKSYHETYLKEWAV--------------------------FVMKELFTTS
+P--------------EEVERQIADMKVVSSNTEQLDK--FFKEH----LDFVKGS-----
+------------------------GICSVF--------FPKKV------KVIEDGV---L
+INGTFRY--WFS--------------------------------------ENKHIATDKT
+YLLTYKR---------------------------------------GANHLLLLTGIKEE
+EVNK--------
 >WP_016209839.1 adenylosuccinate synthase [Piscirickettsia salmonis]
 MGKNIIVLGSQWGDEGKGKVVDLLTDKADIVVRFQGGHNAGHTLVINGETTKLRLIPSGI
 LHAHVRCMIGNGVVLSPAALIEEMQELQSRGIPVEERLRISHASPLILPIHIRLDQAREK

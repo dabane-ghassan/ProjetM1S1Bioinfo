@@ -2,14 +2,14 @@
 -------------------------------------------MKLRIK-----------
 ------------------------------------------------------------
 ------------------------------------------------------------
------------------------------------------------YLRQALGLTQSAF
-A-----------------------------AKAHVHKNMIANHESQNSNPSLKQIEKIAL
-AF----------------------------------------------------------
--------------------------------------------------------NVEPA
+-----------------------------------------------YLRQA--------
+-----------------------------LG-----------------------------
+----LTQSAFAAKAHVHKNMIANHES----------------QNSNPSLKQIEKIALA--
+------------------------------------------------------FNVEPA
 WLAGWDTKPQIVIKEKVVRVQDPSARIP-----------NDW------------------
 ------------------------------------------------------------
-------------------------------------------------------------
----------------------KNDECGRLIKWKESG------------------------
+--------KNDEC-----------------------------------------------
+--------------------------GRLIKWKESG------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ---------KQFYKSFGG------------------------------------------
@@ -30,6 +30,22 @@ DMTELLKDPVSLAPVLLYIFHRINISLDGQKTMIVLDEAWALIDNPVFAPKIKDWLKVLR
 KLNTFVIFATQSVEDAAKSRISDTLIQQTATQIFLPNLKATD--IYRS--AFMLSQREYI
 LIKTTDPTTRYFL-IKQG----------VDAVVAKVSLDGMDNIISVLSGRIETVILLDQ
 -IREKHGNDPDKWLPIFYAAVKTL
+>WP_011477919.1 VirB4 family type IV secretion/conjugal transfer ATPase [Rickettsia bellii]
+MKLFRTRAANELRAKQDRPTSHFIPYKCHWDSNTILTKDNSLLQVIKINGFSFETADDED
+LDIKKNIRNALLKNMASGNIVVYFHTIRRRKAVIFDDTEFTYDPTVKVPNDFITYLGAEW
+RKK--HAGARSFFNELYVSILYKPDTGGAAIVEYFLKKLRQKSNKNVWENDMKEMKENLQ
+EMSNRI---------VNTFRSYGARILGVRKT--PTGNYCEMLEFLSSLVNC-GDSPGPV
+ALPRSTIDEYLPTHRLFFDSRTIEARSS-IGTKYAGIISILEYGPTTSAGIFDGFLQMPF
+EFVMTQSFIFANRTVAIGKMQLQQNR--------------MIQAGDKATSQIAEISTALD
+MATS------GDIGFGEHHLSLLCSANSIKALEDILSMASVELSNSGIQPVREKINMEPS
+YWGQLPGNMEYIVRTSTINTLNMASFASQHNYPIGKVRNNHW-GEYVTVLDTTSGTPFYF
+NFHVRDVGHTLIIGPTGAGKTVLMNFLCAEAQKFK-PRMFFFDKDRGAEIFIRALNGV--
+--YTVIDPGLK-CNFNPLQLEDTSENRTFILEWLRVLVTSNGESITAQDNKILSQAVSGN
+FRLEKKDRRLSNVVAFLGIDTPDSLASRIAMWVGNGSHAKVFDNEVDDIDLQKARVFG-F
+DMTELLKDPISLAPVLLYIFHRINISLDGQKTMIVLDEAWALIDNPVFAPKIKDWLKVLR
+KLNTFVIFATQSVEDAAKSRISDTLIQQTATQIFLPNLKATD--IYRS--AFMLSQREYI
+LIKTTDPTTRYFL-VKQG----------VDAVVAKVNLDGMNNIISVLSGRVETVILLDQ
+-IREKYGNDPEKWLPIFYEAVKTL
 >WP_016209720.1 cagE, TrbE, VirB, component of type IV transporter system family protein [Piscirickettsia salmonis]
 -----MFNIAEYRKKPDR-ITDLLPWAALIAPGVVLNKDGSYQRTLRFRGPDLESSTDAE
 LVATTARLNNALKRLGSG-WALYIEARRSQAQRYSEESRF---------EDPVSWLVDLE

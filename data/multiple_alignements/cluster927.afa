@@ -1,18 +1,24 @@
 >WP_011681501.1 Rgg/GadR/MutR family transcriptional regulator [Streptococcus thermophilus]
-MKEFGAIFKKFRKSRGIRLKDVAKAGISTSQLSRFEKGQTDLTITKFMLILDEINMPIDE
-FMYAVHDFHRDDLNELLSKIRLFVSTHDIDGLKKLLSSQLESEPKREKFHHINTILLKIR
-LQDLSGESYYTQQDLADLTDYLFSVEYWGYYELLIFANTLDVLNHETLMVLAKEMSRRSD
-FYKEIPNNRRMISTMLLNVYITCIEREELIDALYFEKQLNQCFFIETEIYERLVFQYAQN
-YYQYKKEGNNQSIIEMKKYIGAMKLAGSEHIAKTYEAHLKKLIEENS
+MKEFGAIFKKFRKS-----RGIRLKDVAKAGISTSQLSRFEKGQTDLTITKFMLILDEIN
+MPIDEFMYAVHDFHRDDLNELLSKIRLFVSTHDIDGLKKLLSSQLESEPKREKFHHINTI
+LLKIRLQDLSGESYYTQQDLADLTDYLFSVEYWGYYELLIFANTLDVLNHETLMVLAKEM
+SRRSDFYKEIPNNRRMISTMLLNVYITCIEREELIDALYFEKQLNQCFFIETEIYERLVF
+QYAQNYYQYKKEGNNQSIIEMKKYIGAMKLAGSEHIAKTYEAHLKKLIEENS
+>WP_016209994.1 4a-hydroxytetrahydrobiopterin dehydratase [Piscirickettsia salmonis]
+-------------------MKLNQEQIQAALAKLPS--WLQEGDKITRTIRFPLYLDGIH
+FVTQLAEHAEQVQHHPDLAIHWCNIKIDLSTHDVDGISQ---------------------
+------------------------------------------------------------
+-------------------------------KDFDMAKYIESALAKFL------------
+----------------------------------------------------
 >WP_080508215.1 hypothetical protein [Rickettsia rickettsii]
 ------------------------------------------------------------
---------------MSWGACSVEIWTHKIDGL----------------------------
+-------------------MSWGACSVEIWTHKIDGLME---------------------
 ------------------------------------------------------------
-----------------------------------MENDFILAAKIESKI-----------
------------------------------------------------
->WP_016209994.1 4a-hydroxytetrahydrobiopterin dehydratase [Piscirickettsia salmonis]
-----------------MKLNQEQIQAALAKLPSWLQEGDKITRTIRFPLYLDGIHFVTQL
-AEHAEQVQHHPDLAIHWCNIKIDLSTHDVDGI----------------------------
+-------------------------------NDFILAAKIESKI----------------
+----------------------------------------------------
+>WP_011478057.1 4a-hydroxytetrahydrobiopterin dehydratase [Rickettsia bellii]
+MTITCSLSDKKCIPCEGGVPPLEKKEIDKLLSELQNEWIVNESGHLYKKYKFPDFMQPIE
+FANKIAALAEQEVHHPDLTISWGACIVEIWTHKIDGLTE---------------------
 ------------------------------------------------------------
-----------------------------------SQKDFDMAKYIESALAKFL-------
------------------------------------------------
+-------------------------------SDFILAAKIDLLQN---------------
+----------------------------------------------------

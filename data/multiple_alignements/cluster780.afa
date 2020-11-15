@@ -1,15 +1,44 @@
 >WP_111705635.1 TetR/AcrR family transcriptional regulator [Streptococcus pyogenes]
-MTKRHTETKAYVKTALITLLTEQSFETLTVSDLTKKAGINRGTFYLHYTDKFDMMNHFKN
-DTLDDLYRLLNQAKIYTDT---RQVLNQTLSYLIEHREFITALATISYLKFPQLIKDFCY
-QFLTTITGFQ-----DIVTNQYHIPYPYALEVYLASIESIISYWIANGYQETTEEVADII
-LKAVTLDN-
->WP_012262595.1 hypothetical protein [Rickettsia rickettsii]
-MDGLDEIYKQSFLCKLTSSTELPPAEQLK-----------------------KFLEKTTD
-EIYDKLQKTGEAYLSYSNAPTNTGLHTNVIKYSKENGK----------------------
--------NYR---------------------IYIMPVLG---------------------
----------
+----------MTKRHTETKAYVKTALITLLTEQSFETLT---------------------
+---------VSDLTKKAGINRGTFYLHYTDKFDMMNHFKNDTLDDLYRLLNQAKIYTDT-
+--RQVLNQTLSYLIEHREFITALATISYLKFPQLIKDF----------------------
+--------------------------------------------------CYQFLTTI--
+-------------------------------------------------------TGFQ-
+----DIVTNQYHIPYPYALEVYLAS-----------------------------------
+------------------------------------------------------------
+-----------------------------------------------------IESIISY
+WIANGYQETTEEVADIILKAVTLDN-----------------------------------
+----------------------------------------------------------
 >WP_011226848.1 TetR/AcrR family transcriptional regulator [Streptococcus thermophilus]
-MLKEATISKQKIVNAFTELSEESSLEQINTTDIIKKVSLSRPTFY-YYSNQDNLVETTLS
-KILDKVSSILQKYMTYQ-----KGVLTEMLRYLKENHKLCRTLMT----HIPNINELICE
-FIIETILNYDIENVTELMERSYHIPVKYSSEVYVITIVTILALWLKEGCIESPEGTANTL
-LEAVIIKAK
+----------MLKEATISKQKIVNAFTELSEESSLEQIN---------------------
+---------TTDIIKKVSLSRPTFY-YYSNQDNLVETTLSKILDKVSSILQKYMTYQ---
+--KGVLTEMLRYLKENHKLCRTLMT----HIPNINELI----------------------
+--------------------------------------------------CEFIIETI--
+-------------------------------------------------------LNYDI
+ENVTELMERSYHIPVKYSSEVYVIT-----------------------------------
+------------------------------------------------------------
+-----------------------------------------------------IVTILAL
+WLKEGCIESPEGTANTLLEAVIIKAK----------------------------------
+----------------------------------------------------------
+>WP_012262595.1 hypothetical protein [Rickettsia rickettsii]
+-------------MDGLDEIYKQSFLCKLTSSTELP------------------------
+---------PAEQLKKF-----------------LEKTTDEIYDKLQKTGEAYLSYSNAP
+TNTGLHTNVIKYSKENGKNYRIY-------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----------------------------------------------------IMPVLG-
+------------------------------------------------------------
+----------------------------------------------------------
+>WP_012151519.1 hypothetical protein [Rickettsia bellii]
+MTKLTKMELKELVEQNEYEIKLVQYYEQIDSYKNLDYITQNTEIPGTQPTISVPGYRALL
+ELYMASNDAPHKELENFSNSLEKISTYLFNDD--HDKFTEQVFNDLEEKNKSFIFYSNF-
+--NNSHANFIKYSKENNQYYRTFYNVGSGDIESENQSIKKFVSGAGFLFQTKKILVGGKS
+EIQKKIKQDLVNNAKGVNNEPDELLKNQPFEVSDVQVKEQRYNNCSTRALCEALRDNIPT
+EEFRELYEFIANNSYSDMLKAAGIEKSIKQEEIKDFESALKKYIQLQRKKFDMAQTNLKK
+EEDNELTQKYNNLKIEYAEIVKKIKELKAQLPESQDKINIRKKVKELLSQQGKLLDQQHK
+VLNQQEQLSQNPTNTSLNMKNHISNFRDQGFNILTKQQLLNETATQYSEKLDKERSQNLW
+LKLFKESLNDIDLPLTKELLEPVKRHFSNCLNKSSDDNEIFNEWKKECIEDLRIDPIIKA
+PIIKSMIENKEDLPKSIKHYAKSDNAKIKNLTVNDIYKNLLKENIAQRDINAAHRQQDMK
+ESNLTSEQLYKKYLKKEASKKTLDDIKKTLDSHLTKKHSSTNIVPNFKKQESNKSNTR

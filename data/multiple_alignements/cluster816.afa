@@ -1,8 +1,12 @@
->WP_012150425.1 MULTISPECIES: DUF1674 domain-containing protein [spotted fever group]
-MDDK--------------------KDNR------HLSKPAYREECTGDTERSTTAYMDIR
-EDVMSTGSMSKLPLETKFVKISNNISEKENLPKE----------------KEIGGVKGLE
-PTRYGD----------------------WQHKGKVTDF---
 >WP_016210728.1 peptide-methionine (S)-S-oxide reductase MsrA [Piscirickettsia salmonis]
 MEKACFAAGCFWGVEASFRKLVGVIDTRVGYSGGHLANPSYDAVCSGQTGHAEAIEVDYD
 SAIISY-----LDLLNHFWQCHNPTTLNRQGPDEGSQYRSVIFYYSSAQHKCAEQSKAQQ
 AVNFNEVIVTDIMPAGPFYLAEEYHQRYFEKRGECGACFIR
+>WP_012150425.1 MULTISPECIES: DUF1674 domain-containing protein [spotted fever group]
+------------------------MDDKK--DNRHLSKPAYREECTGDTERSTTAYMDIR
+EDVMSTGSMSKLPLETKFVKISNNISEKENLPKE----KEI------------GGVKGLE
+PTRYGD----------------------WQHKGKVTDF---
+>WP_011477799.1 DUF1674 domain-containing protein [Rickettsia bellii]
+------------------------MDNKK-------------------------------
+----------------------DNILEEENLPKEKEMPKEI------------GGAKGLE
+PTRYGD----------------------WQHKGKVTDF---

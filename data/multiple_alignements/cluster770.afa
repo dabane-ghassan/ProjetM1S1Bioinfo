@@ -1,12 +1,30 @@
->WP_012262245.1 ankyrin repeat domain-containing protein [Rickettsia rickettsii]
-MGWTPLDYAISNNNIKIADFLLKCGAPMNLIHIN---IGFMKPEIAELLINQGMSPNLRY
-EGGITGMMLAAERNNLDLIKLLLTLGVNPNVQNSKTGMTSLIMHHHILMLNLLVFY
 >WP_016212534.1 MULTISPECIES: hypothetical protein [Bacteria]
-MIITFNGTQIDVE--KVLTFSVKENNLIIHTPHDQYIINF-ETNSKEVM-NT--------
-VAEYAHLCCRNNFDNIDLDKITKWLFTK---------------KGKAISINQRSI-
+MIITFNGTQI--------DVEKVLTFSVKENNLI--------------------------
+--------IHTPHDQYII-----NFETNSKEV------MNTVAEYAHL-----------C
+CRNNFDNIDLDKIT----------------------------------------------
+------------------------------------------KWLFT-------------
+------------------------------------KKGKAISINQRSI-----------
+>WP_011477556.1 hypothetical protein [Rickettsia bellii]
+MVMSEEEFKKRPNMAKYPEEEKIFFYIIEIGHYENYDDAMDYMAKNLKASEEFRQIAASQ
+ALQILVHRFYNIKDELILPLLFKHLKSDSKYKYFLSEIMNTLGDIAHLVPRLRRKIYLTC
+FNNDIDFVTYKKLKKFTDKNLLYSLNNEEEKIEFILSFCQNSSSYQEALEVCLYFLRKNE
+SEKINIAAFQGLTYIVFRFRKINFKAILPFIGRFSRYSTERCEWIYTESLLEDIAIVIPK
+LRIKAITFLKKYSYSHLRTSSFINYIITKNKPKDQIKLEKILKLNVNNLKKVKLKYNLNF
+>WP_012262245.1 ankyrin repeat domain-containing protein [Rickettsia rickettsii]
+MGWTPLDYAISN------NNIKIADFLLKCGAPM-------------------------N
+LIHINIGFMKPEIAELLINQ---GMSPNLRYE----------GGITGM-----------M
+LAAERNNLDLIKLL----------------------------------------------
+------------------------------------------------------------
+------------------------LTLGVNPNVQNSKTGMTSLIMHHHI--LMLNLLVFY
 >WP_000368737.1 DUF1858 domain-containing protein [Streptococcus pneumoniae]
------MDNIIDVS--IPVAEVVDKHPEVLEILVE---LGF-KPLANPLMRNT--------
-VGRKVSLKQGSKLAGTPMDKIVRTLEAN---------------GYEVIGLD-----
+-----MDNII--------DVSIPVAEVVDK------------------------------
+---------HPEVLEILVEL---GFKPLANPL-----MRNTVGRKVSL-----------K
+QGSKLAGTPMDKIV----------------------------------------------
+------------------------------------------------------------
+---------------------------------------RTLEANGYEV--IGLD-----
 >WP_081004996.1 DUF1858 domain-containing protein [Streptococcus thermophilus]
-MCWSFFSFTIDLS--QPVATIIKEHPEVKELLIN---LGF-KPLSNPAMLNT--------
-VGKVTSLKAGSKLSNIPLSKIK----------------------------------
+MCWSFFSFTI--------DLSQPVATIIKE------------------------------
+---------HPEVKELLINL---GFKPLSNPA-----MLNTVGKVTSL-----------K
+AGSKLSNIPLSKIK----------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------

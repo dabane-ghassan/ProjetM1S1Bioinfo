@@ -1,21 +1,28 @@
 >WP_014362391.1 hypothetical protein [Rickettsia rickettsii]
-------------------------------------------------------------
--------------------------------------------------MTQNFEIVYAD
-A--------MDRTHRTIIIEVLNKDAREQKG----------------------------L
-VGDIEAFSFSCLDQDKNFVVGISGMSSWGDFTLIHSLLMKILETKI--------------
----------------------------------MVLY-----------------------
------------------------------------------
+-------------------------------------MTQNF------------------
+------------------------------------------------------EIVYAD
+AMDRTHRTIIIEVLNKDAREQKGLVGDIEAFSF-------------------------SC
+LDQDKNFVVGISGMSSWGDFTLIHSLL------------------------------M--
+-------------------------KILETKIMVLY------------------------
+---------------------------------------
+>WP_011477526.1 GNAT family N-acetyltransferase [Rickettsia bellii]
+-------------------------------------MTQDF------------------
+------------------------------------------------------EIIYAE
+EMDKAYSAIIWDAFNKDAREKKGLTGDLKSFSF-------------------------SC
+LDQDKNFIAGMQGISLWGGVYITSLFVDENHRNKKYGRMLMEKAEELARERGCNFVAL--
+-------------------------STMDFQAKPFYEKLGYKLEFTRHGYEKDSVSYHLR
+KDL------------------------------------
 >WP_010922455.1 hypothetical protein [Streptococcus pyogenes]
-------------------------------------------------------------
---------------------------------------------MEILKGKTTSGFEYEI
-P--------KKRLKNFELVEAI---AEEETD--------------------------PTA
-VVKIVNLLLG--DAAKSLKEHVRDAEGIVDVEAIGVEIKEIFESQK--------------
----------------------------------DLKN-----------------------
------------------------------------------
+------------------------------MEILKGKTTSGF------------------
+------------------------------------------------------E--YEI
+PKKRLKNFELVEAIAEEETDP-------------------------------------TA
+VVKIVNLLLGDAAKSLKEHVRDAEGIVDVEAIGVEIKEIFE---------------SQ--
+-------------------------KDLKN------------------------------
+---------------------------------------
 >WP_016209640.1 hypothetical protein [Piscirickettsia salmonis]
 MPSFNDILNQYLLHFKKYFLDLDLSLNHRTSILSSQGTTPNFQEIAKLFSDGEIEKEFES
 LQNKLNRYPDTSHLELYIKFNDFFKSKTDHSLESERVIGFFKDRNESIAGKKLLEIVFLE
 SISFAASADLQESFNAELKSAINITAEEDNDSFYELIKEQFKEASTYPLSRFNLSYHPKA
-FEQLDQLGLG--DQSNCILELLGHPPQLINIEGISNQVKEIFENAKKSIPTEIESTQQNL
-IAACYEKYQANVIGLIFNFFIPKEKNQEDLELQLFIYENEFLSSSNFANHGTQFESFCPK
-ILEIIKASNKEHIQESDSQLFFSQQKEKTTFDSSASARYNQ
+FEQLDQLGLGDQSNCILELLGHPPQLINIEGISNQVKEIFENAKKSIPTEIESTQQNLIA
+ACYEKYQANVIGLIFNFFIPKEKNQEDLELQLFIYENEFLSSSNFANHGTQFESFCPKIL
+EIIKASNKEHIQESDSQLFFSQQKEKTTFDSSASARYNQ

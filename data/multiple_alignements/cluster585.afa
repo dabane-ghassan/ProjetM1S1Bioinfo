@@ -1,36 +1,45 @@
 >WP_000089991.1 methylenetetrahydrofolate reductase [NAD(P)H] [Streptococcus pneumoniae]
 ---------------------------MSRQTPSLSFEVFPPTP-------AVGNDNIIS
 ALQDMQELAPH---FISVTASNNK--------FNIKETTVRLADFIQNDLAIPTIAHLPA
-IYLTKDK----VAETIADLDKVGVQ-KILALRGDIIPD----VEPQKDFRYATDLIELIK
-ERAPHFDIIGACYP---------EGHPDSPNQISDIQNLKKKVDAGCSSLVTQLFF----
-------------------------------------------------------------
--------DNERFYDFQDKCILAGIDVPIHAGIMPILNRNQALRLLKTCENI---------
--------------------------HLPRKFKAILDKYEHDPESLRAAGLAYAVDQIVDL
-VTQDIAGVHLYTMNNADT-----AKYIHQATHALFNHQSLG---
+IYLT--------------------------------------------------------
+-----------------KDKVAETIADLDKVGVQK--------------------ILALR
+GDIIPDVEPQKDFRYATDLIELIKERAPHFDI-IGACYPEGHPDSPNQISDIQNLKKKVD
+AGCSSLVTQLFFDNERFYDFQDKCILAGIDVPIHAGIMPILNRNQALRLLKTCENI----
+------------------------------HLPRKFKAILDKYEHDPESLRAAGLAYAVD
+QIVDLVTQDIAGVHLYTMNNADT-----AKYIHQATHALFNHQSLG---
 >WP_014621437.1 methylenetetrahydrofolate reductase [NAD(P)H] [Streptococcus thermophilus]
 ---------------------------MTSQTPSLSFEVFPPNP-------AVGNKKILL
 ALDDMKGSAPH---FISVTASNNK--------YNIKETTVPLADHIQNDLAIPTIAHLPA
-IYLSKEK----VADTLRELDAVGVN-RILALRGDIIPG----VEPLKDFRYATDLIEFIK
-AEAPNFDIIGACYP---------EGHPDSPNQISDIQNLKKKVDAGCSSLVTQLFF----
-------------------------------------------------------------
--------DNERFYDFQDKCTLAGIDVPIYAGIMPILNRNQALRLLKTCENI---------
--------------------------HLPRKFRAILDKYEHDPESLRAAGLAYAVDQIVDL
-VTQDVAGVHLYTMNNAET-----ARHIYEATHSLFKHHSQVGAL
->WP_004996604.1 MULTISPECIES: DUF2674 domain-containing protein [spotted fever group]
------------------------------MQNPAQKVISFSEHK---------------S
-DIERIKKSIEEGWAIVKLVPNNDR-----------------FIGLLEK------------
-------------------------------------------ISHAED------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------ETI---------
--------------------------YIPPRKKIIVN------------------------
---------------------------------------------
+IYLS--------------------------------------------------------
+-----------------KEKVADTLRELDAVGVNR--------------------ILALR
+GDIIPGVEPLKDFRYATDLIEFIKAEAPNFDI-IGACYPEGHPDSPNQISDIQNLKKKVD
+AGCSSLVTQLFFDNERFYDFQDKCTLAGIDVPIYAGIMPILNRNQALRLLKTCENI----
+------------------------------HLPRKFRAILDKYEHDPESLRAAGLAYAVD
+QIVDLVTQDVAGVHLYTMNNAET-----ARHIYEATHSLFKHHSQVGAL
 >WP_002994557.1 MULTISPECIES: PTS ascorbate transporter subunit IIC [Streptococcus]
 MEALLSFIRDILKEPAFLMGLIAFAGLVALKTPAHKVLTGTLGPILGYLMLAAGAGVIVT
 NLDPLAKLIEHGFSITGVVPNNEAVTSVAQKILGVETMSILVVGLLLN-LAFARFTRFKY
 IFLTGHHSFFMACLLSAVLGAVGFKGSLLIILGGFLLGAWSAISPAIGQQYTLKVTDGDE
 IAMGHFGSLGYYLSAWVGSKVGKDSKDTEDLQISEKWSFLRNTTISTGLIMVIFYLVATV
 ASVLRNASVTEELAAGQNPFIFAIKSGLTFAVGVAIVYAGVRMILADLIPAFQGIANKLI
-PNAIPAVDCAVFFPYAPTAVIIGFASSFVGGLLGMLILGVAGGVLIIPGMVPHFFCGATA
-GIFGNSTGGRRGAMIGAFANGLLLAFLPAMLLPVLGKLGFSNTTFGDVDFG-VLGILLGR
-LGTSIGQIGIYLVVAVLAIVLVLPNFLSKSQEAINNVSEEI---
+PNAIPAV-----DCAVFFPYAPTAVIIGFASSFVGGLLGMLILGVAGGVLIIPGMVPHFF
+CGATAGIFGNSTGGRRGAMIGAFANGLLLAFLPAMLLPVLGKLGFSNTTFGDVDFG-VLG
+ILLGRLGTSIGQIGIYLVVAVLAIVLVLPNFLSKSQEAINNVSEEI---
+>WP_004996604.1 MULTISPECIES: DUF2674 domain-containing protein [spotted fever group]
+-----------------------------MQNPAQKVISFSEHK---------------S
+DIERIKKSIEEGWAIVKLVPNNDR-----------------FIGLLEK------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----------------------------------ISHAE--------------------
+------------DETIYIP-----------------------------------------
+--------------------------------PRK-KIIVN-------------------
+-------------------------------------------------
+>WP_011477782.1 DUF2674 domain-containing protein [Rickettsia bellii]
+-----------------------------MENPTQKFISFSEHK---------------A
+DIERIKQAIEEGWAIVKLVPNKGR-----------------FIGLLEK------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----------------------------------ISHAED-------------------
+------------DETVYIP-----------------------------------------
+--------------------------------PRK-KILVN-------------------
+-------------------------------------------------

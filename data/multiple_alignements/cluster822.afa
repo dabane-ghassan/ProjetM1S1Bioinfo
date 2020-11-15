@@ -1,10 +1,18 @@
 >WP_012150527.1 DUF2659 domain-containing protein [Rickettsia rickettsii]
 -MTDILDEVLSDQNEEKRLIFFK--------KLLPIIIIIAIIAITIMV-----VINNNK
 DKRIKNNQKNGDILVKTVGLETTKDNEELAFNTLENLVTTSNTKIKEIAALEQVAIKISK
-KKYSEAKDLL------NKIIENKEYSEISTSYARIS-------WCSLVMDDHNLDIQDKE
+KKYSEAKDLL------NKIIENKEYSEISTSYARISW-------CSLVMDDHNLDIQDKE
 KLTKYLNYFDDEKKPFWATATIIKA-----------------------------------
------------------------------MWDIKNNMKPQAEKNLKNLLISNN-------
-------------------------------------------VSDLIKDQAKALLVNLNK
+-----------------------------MWDIKNNMKPQAEKNLKNLLISNNVSDLIKD
+QAKALLVNLNK-------------------------------------------------
+-------------------------------------------------
+>WP_011476920.1 DUF2659 domain-containing protein [Rickettsia bellii]
+-MTDILDEVLNDQNEEKRLIFFK--------RLLPIVIIIALIAITIMV-----INNNNK
+NKQIENNQKNGDIFVKAVNLEAVQGNKELAISTLENLVGISDTKIKEIALLEQVAIKLSG
+QQNSEAKDLL------SKIIENKEYSEIVTSYARIAW-------CSLVIDDEKLDIADKE
+KLVKYLNYFDDENKPFWATANIMKA-----------------------------------
+-----------------------------IWDIKSNMLAEAEKNLRSLVASNNTSDLLKD
+QAKALLAGLDRAK-----------------------------------------------
 -------------------------------------------------
 >WP_000456640.1 bifunctional 3,4-dihydroxy-2-butanone-4-phosphate synthase/GTP cyclohydrolase II [Streptococcus pneumoniae]
 MEYRKIQEALEALQKGRLVLVIDDKDRENEGDLICSAQAATTENVNFMATYAKGLICMPM
@@ -19,6 +27,6 @@ NPDKVEQLEKYGITISSRISIEIEANPYDSFYLETKKNRMGHILNMEEK
 SGQMCDRLKLPMMVPADCNGTQYHTNFTVSIEAAVGVTTGISTFDRAKTIHTAIAGDAKP
 EDIVMPGHIFPLRAAAGGVLERQGHTEASVELARLAGCSPAGVLVEIIGDDGNMARRD--
 ---ELFDYAKIHGLKIGTVADLVEY-----------------------------------
-------------------------------------CQR---------------------
-----------------------------------------------LKQSA---------
+----------------------------------CQRLKQSA------------------
+------------------------------------------------------------
 -------------------------------------------------

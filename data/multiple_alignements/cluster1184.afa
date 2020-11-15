@@ -1,52 +1,21 @@
->WP_036776682.1 chemotaxis protein CheA [Piscirickettsia salmonis]
-MALDPDDEILQDFLIEAGEILESLSEQLVELESRPDDADLLNAIFRGFHTVKGGAGFLAL
-DNLVEVCHIAENVFDILRQGERQVDADLMDVMLQALDTVNAMFEQIRSFEDPDAAEPELL
-KSLNALVSGDSGSETVEDSAAVEEQAPVEPEEKAGAAQKEKPAGDEITEDEFDQLLDELH
-GSGVPGVKSEGSETKVEDKKDEGSSIKKAAAGDEITEEEFEGLLDELYGEGKGPTLEADT
-GTEEKSVEKPVKEAAKAVEKKPEPQKKAAPAAAAKKEDAAKAEASVRVDTSLLDDIMNLV
-GELVLVRNRLKTLDMNAEVTDEGMTKAIANLDMVTADLQTSVMKTRMQPIKKVFGRFPRL
-VRDLARSLGKEIDLKLVGEETDLDKNLVEALADPLVHLVRNSCDHGVEMPDLREERGKTR
-KGTITLSAEQAGDHILIYIEDDGNGMNADVLREKAIEKGLMDRESAERLTEKECYNLIFM
-PGFSTKAEISDISGRGVGMDVVKTKITQLNGRLEIDSTLGTGSRVTIKVPLTLAILPTLM
-VIVQDQRFAFPLTAVSEIFHLDLTKLNIVDGQETVIIRNKALPLFFLNHWLIKDSPKERP
-DSGHVVIISAGSQRMGFVVDQLVGQEEVVIKPLGGLLQSTTPGMAGATITGEGQIALILE
-IADLIRHYAKRVIA
->WP_000517373.1 YtxH domain-containing protein [Streptococcus pneumoniae]
-------------------------------------MGK-LSSILLGTVSGAALALFLTS
-DKGKQVCSQAQDFLDDLR-------------------------------EDPEYAKEQVC
-EKLTEV--KEQATDFVLKT-------------------KEQVESGEITVDSILAQAKS--
----------------------------YAFQATEASKNQLNNL-----------------
---------------------------K--------EQWQEKAE-----------------
-------------------------------------------------------------
-------------------------------------------------------------
--------ALDDSEEIVIHITEE--------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---------------
->WP_011017530.1 YtxH domain-containing protein [Streptococcus pyogenes]
-------------------------------------MNKSFKNLVIGAVSGVAAAYFLST
-EKGKALKNRAEKAYQAYK-------------------------------ESPDDYHQFAK
-EKGSEY--SHLARDTFYDV-------------------KDKLASGDLTKEDMLDLLKD--
----------------------------KTTAFVQKTKETFAEV-----------------
---------------------------EAKE-----KQDDVIID-----------------
-------------------------------------------------------------
-------------------------------------------------------------
--------LNE--DDIIIDYTEQDEPVSDTLDKH---------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---------------
->WP_002946001.1 YtxH domain-containing protein [Streptococcus thermophilus]
-------------------------------------MSKFLNTLIIGAASGAAAAYFFTT
-EKGKAVKARIDEEIASFK-------------------------------EDPKAYQNQVV
-EKVSDY--KELAVDTFQDY-------------------KTKFENGDITATDLTKAVQE--
----------------------------KTAQVADFAKESFELI-----------------
---------------------------KEKTAQVTPEQANVKAE-----------------
-------------------------------------------------------------
-------------------------------------------------------------
--------TKAIVDDIFIDIKDISEEVAESN------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---------------
+>WP_012152066.1 hypothetical protein [Rickettsia bellii]
+----MSKQFQLSLQPISRVKENPNMFDNFTNFFLGSEKYVISNDSYITPKLCVTQARKFF
+ESLGNTCQLGIQYVGKEFKGIFEIKDNVVTALQNNEAAHNYTQHELNGTFYLYDNKKSQV
+CIQNLHKA---LNIFQQRTFEEVK-NYTREDILNFINNKNDTQELIYPNNDEQFIQQFFQ
+LGDCRVFKILNDITQATN-STVSEIVNTTVTTLLNSTTEQQEDQENNNDGYSLGVYIAGG
+SAVLGVISAIGYAGYKWYKSYADNKYISH-----------ESEIELGRNNSQYFCPFSTT
+DGSLLIGENLSEDKANGDVSESYVSFRGNSMEDITPIIGDSEG
+>WP_000219939.1 MULTISPECIES: DegV family protein [Streptococcus]
+MTWKIIADSGCDYRQLPTPAINTTFVSVPLTIQVADQVFV--DDASLDIDQMMETMYATA
+EASKSACPSPDDYL-RAFEG----AKNIFLVTITGTLSGSHNSAQLAKNIYLEDHPDTKI
+HVIDSLSAGGEVDLLVEKLNDLIDQGLSFEEVVEAITAYQEKTKLLFVLAK---VDNLVK
+NG--RLSKLIGTVVGLLNIRMVGKASETGTLELLQKARGSKKSV----------------
+QAAYDELVKAGYAGGRIVMAQRNNEKCCQQLSERIRETFPQADIKILPTSGL--CSFYAE
+EGGLLMGYEID--------------------------------
+>WP_002988852.1 DegV family protein [Streptococcus pyogenes]
+MTWKIVTDSGCDLRSLTRQSKELRFERVPLTLQIGTEIFR--DDDGLDIDNMMTTMYQSS
+KATTSSCPSPEAFL-QAYRG----ADNVIVMTITGTLSGSHNSARLAKNELLEENPNVNI
+HLIDSLSAGGEMDLLVLELERLINLGLSFEEVVKQITAYQQKTRLIFVLAK---VDNLVK
+NG--RLSKLVGKVIGLLNIRMVGKASNKGTLELLQKARGQKKAV----------------
+SALIEEIQKEGYVGGKVYIAHAQNPKICEQISEKIKSLYPDAVIQTGRTSGL--CSFYAE
+DGGLLMGYEI---------------------------------

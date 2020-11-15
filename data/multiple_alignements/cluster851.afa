@@ -1,10 +1,17 @@
 >WP_012150828.1 hypothetical protein [Rickettsia rickettsii]
-MTKPYVIK----LTTPFERI-----------------KLYNSIPDIALRSAIIMHAIIDA
-TNT--------------------------SNKKEATKAE----------YN---------
---------------AKKW--------------LVENNEN---------------------
+MTKPYVI----KLTTPFERI-----------------KLYNSIPDIALRSAIIMHAIIDA
+TNT--------------------------SNKKEATKAE---------------------
+--------------------YNAKKW------LVENNEN---------------------
 ------------------FNATCLEI----------------------------GIEPHY
-VRKTAKKLIKSQQNKDKRPK------------LYG-------------------------
----
+VRKTAKKLIKSQQNKD----------------------------------------KRPK
+LYG
+>WP_011477291.1 hypothetical protein [Rickettsia bellii]
+MTKSSVI----KLATPFERL-----------------KFHNPIPDIALRLAVIMQAIIDS
+TNT--------------------------SPKKEAKKAE---------------------
+--------------------EAAKKW------IFVDNED---------------------
+------------------FITICFEA----------------------------GIEPSL
+VRKITKGLIRLQQNKSVIHE------------------------------EDLFCNKSLK
+LR-
 >WP_016210435.1 symmetrical bis(5'-nucleosyl)-tetraphosphatase [Piscirickettsia salmonis]
 -MATYAIGDVQGCYDPLQRLLGKINYDKDQDCLWFAGDLINRGPQ-SLESLRFIKSV---
 KNSIVVLGNHDLHLLAAF------YGHGRKNKKD-TLNEVLTAPDSQELIDWLRKQPLIH

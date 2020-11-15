@@ -1,24 +1,8 @@
->WP_016211367.1 hypothetical protein [Piscirickettsia salmonis]
-MYNQWPYSVDFISFNIPTINIDLCYYYIPNSSNKAAIQIQLKPTQQPLFINLHDNEKTSV
-QAALDCIQQHSYGHLLELSHKKNRLISLLINNYPCQFDPNRIFTDTGIKNTLKKYHCFSE
-KNFFIAKQFSDIILQQINTHNFPLLIALHNNEDKAGDKENYNILSYYPHGDEAENTEDLY
-HNQAHCPDDFFITTERSLFNYIKNKKFNIILHKTTGVNDGSLSYYCALNKISYINVEARH
-GHYHQQQQMISLLFQYLESK----
->WP_002989257.1 DUF1294 domain-containing protein [Streptococcus pyogenes]
---------MLLIWLGLLFV-WNELVFVIYAFDKRKAIKKKRRISERNLLV----------
--ITVLF---GGFGALL----------------------------------AAKKYHHKTR
-KWYFVITWYTSIL-----------------------------------------------
-------------------------------------------------------------
----------LTLLVTYIFMK----
->WP_011681246.1 MULTISPECIES: DUF1294 domain-containing protein [Lactobacillales]
-------MTLKLVLLSVLLV-WNLVILSVYGLDKHKAIQHKRRISEKSLLL----------
--QTIIF---GGIGAFL----------------------------------GGRLFRHKIN
-KWYFKFCWLSGIV-----------------------------------------------
-------------------------------------------------------------
----------IDVVLLYLILTKLSD
->WP_000762428.1 DUF1294 domain-containing protein [Streptococcus pneumoniae]
-------MKLDEKITLVLLI-WNVIIFLIYGIDKFKARRRAWRIPEKILLI----------
--LALTC---GGFGAWL----------------------------------TGITFHHKTR
-KWYFKTVWFLGMV-----------------------------------------------
-------------------------------------------------------------
----------TTLVALYFIWR----
+>WP_000492730.1 hypothetical protein [Streptococcus pneumoniae]
+---------MFSQLHMREE--------------------------------------QVL
+LAQDYALETARAEDLEQGLERGKVEGRA---------------------------ERKLF
+TFLDI-----VRQGLLTSEVASQQLGMSVSEFEALL-
+>WP_126405157.1 hypothetical protein [Streptococcus pyogenes]
+MRKLDLTGKAFNRLTVIKEVPNSKKDTYWLCQCSCGKNVEIKGTAIKNGTTKSCGCLALE
+IAQNLAKETEAAENAHDGYNKKRVDGIATFLINDRIQKNNKTGYKGVLQYRLADGSARFQ
+SYLTVGGKNYSKKGFNTPEEAYNYRLKLIEKYVPKEG

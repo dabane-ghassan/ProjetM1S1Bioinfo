@@ -1,18 +1,24 @@
->WP_011528796.1 hypothetical protein [Streptococcus pyogenes]
--MNIKEKIVVLRNTEDG-------------------------------------------
-------------------------------------------------------------
----------------------SFLKSFKN-------------------------KKDVLA
-YNVELTDSIQLASFLPEEAYNIQKEKIDNLAETLGCDVVVIEA----SYDLKFIDGESVP
-ELT-KEQKVKSMVNGMFEQVFGGE
 >WP_012150464.1 hypothetical protein [Rickettsia rickettsii]
-MIYI--------------------------------------------------------
-------------------------------------------------------------
----------------------------WP-------------------------KETNFA
-FKNNRKQMLQNHILKQLVLYVILKNN------EMQCLWHTI-FLG--NPNNNAIQQTDIS
-EQQQREGYLNCIIGDIIDL-----
+MIYIWP------------------------------------------------------
+-KETNFA------------------------------------------FK---------
+----NNRKQMLQNHILKQLVL-------------------------------YVILK---
+NNEM---QCLW----------------------------HTIFLGNPNNNA--IQQTDIS
+E---QQQREGYLNCIIGDII-DL
+>WP_011528796.1 hypothetical protein [Streptococcus pyogenes]
+----MN------------------------------------------------------
+-IKEKIV-----------------------------VLRNTEDGSFLKSFK---------
+-----NKKDVLAYNVELTDSIQ---------------------LASFLPEEAYNIQKEKI
+DNLA---ETLG----------------------------CDVVVIEASYDLKFIDGESVP
+ELTKEQKVKSMVNGMFEQVFGGE
 >WP_011680988.1 hypothetical protein [Streptococcus thermophilus]
 MVSVTQRIKQIKQPRGGYLPVKAFTVTTLDDGQVLNPEESIAASLVGTAVDYLSRFMDGT
 TVEEAFEISLVGARVMRMESKAFGLLDDVKRLDDLSITKACQLAGFDSAFRAGPLAYRPV
-ESIVPDQATISNIRIMVERSLSFFKAFGPVTADGFTMEGAYTATITTGDGDFLTKDTLWD
-FKVTTSKPNKNHTLQLLSYYLMGRR-------SIHPEFQTIEKLGIFNPRQNTINQLPLS
-EIS--DEVIKEVETNVIGY-----
+ESIVPDQATISNIRIMVERSLSFFKAFGPVT------------ADGFTMEGAYTATITTG
+DGDFLTKDTLWDFKVTTSKPNKNHTLQLLSYYLMGRRSIHPEFQTIEKLGIFNPRQNTIN
+QLPLSEISDEVIKEVETNVI-GY
+>WP_011476702.1 translesion error-prone DNA polymerase V autoproteolytic subunit [Rickettsia bellii]
+----MQ------------------------------------------------------
+-IKEIFSC---------------------------SVEKACELPLFDTKVQAGYPS--PA
+DGYMSNSLDLNSHLIKHPKSTFFVQVTGDSMIDAGIRENDLLIVDKSLPPTNNKIVIAVI
+NNEF----TVK----------------------------RLKFINDEAYLM--PENKDFP
+P--TKIENGTYIWGVVTSVIQQF

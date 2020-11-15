@@ -1,64 +1,20 @@
->WP_054300617.1 type IV secretion system protein TraC [Piscirickettsia salmonis]
-MLSSVKESCRKALNYMGLAEEKAESSRIPATMDRSEYEHPSFAEQLTYKYYDEKSQIFFN
-EKNAGLIYRISPLTGANEKVAEQLDSILRTKISDNLTMMALKITHNQVAPKIDRFAKQFK
-NDEFKNLSKLGDSLEQYYKSAATSGFKTRDESRGRLTQTEVYVVVDMASGQKTEAELRVL
-FDRFKVSFQAALTASNIGFQVCDAMDFIHITSFFTRHNTQSIYPRTVDYNDDELLKYQLN
-DRSFSLEVDSEFKDHLILSGDDQIVRSADKTERESFETEISVLTLDKMPTSYQLWNNINN
-CSNIFNSEYGIHCNHIVSVIYKIDDHGKALGKAGRKTRDLTKKAKSDFATLVPGTEEGAQ
-QWKSFYNDLSKQTTRSCRMLYNVILFSEKGRRHEDVEAAINTHNFNGLKLSVCKHMQMPY
-FLASMPFMFTGNLQYDFSLPTMMHHISSWNATQYLPLLSDWQGQDKGIMLPSMRSQIALI
-DPFSGYFGTNFNASVTGTSGAGKSFLMQMMALSTLFDGGYVYIIDIGGSYRKLCDAVGGV
-YLEYKNLAMNPFTYISNIDDSIDDLIDLFELLACPKKGATDLDSSALRTAILKAYEKCAD
-KTLIDDVQNALNEIYNPERYPTARALASNIAKYCSNAEHGAAFNNPSKLDPKSRFIVVDL
-QEIKDKKNVVAPALLSVFSQFRKRIYDSDRAVKKLCLVDEAWTFFEGDPRAIEFLVIGFR
-TGRRHNASFVTITQGVNDYFNFPAAEQLWDNASLKFVLLQDETTLTKFNKERELFSEYEM
-EVLKKFPKAKEAGYSQVMMRGSNINTFQRLFVDPFTLVMLSSDGKDYSAVQELLEQKVPF
-MEAVERVARRHYGEMYVSA
->WP_002983486.1 YlxR family protein [Streptococcus pyogenes]
----------------------MSKVKKIP-------------------------------
----------------------------LRKSLVSG-------------------------
-------------------------------------------------------------
--------------------EIIAKRDLLRI----------------VKTKDGQVF-----
-------------------------------------------------------------
-----------------------IDPTGKQNGR----------------------------
-------------------------------------------------------------
-------------------------------------------------------------
------------------------------------------------GAYIKL-------
-------------------------------------------------------------
--------------------------------------------DNQEALMAK--------
----------------------KKQVFNRS-------------------------------
----------------------------------------------------------FSM
-DIPESF-------YDDLIA-----------YVD---------------------------
-----HKIKRRELGLD----
->WP_000857562.1 MULTISPECIES: YlxR family protein [Bacteria]
-----------------------MKTRKIP-------------------------------
----------------------------LRKSVVSN-------------------------
-------------------------------------------------------------
--------------------EVIDKRDLLRI----------------VKNKEGQVF-----
-------------------------------------------------------------
-----------------------IDPTGKANGR----------------------------
-------------------------------------------------------------
-------------------------------------------------------------
------------------------------------------------GAYIKL-------
-------------------------------------------------------------
--------------------------------------------DNAEALEAK--------
----------------------KKKVFNRS-------------------------------
----------------------------------------------------------FSM
-EVEESF-------YDELIA-----------YVD---------------------------
-----HKVKRRELGLE----
->WP_002947461.1 YlxR family protein [Streptococcus thermophilus]
----------------------MAKTRKIP-------------------------------
----------------------------LRKSVVSG-------------------------
-------------------------------------------------------------
--------------------EIIDKRDLLRI----------------VKTKDGEIF-----
-------------------------------------------------------------
-----------------------IDPTGKKNGR----------------------------
-------------------------------------------------------------
-------------------------------------------------------------
------------------------------------------------GAYIKL-------
-------------------------------------------------------------
--------------------------------------------DNEEALQAK--------
----------------------KKQVFNHS-------------------------------
----------------------------------------------------------FSM
-DVPESF-------YDELIA-----------YVD---------------------------
-----HKVKRRELGLE----
+>WP_107517381.1 hypothetical protein [Piscirickettsia salmonis]
+-----------------------MKVFYE--------RAKNFFKARPDLLKKL------K
+RDNGTYFWTQKEIAQFDRVVFEGCT-----ASIYTGKK-------------------DIK
+KPGIA-------------------------------------------------------
+--
+>WP_000622946.1 CvpA family protein [Streptococcus pneumoniae]
+MISFLLLLVLVWGFYIGYRRGLLLQVYYLISAMASAFMAGQFYKGLGEQFHLLLPYANSQ
+EDQGTFFFPSDQLFQLDKVFYAGIGYLLVFGIVYSIGRLLGLLLHLIPSKKLGGKLFQVS
+AGILSMLVTLFVLQMALTILATIPMAVIQNPLEKSIVAKHIIQSIPITTSWLKQIWVTNL
+IG
+>WP_002983087.1 CvpA family protein [Streptococcus pyogenes]
+MLSLLIVLVLTWNFYIGYSRGIILQSFYVLGALLSLLVANRFYIGLAHKLTLWIPYSNPV
+EGTSVFFFKSVDIFVLDKVYYAGLAFFIIFLLGYALSRFLGIFVHFLLLDYFDNQWTKCL
+SGGLALLVSLLFLNMLLSIFATVPMPFLQHYLHSSFLARLVIEHLPPLTIIIQKLWIQAI
+I-
+>WP_002947866.1 CvpA family protein [Streptococcus thermophilus]
+MIGLLVLALMAWNFYIGYRRGLFMQAYYVVSVIIAMCVAAYFYKSLGEAINLWVPYTNPT
+KDASVAFFTDQNIFSLDRVYYAGVAYFAIYCVAYYGLRFLGIFFHFVRIERLDQTRFKVI
+GGVLASLVSLVPLTMLGNILATVPINNIQTVLSSSWVLRLLINWNFPVSQIIQHLWTSVI
+--

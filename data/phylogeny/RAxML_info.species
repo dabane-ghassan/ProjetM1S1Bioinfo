@@ -15,9 +15,9 @@ Akifumi S. Tanabe (NRIFS)
 Charlie Taylor    (UF)
 
 
-Alignment has 75080 distinct alignment patterns
+Alignment has 98600 distinct alignment patterns
 
-Proportion of gaps and completely undetermined characters in this alignment: 46.49%
+Proportion of gaps and completely undetermined characters in this alignment: 52.47%
 
 RAxML rapid bootstrapping and subsequent ML search
 
@@ -35,7 +35,7 @@ Likelihood of final tree will be evaluated and optimized under GAMMA
 GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
 
 Partition: 0
-Alignment Patterns: 75080
+Alignment Patterns: 98600
 Name: No Name Provided
 DataType: AA
 Substitution Matrix: BLOSUM62
@@ -46,46 +46,46 @@ Using fixed base frequencies
 
 RAxML was called as follows:
 
-/usr/bin/raxmlHPC-PTHREADS-AVX -T 4 -w /home/ghassan/M1/ProjetM1S1Bioinfo/data/phylogeny/ -f a -x 12353 -N 10 -s /home/ghassan/M1/ProjetM1S1Bioinfo/data/phylogeny/super_align_Rickettsia_rickettsii_str._Arizona_strain=Arizona_Streptococcus_pneumoniae_R6_strain=R6_Streptococcus_pyogenes_strain=NCTC8232_Streptococcus_thermophilus_LMD-9_strain=LMD-9_Piscirickettsia_salmonis_strain=Psal-158.afa -n species -m PROTCATBLOSUM62 -p 52341 
+/usr/bin/raxmlHPC-PTHREADS-AVX -T 4 -w /home/ghassan/M1/ProjetM1S1Bioinfo/data/phylogeny/ -f a -x 12353 -N 10 -s /home/ghassan/M1/ProjetM1S1Bioinfo/data/phylogeny/super_align_Rickettsia_rickettsii_str._Arizona_Streptococcus_pneumoniae_R6_Streptococcus_pyogenes_Streptococcus_thermophilus_LMD-9_Piscirickettsia_salmonis_Rickettsia_bellii_OSU_85-389.afa -n species -m PROTCATBLOSUM62 -p 52341 
 
 
 
-Time for BS model parameter optimization 6.030262
-Bootstrap[0]: Time 10.363555 seconds, bootstrap likelihood -3149730.965642, best rearrangement setting 13
-Bootstrap[1]: Time 3.477258 seconds, bootstrap likelihood -3152752.912970, best rearrangement setting 10
-Bootstrap[2]: Time 3.492403 seconds, bootstrap likelihood -3154639.223747, best rearrangement setting 7
-Bootstrap[3]: Time 3.475038 seconds, bootstrap likelihood -3152075.009044, best rearrangement setting 7
-Bootstrap[4]: Time 3.498108 seconds, bootstrap likelihood -3152547.266166, best rearrangement setting 14
-Bootstrap[5]: Time 3.485547 seconds, bootstrap likelihood -3150030.839848, best rearrangement setting 10
-Bootstrap[6]: Time 3.482345 seconds, bootstrap likelihood -3150216.993655, best rearrangement setting 11
-Bootstrap[7]: Time 3.484146 seconds, bootstrap likelihood -3148623.643682, best rearrangement setting 7
-Bootstrap[8]: Time 3.493242 seconds, bootstrap likelihood -3152016.434115, best rearrangement setting 6
-Bootstrap[9]: Time 3.490232 seconds, bootstrap likelihood -3156003.658926, best rearrangement setting 12
+Time for BS model parameter optimization 7.856211
+Bootstrap[0]: Time 14.408477 seconds, bootstrap likelihood -3303997.267862, best rearrangement setting 13
+Bootstrap[1]: Time 5.429242 seconds, bootstrap likelihood -3305449.040403, best rearrangement setting 10
+Bootstrap[2]: Time 5.422458 seconds, bootstrap likelihood -3304711.199736, best rearrangement setting 7
+Bootstrap[3]: Time 5.225377 seconds, bootstrap likelihood -3301302.175397, best rearrangement setting 7
+Bootstrap[4]: Time 5.277425 seconds, bootstrap likelihood -3308841.313153, best rearrangement setting 14
+Bootstrap[5]: Time 5.424143 seconds, bootstrap likelihood -3303114.780183, best rearrangement setting 10
+Bootstrap[6]: Time 5.234097 seconds, bootstrap likelihood -3302903.745903, best rearrangement setting 11
+Bootstrap[7]: Time 5.218043 seconds, bootstrap likelihood -3303636.122477, best rearrangement setting 7
+Bootstrap[8]: Time 5.308576 seconds, bootstrap likelihood -3298552.595511, best rearrangement setting 6
+Bootstrap[9]: Time 5.478311 seconds, bootstrap likelihood -3302424.201182, best rearrangement setting 12
 
 
-Overall Time for 10 Rapid Bootstraps 42.504372 seconds
-Average Time per Rapid Bootstrap 4.250437 seconds
+Overall Time for 10 Rapid Bootstraps 63.272631 seconds
+Average Time per Rapid Bootstrap 6.327263 seconds
 
 Starting ML Search ...
 
 Fast ML optimization finished
 
-Fast ML search Time: 18.412284 seconds
+Fast ML search Time: 31.664955 seconds
 
-Slow ML Search 0 Likelihood: -3426994.829409
-Slow ML Search 1 Likelihood: -3426994.829409
+Slow ML Search 0 Likelihood: -3574219.621377
+Slow ML Search 1 Likelihood: -3574219.621377
 Slow ML optimization finished
 
-Slow ML search Time: 36.448945 seconds
-Thorough ML search Time: 31.934482 seconds
+Slow ML search Time: 57.931535 seconds
+Thorough ML search Time: 50.851540 seconds
 
-Final ML Optimization Likelihood: -3426994.829412
+Final ML Optimization Likelihood: -3574219.621367
 
 Model Information:
 
 Model Parameters of Partition 0, Name: No Name Provided, Type of Data: AA
-alpha: 2.352263
-Tree-Length: 2.927400
+alpha: 2.286881
+Tree-Length: 3.159714
 rate A <-> R: 0.885232
 rate A <-> N: 0.583975
 rate A <-> D: 0.653480
@@ -299,9 +299,9 @@ freq pi(Y): 0.032000
 freq pi(V): 0.073000
 
 
-ML search took 86.798118 secs or 0.024111 hours
+ML search took 140.450303 secs or 0.039014 hours
 
-Combined Bootstrap and ML search took 129.302522 secs or 0.035917 hours
+Combined Bootstrap and ML search took 203.722955 secs or 0.056590 hours
 
 Drawing Bootstrap Support Values on best-scoring ML tree ...
 
@@ -322,5 +322,5 @@ Best-scoring ML tree with support values written to: /home/ghassan/M1/ProjetM1S1
 
 Best-scoring ML tree with support values as branch labels written to: /home/ghassan/M1/ProjetM1S1Bioinfo/data/phylogeny/RAxML_bipartitionsBranchLabels.species
 
-Overall execution time for full ML analysis: 129.302876 secs or 0.035917 hours or 0.001497 days
+Overall execution time for full ML analysis: 203.723316 secs or 0.056590 hours or 0.002358 days
 
