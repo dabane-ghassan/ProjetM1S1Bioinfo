@@ -138,14 +138,20 @@ class BlastHitter:
         
         evals = np.array([line.split('\t')[10] for line in open(
             '../data/results_blast/%s' % blastp, 'r')], dtype=float)
+        
+        bp = blastp[:blastp.find('.blastp')].rsplit('/')[-1]
+        
+        title = bp[:bp.find('_strain')] + bp[
+            bp.find('_vs_'):bp.find('_strain', bp.find('_vs_'))]
 
-
-        fig, ax = plt.subplots(1, 1, dpi=150)
+        fig, ax = plt.subplots(1, 1, dpi=300)
         ax.hist(evals, bins=100, color="fuchsia")
         ax.set_xticks(np.arange(0,11))
         ax.set_xlabel('e-value')
         ax.set_ylabel('Nomber of hits')
-        fig.suptitle(blastp[:blastp.find('.blastp')].rsplit('/')[-1])
+        fig.suptitle(title)
+        fig.savefig('../data/figures/%s.png' % title)
+
 
     @staticmethod
     def universal_blast(query, subject, out, outfmt=6, typ="p"):

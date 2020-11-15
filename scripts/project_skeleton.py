@@ -23,6 +23,10 @@ clust.cluster_them()
 clust.one_align_to_rule_them_all()
 clust.draw_tree()
 
+### Histogram
+histo = "Streptococcus_pyogenes_strain=NCTC8232_vs_Rickettsia_rickettsii_str._Arizona_strain=Arizona.blastp"
+BlastHitter.evalue_dist(histo)
+
 
 import networkx as nx
 all_clus = [line.strip().split('\t') for line in open('../data/clusters/all_clusters.txt')]
