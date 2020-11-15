@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import os
 import subprocess
-import networkx as nx
+#import networkx as nx
 from ete3 import Tree, TreeStyle, NodeStyle
 from blast_hitter import BlastHitter
 
@@ -442,7 +442,7 @@ class Clusterizer:
         """
 
         all_species_names = '_'.join([
-            prot.rsplit('/')[-1][0:prot.rsplit('/')[-1].find('_protein.faa')]
+            prot.rsplit('/')[-1][0:prot.rsplit('/')[-1].find('_strain')]
             for prot in self.proteomes
         ])
 
