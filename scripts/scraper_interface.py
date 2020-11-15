@@ -12,6 +12,6 @@ if __name__ == "__main__" :
     project_dir = os.path.dirname(script_dir)
     os.chdir(project_dir) # cd to project directory    
     
-    S = rs.RefSeqScraper()
+    S = RefSeqScraper()
     S.mine_species()
     S.download_genome()

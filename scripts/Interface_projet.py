@@ -85,7 +85,7 @@ class window(Tk) :
             for bh in bhitters :
                 bh.blast_them()
                 bh.rbh_them()
-            tkinter.messagebox.showinfo(title="Good things come to those who wait for", message="BLAST and RBH job are finish. Please, wait that the full job is over.")
+            tkinter.messagebox.showinfo(title="Good things come to those who wait", message="BLAST and RBH job are finish. Please, wait that the full job is over.")
             clust = Clusterizer(bhitters, proteomes)
             clust.cluster_them()
             clust.one_align_to_rule_them_all()
@@ -105,7 +105,7 @@ class window(Tk) :
 
     def distributions_of_evalues(self) :
         self.reset()
-        blast_presents = Listbox(self, height=15, width=110, bg='white', font=("courier", 15), selectbackground='pink')
+        blast_presents = Listbox(self, height=15, width=1100, bg='white', font=("courier", 15), selectbackground='pink')
         blast_presents.delete(0,END)
         list_blast = os.listdir("../data/results_blast/")
         for p in list_blast :
@@ -147,7 +147,7 @@ class window(Tk) :
     def validate_prot_select(self, prot_presents) :
         prot_select = prot_presents.curselection()
         s = "../data/genomes/"+prot_presents.get(prot_select)
-        BlastHitter.seqkit_stats(s) # voir pour couper la fonction seqkit ici et l'adapter en nouvelle fenetre qui s'ouvre
+        BlastHitter.seqkit_stat # voir pour couper la fonction seqkit ici et l'adapter en nouvelle fenetre qui s'ouvre
 
 if __name__ == '__main__':
     app = window()
