@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import os
 import subprocess
+import networkx as nx
 from ete3 import Tree, TreeStyle, NodeStyle
 from blast_hitter import BlastHitter
 

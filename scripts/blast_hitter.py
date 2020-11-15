@@ -56,7 +56,7 @@ class BlastHitter:
         self.subject_name = subject.rsplit(
             '/')[-1][0:subject.rsplit('/')[-1].find('_protein.faa')]
 
-        self.results_dir = "../data/results_blast_demoGUI"
+        self.results_dir = "../data/results_blast"
         self.genomes_dir = "../data/genomes"
 
     def __str__(self):
@@ -98,7 +98,7 @@ class BlastHitter:
         return seqdic
 
     @staticmethod
-    def seqkit_stats(proteome):
+    def seqkit_stat(proteome):
         """This function prints important information about the proteome
         that will be analyzed. It parses the genome first then prints the 
         number of sequences, cumulated length, minimum, average and maximum 
