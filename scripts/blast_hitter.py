@@ -143,7 +143,7 @@ class BlastHitter:
         title = bp[:bp.find('_strain')] + bp[
             bp.find('_vs_'):bp.find('_strain', bp.find('_vs_'))]
 
-        fig, ax = plt.subplots(1, 1, dpi=300)
+        fig, ax = plt.subplots(1, 1, dpi=100)
         ax.hist(evals, bins=100, color="fuchsia")
         ax.set_xticks(np.arange(0,11))
         ax.set_xlabel('e-value')

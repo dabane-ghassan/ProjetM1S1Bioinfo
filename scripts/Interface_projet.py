@@ -35,12 +35,6 @@ class window(Tk) :
         menuStats.add_command(label="See proteome statistics", font=("courier", 15), command=self.stats)
         menuBar.add_cascade(label="Statistics", font=("courier", 15), menu=menuStats)
 
-        menuHelp = Menu(menuBar, tearoff=0)
-        menuHelp.add_command(label="BLAST", font=("courier", 15))
-        menuHelp.add_command(label="Download", font=("courier", 15))
-        menuHelp.add_command(label="E-values", font=("courier", 15))
-        menuBar.add_cascade(label="Help", font=("courier", 15), menu=menuHelp)
-
         menuExit = Menu(menuBar, tearoff=0)
         menuExit.add_command(label="Exit", font=("courier", 15), command=self.quit)
         menuBar.add_cascade(label="Exit", font=("courier", 15), menu=menuExit)
@@ -126,8 +120,11 @@ class window(Tk) :
         title = "../data/figures/"+histo[:histo.find('_strain')]+histo[histo.find('_vs_'):histo.find('_strain', histo.find('_vs_'))]+".png"
         window2 = Tk()
         window2.title("Histogramme")
-        window2.geometry('1000x1000')
-        img_histo = PhotoImage(file=title)
+        window2.geometry('640x480')
+        canvas = Canvas(window2, width=640, height=480)
+        img_histo = PhotoImage(master=canvas, file=title)
+        canvas.create_image(0, 0, anchor=NW, image=img_histo)
+        canvas.pack(expand=YES)
         window2.mainloop()
 
     def stats(self) :
