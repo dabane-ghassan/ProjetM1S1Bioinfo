@@ -19,9 +19,9 @@ class window(Tk) :
     def createMenuBar(self):
         menuBar = Menu(self)
         
-        menuBLAST = Menu(menuBar, tearoff=0)
-        menuBLAST.add_command(label="BLAST", font=("courier", 15),command=self.proteomes_in_disk)
-        menuBar.add_cascade(label="BLAST", font=("courier", 15), menu=menuBLAST)
+        menuTree = Menu(menuBar, tearoff=0)
+        menuTree.add_command(label="Blast to Tree", font=("courier", 15),command=self.proteomes_in_disk)
+        menuBar.add_cascade(label="Make_a_Tree", font=("courier", 15), menu=menuTree)
 
         menuDownload = Menu(menuBar, tearoff=0)
         menuDownload.add_command(label="Download proteome", font=("courier", 15), command=self.Search_Download_proteome)
@@ -118,14 +118,14 @@ class window(Tk) :
         histo = blast_presents.get(blast_select)
         BlastHitter.evalue_dist(histo)
         title = "../data/figures/"+histo[:histo.find('_strain')]+histo[histo.find('_vs_'):histo.find('_strain', histo.find('_vs_'))]+".png"
-        window2 = Tk()
-        window2.title("Histogramme")
-        window2.geometry('640x480')
-        canvas = Canvas(window2, width=640, height=480)
+        secondary_window = Tk()
+        secondary_window.title("Histogramme")
+        secondary_window.geometry('640x480')
+        canvas = Canvas(secondary_window, width=640, height=480)
         img_histo = PhotoImage(master=canvas, file=title)
         canvas.create_image(0, 0, anchor=NW, image=img_histo)
         canvas.pack(expand=YES)
-        window2.mainloop()
+        secondary_window.mainloop()
 
     def stats(self) :
         self.reset()
@@ -143,8 +143,13 @@ class window(Tk) :
 
     def validate_prot_select(self, prot_presents) :
         prot_select = prot_presents.curselection()
-        s = "../data/genomes/"+prot_presents.get(prot_select)
-        BlastHitter.seqkit_stat # voir pour couper la fonction seqkit ici et l'adapter en nouvelle fenetre qui s'ouvre
+        name_prot_select = "../data/genomes/"+prot_presents.get(prot_select)
+        stats_prot = BlastHitter.seqkit_stat(name_prot_select)
+        secondary_window = Tk()
+        secondary_window.title("Statitics of the selected proteome")
+        secondary_window.geometry('800x200')
+        display_stats = Label(secondary_window, text=stats_prot, font=("courier", 15))
+        display_stats.pack(pady=40)
 
 if __name__ == '__main__':
     app = window()
