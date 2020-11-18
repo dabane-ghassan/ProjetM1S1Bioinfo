@@ -107,7 +107,7 @@ class RefSeqScraper :
                            
                 try :  
                     genome = '%s_protein.faa.gz' %(ftp_path.rsplit('/')[-1])
-                    local_save = os.path.join(os.getcwd(),'data/genomes/%s_protein.faa.gz'%(name.replace(' ', '_')))
+                    local_save = os.path.join(os.getcwd(),'../data/genomes/%s_protein.faa.gz'%(name.replace(' ', '_')))
                     
                     with open(local_save, 'wb') as fp :
                         conn.retrbinary('RETR %s' %genome, fp.write)
