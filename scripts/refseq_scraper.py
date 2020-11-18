@@ -23,7 +23,7 @@ class RefSeqScraper :
             cart : a list of species names to download their genomes.
         """
         
-        __summary = pd.read_table('data/list_genomes_refseq.txt', header=1)
+        __summary = pd.read_table('../data/list_genomes_refseq.txt', header=1)
         __summary = __summary.fillna('')
         __summary = __summary[(__summary['assembly_level'] == "Complete Genome")
                               & (__summary['version_status'] == 'latest')]

@@ -3,6 +3,7 @@
 
 from tkinter import *
 import tkinter.messagebox
+from tkinter.ttk import *
 import os
 from blast_hitter import BlastHitter
 from clusterizer import Clusterizer
@@ -88,14 +89,20 @@ class window(Tk) :
     def Search_Download_proteome(self) :
         self.reset()
         text = Label(text="Give me a few letters so i can search for you", font=("courier", 18))
-        text.pack(pady=50)
+        text.pack(pady=40)
 
-        pattern = Entry(self, width=40, font=("courier", 15))
+        pattern = Entry(self, width=40, font=("courier", 16))
         pattern.pack()
         pattern.bind("<Return>", lambda x=None: self.Download_proteome(pattern))
     
     def Download_proteome(self, pattern) :
-        print(pattern.get())
+        pattern = pattern.get()
+
+        library = RefSeqScraper()
+        element_with_pattern = library.data.loc[(library.data['readable'].str.contains(pattern)),'readable'].to_string()
+
+        dropdown_list = Combobox(self, values=element_with_pattern, font=("courier", 16))
+        dropdown_list.pack(pady=40)
 
     def distributions_of_evalues(self) :
         self.reset()
@@ -146,7 +153,7 @@ class window(Tk) :
         name_prot_select = "../data/genomes/"+prot_presents.get(prot_select)
         stats_prot = BlastHitter.seqkit_stat(name_prot_select)
         secondary_window = Tk()
-        secondary_window.title("Statitics of the selected proteome")
+        secondary_window.title("Statistics of the selected proteome")
         secondary_window.geometry('800x200')
         display_stats = Label(secondary_window, text=stats_prot, font=("courier", 15))
         display_stats.pack(pady=40)
