@@ -5,7 +5,6 @@ import subprocess
 from ete3 import Tree, TreeStyle, NodeStyle
 from blast_hitter import BlastHitter
 
-
 class Clusterizer:
     """This is a class for clusterizing groups of orthologue proteines (OG),
     extracting their respective sequences from the corresponding given 

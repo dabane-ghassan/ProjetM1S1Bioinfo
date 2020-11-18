@@ -86,6 +86,7 @@
 <li><a class="reference internal" href="#documentation-for-the-code">Documentation for the Code</a></li>
 </ul>
 </li>
+<li><a class="reference internal" href="#module-interface">Graphical User Interface</a></li>
 <li><a class="reference internal" href="#module-blast_hitter">BlastHitter</a></li>
 <li><a class="reference internal" href="#module-clusterizer">Clusterizer</a></li>
 <li><a class="reference internal" href="#module-refseq_scraper">RefSeqScraper</a></li>
@@ -164,6 +165,184 @@
 <div class="toctree-wrapper compound">
 </div>
 </div>
+</div>
+<div class="section" id="module-interface">
+<span id="graphical-user-interface"></span><h1>Graphical User Interface<a class="headerlink" href="#module-interface" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="interface.window">
+<em class="property">class </em><code class="sig-prename descclassname">interface.</code><code class="sig-name descname">window</code><a class="headerlink" href="#interface.window" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is a class for the  graphical user interface which offers different 
+functionalities.</p>
+<p>It has 5 main functions :</p>
+<blockquote>
+<div><dl class="simple">
+<dt>Make_a_Tree<span class="classifier"></span></dt><dd><p>A feature that allows to make a phylogenetic tree from a couple of chosen 
+proteomes using BLAST/MUSCLE/RAxML.</p>
+</dd>
+<dt>Download<span class="classifier"></span></dt><dd><p>A feature that permets the user to download proteomes from RefSeq.</p>
+</dd>
+<dt>E-values<span class="classifier"></span></dt><dd><p>Visualizes the distribution of e-values from a BLASTp results file.</p>
+</dd>
+<dt>Statistics<span class="classifier"></span></dt><dd><p>A feature that allows to see some statistics of a chosen proteome.</p>
+</dd>
+<dt>Exit<span class="classifier"></span></dt><dd><p>Button in the menu to exit the graphical interface.</p>
+</dd>
+</dl>
+</div></blockquote>
+<dl class="py method">
+<dt id="interface.window.Download_proteome">
+<code class="sig-name descname">Download_proteome</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dropdown_list</span></em><span class="sig-paren">)</span><a class="headerlink" href="#interface.window.Download_proteome" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method is called when the user has chosen, therefore has selected, the proteome that he wants to download.
+It downloads the proteome, chosen by the user, from RefSeq database to the disk.</p>
+<p>Parameters</p>
+<dl class="simple">
+<dt>dropdown_list<span class="classifier">list</span></dt><dd><dl class="simple">
+<dt>list that contains all names of proteomes available in RefSeq database which contain the</dt><dd><p>pattern written by the user.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="interface.window.Search_Download_proteome">
+<code class="sig-name descname">Search_Download_proteome</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#interface.window.Search_Download_proteome" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method is called by the “Download” feature.
+It asks  theuser to write a few letters in order to search this pattern in the list 
+of all proteomes available in RefSeq database.</p>
+<p>Returns</p>
+<dl class="simple">
+<dt>pattern<span class="classifier">str</span></dt><dd><p>pattern that contains a few letters write by user.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="interface.window.Select_Download_proteome">
+<code class="sig-name descname">Select_Download_proteome</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">pattern</span></em><span class="sig-paren">)</span><a class="headerlink" href="#interface.window.Select_Download_proteome" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method is called when user presses enter on his keyboard.
+It display a dropdown list of all proteomes, that correspond to the pattern given by 
+the user, available in RefSeq database.</p>
+<p>Parameters</p>
+<dl class="simple">
+<dt>pattern<span class="classifier">str</span></dt><dd><p>pattern that contains a few letters write by user.</p>
+</dd>
+</dl>
+<p>Returns</p>
+<dl class="simple">
+<dt>dropdown_list<span class="classifier">list</span></dt><dd><dl class="simple">
+<dt>list that contains all names of proteomes available in RefSeq database</dt><dd><p>which contain the pattern written by the user.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="interface.window.createMenuBar">
+<code class="sig-name descname">createMenuBar</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#interface.window.createMenuBar" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method creates a menu bar that contains several tabs, each 
+tab gives access to a feature of the GUI.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="interface.window.distributions_of_evalues">
+<code class="sig-name descname">distributions_of_evalues</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#interface.window.distributions_of_evalues" title="Permalink to this definition">¶</a></dt>
+<dd><p>This methid is called by the “E-values” feature.
+It displays a list of all BLASTp results files that are available on the disk.</p>
+<p>Returns</p>
+<dl class="simple">
+<dt>blast_presents<span class="classifier">list</span></dt><dd><p>A list of all BLASTp files available on the disk.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="interface.window.proteomes_in_disk">
+<code class="sig-name descname">proteomes_in_disk</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#interface.window.proteomes_in_disk" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method is called when the user wants the “Make_a_Tree” feature.
+It displays list of all proteomes that are available in the disk.</p>
+<p>Returns</p>
+<dl class="simple">
+<dt>p_presents<span class="classifier">list</span></dt><dd><p>A list that contains all names of proteomes available in the disk.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="interface.window.reset">
+<code class="sig-name descname">reset</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#interface.window.reset" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method allows widget reset, except the widget of the menu bar.
+This function is particularly useful when user changes tabs, 
+or also if user clicks on the tab again.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="interface.window.stats">
+<code class="sig-name descname">stats</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#interface.window.stats" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method is called by the “Statistics” feature.
+It displays a list of all proteomes that are available on the disk.</p>
+<p>Returns</p>
+<dl class="simple">
+<dt>prot_presents<span class="classifier">list</span></dt><dd><p>A list of all proteomes available in the disk.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="interface.window.validate_blast_selection">
+<code class="sig-name descname">validate_blast_selection</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">blast_presents</span></em><span class="sig-paren">)</span><a class="headerlink" href="#interface.window.validate_blast_selection" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method is called when the user has selected the BLASTp file that he wants to visualize 
+as a distribution of e-values.
+It displays a new window with a histogram of the distribution of e-values.</p>
+<p>Parameters</p>
+<dl class="simple">
+<dt>blast_presents<span class="classifier">list</span></dt><dd><p>A list of all BLASTp files available in the disk.</p>
+</dd>
+</dl>
+<p>Returns</p>
+<blockquote>
+<div><p>Open a new window with a histogram of the distribution 
+of e-values of a chosen BLASTp file.</p>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py method">
+<dt id="interface.window.validate_prot_select">
+<code class="sig-name descname">validate_prot_select</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prot_presents</span></em><span class="sig-paren">)</span><a class="headerlink" href="#interface.window.validate_prot_select" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method is called when the user has selected the proteome that 
+he wants to see some statistics about.
+It displays a new window with the statistics of proteome that user has 
+selected.</p>
+<p>Parameters</p>
+<dl class="simple">
+<dt>prot_presents<span class="classifier">list</span></dt><dd><p>A list of all proteomes available in the disk.</p>
+</dd>
+</dl>
+<p>Returns</p>
+<blockquote>
+<div><p>Opens a new window with some statistics about the proteome that the
+user has chosen.</p>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py method">
+<dt id="interface.window.validate_proteome_selection">
+<code class="sig-name descname">validate_proteome_selection</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">p_presents</span></em><span class="sig-paren">)</span><a class="headerlink" href="#interface.window.validate_proteome_selection" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method is called when the user has to validate the proteome selection and he wants to obtain a phylogenetic tree.</p>
+<p>Parameters</p>
+<dl class="simple">
+<dt>p_presents<span class="classifier">list</span></dt><dd><p>list that contains all names of proteomes available in the disk.</p>
+</dd>
+</dl>
+<p>Returns</p>
+<blockquote>
+<div><p>Opens a new window with the phylogenetic tree.</p>
+</div></blockquote>
+</dd></dl>
+
+</dd></dl>
+
 </div>
 <div class="section" id="module-blast_hitter">
 <span id="blasthitter"></span><h1>BlastHitter<a class="headerlink" href="#module-blast_hitter" title="Permalink to this headline">¶</a></h1>

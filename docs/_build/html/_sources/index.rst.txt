@@ -16,18 +16,23 @@ Documentation for the Code
    :maxdepth: 2
    :caption: Contents:
 
+Graphical User Interface
+========================
+.. automodule:: interface
+   :members:
+
 BlastHitter
-===================
+===========
 .. automodule:: blast_hitter
    :members:
 
 Clusterizer
-=====================
+===========
 .. automodule:: clusterizer
    :members:
 
 RefSeqScraper
-=================
+=============
 .. automodule:: refseq_scraper
    :members:
 
