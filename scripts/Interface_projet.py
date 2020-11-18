@@ -5,6 +5,7 @@ from tkinter import *
 import tkinter.messagebox
 from tkinter.ttk import *
 import os
+import pandas as pd
 from blast_hitter import BlastHitter
 from clusterizer import Clusterizer
 from refseq_scraper import RefSeqScraper
@@ -52,6 +53,8 @@ class window(Tk) :
                 widget.destroy()
             if "entry" in str(widget) :
                 widget.destroy()
+            if "combobox" in str(widget) :
+                widget.destroy()
 
     def proteomes_in_disk(self) :
         self.reset()
@@ -64,7 +67,7 @@ class window(Tk) :
             i+=1
         p_presents.pack(pady=15)
         
-        B_validate = Button(self, text="Validate selection", height=2, width=20, font=("courier", 15), command=lambda: self.validate_proteome_selection(p_presents))
+        B_validate = Button(self, text="Validate selection", width=20, font=("courier", 15), command=lambda: self.validate_proteome_selection(p_presents))
         B_validate.pack()
 
     def validate_proteome_selection(self,p_presents) :
@@ -93,16 +96,26 @@ class window(Tk) :
 
         pattern = Entry(self, width=40, font=("courier", 16))
         pattern.pack()
-        pattern.bind("<Return>", lambda x=None: self.Download_proteome(pattern))
+        pattern.bind("<Return>", lambda x=None: self.Select_Download_proteome(pattern))
     
-    def Download_proteome(self, pattern) :
+    def Select_Download_proteome(self, pattern) :
         pattern = pattern.get()
 
         library = RefSeqScraper()
-        element_with_pattern = library.data.loc[(library.data['readable'].str.contains(pattern)),'readable'].to_string()
+        elements_with_pattern = library.data.loc[(library.data['readable'].str.contains(pattern)),'readable']
+        list_elements = list(set(elements_with_pattern))
+        list_elements = sorted(list_elements)
 
-        dropdown_list = Combobox(self, values=element_with_pattern, font=("courier", 16))
+        dropdown_list = Combobox(self, values=list_elements, font=("courier", 16), width=50)
         dropdown_list.pack(pady=40)
+        
+        proteome_selected = dropdown_list.bind("<<ComboboxSelected>>", lambda x=None: self.Download_proteome(dropdown_list))
+
+    def Download_proteome(self, dropdown_list) :
+        name_proteome = dropdown_list.get()
+        RefSeqScraper.add_to_cart(name_proteome)
+        RefSeqScraper.download_genome()
+
 
     def distributions_of_evalues(self) :
         self.reset()
