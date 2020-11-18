@@ -8,9 +8,28 @@ Welcome to ProjectM1S1Bioinfo's documentation!
 
 .. toctree::
    :maxdepth: 2
+   :caption: Contents:	
+      
+Documentation for the Code
+**************************
+.. toctree::
+   :maxdepth: 2
    :caption: Contents:
 
+BlastHitter
+===================
+.. automodule:: blast_hitter
+   :members:
 
+Clusterizer
+=====================
+.. automodule:: clusterizer
+   :members:
+
+RefSeq Scraper
+=================
+.. automodule:: refseq_scraper
+   :members:
 
 Indices and tables
 ==================

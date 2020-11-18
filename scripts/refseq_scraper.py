@@ -40,7 +40,7 @@ class RefSeqScraper :
 
 
     def add_to_cart(self, species) : 
-        """ this function adds a species to the object's cart.
+        """This function adds a species to the object's cart.
 
         Parameters
         ----------
