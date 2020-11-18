@@ -1,11 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-based on refseq's assembly summary file : 
-ftp://ftp.ncbi.nlm.nih.gov/genomes/ASSEMBLY_REPORTS/assembly_summary_refseq.txt
-
-a new column "readable" will be created with pandas to make it easier
-for the user to choose a certain genome.
-"""
 import os
 import pandas as pd
 from ftplib import FTP
@@ -18,6 +11,10 @@ class RefSeqScraper :
         it will scan refseq summary assembly dataframe, pick only latest and 
         complete genomes and then will create a new column 'readable' that is
         the combination of organism and infraspecific name columns.
+        based on refseq's assembly summary file : 
+	ftp://ftp.ncbi.nlm.nih.gov/genomes/ASSEMBLY_REPORTS/assembly_summary_refseq.txt
+	a new column "readable" will be created with pandas to make it easier
+	for the user to choose a certain genome.
         This class has 2 properties : 
             data : a pandas dataframe that contains all refseq genomes.
             cart : a list of species names to download their genomes.
