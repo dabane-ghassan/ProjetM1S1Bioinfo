@@ -14,13 +14,13 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 
 mycursor.execute("""CREATE TABLE IF NOT EXISTS GENOMES (
-    id INT NOT NULL AUTO_INCREMENT,
+    id VARCHAR(255),
     name VARCHAR(255) NOT NULL,
     PRIMARY KEY (id)) 
     ENGINE=INNODB;""")
 
 mycursor.execute("""CREATE TABLE IF NOT EXISTS PROTEIN (
-    id INT NOT NULL AUTO_INCREMENT,
+    id VARCHAR(255),
     genome_id INT NOT NULL,
     cluster_id INT NOT NULL,
     PRIMARY KEY (id),
