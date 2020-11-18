@@ -1,3 +1,4 @@
-# macOS Files
+# macOS Files and other
 .DS_Store
 __pycache__/
+/docs/__build/
