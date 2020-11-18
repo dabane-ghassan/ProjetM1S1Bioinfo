@@ -8,8 +8,10 @@ Welcome to ProjectM1S1Bioinfo's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-
+   :caption: Contents:	
+   
+   
+   code
 
 
 Indices and tables
