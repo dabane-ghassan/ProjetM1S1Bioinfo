@@ -10,14 +10,37 @@ from clusterizer import Clusterizer
 from refseq_scraper import RefSeqScraper
 
 class window(Tk) :
+    """ This is a class to have a graphical interface which offer different 
+    functionalities of the project.
+    
+    This class has 5 properties : 
+        Make_a_Tree : 
+            feature that allows to make a phylogenetic tree from BLAST.
+        Download : 
+            feature that allows to download proteomes.
+        E-values : 
+            feature that allows to see distribution of e-values from a BLAST.
+        Statistics : 
+            feature that allows to see statistics of a proteome. 
+        Exit : 
+            Button in the menu for exit the graphical interface.
+    """
 
     def __init__(self):
+        """ The class constructors. It initialize the main window of the 
+        graphical interface.
+        """
+
         Tk.__init__(self)
         self.geometry('1100x400')
         self.createMenuBar()
         self.title("Projet M1 DLAD 2020")
     
     def createMenuBar(self):
+        """ This function create a menu bar that contains several tabs.
+        Each tab gives access to a feature.
+        """
+
         menuBar = Menu(self)
         
         menuTree = Menu(menuBar, tearoff=0)
@@ -43,6 +66,12 @@ class window(Tk) :
         self.config(menu = menuBar) 
 
     def reset(self) :
+        """ This function allows to make widget reset, exept the widget 
+        of the menu bar.
+        This function is particularly useful when user change tabs, 
+        or also if user click on the tab again.
+        """
+
         for widget in self.winfo_children() :
             if "listbox" in str(widget) :
                 widget.destroy()
@@ -56,6 +85,16 @@ class window(Tk) :
                 widget.destroy()
 
     def proteomes_in_disk(self) :
+        """ This function is called by the "Make_a_Tree" feature.
+        It displays list of all proteomes that are available in the disk.
+
+        Returns
+        -------
+        p_presents : TYPE list
+            DESCRIPTION. list that contains all names of proteomes available 
+                         in the disk.
+        """
+
         self.reset()
         p_presents = Listbox(self ,selectmode=MULTIPLE, height=15, width=80, bg='white', font=("courier", 15), selectbackground='pink')
         p_presents.delete(0,END)
@@ -70,6 +109,20 @@ class window(Tk) :
         B_validate.pack()
 
     def validate_proteome_selection(self,p_presents) :
+        """ This function is called when user have validate the proteomes 
+        selection whose he wants to get a phylogenetic tree.
+
+        Parameters
+        ----------
+        p_presents : TYPE list
+            DESCRIPTION. list that contains all names of proteomes available 
+                         in the disk.
+
+        Returns
+        -------
+            DESCRIPTION. open a new window with the phylogenetic tree.
+        """
+
         prot_select = p_presents.curselection()
         if len(prot_select) < 2 :
             tkinter.messagebox.showinfo(title=None, message="Please, select two or more proteomes")
@@ -89,6 +142,16 @@ class window(Tk) :
             clust.draw_tree()
 
     def Search_Download_proteome(self) :
+        """ This function is called by the "Download" feature.
+        It asks user to write a few letters for search this pattern in the list 
+        of all proteomes available in RefSeq database.
+
+        Returns
+        -------
+        pattern : TYPE str
+            DESCRIPTION. pattern that contains a few letters write by user.
+        """
+
         self.reset()
         text = Label(text="Give me a few letters so i can search for you", font=("courier", 18))
         text.pack(pady=40)
@@ -98,6 +161,22 @@ class window(Tk) :
         pattern.bind("<Return>", lambda x=None: self.Select_Download_proteome(pattern))
     
     def Select_Download_proteome(self, pattern) :
+        """ This function is called when user presses enter on his keyboard.
+        It display dropdown list of all proteomes, that contains pattern write 
+        by user, available in RefSeq database.
+
+        Parameters
+        ----------
+        pattern : TYPE str
+            DESCRIPTION. pattern that contains a few letters write by user.
+
+        Returns
+        -------
+        dropdown_list : TYPE list
+            DESCRIPTION. list that contains all names of proteomes available in 
+                         RefSeq database which contains pattern write by user.
+        """
+
         pattern = pattern.get()
 
         library = RefSeqScraper()
@@ -111,6 +190,16 @@ class window(Tk) :
         dropdown_list.bind("<<ComboboxSelected>>", lambda x=None: self.Download_proteome(dropdown_list))
 
     def Download_proteome(self, dropdown_list) :
+        """ This function is called when user has chosen, therefore has selected, the proteome that he want download.
+        It download the proteome, chosen by user, from RefSeq database to the disk.
+
+        Parameters
+        ----------
+        dropdown_list : TYPE list
+            DESCRIPTION. list that contains all names of proteomes available in 
+                         RefSeq database which contains pattern write by user.
+        """
+
         tkinter.messagebox.showinfo(title="Loading ...", message="Please, wait that the job is over.")
         name_proteome = dropdown_list.get()
         library = RefSeqScraper()
@@ -120,8 +209,16 @@ class window(Tk) :
         os.system(unzip)
         tkinter.messagebox.showinfo(title="It's Good ! :)", message="The download is over.")
 
-
     def distributions_of_evalues(self) :
+        """ This function is called by the "E-values" feature.
+        It displays list of all BLAST that are available in the disk.
+
+        Returns
+        -------
+        blast_presents : TYPE list
+            DESCRIPTION. list of BLAST available in the disk.
+        """
+
         self.reset()
         blast_presents = Listbox(self, height=15, width=1100, bg='white', font=("courier", 15), selectbackground='pink')
         blast_presents.delete(0,END)
@@ -138,6 +235,21 @@ class window(Tk) :
         B_validate.pack()
 
     def validate_blast_selection(self, blast_presents) :
+        """ This function is called when user has selected the BLAST whose he want 
+        see the distribution of e-values.
+        It display a new window with a histogram of the distribution of e-value. 
+
+        Parameters
+        ----------
+        blast_presents : TYPE list
+            DESCRIPTION. list of BLAST available in the disk.
+
+        Returns
+        -------
+            DESCRIPTION. open a new window with a histogram of the distribution 
+                         of e-value of BLAST chosen by user.
+        """
+
         blast_select = blast_presents.curselection()
         histo = blast_presents.get(blast_select)
         BlastHitter.evalue_dist(histo)
@@ -152,6 +264,14 @@ class window(Tk) :
         secondary_window.mainloop()
 
     def stats(self) :
+        """ This function is called by the "Statistics" feature.
+        It displays list of all proteomes that are available in the disk.
+
+        Returns
+        -------
+        prot_presents : TYPE list
+            DESCRIPTION. list of all proteomes available in the disk.
+        """
         self.reset()
         prot_presents = Listbox(self, height=15, width=80, bg='white', font=("courier", 15), selectbackground='pink')
         prot_presents.delete(0,END)
@@ -166,6 +286,22 @@ class window(Tk) :
         B_validate.pack()
 
     def validate_prot_select(self, prot_presents) :
+        """ This function is called when user has selected the proteome whose 
+        he want see statistics that characterizes him.
+        It display a new window with the statistics of proteome that user has 
+        selected. 
+
+        Parameters
+        ----------
+        prot_presents : TYPE list
+            DESCRIPTION. list of all proteomes available in the disk.
+
+        Returns
+        -------
+            DESCRIPTION. open a new window with statistics of proteome that 
+                         user has chosen. 
+        """
+
         prot_select = prot_presents.curselection()
         name_prot_select = "../data/genomes/"+prot_presents.get(prot_select)
         stats_prot = BlastHitter.seqkit_stat(name_prot_select)
@@ -174,6 +310,7 @@ class window(Tk) :
         secondary_window.geometry('800x200')
         display_stats = Label(secondary_window, text=stats_prot, font=("courier", 15))
         display_stats.pack(pady=40)
+
 
 if __name__ == '__main__':
     app = window()
