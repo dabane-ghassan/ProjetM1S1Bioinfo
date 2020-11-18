@@ -43,13 +43,13 @@ class RefSeqScraper :
         """This function adds a species to the object's cart.
 
         Parameters
-        ----------
+        
         species : TYPE str
             DESCRIPTION. the name of the species to be downloaded,
                         should match, records in the dataframe.
 
         Returns
-        -------
+        
         TYPE str
             DESCRIPTION. a sentence that confirms the addition of a given
                         species to the cart.
@@ -83,7 +83,7 @@ class RefSeqScraper :
         
 
         Returns
-        -------
+        
         TYPE list
             DESCRIPTION. a list of ftp paths
 

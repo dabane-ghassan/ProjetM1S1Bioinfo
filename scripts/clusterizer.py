@@ -282,9 +282,10 @@ class Clusterizer:
         Parameters
         
         cluster_dict : dict
-
+	    The cluster dictionary (with accessions).
         proteomes : list
-
+	    The list of all proteomes file path for a cluster.
+	     
         Returns
         
         afasta_files : list
@@ -326,9 +327,11 @@ class Clusterizer:
 
         Parameters
         
-        cluster_dict : dict
-
         cluster_species : dict
+            The cluster dictionary of species names.
+
+        cluster_dict : dict
+            The cluster dictionary (with accessions).
 
         maligns : list
             A list of all multiple alignement files paths.
