@@ -10,7 +10,7 @@
 from blast_hitter import BlastHitter
 from clusterizer import Clusterizer
 ```
-- Proteomes can be downloaded with RefSeqScraper script, or manually savec to data/genomes repository.
+- Proteomes can be downloaded with RefSeqScraper script, or manually saved to data/genomes repository.
 A list of all paths should be initalised, so that we can use BlastHitter's factory method to create a bunch of blasthitter objects of all possible permutations.
 ```python
 proteomes = ["../data/genomes/Rickettsia_rickettsii_str._Arizona_strain=Arizona_protein.faa",            
