@@ -139,7 +139,7 @@ class window(Tk) :
 
     def Search_Download_proteome(self) :
         """This method is called by the "Download" feature.
-        It asks  theuser to write a few letters in order to search this pattern in the list 
+        It asks  the user to write a few letters in order to search this pattern in the list 
         of all proteomes available in RefSeq database.
 
         Returns
