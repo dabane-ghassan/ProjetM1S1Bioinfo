@@ -42,12 +42,6 @@ clust.one_align_to_rule_them_all()
 clust.draw_tree()
 ```
 
-## Dependencies
-If you're on Ubuntu/Debian, please run blast_setup.py in order to install ncbi-blast+ : 
-```console
-python3 blast_setup.py
-```
-
 ## Ressources (05/10/2020) :
 [BLAST® Command Line Applications User Manual](https://www.ncbi.nlm.nih.gov/books/NBK279690/) <br>
 [Téléchargement Blast+](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) <br>
