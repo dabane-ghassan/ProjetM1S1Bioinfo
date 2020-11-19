@@ -327,10 +327,7 @@ class window(Tk) :
     def validate_demo(self, p_presents) :
         tkinter.messagebox.showinfo(title="loading", message="Please wait for the job to finish. Do not exit the application.")
         tkinter.messagebox.showinfo(title="Good things come to those who wait....", message="BLAST and RBH jobs are finished. Please, wait for the full job to be over.")
-        clust = Clusterizer(bhitters, proteomes)
-        clust.cluster_them()
-        clust.one_align_to_rule_them_all()
-        clust.draw_tree()        
+        Clusterizer.demo_tree("../data/phylogeny/RAxML_bipartitions.species")      
 
 if __name__ == '__main__':
     app = window()
