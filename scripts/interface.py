@@ -44,6 +44,7 @@ class window(Tk) :
         
         menuTree = Menu(menuBar, tearoff=0)
         menuTree.add_command(label="Blast to Tree", font=("courier", 15),command=self.proteomes_in_disk)
+        menuTree.add_command(label="Demo", font=("courier", 15), command=self.demo)
         menuBar.add_cascade(label="Make_a_Tree", font=("courier", 15), menu=menuTree)
 
         menuDownload = Menu(menuBar, tearoff=0)
@@ -309,6 +310,27 @@ class window(Tk) :
         display_stats = Label(secondary_window, text=stats_prot, font=("courier", 15))
         display_stats.pack(pady=40)
 
+    def demo(self) :
+        self.reset()
+        p_presents = Listbox(self ,selectmode=MULTIPLE, height=15, width=80, bg='white', font=("courier", 15), selectbackground='pink')
+        p_presents.delete(0,END)
+        list_proteomes = os.listdir("../data/genomes/")
+        i=0
+        for p in list_proteomes :
+            p_presents.insert(i, p)
+            i+=1
+        p_presents.pack(pady=15)
+        
+        B_validate = Button(self, text="Validate selection", height=2, width=20, font=("courier", 15), command=lambda: self.validate_demo(p_presents))
+        B_validate.pack()
+
+    def validate_demo(self, p_presents) :
+        tkinter.messagebox.showinfo(title="loading", message="Please wait for the job to finish. Do not exit the application.")
+        tkinter.messagebox.showinfo(title="Good things come to those who wait....", message="BLAST and RBH jobs are finished. Please, wait for the full job to be over.")
+        clust = Clusterizer(bhitters, proteomes)
+        clust.cluster_them()
+        clust.one_align_to_rule_them_all()
+        clust.draw_tree()        
 
 if __name__ == '__main__':
     app = window()
