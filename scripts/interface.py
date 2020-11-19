@@ -87,7 +87,7 @@ class window(Tk) :
         It displays list of all proteomes that are available in the disk.
 
         Returns
-        
+        -------
         p_presents : list
             A list that contains all names of proteomes available in the disk.
         """
@@ -109,12 +109,13 @@ class window(Tk) :
         """This method is called when the user has to validate the proteome selection and he wants to obtain a phylogenetic tree.
 
         Parameters
-        
+        ----------
         p_presents : list
             list that contains all names of proteomes available in the disk.
 
         Returns
-        
+        -------
+        None
             Opens a new window with the phylogenetic tree.
         """
 
@@ -142,7 +143,7 @@ class window(Tk) :
         of all proteomes available in RefSeq database.
 
         Returns
-        
+        -------
         pattern : str
             pattern that contains a few letters write by user.
         """
@@ -161,15 +162,15 @@ class window(Tk) :
         the user, available in RefSeq database.
 
         Parameters
-        
+        ----------
         pattern : str
             pattern that contains a few letters write by user.
 
         Returns
-        
+        -------
         dropdown_list : list
-            list that contains all names of proteomes available in RefSeq database
-             which contain the pattern written by the user.
+            A list that contains all names of proteomes available in RefSeq 
+            database which contain the pattern written by the user.
         """
 
         pattern = pattern.get()
@@ -189,10 +190,10 @@ class window(Tk) :
         It downloads the proteome, chosen by the user, from RefSeq database to the disk.
 
         Parameters
-        
+        ----------
         dropdown_list : list
-            list that contains all names of proteomes available in RefSeq database which contain the
-             pattern written by the user.
+            A list that contains all names of proteomes available in RefSeq 
+            database which contain the pattern written by the user.
         """
 
         tkinter.messagebox.showinfo(title="Loading...", message="Please wait for the job to be over.")
@@ -209,7 +210,7 @@ class window(Tk) :
         It displays a list of all BLASTp results files that are available on the disk.
 
         Returns
-        
+        -------
         blast_presents : list
             A list of all BLASTp files available on the disk.
         """
@@ -235,13 +236,14 @@ class window(Tk) :
         It displays a new window with a histogram of the distribution of e-values. 
 
         Parameters
-        
+        ----------
         blast_presents : list
             A list of all BLASTp files available in the disk.
 
         Returns
-        
-            Open a new window with a histogram of the distribution 
+        -------
+        None
+            Opens a new window with a histogram of the distribution 
             of e-values of a chosen BLASTp file.
         """
 
@@ -263,7 +265,7 @@ class window(Tk) :
         It displays a list of all proteomes that are available on the disk.
 
         Returns
-        
+        -------
         prot_presents : list
             A list of all proteomes available in the disk.
         """
@@ -287,14 +289,15 @@ class window(Tk) :
         selected. 
 
         Parameters
-        
+        ----------
         prot_presents : list
             A list of all proteomes available in the disk.
 
         Returns
-        
-            Opens a new window with some statistics about the proteome that the
-            user has chosen. 
+        -------
+        None
+            Opens a new window with some statistics about the proteome 
+            that the user has chosen. 
         """
 
         prot_select = prot_presents.curselection()

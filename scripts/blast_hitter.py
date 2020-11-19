@@ -11,14 +11,14 @@ class BlastHitter:
     blastp results files.
     
     Attributes
-    
+    ----------
     query_path : str
         the relative path for the query genome file on the disk.        
     query_name : str
         the name of the query genome.
     subject_path : str
         the relative path for the subject genome file on the disk.
-    query_name : str
+    subject_name : str
         the name of the subject genome.
     results_dir : str
         the relative path of the results repository for saving output files.
@@ -36,14 +36,14 @@ class BlastHitter:
         path on the disk is sufficient for deducing other object attributes.
         
         Parameters
-        
+        ----------
         query : str
             the relative path for the query genome file on the disk.
         subject : str
             the relative path for the subject genome file on the disk.
 
         Returns
-        
+        -------
         Class object.
         """
 
@@ -62,7 +62,7 @@ class BlastHitter:
         """A Method for printing the object inside python's print function.
         
         Returns
-        
+        -------
         str
             a message representing the two genomes that the object is working 
             on.
@@ -76,12 +76,12 @@ class BlastHitter:
         """This function parses a genome/proteome a file.
 
         Parameters
-        
+        ----------
         proteome : str
             the path of the genome/proteome file.
 
         Returns
-        
+        -------
         seqdic : dict             
             dictionary with protein accessions as keys and the corresponding
             fasta sequences as values.
@@ -104,13 +104,14 @@ class BlastHitter:
         length. It mimics seqkit stats output.
         
         Parameters
-        
+        ----------
         proteome : str
             the path of the proteome file.
 
         Returns
-        
+        -------
         None.
+           Prints some statistics from a chosen proteome file
 
         """
 
@@ -128,7 +129,7 @@ class BlastHitter:
         """Generates an evalue distribution plot from a given blastp file.
         
         Parameters
-        
+        ----------
         blastp : str
             The blast file path to be analyzed.
 
@@ -156,7 +157,7 @@ class BlastHitter:
         """Returns the blast command to be executed in the terminal.    
 
         Parameters
-        
+        ----------
         query : str
             query proteome file path.
         subject : str
@@ -169,8 +170,9 @@ class BlastHitter:
             type of blast to run. The default is blastp.
 
         Returns
-        
+        -------
         str
+            The blast command to be executed.
         """
 
         return "blast%s -query %s -subject %s -outfmt %s > %s" % (
@@ -185,14 +187,14 @@ class BlastHitter:
         
 
         Parameters
-        
+        ----------
         blastp_file : str
             The blast output file with a tabulated format (outfmt = 6).
 
         Returns
-        
+        -------
         besthits_dict : dict
-            a dictionary that contains all protein queries of a given genome,
+            A dictionary that contains all protein queries of a given genome, 
             with our query as a key, and the corresponding best hit as a value.
 
         """
@@ -218,7 +220,7 @@ class BlastHitter:
         
 
         Parameters
-        
+        ----------
         blastp1 : str
             The First blast file path.
         blastp2 : str
@@ -227,10 +229,10 @@ class BlastHitter:
             The reciprocal best hits output file path, tabulated (outfmt = 6).
 
         Returns
-        
+        -------
         None.
-        Creates an out RBH file based on the first blast file after 
-        calculating the reciprocal best hits.
+            Creates an out RBH file based on the first blast file after 
+            calculating the reciprocal best hits.
 
         """
 
@@ -255,12 +257,12 @@ class BlastHitter:
         
         
         Parameters
-        
+        ----------
         prots_list : list
             a list of genomes/proteoms file paths.
 
         Returns
-        
+        -------
         list
             a list of BlastHitter objects.
 
@@ -273,7 +275,7 @@ class BlastHitter:
         it uses the class's static methods defind earlier.
         
         Returns
-        
+        -------
         str
             The first blast output file path.
         str
@@ -307,7 +309,7 @@ class BlastHitter:
         genomes after BLASTing them, it creates the RBH file.
         
         Returns
-        
+        -------
         str
             The RBH output file path.
 
@@ -326,7 +328,7 @@ class BlastHitter:
         """The getter of the RBH file path for a certain blasthitter object.
 
         Returns
-        
+        -------
         str
             RBH file path.
 

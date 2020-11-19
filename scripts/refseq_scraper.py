@@ -5,20 +5,23 @@ import pandas as pd
 from ftplib import FTP
 
 class RefSeqScraper : 
-    
+    """This class will scan refseq summary assembly dataframe, pick only latest
+    and complete genomes and then will create a new column 'readable' that is
+    the combination of organism and infraspecific name columns.
+    based on refseq's assembly summary file : 
+    ftp://ftp.ncbi.nlm.nih.gov/genomes/ASSEMBLY_REPORTS/assembly_summary_refseq.txt
+    A new column "readable" will be created with pandas to make it easier for the user to
+    choose a certain genome. 
+  
+    Attributes
+    ----------
+    data : pandas.df
+        A pandas dataframe that contains all refseq genomes.
+    cart : list
+        A list of species names to download their genomes.
+    """
     def __init__(self) :
-        """This function is used for instantiating RefSeqScraper objects,
-        it will scan refseq summary assembly dataframe, pick only latest and 
-        complete genomes and then will create a new column 'readable' that is
-        the combination of organism and infraspecific name columns.
-        based on refseq's assembly summary file : 
-	ftp://ftp.ncbi.nlm.nih.gov/genomes/ASSEMBLY_REPORTS/assembly_summary_refseq.txt
-	a new column "readable" will be created with pandas to make it easier
-	for the user to choose a certain genome.
-        This class has 2 properties : 
-            data : a pandas dataframe that contains all refseq genomes.
-            cart : a list of species names to download their genomes.
-        """
+        """Class constructor."""
         
         __summary = pd.read_table('../data/list_genomes_refseq.txt', header=1)
         __summary = __summary.fillna('')
@@ -43,16 +46,15 @@ class RefSeqScraper :
         """This function adds a species to the object's cart.
 
         Parameters
-        
-        species : TYPE str
-            DESCRIPTION. the name of the species to be downloaded,
-                        should match, records in the dataframe.
+        ----------
+        species : str
+            the name of the species to be downloaded, should match 
+            records in the dataframe.
 
         Returns
-        
-        TYPE str
-            DESCRIPTION. a sentence that confirms the addition of a given
-                        species to the cart.
+        -------
+        str
+            A sentence that confirms the addition of a given species to the cart.
         """
         
         self.cart.append(species)
@@ -83,9 +85,9 @@ class RefSeqScraper :
         
 
         Returns
-        
-        TYPE list
-            DESCRIPTION. a list of ftp paths
+        -------
+        list
+            A list of ftp paths.
 
         """
 

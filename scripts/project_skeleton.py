@@ -3,7 +3,7 @@
 
 from blast_hitter import BlastHitter
 from clusterizer import Clusterizer
-    
+
 
 proteomes = ["../data/genomes/Rickettsia_rickettsii_str._Arizona_strain=Arizona_protein.faa",            
 "../data/genomes/Streptococcus_pneumoniae_R6_strain=R6_protein.faa",
@@ -55,16 +55,5 @@ rbh = ['../data/results_blast/RBH_Rickettsia_rickettsii_str._Arizona_strain=Ariz
  '../data/results_blast/RBH_Streptococcus_thermophilus_LMD-9_strain=LMD-9_Piscirickettsia_salmonis_strain=Psal-158.blastp',
  '../data/results_blast/RBH_Streptococcus_thermophilus_LMD-9_strain=LMD-9_Rickettsia_bellii_OSU_85-389_strain=OSU_85-389.blastp',
  '../data/results_blast/RBH_Piscirickettsia_salmonis_strain=Psal-158_Rickettsia_bellii_OSU_85-389_strain=OSU_85-389.blastp']
-
-
-https://www.youtube.com/watch?v=mV44dBi9qcQ
-
-https://www.youtube.com/watch?v=zY0ZGwvFHJk
-
-https://www.youtube.com/watch?v=BFGLxpJDns0
-
-https://www.youtube.com/watch?v=Y2NHuxQ-VUI
-
-https://www.youtube.com/watch?v=zSZpCrwgVOM&pbjreload=101
 
 """

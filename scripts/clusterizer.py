@@ -12,19 +12,19 @@ class Clusterizer:
     super-alignement.
     
     Attributes  
-    
+    ----------
     rbh_files : list
         A list of reciprocal best hits file paths generated after each blast
         hitter object.
     proteomes : list
         A list of all proteome paths present in a given analysis.
-    working_cluster : dictionary
+    working_cluster : dict
         A collection of clusters (protein accession numbers) present among 
         the given RBH files, filtering was applied to only get a maximum of
         one protein per species inside a cluster (no paralogues). 
         Dictionary values correspond to cluster IDs which are auto-incremented
         int values.         
-    corr_species_cluster : dictionary 
+    corr_species_cluster : dict 
         The corresponding species cluster for the given working cluster 
         dictionary, it's the same data structure as the working cluster except
         the fact that protein accession numbers are replaced with Species 
@@ -40,14 +40,14 @@ class Clusterizer:
         
 
         Parameters
-        
+        ----------
         blasthitters : list
             A list of BlastHitters objects.
         proteomes : list
             A list of proteomes paths.
 
         Returns
-        
+        -------
         Class object.
 
         """
@@ -61,12 +61,12 @@ class Clusterizer:
         list of all rbh couples. it extracts the first and the second columns.
         
         Parameters
-        
+        ----------
         file : str
             The RBH file_path.
 
         Returns
-        
+        -------
         list
             a list of tuples of all RBH couples.
 
@@ -82,12 +82,12 @@ class Clusterizer:
         class static method.
         
         Parameters
-        
+        ----------
         files : list
             a list of all RBH file paths to be analyzed.
 
         Returns
-        
+        -------
         total : list
             a list of tuples of all RBH couples in all specified files.
 
@@ -109,14 +109,14 @@ class Clusterizer:
         another cluster from the two RBHs, Time complexity O(n²).
         
         Parameters
-        
+        ----------
         rbh_files : list
             A list of RBH blast file paths.
 
         Returns
-        
+        -------
         dict
-            a dictionary of all clusters present among all RBH files,
+            A dictionary of all clusters present among all RBH files,
             keys are auto incremented integers which correspond to cluster IDs,
             values are NCBI accession numbers of the proteins present in a
             given cluster.
@@ -146,14 +146,14 @@ class Clusterizer:
         
 
         Parameters
-        
+        ----------
         cluster_dict : dict
-            a dictionary of cluster ids and cluster accessions.
+            A dictionary of cluster ids and cluster accessions.
         out : str
-            the output text file path.
+            The output text file path.
 
         Returns
-        
+        -------
         None.
 
         """
@@ -174,14 +174,14 @@ class Clusterizer:
         
 
         Parameters
-        
+        ----------
         cluster_dict : dict
             The cluster dictionary (with accessions).
         proteomes : list
             A list of proteomes file paths.
 
         Returns
-        
+        -------
         dict
             The corresponding species dictionary to a given cluster accession
             dictionary.
@@ -214,7 +214,7 @@ class Clusterizer:
         
 
         Parameters
-        
+        ----------
         cluster_species : dict
             The cluster dictionary of species names.
 
@@ -222,7 +222,7 @@ class Clusterizer:
             The cluster dictionary (with accessions).
             
         Returns
-        
+        -------
         dict
             The filtered cluster accession dicionary.
         filtered : dict
@@ -251,7 +251,7 @@ class Clusterizer:
         
 
         Parameters
-        
+        ----------
         cluster : tuple
             A tuple of protein accession numbers found in a cluster.
             
@@ -279,14 +279,14 @@ class Clusterizer:
         using MUSCLE.
         
         Parameters
-        
+        ----------
         cluster_dict : dict
 	    The cluster dictionary (with accessions).
         proteomes : list
 	    The list of all proteomes file path for a cluster.
 	     
         Returns
-        
+        -------
         afasta_files : list
             A list of all the generated aligned fasta file paths (.afa).
 
@@ -325,13 +325,11 @@ class Clusterizer:
         ple alignement inside a cluster.        
 
         Parameters
-        
+        ----------
         cluster_species : dict
             The cluster dictionary of species names.
-
         cluster_dict : dict
-            The cluster dictionary (with accessions).
-
+            The dictionary of cluster accession numbers.
         maligns : list
             A list of all multiple alignement files paths.
         out : str
@@ -387,14 +385,14 @@ class Clusterizer:
         
 
         Parameters
-        
+        ----------
         super_alignement : str
             The super-alignement file path.
         bootstrap : int
             Number of repetitions for bootstrap.
 
         Returns
-        
+        -------
         tree_name : str
             The newick tree to be visualized (the file path).
 
@@ -465,7 +463,7 @@ class Clusterizer:
         visualizes it using ETEtoolkit.
         
         Parameters
-
+	----------
         iters : int, optional
             Number of repetitions for bootstrap. The default is 10.
         
