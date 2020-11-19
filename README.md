@@ -12,6 +12,7 @@ from clusterizer import Clusterizer
 ```
 - Proteomes can be downloaded with RefSeqScraper script, or manually saved to data/genomes repository.
 A list of all paths should be initalised, so that we can use BlastHitter's factory method to create a bunch of blasthitter objects of all possible permutations.
+
 ```python
 proteomes = ["../data/genomes/Rickettsia_rickettsii_str._Arizona_strain=Arizona_protein.faa",            
 "../data/genomes/Streptococcus_pneumoniae_R6_strain=R6_protein.faa",
@@ -22,16 +23,19 @@ proteomes = ["../data/genomes/Rickettsia_rickettsii_str._Arizona_strain=Arizona_
 bhitters = BlastHitter.from_list(proteomes)
 ```
 - We can blast them and accumulate the reciprocal best hits with a for loop : 
+
 ```python
 for bh in bhitters  : 
     bh.blast_them()
     bh.rbh_them()
 ```
 
+- Now let's create a Clusterizer object after populating our blasthitters with RBH files :
+
 ```python
 clust = Clusterizer(bhitters, proteomes)
 ```
-
+- The next and final step would be to create clusters, aligning each one and concatenating all of them and last but not least would be to launch the phylogenetic algorithm and to draw the newick tree: 
 ```python
 clust.cluster_them()
 clust.one_align_to_rule_them_all()
