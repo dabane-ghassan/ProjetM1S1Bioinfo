@@ -463,7 +463,7 @@ class Clusterizer:
         visualizes it using ETEtoolkit.
         
         Parameters
-	----------
+        -------
         iters : int, optional
             Number of repetitions for bootstrap. The default is 10.
         
@@ -488,3 +488,30 @@ class Clusterizer:
             n.set_style(nstyle)
 
         t.show(tree_style=ts)
+    
+    @staticmethod
+    def demo_tree(name):
+        """        
+        Parameters
+        ----------
+        name : ../data/phylogeny/RAxML_bipartitions.species
+
+        """
+        t = Tree(name)
+
+        ts = TreeStyle()
+        ts.show_leaf_name = True
+
+        nstyle = NodeStyle()
+        nstyle["shape"] = "sphere"
+        nstyle["size"] = 10
+        nstyle["fgcolor"] = "darkred"
+
+        nstyle["hz_line_type"] = 1
+        nstyle["hz_line_color"] = "#cccccc"
+
+        for n in t.traverse():
+            n.set_style(nstyle)
+
+        t.show(tree_style=ts)
+        
